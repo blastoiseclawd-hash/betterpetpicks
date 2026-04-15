@@ -49,7 +49,7 @@
 }
 
 :root {
-  /* Generic font tokens keep the starter portable across niches and design systems. */
+  /* Brand-level font tokens keep typography consistent across BetterPetPicks pages. */
   --font-body: var(--font-manrope);
   --font-heading-family: var(--font-source-serif);
   --background: #f5f3ee;

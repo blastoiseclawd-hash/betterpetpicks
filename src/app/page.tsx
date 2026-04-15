@@ -19,7 +19,7 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
             <div className="max-w-4xl">
               <span className="editorial-rule text-[#b8c7b2] before:bg-[#8ea087]">
-                Affiliate site starter
+                Practical advisor brand
               </span>
               <h1 className="display-title mt-6 max-w-5xl text-[#f7fbf8]">
                 BetterPetPicks
@@ -28,19 +28,19 @@ export default function HomePage() {
                 Practical cat-care buying guides for cleaner, calmer homes.
               </p>
               <p className="mt-4 max-w-3xl text-[1.02rem] leading-8 text-[#b9c6c0]">
-                This starter gives you the shared publishing infrastructure first: desks, trust pages,
-                metadata, schema, sitemap plumbing, and reusable guide components.
+                BetterPetPicks is being built around cat litter, odor control, water fountains, litter-area
+                cleanup, and the tools that make real cat-owning homes easier to keep up with.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <Link href="/how-we-review" className="button-primary">
-                  Review the methodology page
+                  See how we review products
                 </Link>
                 <Link
                   href="/about"
                   className="button-secondary border-[#819375] bg-transparent text-[#f2f6f3] hover:border-[#a3b39b] hover:bg-[#24313a] hover:text-white"
                 >
-                  Meet the editorial desks
+                  Learn what the site covers
                 </Link>
               </div>
 
@@ -50,22 +50,22 @@ export default function HomePage() {
             </div>
 
             <aside className="sand-panel p-7 sm:p-8">
-              <p className="eyebrow">Before launch</p>
+              <p className="eyebrow">Wave one focus</p>
               <h2 className="mt-4 text-[2.65rem] font-bold leading-[0.96] text-[#182028]">
-                Replace the starter copy with your real niche strategy.
+                Tight category focus beats a messy pet superstore launch.
               </h2>
               <ul className="mt-6 space-y-3 text-[0.98rem] leading-7 text-[#42515b]">
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Update the desk voices, categories, and featured coverage.</span>
+                  <span>Stay inside cat-home utility products instead of drifting into pet food or health claims.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Fill `data/guide-opportunities.md` before you add live routes.</span>
+                  <span>Use the desk model to separate simple defaults, multi-cat tradeoffs, and convenience upgrades.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Add your first hub or spoke page under `src/data/content` and `src/app`.</span>
+                  <span>Keep automation off until the first manual pages establish the voice and trust baseline.</span>
                 </li>
               </ul>
             </aside>
@@ -79,11 +79,11 @@ export default function HomePage() {
             <div className="max-w-3xl">
               <span className="editorial-rule">Editorial desks</span>
               <h2 className="mt-5 text-[2.8rem] font-bold leading-[0.98] text-[#23150f] sm:text-[3.4rem]">
-                Pick the desk that matches the reader problem.
+                Each desk owns a different kind of cat-owner frustration.
               </h2>
             </div>
             <p className="max-w-xl text-[1.02rem] leading-8 text-[#4d5862]">
-              The desk model keeps the site from sounding flat. Each desk should own a different kind of buyer and a different recommendation style.
+              BetterPetPicks is not trying to sound like one vague review voice. The desk model makes the ranking logic clearer for the reader problem in front of us.
             </p>
           </div>
 
@@ -103,7 +103,23 @@ export default function HomePage() {
 
       <section className="section-space-sm bg-[#eef0ea]">
         <div className="site-shell">
-          <div className="grid gap-5 md:grid-cols-3">
+          <div className="max-w-3xl">
+            <span className="editorial-rule">Launch categories</span>
+            <h2 className="mt-5 text-[2.45rem] font-bold leading-[0.98] text-[#23150f] sm:text-[3rem]">
+              The first cluster stays narrow on purpose.
+            </h2>
+          </div>
+
+          <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+            {siteConfig.categories.map((category) => (
+              <article key={category.slug} className="rounded-md border border-[#d9d6ce] bg-[#fffefb] p-6">
+                <p className="eyebrow">{category.name}</p>
+                <p className="mt-4 text-[0.98rem] leading-8 text-[#46525b]">{category.description}</p>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
             {siteConfig.trustPillars.map((pillar) => (
               <article key={pillar.title} className="rounded-md border border-[#d9d6ce] bg-[#fffefb] p-7">
                 <p className="eyebrow">{pillar.title}</p>

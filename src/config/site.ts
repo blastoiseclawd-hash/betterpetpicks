@@ -6,20 +6,20 @@ export const siteConfig = {
   description: "BetterPetPicks publishes practical, independent buying guides for cat litter, odor control, water fountains, and the products that help cat owners keep real homes running smoothly.",
 
   colors: {
-    primary: "#4F7B62",
-    accent: "#C17A43",
-    dark: "#16212A",
-    light: "#F6F2EA",
-    cta: "#2E8B57",
+    primary: "#54785A",
+    accent: "#B9773B",
+    dark: "#182028",
+    light: "#F5F1E8",
+    cta: "#2F7B51",
   },
 
-  defaultTitle: "BetterPetPicks | Independent Buying Guides",
+  defaultTitle: "BetterPetPicks | Practical Cat-Care Buying Guides",
   titleTemplate: `%s | BetterPetPicks`,
   ogImage: "https://betterpetpicks.com/opengraph-image",
 
   author: {
     name: "BetterPetPicks Editorial Desks",
-    bio: "Three editorial desks cover everyday buyers, enthusiasts, and precision-minded readers. Every recommendation should be grounded in real research and clear tradeoffs.",
+    bio: "BetterPetPicks uses transparent editorial desks to cover low-mess basics, multi-cat tradeoffs, and convenience-driven upgrades for real cat-owning homes.",
     methodologyPage: "/how-we-review",
   },
 
@@ -32,24 +32,34 @@ export const siteConfig = {
 
   categories: [
     {
-      name: "Primary category",
-      slug: "primary-category",
-      description: "Replace this with the core category your new site will cover first.",
+      name: "Cat Litter",
+      slug: "cat-litter",
+      description: "Buying guides and comparisons for clumping, low-dust, odor-focused, and value-minded litter choices.",
     },
     {
-      name: "Secondary category",
-      slug: "secondary-category",
-      description: "Replace this with the second major category on the site roadmap.",
+      name: "Water Fountains",
+      slug: "water-fountains",
+      description: "Guides for fountain reliability, filter upkeep, noise, cleaning friction, and cat drinking habits.",
     },
     {
-      name: "Guides",
-      slug: "guides",
-      description: "Reference content, how-to pages, and evergreen buyer education.",
+      name: "Odor Control",
+      slug: "odor-control",
+      description: "Products and strategies that help keep litter areas calmer, cleaner, and less punishing to live with.",
+    },
+    {
+      name: "Litter Area Cleanup",
+      slug: "litter-area-cleanup",
+      description: "Mats, scoops, liners, and cleanup tools that reduce scatter, tracking, and box-maintenance hassle.",
+    },
+    {
+      name: "Pet Hair Cleanup",
+      slug: "pet-hair-cleanup",
+      description: "Cleanup tools for fur, lint, and everyday home maintenance around cats and cat-heavy spaces.",
     },
   ],
 
   ftcDisclosure:
-    "When you buy through our links, we may earn a commission at no extra cost to you.",
+    "When you buy through our links, we may earn a commission at no extra cost to you. That never changes what we recommend.",
 
   nav: {
     main: [
@@ -71,42 +81,42 @@ export const siteConfig = {
       title: "How We Review",
       href: "/how-we-review",
       eyebrow: "Editorial standards",
-      description: "Explain the sourcing, ranking logic, and update process behind every recommendation.",
+      description: "See how we evaluate litter mess, odor control, cleanup friction, and long-term ownership tradeoffs.",
     },
     {
       title: "About BetterPetPicks",
       href: "/about",
       eyebrow: "About the publication",
-      description: "Introduce the desks, the niche focus, and the kind of reader the site is built for.",
+      description: "Learn what BetterPetPicks covers, what stays out of scope, and how the desk model keeps recommendations clear.",
     },
     {
       title: "Affiliate Disclosure",
       href: "/disclosure",
       eyebrow: "Transparency",
-      description: "Spell out how commissions work and why they do not control the rankings.",
+      description: "Read how commissions work, where they matter, and why they cannot outrank customer fit.",
     },
   ],
 
   trustPillars: [
     {
-      title: "Clear methodology",
-      description: "Readers should know how pages are researched, what was compared, and why a pick rose to the top.",
+      title: "Mess-aware testing",
+      description: "The right cat-care product has to work in a real home, not just on a feature chart.",
     },
     {
-      title: "Useful tradeoffs",
-      description: "Every recommendation should include the annoying parts, not just the sales pitch.",
+      title: "Tradeoffs first",
+      description: "We call out tracking, refill cost, cleaning hassle, noise, and the other annoyances shoppers actually care about.",
     },
     {
-      title: "Decision-first writing",
-      description: "The page should help a reader decide faster, not force them through filler first.",
+      title: "Tight category focus",
+      description: "Wave one stays inside cat-home utility products so the site can build trust before expanding any wider.",
     },
   ],
 
   comingSoonTopics: [
-    "Core buying guides",
-    "Comparison pages",
-    "Reference content",
-    "Trust pages",
+    "Cat litter buying guides",
+    "Water fountain comparisons",
+    "Odor-control roundups",
+    "Litter-area cleanup guides",
   ],
 } as const;
 

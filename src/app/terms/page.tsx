@@ -4,7 +4,7 @@ import { breadcrumbSchema, JsonLd, webPageSchema } from "@/lib/schema";
 
 export const metadata = generatePageMetadata({
   title: "Terms of Service",
-  description: "Starter terms page for BetterPetPicks. Replace with your real terms before launch.",
+  description: "Pre-launch terms summary for BetterPetPicks before the full legal terms are published.",
   slug: "terms",
   type: "website",
 });
@@ -22,7 +22,7 @@ export default function TermsPage() {
           ]),
           webPageSchema({
             title: "Terms of Service",
-            description: "Starter terms page for BetterPetPicks.",
+            description: "Pre-launch terms summary for BetterPetPicks.",
             url: pageUrl,
           }),
         ]}
@@ -35,8 +35,14 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <div className="mt-8 space-y-5 text-[1.02rem] leading-8 text-[#46525b]">
-            <p>Replace this page with your legal terms before launch.</p>
-            <p>Use it to cover acceptable use, disclaimers, limits of liability, and contact details.</p>
+            <p>
+              BetterPetPicks will publish a full set of legal terms before public launch. This placeholder explains the
+              topics that will be covered once the site moves from foundation setup into public publishing.
+            </p>
+            <p>
+              The final terms will cover acceptable use, general informational-only disclaimers, limits of liability,
+              affiliate-link disclosure relationships, and the correct contact details for the publication.
+            </p>
           </div>
         </div>
       </section>

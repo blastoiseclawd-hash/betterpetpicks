@@ -1,34 +1,34 @@
 export const howWeReviewContent = {
   slug: "how-we-review",
-  title: "How We Review Products",
+  title: "How We Review Cat-Care Products",
   description:
-    "A transparent overview of how BetterPetPicks researches products, weighs tradeoffs, and updates recommendations over time.",
+    "A transparent overview of how BetterPetPicks researches cat-care products, weighs tradeoffs, and updates recommendations over time.",
   intro:
-    "Every guide on BetterPetPicks should explain where the research came from, what mattered in the final ranking, and which reader the page is meant to serve.",
+    "Every guide on BetterPetPicks should make it clear what kind of cat owner the page serves, which tradeoffs mattered most, and why a product earned its position.",
   sections: [
     {
       id: "how-we-build-a-page",
       heading: "How we build a page",
       body:
-        "The workflow is simple: gather real source material, compare patterns across sources, assign the page to the desk that best serves the reader, then publish only the claims we can support.",
+        "The workflow is simple: gather credible source material, compare owner complaints and strengths across sources, match the guide to the right editorial desk, then publish only the claims we can support.",
     },
     {
       id: "how-we-use-sources",
       heading: "How we use sources",
       body:
-        "We look for convergence across owner reports, communities, expert testing, and verified specs. A claim earns trust when it repeats across independent sources, not when it sounds exciting in isolation.",
+        "We look for convergence across owner reports, retailer reviews, hands-on roundups, manufacturer documentation, and community discussions. A claim earns trust when the same pattern shows up across independent sources.",
     },
     {
       id: "how-we-score",
       heading: "How we score",
       body:
-        "Scores are contextual. The same product can land differently on a beginner page, a value page, or a technical comparison because the reader needs are different.",
+        "Scores are contextual. A litter that wins on odor control may lose on dust. A fountain that looks great on paper may still slide if cleaning it feels annoying. The ranking should reflect the actual buyer problem, not just a spec sheet.",
     },
   ],
   independenceSection: {
     heading: "Independence policy",
     body:
-      "Affiliate commissions keep the site running, but they do not control the rankings. A recommendation has to make sense even if the link disappears.",
+      "Affiliate commissions keep the site running, but they do not control the rankings. A recommendation has to make sense even if the affiliate link disappears or pays nothing.",
   },
 };
 
@@ -36,17 +36,17 @@ export const aboutContent = {
   slug: "about",
   title: "About BetterPetPicks",
   description:
-    "BetterPetPicks publishes independent buying guides built around clear desk voices, real source material, and honest tradeoffs.",
+    "BetterPetPicks publishes practical cat-care buying guides built around clear desk voices, real source material, and honest tradeoffs.",
   intro:
-    "BetterPetPicks is a starter publication designed to help you launch a niche affiliate site without rebuilding the editorial infrastructure from scratch.",
+    "BetterPetPicks is a cat-care buying-guide publication built for people who want cleaner litter areas, calmer routines, and faster product decisions.",
   whatWeDo:
-    "The goal is simple: pair strong niche research with pages that help readers decide faster. Replace this copy with your actual mission, audience, and publishing stance before launch.",
+    "The goal is simple: publish practical guides for cat litter, odor control, water fountains, litter-area cleanup, and adjacent home-utility products without drifting into pet-health advice or fluffy filler.",
   howWeWork:
-    "This starter uses editorial desks instead of fictional personal reviewers. Each desk owns a reader problem, a tone, and a way of weighing product tradeoffs.",
+    "BetterPetPicks uses transparent editorial desks instead of fictional personal reviewers. Each desk owns a different buyer problem and weighs tradeoffs a little differently, which keeps the recommendations more useful than one flat site voice.",
   closingSection: {
-    heading: "Before you launch",
+    heading: "What comes next",
     body:
-      "Update the desk bios, trust pages, affiliate programs, categories, and publication voice to match the real site you are building.",
+      "The next phase is customer-avatar research. That research will validate or revise the desk boundaries, tighten the page roadmap, and keep the launch cluster focused on the cat-home utility products BetterPetPicks can cover well.",
   },
 };
 
@@ -54,11 +54,11 @@ export const disclosureContent = {
   slug: "disclosure",
   title: "Affiliate Disclosure",
   description:
-    "How BetterPetPicks makes money, how affiliate commissions work, and why commissions should never control the recommendation.",
+    "How BetterPetPicks makes money, how affiliate commissions work, and why commissions never control the recommendation.",
   body:
-    "BetterPetPicks may earn a commission when a reader buys through certain links. That commission should never override what is best for the reader, and the page should still be useful without the link.",
+    "BetterPetPicks may earn a commission when a reader buys through certain links. That commission should never override what is best for the reader, and every page should still make sense if the affiliate link vanishes tomorrow.",
   aiTransparency:
-    "If AI assists your publishing workflow, explain what it does and what source material grounds the final recommendations. Replace this starter copy with the real editorial process before launch.",
+    "AI may assist with synthesis, drafting, or formatting, but final recommendations still need real source material, human review, and honest tradeoff calls rooted in the page's intended buyer.",
   closing:
-    "Add your publication contact details here before launch.",
+    "Publication contact details and any non-Amazon affiliate relationships will be added here before public launch.",
 };

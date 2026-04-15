@@ -4,4 +4,8 @@ Use this file as the parking lot for future hub, spoke, comparison, and trust-pa
 
 | Idea | Desk | Why it matters | Status |
 |------|------|----------------|--------|
-| Example buying guide | Everyday Desk | Replace with your first real page after keyword mapping | Backlog |
+| Cat litter coverage cluster | Cat Care Essentials Desk | Core launch category with strong buyer intent and clear reader pain points | Pending avatar research |
+| Water fountain coverage cluster | Upgrade & Automation Desk | Strong fit for convenience shoppers and repeat-cleaning tradeoffs | Pending avatar research |
+| Odor-control support pages | Multi-Cat Home Desk | Useful support content that reinforces the site's practical positioning | Pending avatar research |
+| Litter-area cleanup tools | Cat Care Essentials Desk | Natural adjacent category for low-mess households | Pending avatar research |
+| Pet-hair cleanup cluster | Upgrade & Automation Desk | Good second-wave expansion once the cat-care core is live | Backlog |

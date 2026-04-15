@@ -4,7 +4,7 @@ import { breadcrumbSchema, JsonLd, webPageSchema } from "@/lib/schema";
 
 export const metadata = generatePageMetadata({
   title: "Privacy Policy",
-  description: "Starter privacy policy page for BetterPetPicks. Replace with your real privacy policy before launch.",
+  description: "Pre-launch privacy summary for BetterPetPicks and the systems the site expects to use before public rollout.",
   slug: "privacy",
   type: "website",
 });
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           ]),
           webPageSchema({
             title: "Privacy Policy",
-            description: "Starter privacy policy page for BetterPetPicks.",
+            description: "Pre-launch privacy summary for BetterPetPicks.",
             url: pageUrl,
           }),
         ]}
@@ -35,8 +35,15 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <div className="mt-8 space-y-5 text-[1.02rem] leading-8 text-[#46525b]">
-            <p>Replace this page with your real privacy policy before launch.</p>
-            <p>At a minimum, explain what analytics, affiliate networks, email collection, and cookies you use.</p>
+            <p>
+              BetterPetPicks will publish a full privacy policy before public launch. Until then, treat this page as a
+              pre-launch summary of the privacy topics the site will disclose clearly once analytics, affiliate tooling,
+              and contact workflows are fully configured.
+            </p>
+            <p>
+              The final policy will cover analytics, affiliate-network tracking, cookies, any email collection, and the
+              reader rights or contact methods attached to those systems.
+            </p>
           </div>
         </div>
       </section>
