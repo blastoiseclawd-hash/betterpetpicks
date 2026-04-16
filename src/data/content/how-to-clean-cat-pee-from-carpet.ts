@@ -26,8 +26,8 @@ export const howToCleanCatPeeFromCarpetContent = {
     "Fresh cat urine on carpet is fixable if you act within the first 10 minutes. Old stains that have soaked into the padding are harder but still treatable. Here is the full process from blotting to enzymatic treatment, plus what to do when the stain has reached the subfloor.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-to-clean-cat-pee-from-carpet/01-hero.png",
+    alt: "How to clean cat pee from carpet — immediate response, enzymatic treatment, UV blacklight detection, and subfloor sealing",
   },
 
   estimatedTime: "PT7M",
@@ -36,6 +36,11 @@ export const howToCleanCatPeeFromCarpetContent = {
     {
       id: "immediate-response",
       heading: "Immediate response: the first 10 minutes matter",
+      image: {
+        src: "/images/guides/how-to-clean-cat-pee-from-carpet/02-immediate-steps.png",
+        alt: "Five-step immediate response to fresh cat urine on carpet — blot, apply weight, cold rinse, enzymatic cleaner, air dry",
+        caption: "Speed matters — the faster you treat it, the less reaches the padding.",
+      },
       body: `Speed determines difficulty. Fresh urine that has not soaked through the carpet fibers into the padding is dramatically easier to treat than urine that has been sitting for hours or days. If you catch it within the first 10 minutes, you can often prevent the urine from reaching the padding at all.
 
 Do not step on the wet area. Foot pressure pushes urine deeper into the carpet fibers and into the padding below. Do not spray anything yet. Your first job is to remove as much liquid as possible before applying any cleaner.`,
@@ -65,6 +70,11 @@ Do not step on the wet area. Foot pressure pushes urine deeper into the carpet f
     {
       id: "enzymatic-cleaners-explained",
       heading: "Why enzymatic cleaners are the only real solution",
+      image: {
+        src: "/images/guides/how-to-clean-cat-pee-from-carpet/03-enzymatic-science.png",
+        alt: "Why enzymatic cleaners work — urea, urochrome, and uric acid components of cat urine with treatment paths",
+        caption: "Only enzymatic cleaners break down uric acid, which has a 6-year half-life.",
+      },
       body: `Cat urine contains uric acid, a compound that is not water-soluble. Standard household cleaners — dish soap, all-purpose spray, baking soda, vinegar, hydrogen peroxide — remove the water-soluble parts of cat urine. The urea, the urobilin, the surface stain. They make the carpet look and smell clean for a few days.
 
 Then the humidity changes. The uric acid crystals that are still bonded to the carpet fibers reactivate. The smell comes back. You clean again. It comes back again. This cycle repeats because no standard cleaner breaks down uric acid.
@@ -93,6 +103,11 @@ Enzymatic cleaners contain bacterial cultures that produce specific enzymes to b
     {
       id: "finding-stains-with-blacklight",
       heading: "Using a UV blacklight to find every stain",
+      image: {
+        src: "/images/guides/how-to-clean-cat-pee-from-carpet/04-blacklight-guide.png",
+        alt: "How to find hidden cat urine stains with a UV blacklight — dark room, 365-385nm wavelength, yellow-green glow, common spots",
+        caption: "A $15-25 UV blacklight reveals stains invisible to the naked eye.",
+      },
       body: `A UV blacklight flashlight costs under ten dollars and is the most useful tool you can own for cat urine cleanup. Here is how to use it effectively.
 
 **Wait until the room is completely dark.** Close curtains, turn off all lights, block light from doorways. Even a small amount of ambient light reduces the contrast that makes stains visible under UV.

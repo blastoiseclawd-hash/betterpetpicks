@@ -25,8 +25,8 @@ export const howMuchCatLitterToUseContent = {
     "The right amount of cat litter is 3 inches of depth for clumping litter, 2 inches for non-clumping. Here is why those numbers work, what happens when you get it wrong, and how to keep the level right without overfilling or running low.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-much-cat-litter-to-use/01-hero.png",
+    alt: "How much cat litter to use — depth recommendations by litter type: 3-4 inches for clumping, 2-3 inches for non-clumping, 1.5-2 inches for crystal, 2-3 inches for pellet",
   },
 
   estimatedTime: "PT5M",
@@ -50,6 +50,11 @@ A simple test: push a finger straight down into the litter. If your fingertip to
     {
       id: "too-much-litter",
       heading: "What happens when you use too much",
+      image: {
+        src: "/images/guides/how-much-cat-litter-to-use/03-too-much-too-little.png",
+        alt: "Comparison of too much, just right, and too little cat litter depth with consequences of each",
+        caption: "The right depth prevents stuck clumps and avoids wasted litter.",
+      },
       body: `More litter feels like a safe choice. The logic is that a deeper box should trap more odor and require fewer full changes. In practice, overfilling creates three problems.
 
 **Problem 1: Unstable surface.** Cats prefer a flat, firm surface to dig in. When the litter is 5 or 6 inches deep, the surface shifts under their paws like soft sand. Some cats respond by avoiding the box entirely. Others perch on the edge and go over the side.
@@ -74,6 +79,11 @@ The fix is straightforward. If your cat is not covering consistently, add half a
     {
       id: "topping-off",
       heading: "How to top off without overfilling",
+      image: {
+        src: "/images/guides/how-much-cat-litter-to-use/04-topping-off-steps.png",
+        alt: "Four-step process for topping off cat litter: scoop, check depth, add a thin layer, level the surface",
+        caption: "Top off every 2-3 days for a single cat with daily scooping.",
+      },
       body: `Topping off is the routine that keeps the box at the right level between full changes. Here is how to do it without gradually overfilling.
 
 **Step 1:** Scoop first. Always scoop before topping off. This removes spent litter and gives you an accurate read on the current depth.
@@ -128,6 +138,11 @@ These are averages. Heavy diggers use more. Cats that spray the sides use more. 
     {
       id: "by-litter-type",
       heading: "Depth and usage by litter type",
+      image: {
+        src: "/images/guides/how-much-cat-litter-to-use/02-depth-guide.png",
+        alt: "Recommended cat litter depth and monthly usage table by litter type — clumping clay, non-clumping, crystal, pine pellet, and corn-based",
+        caption: "Monthly litter consumption varies by type and scooping habits.",
+      },
       body: `Every litter type has a different optimal depth and consumption rate. Here is the quick reference.
 
 **Clumping clay** (Dr. Elsey's, ARM & HAMMER, Tidy Cats): 3-4 inches. Uses 7-10 lbs/month per cat. The most common type and the easiest to calibrate because the clumps give you visible feedback on how the litter is performing.

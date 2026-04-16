@@ -26,8 +26,8 @@ export const howToRemovePetHairFromCouchContent = {
     "Pet hair weaves itself into upholstery and stays there because static charge and fabric texture hold it tighter than surface contact alone. A lint roller handles loose strands but misses anything embedded below the top layer. Here are the methods that actually pull hair out of couch fabric, ranked by how deeply they clean and how little they cost to maintain.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-to-remove-pet-hair-from-couch/01-hero.png",
+    alt: "How to remove pet hair from a couch — rubber glove method, reusable roller, vacuum attachment, and prevention tips",
   },
 
   estimatedTime: "PT6M",
@@ -36,6 +36,11 @@ export const howToRemovePetHairFromCouchContent = {
     {
       id: "rubber-glove-method",
       heading: "The rubber glove method",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-couch/02-rubber-glove-method.png",
+        alt: "Four-step rubber glove method for removing pet hair from fabric furniture",
+        caption: "The rubber glove method costs nothing and works on most fabric couches.",
+      },
       body: `A damp rubber glove is the cheapest tool that works on embedded pet hair. The rubber surface creates friction against the fabric, which balls up loose and semi-embedded hair into clumps you can pick off by hand. Dishwashing gloves from any grocery store work. The thicker the rubber, the better the grip.
 
 This method works best on tightly woven fabrics like microfiber and most polyester blends. On loose-weave fabrics like linen or chenille, the glove catches on the fabric itself and pulls threads instead of hair. Test a hidden spot first if your couch has a textured or looped weave.
@@ -96,6 +101,11 @@ The limitation is fabric type. Motorized brushes can snag on loose-weave fabrics
     {
       id: "fabric-specific-tips",
       heading: "Fabric-specific tips",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-couch/03-tool-comparison.png",
+        alt: "Pet hair removal tool comparison by surface type — rubber glove, ChomChom, lint roller, vacuum, dryer sheet",
+        caption: "Different tools work best on different surfaces.",
+      },
       body: `Different upholstery fabrics hold pet hair differently, and the wrong tool on the wrong fabric either damages the material or wastes your time.
 
 **Microfiber** holds pet hair tightly because the ultra-fine fibers create strong static. A damp rubber glove is the most effective tool here. The friction overcomes the static grip without damaging the weave. Reusable rollers also work but require more passes.
@@ -122,6 +132,11 @@ The effect fades within a day or two as static rebuilds. Do not treat dryer shee
     {
       id: "prevention-strategies",
       heading: "Prevention strategies that reduce cleanup time",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-couch/04-prevention.png",
+        alt: "Four prevention strategies to reduce pet hair on furniture — brushing, throws, robot vacuum, deshedding tools",
+        caption: "Prevention reduces daily cleanup time significantly.",
+      },
       body: `No prevention method eliminates pet hair from furniture entirely. But the right combination reduces how often you need to deep-clean and how much hair builds up between sessions.
 
 **Washable couch covers or throws.** A fitted cover or a heavy throw blanket over the main sitting area catches most of the hair before it reaches the upholstery. Wash the cover weekly. This one change reduces couch cleaning frequency by half or more in most homes.

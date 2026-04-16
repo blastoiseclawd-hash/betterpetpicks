@@ -26,8 +26,8 @@ export const howOftenToChangeCatLitterContent = {
     "Change clumping clay litter completely every 2 to 4 weeks with daily scooping. Non-clumping litter needs a full change every 5 to 7 days. Here is the full schedule by litter type, plus the daily routine that keeps the box usable between complete changes.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-often-to-change-cat-litter/01-hero.png",
+    alt: "How often to change cat litter — complete change schedule by litter type with daily scooping routine",
   },
 
   estimatedTime: "PT5M",
@@ -36,6 +36,11 @@ export const howOftenToChangeCatLitterContent = {
     {
       id: "complete-change-schedule",
       heading: "Complete change schedule by litter type",
+      image: {
+        src: "/images/guides/how-often-to-change-cat-litter/02-schedule.png",
+        alt: "Complete cat litter change schedule by type — clumping clay, non-clumping, crystal, pellet, and corn-based",
+        caption: "Full change frequency depends on litter type and scooping consistency.",
+      },
       body: `The right replacement frequency depends on the litter type, how many cats use the box, and how consistently you scoop. Here are the baselines for a single-cat home with daily scooping.
 
 **Clumping clay litter:** Full change every 2 to 4 weeks. Clumping litter isolates waste into scoopable clumps, so the surrounding litter stays cleaner longer. After 2 to 4 weeks, enough fine particles, dust, and residual odor accumulate that the remaining litter stops performing well. Dump everything, wash the box, and refill.
@@ -51,6 +56,11 @@ These timelines assume daily scooping. Skip scooping for two or three days and e
     {
       id: "daily-scooping-routine",
       heading: "Daily scooping routine",
+      image: {
+        src: "/images/guides/how-often-to-change-cat-litter/03-scooping-steps.png",
+        alt: "Four-step daily cat litter scooping routine — scoop clumps, check depth, stir, dispose",
+        caption: "Consistent daily scooping extends the time between full changes.",
+      },
       body: `Scooping once a day is the single most effective thing you can do to extend litter life and keep the box acceptable to your cat. Here is the routine that keeps things clean without turning it into a project.`,
       steps: [
         {
@@ -78,6 +88,11 @@ These timelines assume daily scooping. Skip scooping for two or three days and e
     {
       id: "signs-litter-needs-changing",
       heading: "Signs your litter needs a full change now",
+      image: {
+        src: "/images/guides/how-often-to-change-cat-litter/04-signs-to-change.png",
+        alt: "Four signs your cat litter needs a full change — persistent smell, box avoidance, dark appearance, time elapsed",
+        caption: "These signs mean topping off is no longer enough.",
+      },
       body: `Even if you are scooping daily, the litter eventually reaches a point where scooping is no longer enough. These are the signs that a full dump-and-replace is overdue.
 
 **Persistent odor after scooping.** If you scoop and the box still smells within a few hours, the remaining litter has absorbed too much residual ammonia and urea. Fresh litter on top of spent litter does not fix this. The entire box needs to go.

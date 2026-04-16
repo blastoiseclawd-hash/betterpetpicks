@@ -26,8 +26,8 @@ export const howToGetCatToUseScratchingPostContent = {
     "If your cat ignores the scratching post and keeps going for the couch, the problem is almost never the cat. It is the post's material, location, or stability. Cats scratch instinctively — they need to scratch. The question is whether the post you bought gives them what they actually want. Here is how to fix the common mistakes and redirect the behavior without punishment.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-to-get-cat-to-use-scratching-post/01-hero.png",
+    alt: "How to get your cat to use a scratching post — placement, material, catnip training, and furniture redirection",
   },
 
   estimatedTime: "PT7M",
@@ -49,6 +49,11 @@ A good scratching post satisfies all three needs: hard enough for claw maintenan
     {
       id: "placement-matters",
       heading: "Placement matters more than the post itself",
+      image: {
+        src: "/images/guides/how-to-get-cat-to-use-scratching-post/02-placement.png",
+        alt: "Where to put a scratching post — next to furniture, near sleeping areas, high-traffic zones, not in spare rooms",
+        caption: "The right placement uses your cat's existing scratching motivation.",
+      },
       body: `The most common reason a cat ignores a scratching post is location. People put scratching posts in out-of-the-way corners, spare rooms, or tucked behind furniture because they do not want the post in the middle of the living space. Cats ignore posts in those spots because those spots do not matter to them.
 
 **Put the post where the cat already scratches.** If the cat scratches the side of the couch, put the post next to the couch. If the cat scratches the door frame in the hallway, put a post in the hallway. Cats scratch in high-traffic areas and territorial boundaries because those are the locations where scent marking has social value.
@@ -75,6 +80,11 @@ Never punish a cat for scratching furniture. Punishment creates anxiety, which i
     {
       id: "redirecting-from-furniture",
       heading: "Redirecting scratching away from furniture",
+      image: {
+        src: "/images/guides/how-to-get-cat-to-use-scratching-post/04-redirect-steps.png",
+        alt: "Five-step process to redirect cat scratching from furniture to a post",
+        caption: "Most cats fully transition within 3-4 weeks.",
+      },
       body: `If your cat is already scratching furniture, the strategy has two parts: make the furniture less attractive and make the post more attractive. Both need to happen simultaneously.`,
       steps: [
         {
@@ -107,6 +117,11 @@ Never punish a cat for scratching furniture. Punishment creates anxiety, which i
     {
       id: "right-material",
       heading: "The right material: sisal, cardboard, and carpet compared",
+      image: {
+        src: "/images/guides/how-to-get-cat-to-use-scratching-post/03-material-comparison.png",
+        alt: "Scratching material comparison — sisal rope, cardboard, carpet, and wood with effectiveness ratings",
+        caption: "Most cats prefer sisal. Horizontal scratchers prefer cardboard.",
+      },
       body: `The material of the scratching surface determines whether a cat uses the post or ignores it. Different cats prefer different textures, and the wrong material is the second most common reason (after bad placement) that posts get ignored.
 
 **Sisal rope** is the most popular material and the one most cats prefer. The coarse fiber provides strong resistance, which satisfies the claw-maintenance and stretching needs. Sisal holds up to heavy use — 12-18 months of daily scratching before it frays enough to need replacement. Sisal also holds scent well, which reinforces the territorial marking behavior.

@@ -26,8 +26,8 @@ export const howToRemovePetHairFromClothesContent = {
     "Pet hair on clothes is a friction and static problem. Hair clings to fabric because the charge difference between animal fur and textile fibers creates a bond that casual brushing does not break. Here are the methods that actually work, from the 30-second fix before you walk out the door to laundry techniques that reduce hair buildup across your entire wardrobe.",
 
   heroImage: {
-    src: "",
-    alt: "",
+    src: "/images/guides/how-to-remove-pet-hair-from-clothes/01-hero.png",
+    alt: "How to remove pet hair from clothes — lint roller, dryer method, washing tips, and fabric-specific advice",
   },
 
   estimatedTime: "PT6M",
@@ -49,6 +49,11 @@ For people who lint-roll daily, the refill cost adds up. A household going throu
     {
       id: "dryer-method",
       heading: "Dryer method for bulk hair removal",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-clothes/02-dryer-method.png",
+        alt: "Four-step dryer method for removing pet hair from clothes before washing",
+        caption: "The dryer loosens embedded hair that lint rollers miss.",
+      },
       body: `Running clothes through the dryer for 10 minutes on low heat before washing loosens pet hair so the lint trap catches it instead of the washing machine drain. This is the single most effective laundry technique for pet hair and the one most people skip.
 
 The heat softens the static bond between hair and fabric. The tumbling action shakes hair loose. The lint trap collects it. Without this step, pet hair goes into the wash water, clogs the drain filter, and redistributes across every item in the load.
@@ -87,6 +92,11 @@ Clean the lint trap before and after the cycle. A full trap cannot catch hair. I
     {
       id: "washing-machine-tips",
       heading: "Washing machine tips to keep hair from redistributing",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-clothes/04-washing-tips.png",
+        alt: "Washing machine tips for pet hair — vinegar rinse, empty cycle, pet hair catcher, avoid overloading",
+        caption: "Small laundry adjustments prevent hair transfer between loads.",
+      },
       body: `The washing machine is where pet hair problems get worse if you do not manage them. Hair that enters the wash cycle does not dissolve. It floats in the water, tangles with other fibers, and redistributes across every garment in the load. Clean clothes come out with more hair than they went in with if a heavily-shed item is in the same load.
 
 **Run the dryer pre-cycle first.** This removes most hair before it reaches the wash water. If you only follow one tip from this page, this is the one.
@@ -104,6 +114,11 @@ Clean the lint trap before and after the cycle. A full trap cannot catch hair. I
     {
       id: "fabric-specific-advice",
       heading: "Fabric-specific advice",
+      image: {
+        src: "/images/guides/how-to-remove-pet-hair-from-clothes/03-fabric-guide.png",
+        alt: "Best pet hair removal method by fabric type — wool, fleece, cotton, silk, dress clothes",
+        caption: "The right method depends on the fabric.",
+      },
       body: `Not every fabric holds pet hair the same way. The wrong removal method on the wrong fabric either wastes your time or damages the garment.
 
 **Fleece and polyester** attract pet hair more aggressively than any other common fabric. The synthetic fibers generate static that bonds hair to the surface and the interior pile. A lint roller handles the surface, but the dryer pre-cycle method is the only reliable way to clear hair from fleece interiors. If you wear fleece daily in a pet household, expect to lint-roll every time you leave.
