@@ -990,6 +990,14 @@ export const products: Product[] = [
         url: "https://m.media-amazon.com/images/I/81vZ-RqL1ML._AC_SL1500_.jpg",
         alt: "Fresh Step Clean Paws multi-cat unscented clumping litter 22.5 pound box",
       },
+      {
+        url: "https://m.media-amazon.com/images/I/51RvQ8rUUgL._AC_SL1500_.jpg",
+        alt: "Fresh Step Clean Paws low-tracking larger particle design and odor control",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/514G0MuDZoL._AC_SL1500_.jpg",
+        alt: "Fresh Step Clean Paws low-dust ammonia block technology callout",
+      },
     ],
     thumbnailUrl: "https://m.media-amazon.com/images/I/81vZ-RqL1ML._AC_SL1500_.jpg",
     specs: {

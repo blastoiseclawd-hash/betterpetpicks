@@ -34,15 +34,15 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | # | Slug | Cluster | Type | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |---|------|---------|------|----------------|-----|----|----|-------|------|--------|
-| 1 | best-cat-litter | Litter | money | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | BUILT |
-| 2 | best-cat-water-fountain | Fountain | money | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | BUILT |
+| 1 | best-cat-litter | Litter | money | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | LIVE |
+| 2 | best-cat-water-fountain | Fountain | money | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | LIVE |
 | 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
 | 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | NOT BUILT |
-| 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | BUILT |
+| 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
 | 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
 | 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
 | 8 | best-cat-harness | Cat Gear | money | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | NOT BUILT |
-| 9 | best-dust-free-cat-litter | Litter | money | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | NOT BUILT |
+| 9 | best-dust-free-cat-litter | Litter | money | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | LIVE |
 | 10 | how-much-cat-litter-to-use | Litter | support | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | NOT BUILT |
 | 11 | best-non-tracking-cat-litter | Litter | money | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
 | 12 | best-cordless-vacuum-for-pet-hair | Pet Hair | money | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | TBD — Pet Cleanup | NOT BUILT |
@@ -85,8 +85,8 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| best-cat-litter | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | BUILT |
-| best-cat-litter-for-odor-control | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | BUILT |
+| best-cat-litter | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | LIVE |
+| best-cat-litter-for-odor-control | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
 | best-dust-free-cat-litter | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | NOT BUILT |
 | best-non-tracking-cat-litter | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
 | best-cat-litter-for-multiple-cats | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
@@ -127,7 +127,7 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| best-cat-water-fountain | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | BUILT |
+| best-cat-water-fountain | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | LIVE |
 | best-stainless-steel-cat-water-fountain | best stainless steel cat water fountain | 1,200 | 1 | 1,300 | 8.7 | Cat Care Essentials | NOT BUILT |
 | best-cat-water-fountain-easy-to-clean | best cat water fountain easy to clean | 70 | 6 | 14,000 | 7.9 | Cat Care Essentials | NOT BUILT |
 | best-cat-water-fountain-for-multiple-cats | best cat water fountain for multiple cats | 50 | 6 | 12,000 | 7.0 | Multi-Cat Home | NOT BUILT |

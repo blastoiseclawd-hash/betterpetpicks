@@ -47,6 +47,7 @@ export default function BestCatLitterForOdorControlPage() {
       relatedLinks={[
         { href: "/best-cat-litter", title: "Best Cat Litter (Overall)" },
         { href: "/best-dust-free-cat-litter", title: "Best Dust Free Cat Litter" },
+        { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
         { href: "/best-cat-water-fountain", title: "Best Cat Water Fountains" },
         { href: "/how-we-review", title: "How We Review" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
