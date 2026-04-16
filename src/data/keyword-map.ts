@@ -533,6 +533,27 @@ export const pageTargets: PageTarget[] = [
     notes:
       "Autocomplete-backed support page that ties broader robot-vacuum intent back to the cat-home utility launch by focusing on litter tracking cleanup.",
   },
+  {
+    slug: "best-cat-litter-mat",
+    title: "Best Cat Litter Mats (2026) - Picks That Actually Trap",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best cat litter mat",
+    primaryVolume: 1100,
+    primaryKd: 3,
+    secondaryKeywords: [
+      "best litter mat for cats",
+      "best cat litter trapping mat",
+      "cat litter mat honeycomb",
+      "best litter box mat",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Low-Mess Starter",
+    primaryAvatar: "Practical Starter",
+    priority: 2,
+    notes:
+      "Litter mat spoke. Different product category than litter itself. Addresses tracking reduction via mats.",
+  },
   // --- Cluster: Cat Gear ---
   {
     slug: "best-cat-tree",
@@ -619,7 +640,7 @@ export const pageTargets: PageTarget[] = [
     primaryVolume: 32000,
     primaryKd: 3,
     secondaryKeywords: ["best vacuum cleaner for pet hair", "best home vacuum for pet hair", "what vacuum is best for pet hair"],
-    authorSlug: "cat-care-essentials-desk", // TBD — Pet Cleanup desk once built
+    authorSlug: "pet-cleanup-desk",
     audienceProfile: "Dust-Sensitive Space Manager",
     primaryAvatar: "Clean-Space Manager",
     priority: 1,
@@ -634,7 +655,7 @@ export const pageTargets: PageTarget[] = [
     primaryVolume: 9200,
     primaryKd: 5,
     secondaryKeywords: ["cordless vacuum for pet hair", "best wireless vacuum for pet hair", "best battery vacuum for pet hair"],
-    authorSlug: "cat-care-essentials-desk",
+    authorSlug: "pet-cleanup-desk",
     audienceProfile: "Dust-Sensitive Space Manager",
     primaryAvatar: "Clean-Space Manager",
     priority: 2,

@@ -36,23 +36,23 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 |---|------|---------|------|----------------|-----|----|----|-------|------|--------|
 | 1 | best-cat-litter | Litter | money | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | LIVE |
 | 2 | best-cat-water-fountain | Fountain | money | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | LIVE |
-| 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
+| 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | Pet Cleanup | LIVE |
 | 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | LIVE |
 | 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
 | 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
 | 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
 | 8 | best-cat-harness | Cat Gear | money | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | NOT BUILT |
 | 9 | best-dust-free-cat-litter | Litter | money | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | LIVE |
-| 10 | how-much-cat-litter-to-use | Litter | support | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | NOT BUILT |
-| 11 | best-non-tracking-cat-litter | Litter | money | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
-| 12 | best-cordless-vacuum-for-pet-hair | Pet Hair | money | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | TBD — Pet Cleanup | NOT BUILT |
+| 10 | how-much-cat-litter-to-use | Litter | support | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | LIVE |
+| 11 | best-non-tracking-cat-litter | Litter | money | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | LIVE |
+| 12 | best-cordless-vacuum-for-pet-hair | Pet Hair | money | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | Pet Cleanup | LIVE |
 | 13 | best-cooling-dog-bed | Dog Bed | money | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | TBD — Dog Comfort | NOT BUILT |
 | 14 | how-often-to-change-cat-litter | Litter | support | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
 | 15 | best-cat-carrier | Cat Gear | money | best cat carrier | 2,700 | 1 | 2,200 | 9.0 | Cat Care Essentials | NOT BUILT |
-| 16 | best-cat-litter-mat | Litter | money | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | NOT BUILT |
+| 16 | best-cat-litter-mat | Litter | money | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | LIVE |
 | 17 | how-to-clean-cat-pee-from-carpet | Litter | support | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
 | 18 | best-chew-proof-dog-bed | Dog Bed | money | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | TBD — Dog Comfort | NOT BUILT |
-| 19 | best-cat-litter-for-multiple-cats | Litter | money | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
+| 19 | best-cat-litter-for-multiple-cats | Litter | money | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | LIVE |
 | 20 | best-pet-hair-remover | Pet Hair | money | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | TBD — Pet Cleanup | NOT BUILT |
 | 21 | best-upright-vacuum-for-pet-hair | Pet Hair | money | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
 | 22 | how-to-keep-cat-litter-from-smelling | Litter | support | how to keep cat litter from smelling | 150 | 2 | 1,000 | 8.8 | Multi-Cat Home | NOT BUILT |
@@ -89,9 +89,9 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 | best-cat-litter-for-odor-control | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
 | best-dust-free-cat-litter | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | LIVE |
 | best-non-tracking-cat-litter | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | LIVE |
-| best-cat-litter-for-multiple-cats | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
+| best-cat-litter-for-multiple-cats | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | LIVE |
 | best-cat-litter-for-litter-robot | best cat litter for litter robot | 1,100 | 2 | 2,800 | 8.9 | Upgrade & Automation | NOT BUILT |
-| best-cat-litter-mat | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-mat | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | LIVE |
 | best-cat-litter-deodorizer | best cat litter deodorizer | 300 | 0 | 300 | 7.6 | Cat Care Essentials | NOT BUILT |
 | best-cat-litter-box | best cat litter box | 7,400 | 13 | 22,000 | 8.8 | Cat Care Essentials | NOT BUILT |
 | best-automatic-litter-box | best automatic litter box | 10,000 | 13 | 10,000 | 8.5 | Upgrade & Automation | NOT BUILT |
@@ -114,7 +114,7 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 | how-to-clean-cat-pee-from-carpet | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
 | how-much-does-cat-litter-cost | how much does cat litter cost | 200 | 3 | 7,500 | 8.9 | Cat Care Essentials | NOT BUILT |
 | how-often-to-change-cat-litter | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
-| how-much-cat-litter-to-use | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | NOT BUILT |
+| how-much-cat-litter-to-use | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | LIVE |
 | how-to-keep-cat-litter-from-smelling | how to keep cat litter from smelling | 150 | 2 | 1,000 | 8.8 | Multi-Cat Home | NOT BUILT |
 | how-to-get-rid-of-cat-smell-in-house | how to get rid of cat smell in house | 800 | 3 | 1,100 | 8.4 | Cat Care Essentials | NOT BUILT |
 | is-litter-deodorizer-safe-for-cats | is litter deodorizer safe for cats | 100 | 0 | 40 | 8.0 | Cat Care Essentials | NOT BUILT |
@@ -148,8 +148,8 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| best-vacuum-for-pet-hair | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
-| best-cordless-vacuum-for-pet-hair | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | TBD — Pet Cleanup | NOT BUILT |
+| best-vacuum-for-pet-hair | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | Pet Cleanup | LIVE |
+| best-cordless-vacuum-for-pet-hair | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | Pet Cleanup | LIVE |
 | best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
 | best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | TBD — Pet Cleanup | NOT BUILT |
 | best-robot-vacuum-for-pet-hair | best robot vacuum for pet hair | 17,000 | 10 | 15,000 | 8.8 | TBD — Pet Cleanup | NOT BUILT |

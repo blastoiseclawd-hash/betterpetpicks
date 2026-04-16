@@ -79,8 +79,10 @@ export const siteConfig = {
         children: [
           { label: "Best Cat Litter", href: "/best-cat-litter" },
           { label: "Best for Odor Control", href: "/best-cat-litter-for-odor-control" },
+          { label: "Best for Multiple Cats", href: "/best-cat-litter-for-multiple-cats" },
           { label: "Best Dust-Free", href: "/best-dust-free-cat-litter" },
           { label: "Best Non-Tracking", href: "/best-non-tracking-cat-litter" },
+          { label: "Best Litter Mat", href: "/best-cat-litter-mat" },
         ],
       },
       { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
@@ -89,6 +91,15 @@ export const siteConfig = {
         href: "/how-to-get-rid-of-cat-pee-smell",
         children: [
           { label: "Cat Pee Smell Removal", href: "/how-to-get-rid-of-cat-pee-smell" },
+          { label: "How Much Cat Litter to Use", href: "/how-much-cat-litter-to-use" },
+        ],
+      },
+      {
+        label: "Pet Hair",
+        href: "/best-vacuum-for-pet-hair",
+        children: [
+          { label: "Best Vacuum for Pet Hair", href: "/best-vacuum-for-pet-hair" },
+          { label: "Best Cordless Vacuum for Pet Hair", href: "/best-cordless-vacuum-for-pet-hair" },
         ],
       },
       { label: "About", href: "/about" },
@@ -98,6 +109,7 @@ export const siteConfig = {
       { label: "Best Cat Litter", href: "/best-cat-litter" },
       { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
       { label: "Best Litter for Odor", href: "/best-cat-litter-for-odor-control" },
+      { label: "Best Litter for Multiple Cats", href: "/best-cat-litter-for-multiple-cats" },
       { label: "Cat Pee Smell Guide", href: "/how-to-get-rid-of-cat-pee-smell" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },

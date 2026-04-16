@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 import { authors } from "@/data/authors";
 import { products } from "@/data/products";
-import { bestNonTrackingCatLitterGuide } from "@/data/content/best-non-tracking-cat-litter";
+import { bestCordlessVacuumForPetHairGuide } from "@/data/content/best-cordless-vacuum-for-pet-hair";
 import { generatePageMetadata } from "@/lib/metadata";
 import { HubPage } from "@/components/pages/hub-page";
 
-const content = bestNonTrackingCatLitterGuide;
+const content = bestCordlessVacuumForPetHairGuide;
 const author = authors.find((a) => a.slug === content.author)!;
 
 export const metadata: Metadata = generatePageMetadata({
@@ -18,7 +18,7 @@ export const metadata: Metadata = generatePageMetadata({
   authorName: author.name,
 });
 
-export default function BestNonTrackingCatLitterPage() {
+export default function BestCordlessVacuumForPetHairPage() {
   const orderedProducts = content.productOrder
     .map((id) => products.find((p) => p.id === id))
     .filter(Boolean) as typeof products;
@@ -45,10 +45,8 @@ export default function BestNonTrackingCatLitterPage() {
       breadcrumbLabel={content.breadcrumbLabel}
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={[
-        { href: "/best-cat-litter", title: "Best Cat Litter (Overall)" },
-        { href: "/best-dust-free-cat-litter", title: "Best Dust Free Cat Litter" },
-        { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
-        { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
+        { href: "/best-vacuum-for-pet-hair", title: "Best Vacuums for Pet Hair (All Types)" },
+        { href: "/best-cat-litter-mat", title: "Best Cat Litter Mat" },
         { href: "/how-to-get-rid-of-cat-pee-smell", title: "How to Get Rid of Cat Pee Smell" },
         { href: "/how-we-review", title: "How We Review" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
