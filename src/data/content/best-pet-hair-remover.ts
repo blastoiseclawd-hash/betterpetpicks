@@ -291,7 +291,7 @@ For daily high-volume use, the math points toward reusable alternatives. For occ
     sections: [
       {
         heading: "Match the tool to the surface",
-        body: "Pet hair on a couch is a different problem than pet hair on carpet, and both are different from pet hair in a car. Rollers and handheld tools work on furniture and clothing. Scrapers work on carpet and tight-weave car upholstery. Rubber brooms work on whole rooms of carpet. No single tool handles all three surfaces equally well. Most pet households end up owning at least two: one for furniture and one for floors or cars.",
+        body: "Pet hair on a couch is a different problem than pet hair on carpet, and both are different from pet hair in a car. Rollers and handheld tools work on furniture and clothing. Scrapers work on carpet and tight-weave car upholstery. Rubber brooms work on whole rooms of carpet. No single tool handles all three surfaces equally well. Most pet households end up owning at least two: one for furniture and one for floors or cars. For clothing-specific techniques including the dryer pre-cycle trick and fabric-by-fabric methods, see our guide on [how to remove pet hair from clothes](/how-to-remove-pet-hair-from-clothes).",
       },
       {
         heading: "Reusable vs disposable is a cost decision",
