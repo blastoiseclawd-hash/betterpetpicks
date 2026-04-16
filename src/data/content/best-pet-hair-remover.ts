@@ -295,7 +295,7 @@ For daily high-volume use, the math points toward reusable alternatives. For occ
       },
       {
         heading: "Reusable vs disposable is a cost decision",
-        body: "Reusable tools cost $13-25 upfront and last for years. Disposable lint rollers cost $10 per refill pack and run out every few weeks. A household using lint rollers daily spends $120-180 per year on sheets alone. The ChomChom, Uproot Cleaner, FURemover, and Lilly Brush are all reusable with no replacement parts. The math is clear for daily users. For occasional use before specific events, a lint roller is faster and the annual cost stays low.",
+        body: "Reusable tools cost $16-25 upfront and last for years. Disposable lint rollers cost $10 per refill pack and run out every few weeks. A household using lint rollers daily spends $120-180 per year on sheets alone. The ChomChom, Uproot Cleaner, FURemover, and Lilly Brush are all reusable with no replacement parts. The math is clear for daily users. For occasional use before specific events, a lint roller is faster and the annual cost stays low.",
       },
       {
         heading: "Technique matters more than marketing",
@@ -307,7 +307,7 @@ For daily high-volume use, the math points toward reusable alternatives. For occ
       },
       {
         heading: "The rubber glove trick",
-        body: "A damp rubber dishwashing glove run across fabric pulls pet hair into clumps through friction. Multiple pet owners swear by this method for quick furniture passes. It costs almost nothing and works surprisingly well on medium-weave upholstery. The ChomChom is faster and collects the hair for you, but if you want to try a free option before buying a tool, start with a rubber glove.",
+        body: "A damp rubber dishwashing glove run across fabric pulls pet hair into clumps through friction. Multiple pet owners swear by this method for quick furniture passes. It costs almost nothing and works surprisingly well on medium-weave upholstery. The ChomChom is faster and collects the hair for you, but if you want to try a free option before buying a tool, start with a rubber glove. See our full step-by-step guide on [how to remove pet hair from a couch](/how-to-remove-pet-hair-from-couch) for the complete rubber glove method plus four other techniques.",
       },
     ],
   },

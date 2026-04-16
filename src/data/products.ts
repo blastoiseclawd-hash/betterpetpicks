@@ -2365,11 +2365,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-16",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71vBDgMCz3L._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_SL1500_.jpg",
         alt: "ChomChom pet hair remover roller on fabric couch",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71vBDgMCz3L._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_SL1500_.jpg",
     specs: {
       Type: "Reusable roller",
       Surface: "Furniture, bedding, clothing",
@@ -2379,7 +2379,7 @@ export const products: Product[] = [
       "Best Fit": "Daily couch and bed cleanup without buying refills",
     },
     pros: [
-      "145,000+ reviews at 4.5 stars — the most validated pet hair remover on Amazon by a wide margin",
+      "The most consistently recommended pet hair remover across owner communities — consensus pick for furniture and bedding",
       "Reusable design means zero ongoing refill cost, unlike disposable lint rollers",
       "Back-and-forth motion picks up embedded hair that single-direction rollers miss",
     ],
@@ -2405,26 +2405,26 @@ export const products: Product[] = [
   {
     id: "lilly-brush-be-forever-fur",
     slug: "lilly-brush-be-forever-fur",
-    asin: "B078JN4TSP",
-    name: "Lilly Brush Be Forever Fur Brush",
+    asin: "B0764MC2ZH",
+    name: "Lilly Brush Mini Pet Hair Detailer",
     brand: "Lilly Brush",
-    model: "Be Forever Fur",
+    model: "Mini Pet Hair Detailer",
     category: "pet-hair-removers",
     bestFor: ["Best for car seats", "Compact", "Deep-embedded hair"],
-    price: 12.95,
+    price: 15.99,
     priceCurrency: "USD",
     priceLastChecked: "2026-04-16",
     priceSource: "amazon",
-    rating: 4.3,
-    reviewCount: 6200,
+    rating: 4.6,
+    reviewCount: 54273,
     ratingLastChecked: "2026-04-16",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71FqAjCv0kL._AC_SL1500_.jpg",
-        alt: "Lilly Brush Be Forever Fur compact pet hair brush",
+        url: "https://m.media-amazon.com/images/I/81oXOqzdx6L._AC_SL1500_.jpg",
+        alt: "Lilly Brush Mini Pet Hair Detailer compact brush for car interiors",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71FqAjCv0kL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/81oXOqzdx6L._AC_SL1500_.jpg",
     specs: {
       Type: "Handheld brush",
       Surface: "Car seats, tight spaces, upholstery",
@@ -2436,7 +2436,7 @@ export const products: Product[] = [
     pros: [
       "Palm-sized design fits into car door pockets, center consoles, and tight spaces",
       "Directional bristle pattern digs deep-embedded hair out of car upholstery and carpet",
-      "At $13 it costs less than two packs of lint roller refills",
+      "At $16 it costs less than two packs of lint roller refills",
     ],
     cons: [
       "Small surface area means it takes longer on large furniture surfaces",
@@ -2448,7 +2448,7 @@ export const products: Product[] = [
     affiliateLinks: [
       {
         retailer: "Amazon",
-        url: buildAmazonLink("B078JN4TSP"),
+        url: buildAmazonLink("B0764MC2ZH"),
         tag: "betterpetpicks-20",
         priority: 1,
       },
@@ -2521,20 +2521,20 @@ export const products: Product[] = [
     model: "Extendable Broom",
     category: "pet-hair-removers",
     bestFor: ["Best for carpet", "Rubber broom", "Large floor areas"],
-    price: 12.99,
+    price: 18.99,
     priceCurrency: "USD",
     priceLastChecked: "2026-04-16",
     priceSource: "amazon",
-    rating: 4.4,
-    reviewCount: 38000,
+    rating: 4.2,
+    reviewCount: 107145,
     ratingLastChecked: "2026-04-16",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/61kR72HIHCL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/61Y5Zu0RU6L._AC_SL1500_.jpg",
         alt: "FURemover extendable rubber broom for pet hair on carpet",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/61kR72HIHCL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61Y5Zu0RU6L._AC_SL1500_.jpg",
     specs: {
       Type: "Rubber broom",
       Surface: "Carpet, rugs, hard floors",
@@ -2545,15 +2545,15 @@ export const products: Product[] = [
     },
     pros: [
       "Rubber bristles pull embedded pet hair from carpet fibers that vacuums leave behind",
-      "38,000+ reviews confirm it works on low-pile carpet, rugs, and hard floors alike",
-      "At $13 it costs less than a single vacuum replacement filter",
+      "Owners consistently report it pulls embedded hair from low-pile carpet, rugs, and hard floors that vacuums miss",
+      "At $19 it costs less than a single vacuum replacement filter",
     ],
     cons: [
       "Requires manual sweeping effort — slower than vacuuming for large areas",
       "Does not work well on high-pile or shag carpet where bristles cannot reach the base",
     ],
     verdict:
-      "The tool that pulls hair your vacuum misses. Rubber brooms generate static friction that lifts embedded hair from carpet fibers. At $13, it supplements any vacuum for the areas where suction alone is not enough.",
+      "The tool that pulls hair your vacuum misses. Rubber brooms generate static friction that lifts embedded hair from carpet fibers. At $18.99, it supplements any vacuum for the areas where suction alone is not enough.",
     authorSlug: "pet-cleanup-desk",
     affiliateLinks: [
       {
@@ -2570,26 +2570,26 @@ export const products: Product[] = [
   {
     id: "scotch-brite-large-lint-roller",
     slug: "scotch-brite-large-lint-roller",
-    asin: "B01LRMF90E",
-    name: "Scotch-Brite Large Surface Lint Roller",
+    asin: "B085T13675",
+    name: "Scotch-Brite Pet Hair Pickup Extra Sticky Large Lint Roller",
     brand: "Scotch-Brite (3M)",
-    model: "Large Surface Roller",
+    model: "Pet Hair Pickup Large Roller",
     category: "pet-hair-removers",
     bestFor: ["Best for speed", "Disposable sheets", "Clothing and upholstery"],
-    price: 9.99,
+    price: 15.69,
     priceCurrency: "USD",
     priceLastChecked: "2026-04-16",
     priceSource: "amazon",
     rating: 4.6,
-    reviewCount: 12800,
+    reviewCount: 4680,
     ratingLastChecked: "2026-04-16",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71HsLYBBg3L._AC_SL1500_.jpg",
-        alt: "Scotch-Brite large surface lint roller for pet hair",
+        url: "https://m.media-amazon.com/images/I/61BI5R0bjCL._AC_SL1500_.jpg",
+        alt: "Scotch-Brite Pet Hair Pickup extra sticky large lint roller",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71HsLYBBg3L._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61BI5R0bjCL._AC_SL1500_.jpg",
     specs: {
       Type: "Disposable adhesive roller",
       Surface: "Clothing, furniture, car seats, bedding",
@@ -2601,7 +2601,7 @@ export const products: Product[] = [
     pros: [
       "8-inch roller head covers 50% more surface area per pass than standard lint rollers",
       "Adhesive sheets pick up every type of hair on every fabric without technique or effort",
-      "At $10 for 60 sheets, the per-use cost is under 17 cents",
+      "At $15.69 for 60 sheets, the per-use cost is about 26 cents",
     ],
     cons: [
       "Disposable sheets create ongoing refill cost that adds up over months of daily use",
@@ -2613,7 +2613,7 @@ export const products: Product[] = [
     affiliateLinks: [
       {
         retailer: "Amazon",
-        url: buildAmazonLink("B01LRMF90E"),
+        url: buildAmazonLink("B085T13675"),
         tag: "betterpetpicks-20",
         priority: 1,
       },
