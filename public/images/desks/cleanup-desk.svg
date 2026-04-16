@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#FBF6F0"/>
+  <!-- Vacuum body -->
+  <rect x="50" y="30" width="28" height="50" rx="6" fill="#6B4C3B"/>
+  <!-- Vacuum handle -->
+  <rect x="60" y="18" width="8" height="18" rx="3" fill="#1C1210"/>
+  <!-- Vacuum base/brush roll -->
+  <rect x="42" y="78" width="44" height="12" rx="6" fill="#D4883A"/>
+  <!-- Surface line -->
+  <path d="M30 98H98" stroke="#6B4C3B" stroke-width="3" stroke-linecap="round"/>
+  <!-- Hair lines being picked up -->
+  <path d="M50 94C52 91 56 91 58 94" stroke="#1C1210" stroke-width="2" stroke-linecap="round"/>
+  <path d="M66 94C68 91 72 91 74 94" stroke="#1C1210" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,9 +1,34 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="128" rx="28" fill="#182028"/>
-  <!-- Paw pad (large center oval) -->
-  <ellipse cx="64" cy="78" rx="22" ry="18" fill="#54785A"/>
-  <!-- Toe beans -->
-  <ellipse cx="40" cy="52" rx="10" ry="12" fill="#54785A"/>
-  <ellipse cx="64" cy="42" rx="10" ry="12" fill="#54785A"/>
-  <ellipse cx="88" cy="52" rx="10" ry="12" fill="#54785A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BetterPetPicks icon">
+  <!-- Shield -->
+  <path fill="#1C1210" d="M256 56
+    C276 56 296 60 314 67
+    L428 112
+    C445 119 456 136 456 154
+    V272
+    C456 319 433 363 395 392
+    L283 476
+    C267 488 245 488 229 476
+    L117 392
+    C79 363 56 319 56 272
+    V154
+    C56 136 67 119 84 112
+    L198 67
+    C216 60 236 56 256 56
+    Z"/>
+  <!-- Toe pads -->
+  <circle cx="164" cy="178" r="28" fill="#D4883A"/>
+  <circle cx="222" cy="146" r="28" fill="#D4883A"/>
+  <circle cx="290" cy="146" r="28" fill="#D4883A"/>
+  <circle cx="348" cy="178" r="28" fill="#D4883A"/>
+  <!-- Main pad -->
+  <path fill="#D4883A" d="M256 214
+    C227 214 196 229 170 254
+    C145 278 132 309 132 339
+    C132 381 162 412 204 412
+    C223 412 240 406 256 395
+    C272 406 289 412 308 412
+    C350 412 380 381 380 339
+    C380 309 367 278 342 254
+    C316 229 285 214 256 214
+    Z"/>
 </svg>
