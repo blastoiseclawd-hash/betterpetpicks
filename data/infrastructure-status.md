@@ -1,12 +1,12 @@
 # BetterPetPicks Infrastructure Status
 
-Last updated: 2026-04-15
+Last updated: 2026-04-16
 
 ## Connected
 
 - GitHub repo: `https://github.com/blastoiseclawd-hash/betterpetpicks`
 - Site repo branch: `main`
-- Latest pushed baseline: `b7a10e5` (`Build first BetterPetPicks guide baseline`)
+- Latest pushed baseline: `2a26ecd` (`Complete brand foundation rebuild: avatars, desks, branding (Sessions B-C)`)
 - Vercel team: `blastoise`
 - Vercel project: `betterpetpicks`
 - Vercel project id: `prj_5lbrjPYR2nmhe8iJ9YdbYNdVXJ5X`
@@ -37,6 +37,8 @@ Alternative:
 - move nameservers to `ns2.vercel-dns.com`
 
 Recommended path: keep Namecheap DNS and add the two `A` records above.
+
+**Status (April 16):** DNS is LIVE. `betterpetpicks.com` resolves and returns 200. Both `betterpetpicks.com` and `www.betterpetpicks.com` are attached in Vercel.
 
 ## App Wiring Added
 

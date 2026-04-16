@@ -185,7 +185,7 @@ export const bestCatLitterForOdorControlGuide: OdorLitterGuide = {
         "It ranks first because the moisture-sealing mechanism genuinely outperforms basic baking soda formulas on day-over-day odor suppression, especially under multi-cat load.",
       body: `Most odor-control litters work by adding fragrance or baking soda to the same clay base. The Clump & Seal Platinum does something different. The microgranules form a moisture seal around each clump as it forms, which traps the odor inside the clump rather than letting it escape into the room between scoops.
 
-That is a meaningful distinction under real conditions. In a multi-cat home where the box gets hit 6-8 times a day, the gap between "odor masking" and "odor sealing" shows up by day three. The Platinum formula holds up longer between full cleanouts than any basic scented clay the Multi-Cat Home Desk has tested.
+That is a meaningful distinction under real conditions. In a multi-cat home where the box gets hit 6-8 times a day, the gap between "odor masking" and "odor sealing" shows up by day three. The Platinum formula holds up longer between full cleanouts than any basic scented clay we have tested.
 
 At $18 for 18 pounds, the price is competitive with most mainstream options. The 4.5-star rating across 25,000+ reviews confirms this is not a niche product — it is the mainstream odor answer with the highest sustained confidence.
 

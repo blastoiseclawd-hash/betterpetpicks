@@ -219,7 +219,7 @@ The pump runs at 25 dB, which is quieter than a refrigerator hum. That matters i
 
 The weak spot is pump longevity. Under hard water conditions, some owners report the pump weakening around the 8-12 month mark. At $30 for the whole unit, some people just replace the fountain rather than hunting for a compatible pump. That is not ideal, but it is a $30 problem, not a $75 problem.
 
-This won a 2024 Pet Innovation Award, and the consensus across Reddit, Catster, and PetsRadar reviews puts it at or near the top of every roundup. The Cat Care Essentials Desk picks it first because it solves the right problems at the right price.`,
+This won a 2024 Pet Innovation Award, and the consensus across Reddit, Catster, and PetsRadar reviews puts it at or near the top of every roundup. It earns the top spot because it solves the right problems at the right price.`,
       pros: [
         "304 stainless steel resists biofilm buildup that makes plastic fountains feel gross within days",
         "25 dB pump is quiet enough for bedroom placement without noticing it",

@@ -217,7 +217,7 @@ This is also the clearest fit for homes looking ahead to an automatic litter box
 
 The tradeoff is simple. You are paying about $1.50 per pound. If your home goes through litter fast, that adds up. And despite the low-dust positioning, owner chatter still mentions some dust and tracking. There is no perfect litter here. This is just the premium clay pick with the fewest ugly compromises.
 
-The Cat Care Essentials Desk is built for readers who want fewer chores, not more features. That is why BoxiePro lands first. It feels like the easiest premium upgrade to live with once the novelty wears off and the real routine takes over.`,
+This page is built for readers who want fewer chores, not more features. That is why BoxiePro lands first. It feels like the easiest premium upgrade to live with once the novelty wears off and the real routine takes over.`,
       pros: [
         "Clumps hard and usually comes out of the box with less scraping than cheaper clay formulas",
         "Unscented positioning is easier for homes that hate perfume-heavy litter areas",
