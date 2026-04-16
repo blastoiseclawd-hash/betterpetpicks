@@ -6,11 +6,11 @@ export const siteConfig = {
   description: "BetterPetPicks publishes practical, independent buying guides for cat litter, cat gear, pet hair cleanup, dog beds, and the products that help pet owners keep real homes running smoothly.",
 
   colors: {
-    primary: "#54785A",
-    accent: "#B9773B",
-    dark: "#182028",
-    light: "#F5F1E8",
-    cta: "#2F7B51",
+    primary: "#6B4C3B",
+    accent: "#D4883A",
+    dark: "#1C1210",
+    light: "#FBF6F0",
+    cta: "#2D7E5E",
   },
 
   defaultTitle: "BetterPetPicks | Practical Pet-Home Buying Guides",

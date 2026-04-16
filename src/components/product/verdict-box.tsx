@@ -40,7 +40,7 @@ function VerdictBox({
           />
           <div>
             <p className="eyebrow">Editor verdict</p>
-            <h3 className="mt-2 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#23150f]">
+            <h3 className="mt-2 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#1c1210]">
               {firstName}&rsquo;s verdict
             </h3>
           </div>
@@ -51,7 +51,7 @@ function VerdictBox({
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-[#8a674e]">
               Our score
             </p>
-            <p className="mt-2 text-[2rem] font-semibold text-[#23150f]">{reviewerScore.toFixed(1)}/5</p>
+            <p className="mt-2 text-[2rem] font-semibold text-[#1c1210]">{reviewerScore.toFixed(1)}/5</p>
           </div>
           <div className="rounded-sm border border-[#d4e2d5] bg-[#f6fbf5] px-4 py-3">
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-[#8a674e]">

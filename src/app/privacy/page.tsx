@@ -31,7 +31,7 @@ export default function PrivacyPage() {
       <section className="section-space-sm">
         <div className="site-shell max-w-4xl">
           <span className="editorial-rule">Privacy</span>
-          <h1 className="mt-6 font-[family-name:var(--font-heading-family)] text-[3rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.8rem]">
+          <h1 className="mt-6 font-[family-name:var(--font-heading-family)] text-[3rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3.8rem]">
             Privacy Policy
           </h1>
           <div className="mt-8 space-y-5 text-[1.02rem] leading-8 text-[#46525b]">

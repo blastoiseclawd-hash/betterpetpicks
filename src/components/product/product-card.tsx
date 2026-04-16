@@ -23,7 +23,7 @@ function SpecList({ specs }: { specs: Record<string, string> }) {
           <dt className="text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">
             {key}
           </dt>
-          <dd className="mt-1 text-[0.96rem] font-medium text-[#23150f]">{value}</dd>
+          <dd className="mt-1 text-[0.96rem] font-medium text-[#1c1210]">{value}</dd>
         </div>
       ))}
     </dl>
@@ -98,7 +98,7 @@ export function ProductCard({
           <p className="eyebrow">{badge ?? product.brand}</p>
           <h3
             className={cn(
-              "mt-3 font-[family-name:var(--font-heading-family)] font-semibold leading-[1.02] text-[#23150f]",
+              "mt-3 font-[family-name:var(--font-heading-family)] font-semibold leading-[1.02] text-[#1c1210]",
               isFeatured ? "text-[2.5rem] sm:text-[2.9rem]" : isCompact ? "text-[1.6rem]" : "text-[2rem]",
             )}
           >
@@ -112,7 +112,7 @@ export function ProductCard({
               </p>
               <p
                 className={cn(
-                  "mt-1 font-semibold text-[#23150f]",
+                  "mt-1 font-semibold text-[#1c1210]",
                   isFeatured ? "text-[2.7rem]" : "text-[2.2rem]",
                 )}
               >

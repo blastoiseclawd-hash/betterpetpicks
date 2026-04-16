@@ -85,8 +85,8 @@ export function ProductImageGallery({
                 className={cn(
                   "relative h-20 w-20 shrink-0 overflow-hidden rounded-sm border bg-[#fffaf3] transition-colors",
                   isActive
-                    ? "border-[#6f875f] ring-1 ring-[#8ea087]"
-                    : "border-[#d7c5b3] hover:border-[#a9b39f]",
+                    ? "border-[#6b4c3b] ring-1 ring-[#d4883a]"
+                    : "border-[#d7c5b3] hover:border-[#d4883a]",
                 )}
                 aria-label={`Show ${productName} image ${index + 1}`}
                 aria-pressed={isActive}

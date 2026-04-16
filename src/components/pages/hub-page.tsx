@@ -154,9 +154,9 @@ export function HubPage({
       ))}
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-[#16212a] text-[#f2f6f3]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(94,111,120,0.32),transparent_36%),radial-gradient(circle_at_bottom_right,rgba(129,147,117,0.14),transparent_28%)]" />
-        <div className="site-shell relative py-8 text-sm text-[#b9c6c0]">
+      <section className="relative overflow-hidden bg-[#1c1210] text-[#faf3ea]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(107,76,59,0.3),transparent_36%),radial-gradient(circle_at_bottom_right,rgba(212,136,58,0.14),transparent_28%)]" />
+        <div className="site-shell relative py-8 text-sm text-[#b09880]">
           <nav aria-label="Breadcrumb">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -171,20 +171,20 @@ export function HubPage({
         <div className="site-shell relative pb-14 sm:pb-18 lg:pb-24">
           <div className="grid gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
             <div className="max-w-4xl">
-              <span className="editorial-rule text-[#b8c7b2] before:bg-[#8ea087]">
+              <span className="editorial-rule text-[#d4a87a] before:bg-[#d4883a]">
                 Buyer&apos;s guide
               </span>
-              <h1 className="display-title mt-6 max-w-5xl text-[#f6fbf8]">
+              <h1 className="display-title mt-6 max-w-5xl text-[#faf3ea]">
                 {title}
               </h1>
-              <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#dae4de] sm:text-[1.28rem]">
+              <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#e8d5c0] sm:text-[1.28rem]">
                 {quickAnswer}
               </p>
 
-              <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c3d0cb]">
+              <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c4a890]">
                 <span>
                   By{" "}
-                  <Link href={`/about#${author.slug}`} className="font-semibold text-[#cbd8c5] hover:text-white">
+                  <Link href={`/about#${author.slug}`} className="font-semibold text-[#d4a87a] hover:text-white">
                     {author.name}
                   </Link>
                 </span>
@@ -194,7 +194,7 @@ export function HubPage({
               {hasComparisonTable && (
                 <div className="mt-10 grid gap-4 sm:grid-cols-3">
                   <div className="rounded-sm border border-white/10 bg-white/5 px-5 py-5 backdrop-blur-sm">
-                    <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2]">
+                    <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#d4a87a]">
                         Picks ranked
                     </p>
                     <p className="mt-3 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-white">
@@ -203,7 +203,7 @@ export function HubPage({
                   </div>
                   {topRow?.name && (
                     <div className="rounded-sm border border-white/10 bg-white/5 px-5 py-5 backdrop-blur-sm">
-                      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2]">
+                      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#d4a87a]">
                         Top pick
                       </p>
                       <p className="mt-3 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-white">
@@ -220,7 +220,7 @@ export function HubPage({
                     const fmt = (n: number) => `$${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
                     return (
                       <div className="rounded-sm border border-white/10 bg-white/5 px-5 py-5 backdrop-blur-sm">
-                        <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2]">
+                        <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#d4a87a]">
                           Price range
                         </p>
                         <p className="mt-3 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-white">
@@ -237,10 +237,10 @@ export function HubPage({
               <aside className="sand-panel overflow-hidden bg-[#fbf4ea]">
                 <div className="px-7 py-7">
                   <p className="eyebrow">Top pick</p>
-                  <h2 className="mt-4 font-[family-name:var(--font-heading-family)] text-[2.5rem] font-semibold leading-[0.98] text-[#182028]">
+                  <h2 className="mt-4 font-[family-name:var(--font-heading-family)] text-[2.5rem] font-semibold leading-[0.98] text-[#1c1210]">
                     {displayNames[topProduct.id] || topProduct.name}
                   </h2>
-                  <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">
+                  <p className="mt-4 text-[1rem] leading-8 text-[#5a4a3e]">
                     {reviews[topProduct.id]?.verdict?.split(".").slice(0, 2).join(".") + "."}
                   </p>
 
@@ -270,7 +270,7 @@ export function HubPage({
       </section>
 
       {/* Jump links */}
-      <section className="border-b border-[#d9d4cb] bg-[#f3f2ec]">
+      <section className="border-b border-[#dbd3c7] bg-[#f2ebe3]">
         <div className="site-shell py-5">
           <div className="flex flex-wrap gap-2.5">
             {[
@@ -283,7 +283,7 @@ export function HubPage({
               <a
                 key={href}
                 href={href}
-                className="rounded-sm border border-[#d0d1c8] bg-[#fffefb] px-4 py-2 text-sm font-medium text-[#42515b] hover:border-[#97a28f] hover:text-[#182028]"
+                className="rounded-sm border border-[#ddd5ca] bg-[#fffcf8] px-4 py-2 text-sm font-medium text-[#5a4a3e] hover:border-[#d4883a] hover:text-[#1c1210]"
               >
                 {label}
               </a>
@@ -294,11 +294,11 @@ export function HubPage({
 
       {/* Comparison table */}
       {hasComparisonTable && (
-        <section id="comparison-table" className="section-space-sm bg-[#fffdf9]">
+        <section id="comparison-table" className="section-space-sm bg-[#fffcf8]">
         <div className="site-shell">
           <div className="max-w-3xl">
             <span className="editorial-rule">Comparison</span>
-            <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.3rem]">
+            <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3.3rem]">
               The short list.
             </h2>
           </div>
@@ -319,8 +319,8 @@ export function HubPage({
                       </a>
                     </div>
                     <div className="text-right">
-                      <p className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#697560]">Price</p>
-                      <p className="mt-2 font-[family-name:var(--font-heading-family)] text-[1.8rem] font-semibold text-[#182028]">
+                      <p className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#8b7355]">Price</p>
+                      <p className="mt-2 font-[family-name:var(--font-heading-family)] text-[1.8rem] font-semibold text-[#1c1210]">
                         {row.price}
                       </p>
                     </div>
@@ -328,14 +328,14 @@ export function HubPage({
                   <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-3">
                     {review && (
                       <div>
-                        <dt className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#697560]">Our Score</dt>
-                        <dd className="mt-1 text-[1.1rem] font-semibold text-[#23150f]">{review.reviewerScore.toFixed(1)}/5</dd>
+                        <dt className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#8b7355]">Our Score</dt>
+                        <dd className="mt-1 text-[1.1rem] font-semibold text-[#1c1210]">{review.reviewerScore.toFixed(1)}/5</dd>
                       </div>
                     )}
                     {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                       <div key={col.key}>
-                        <dt className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#697560]">{col.label}</dt>
-                        <dd className="mt-1 text-[0.98rem] text-[#42515b]">{row[col.key] ?? "—"}</dd>
+                        <dt className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#8b7355]">{col.label}</dt>
+                        <dd className="mt-1 text-[0.98rem] text-[#5a4a3e]">{row[col.key] ?? "—"}</dd>
                       </div>
                     ))}
                   </dl>
@@ -348,14 +348,14 @@ export function HubPage({
           <div className="mt-10 hidden lg:block">
             <div className="sand-panel overflow-hidden">
               <table className="w-full table-fixed text-left">
-                <thead className="border-b border-[#dbd7ce] bg-[#f7f6f0]">
+                <thead className="border-b border-[#dbd3c7] bg-[#f5efe6]">
                   <tr>
-                    <th className="w-[13%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Pick</th>
-                    <th className="w-[20%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Product</th>
-                    <th className="w-[8%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Score</th>
-                    <th className="w-[9%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Price</th>
+                    <th className="w-[13%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Pick</th>
+                    <th className="w-[20%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Product</th>
+                    <th className="w-[8%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Score</th>
+                    <th className="w-[9%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Price</th>
                     {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
-                      <th key={col.key} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">{col.label}</th>
+                      <th key={col.key} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">{col.label}</th>
                     ))}
                   </tr>
                 </thead>
@@ -365,19 +365,19 @@ export function HubPage({
                     .map((row, index) => {
                     const review = reviews[row.slug];
                     return (
-                      <tr key={row.slug} className={index % 2 === 0 ? "bg-[#fffefb]" : "bg-[#f7f6f0]"}>
-                        <td className="px-4 py-5 text-sm font-semibold text-[#667361]">{row.badge}</td>
+                      <tr key={row.slug} className={index % 2 === 0 ? "bg-[#fffcf8]" : "bg-[#f5efe6]"}>
+                        <td className="px-4 py-5 text-sm font-semibold text-[#8b7355]">{row.badge}</td>
                         <td className="px-4 py-5">
                           <a href={`#review-${row.slug}`} className="font-semibold text-[#2a5a8a] underline decoration-[#2a5a8a]/30 underline-offset-2 hover:text-[#1a3d5c] hover:decoration-[#1a3d5c]/50">
                             {row.name}
                           </a>
                         </td>
-                        <td className="px-4 py-5 text-[1rem] font-semibold text-[#23150f]">
+                        <td className="px-4 py-5 text-[1rem] font-semibold text-[#1c1210]">
                           {review ? `${review.reviewerScore.toFixed(1)}` : "—"}
                         </td>
-                        <td className="px-4 py-5 text-[1rem] font-semibold text-[#182028]">{row.price}</td>
+                        <td className="px-4 py-5 text-[1rem] font-semibold text-[#1c1210]">{row.price}</td>
                         {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
-                          <td key={col.key} className="px-4 py-5 text-[0.95rem] text-[#4f5b64]">{row[col.key] ?? "—"}</td>
+                          <td key={col.key} className="px-4 py-5 text-[0.95rem] text-[#5a4a3e]">{row[col.key] ?? "—"}</td>
                         ))}
                       </tr>
                     );
@@ -391,11 +391,11 @@ export function HubPage({
       )}
 
       {/* Full reviews */}
-      <section id="full-reviews" className="section-space-sm bg-[#fffdf9]">
+      <section id="full-reviews" className="section-space-sm bg-[#fffcf8]">
         <div className="site-shell">
           <div className="max-w-4xl">
             <span className="editorial-rule">Full reviews</span>
-            <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.9rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.5rem]">
+            <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.9rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3.5rem]">
               Every pick, with the good and the annoying.
             </h2>
           </div>
@@ -424,7 +424,7 @@ export function HubPage({
                         <span className="eyebrow">{badge}</span>
                       </div>
 
-                      <h3 className="mt-5 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold leading-[0.98] text-[#23150f]">
+                      <h3 className="mt-5 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold leading-[0.98] text-[#1c1210]">
                         {displayNames[product.id] || product.name}
                       </h3>
 
@@ -441,7 +441,7 @@ export function HubPage({
                         <div className="flex items-end justify-between gap-4 border-b border-[#e2d3c4] pb-4">
                           <div>
                             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#8a674e]">Current price</p>
-                            <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold text-[#23150f]">
+                            <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold text-[#1c1210]">
                               {priceDisplay(product)}
                             </p>
                           </div>
@@ -451,7 +451,7 @@ export function HubPage({
                           {Object.entries(specs).map(([label, value]) => (
                             <div key={label} className="flex items-start justify-between gap-4 border-b border-[#efe4d8] pb-3 last:border-b-0 last:pb-0">
                               <dt className="text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">{label}</dt>
-                              <dd className="text-right text-[0.96rem] font-medium text-[#23150f]">{value}</dd>
+                              <dd className="text-right text-[0.96rem] font-medium text-[#1c1210]">{value}</dd>
                             </div>
                           ))}
                         </dl>
@@ -482,7 +482,7 @@ export function HubPage({
 
                     <div>
                       <p className="eyebrow">Why it ranked here</p>
-                      <h2 className="mt-4 max-w-4xl font-[family-name:var(--font-heading-family)] text-[2.5rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3rem]">
+                      <h2 className="mt-4 max-w-4xl font-[family-name:var(--font-heading-family)] text-[2.5rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3rem]">
                         {content.heading}
                       </h2>
 
@@ -500,9 +500,9 @@ export function HubPage({
                               <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">{content.verdict}</p>
                             </div>
                             <div className="sm:min-w-[120px]">
-                              <div className="rounded-sm border border-[#e1d2c3] bg-[#fffdf9] px-4 py-3">
+                              <div className="rounded-sm border border-[#e1d2c3] bg-[#fffcf8] px-4 py-3">
                                 <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">Our score</p>
-                                <p className="mt-2 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-[#23150f]">
+                                <p className="mt-2 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-[#1c1210]">
                                   {content.reviewerScore.toFixed(1)}
                                 </p>
                               </div>
@@ -552,7 +552,7 @@ export function HubPage({
             <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
               <div className="max-w-xl">
                 <span className="editorial-rule">Buying advice</span>
-                <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.4rem]">
+                <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3.4rem]">
                   {buyingGuide.title}
                 </h2>
               </div>
@@ -562,7 +562,7 @@ export function HubPage({
                   <article key={item.heading} className="grid gap-5 border-t border-[#ddcbbb] pt-5 first:border-t-0 first:pt-0 sm:grid-cols-[72px_1fr]">
                     <div className="number-chip">{`0${index + 1}`}</div>
                     <div>
-                      <h3 className="font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#23150f]">
+                      <h3 className="font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#1c1210]">
                         {item.heading}
                       </h3>
                       <p className="mt-4 text-[1.05rem] leading-8 text-[#4f3b31]">{item.body}</p>
@@ -577,12 +577,12 @@ export function HubPage({
 
       {/* FAQ */}
       {faqs && faqs.length > 0 && (
-        <section id="faq" className="section-space-sm bg-[#fffdf9]">
+        <section id="faq" className="section-space-sm bg-[#fffcf8]">
           <div className="site-shell">
             <div className="grid gap-8 lg:grid-cols-[0.82fr_1.18fr]">
               <div className="max-w-xl">
                 <span className="editorial-rule">FAQ</span>
-                <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.3rem]">
+                <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.8rem] font-semibold leading-[0.98] text-[#1c1210] sm:text-[3.3rem]">
                   Common questions, answered honestly.
                 </h2>
               </div>
@@ -590,10 +590,10 @@ export function HubPage({
               <div className="sand-panel overflow-hidden">
                 {faqs.map((faq, index) => (
                   <details key={faq.question} className={`group px-6 ${index !== 0 ? "border-t border-[#e4d4c5]" : ""}`}>
-                    <summary className="flex cursor-pointer items-center justify-between py-5 text-[1.05rem] font-semibold text-[#23150f] [&::-webkit-details-marker]:hidden">
+                    <summary className="flex cursor-pointer items-center justify-between py-5 text-[1.05rem] font-semibold text-[#1c1210] [&::-webkit-details-marker]:hidden">
                       <span>{faq.question}</span>
                       <svg
-                        className="size-4 shrink-0 text-[#65716f] transition-transform group-open:rotate-180"
+                        className="size-4 shrink-0 text-[#8b7355] transition-transform group-open:rotate-180"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={2}
@@ -602,7 +602,7 @@ export function HubPage({
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                       </svg>
                     </summary>
-                    <div className="pb-5 text-[1rem] leading-8 text-[#46525b]">{faq.answer}</div>
+                    <div className="pb-5 text-[1rem] leading-8 text-[#5a4a3e]">{faq.answer}</div>
                   </details>
                 ))}
               </div>
@@ -612,36 +612,36 @@ export function HubPage({
       )}
 
       {/* Footer / author bio */}
-      <section className="section-space-sm bg-[#18222c]">
+      <section className="section-space-sm bg-[#1c1210]">
         <div className="site-shell">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div className="max-w-xl">
-              <span className="editorial-rule text-[#b8c7b2] before:bg-[#8ea087]">Behind this guide</span>
-              <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#f5faf7] sm:text-[3rem]">
+              <span className="editorial-rule text-[#d4a87a] before:bg-[#d4883a]">Behind this guide</span>
+              <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#faf3ea] sm:text-[3rem]">
                 If every affiliate link vanished, the ranking should still hold up.
               </h2>
-              <p className="mt-5 text-[1.04rem] leading-8 text-[#c6d2cd]">
+              <p className="mt-5 text-[1.04rem] leading-8 text-[#c4a890]">
                 That is the test. You should be able to use this page, pick the right machine, and leave without clicking a single button if you want to.
               </p>
               <ul className="mt-7 space-y-3">
                 <li>
-                  <Link href="/how-we-review" className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
+                  <Link href="/how-we-review" className="text-[1rem] font-semibold text-[#d4a87a] hover:text-white">
                     Review policy
                   </Link>
                 </li>
                 <li>
-                  <Link href={`/about#${author.slug}`} className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
+                  <Link href={`/about#${author.slug}`} className="text-[1rem] font-semibold text-[#d4a87a] hover:text-white">
                     About {author.name}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/disclosure" className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
+                  <Link href="/disclosure" className="text-[1rem] font-semibold text-[#d4a87a] hover:text-white">
                     Affiliate disclosure
                   </Link>
                 </li>
                 {relatedLinks?.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
+                    <Link href={link.href} className="text-[1rem] font-semibold text-[#d4a87a] hover:text-white">
                       {link.title}
                     </Link>
                   </li>
