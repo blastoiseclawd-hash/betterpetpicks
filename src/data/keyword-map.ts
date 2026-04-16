@@ -433,6 +433,27 @@ export const pageTargets: PageTarget[] = [
       "Multi-cat feeder spoke for households where portion control and schedule consistency matter more than smart-home novelty.",
   },
   {
+    slug: "how-to-get-rid-of-cat-pee-smell",
+    title: "How to Get Rid of Cat Pee Smell",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "how to get rid of cat pee smell",
+    primaryVolume: 8100,
+    primaryKd: 6,
+    secondaryKeywords: [
+      "how to get rid of cat urine smell",
+      "enzymatic cleaner for cat urine",
+      "cat pee smell remover",
+      "remove cat pee smell from carpet",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Low-Mess Starter",
+    primaryAvatar: "Practical Starter",
+    priority: 1,
+    notes:
+      "High-volume support page (8,100) for the litter/odor cluster. Strengthens commercial pages by teaching the cleanup method and pointing readers to the right litter.",
+  },
+  {
     slug: "best-non-tracking-cat-litter",
     title: "Best Non-Tracking Cat Litter (2026)",
     type: "spoke",

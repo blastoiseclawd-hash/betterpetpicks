@@ -73,8 +73,24 @@ export const siteConfig = {
 
   nav: {
     main: [
-      { label: "Best Cat Litter", href: "/best-cat-litter" },
+      {
+        label: "Cat Litter",
+        href: "/best-cat-litter",
+        children: [
+          { label: "Best Cat Litter", href: "/best-cat-litter" },
+          { label: "Best for Odor Control", href: "/best-cat-litter-for-odor-control" },
+          { label: "Best Dust-Free", href: "/best-dust-free-cat-litter" },
+          { label: "Best Non-Tracking", href: "/best-non-tracking-cat-litter" },
+        ],
+      },
       { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
+      {
+        label: "Guides",
+        href: "/how-to-get-rid-of-cat-pee-smell",
+        children: [
+          { label: "Cat Pee Smell Removal", href: "/how-to-get-rid-of-cat-pee-smell" },
+        ],
+      },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
     ],
@@ -82,6 +98,7 @@ export const siteConfig = {
       { label: "Best Cat Litter", href: "/best-cat-litter" },
       { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
       { label: "Best Litter for Odor", href: "/best-cat-litter-for-odor-control" },
+      { label: "Cat Pee Smell Guide", href: "/how-to-get-rid-of-cat-pee-smell" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
       { label: "Affiliate Disclosure", href: "/disclosure" },

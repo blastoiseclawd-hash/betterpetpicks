@@ -181,6 +181,37 @@ export function faqSchema(
   };
 }
 
+// ─── HowTo Schema (for how-to/support pages) ──────────────────
+
+export function howToSchema({
+  title,
+  description,
+  url,
+  steps,
+  estimatedTime,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  steps: { name: string; description: string }[];
+  estimatedTime?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: title,
+    description,
+    url,
+    ...(estimatedTime ? { totalTime: estimatedTime } : {}),
+    step: steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: step.name,
+      text: step.description,
+    })),
+  };
+}
+
 // ─── JSON-LD Script Component ───────────────────────────────────
 
 export function JsonLd({ data }: { data: Record<string, unknown> | Record<string, unknown>[] }) {

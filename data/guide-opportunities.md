@@ -37,7 +37,7 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 | 1 | best-cat-litter | Litter | money | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | LIVE |
 | 2 | best-cat-water-fountain | Fountain | money | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | LIVE |
 | 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
-| 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | NOT BUILT |
+| 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | LIVE |
 | 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
 | 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
 | 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
@@ -87,8 +87,8 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 |------|----------------|-----|----|----|-------|------|--------|
 | best-cat-litter | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | LIVE |
 | best-cat-litter-for-odor-control | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
-| best-dust-free-cat-litter | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | NOT BUILT |
-| best-non-tracking-cat-litter | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
+| best-dust-free-cat-litter | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | LIVE |
+| best-non-tracking-cat-litter | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | LIVE |
 | best-cat-litter-for-multiple-cats | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
 | best-cat-litter-for-litter-robot | best cat litter for litter robot | 1,100 | 2 | 2,800 | 8.9 | Upgrade & Automation | NOT BUILT |
 | best-cat-litter-mat | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | NOT BUILT |
@@ -110,7 +110,7 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| how-to-get-rid-of-cat-pee-smell | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | NOT BUILT |
+| how-to-get-rid-of-cat-pee-smell | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | LIVE |
 | how-to-clean-cat-pee-from-carpet | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
 | how-much-does-cat-litter-cost | how much does cat litter cost | 200 | 3 | 7,500 | 8.9 | Cat Care Essentials | NOT BUILT |
 | how-often-to-change-cat-litter | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
