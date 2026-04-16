@@ -481,11 +481,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71qMBV7SXPL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/71fNwk9uLBL._AC_SL1500_.jpg",
         alt: "Veken 95oz stainless steel cat water fountain",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71qMBV7SXPL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71fNwk9uLBL._AC_SL1500_.jpg",
     specs: {
       Capacity: "95 oz (2.8L)",
       Material: "304 stainless steel",
@@ -537,11 +537,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71j3eXJ7qEL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/61BhM8Zl27L._AC_SL1500_.jpg",
         alt: "Catit Flower Fountain 3L with flower spout",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71j3eXJ7qEL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61BhM8Zl27L._AC_SL1500_.jpg",
     specs: {
       Capacity: "100 oz (3L)",
       Material: "BPA-free plastic",
@@ -593,11 +593,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71jD2pQNY9L._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/71lzKycY7XL._AC_SL1500_.jpg",
         alt: "PetSafe Drinkwell 360 stainless steel cat water fountain",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71jD2pQNY9L._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71lzKycY7XL._AC_SL1500_.jpg",
     specs: {
       Capacity: "128 oz (1 gallon)",
       Material: "Stainless steel",
@@ -649,11 +649,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71RlLLsm0rL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/61pWZk-sJJL._AC_SL1500_.jpg",
         alt: "NPET WF050 cat water fountain faucet style",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71RlLLsm0rL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61pWZk-sJJL._AC_SL1500_.jpg",
     specs: {
       Capacity: "50 oz (1.5L)",
       Material: "BPA-free plastic",
@@ -705,11 +705,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/61eMqEy2VTL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/515HFH7s+SL._AC_SL1000_.jpg",
         alt: "Pioneer Pet Raindrop ceramic cat water fountain",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/61eMqEy2VTL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/515HFH7s+SL._AC_SL1000_.jpg",
     specs: {
       Capacity: "60 oz (1.8L)",
       Material: "Ceramic",
@@ -761,11 +761,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/61JGxm1mR7L._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/61PZSbYyhQL._AC_SL1500_.jpg",
         alt: "Petlibro Dockstream cordless cat water fountain",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/61JGxm1mR7L._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61PZSbYyhQL._AC_SL1500_.jpg",
     specs: {
       Capacity: "84 oz (2.5L)",
       Material: "Stainless steel tray",
@@ -819,11 +819,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/81LZmKcpCQL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/8145dPimX4L._AC_SL1500_.jpg",
         alt: "ARM & HAMMER Clump & Seal Platinum multi-cat litter 18 pound box",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/81LZmKcpCQL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/8145dPimX4L._AC_SL1500_.jpg",
     specs: {
       Weight: "18 lb",
       Material: "Clay",
@@ -875,11 +875,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71ypA5P4tVL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/71tz8QuK4fL._AC_SL1500_.jpg",
         alt: "Boxiecat Extra Strength premium clumping cat litter 16 pound bag",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71ypA5P4tVL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71tz8QuK4fL._AC_SL1500_.jpg",
     specs: {
       Weight: "16 lb",
       Material: "Clay with probiotics",
@@ -931,11 +931,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71MnBrqLd0L._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/617V18lsFWL._AC_SL1500_.jpg",
         alt: "Naturally Fresh Ultra Odor Control multi-cat walnut shell litter 26 pound bag",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71MnBrqLd0L._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/617V18lsFWL._AC_SL1500_.jpg",
     specs: {
       Weight: "26 lb",
       Material: "Walnut shell",
@@ -987,7 +987,7 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/81vZ-RqL1ML._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/81LitpJiBbL._AC_SL1500_.jpg",
         alt: "Fresh Step Clean Paws multi-cat unscented clumping litter 22.5 pound box",
       },
       {
@@ -999,7 +999,7 @@ export const products: Product[] = [
         alt: "Fresh Step Clean Paws low-dust ammonia block technology callout",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/81vZ-RqL1ML._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/81LitpJiBbL._AC_SL1500_.jpg",
     specs: {
       Weight: "22.5 lb",
       Material: "Clay with activated charcoal",
@@ -1051,11 +1051,11 @@ export const products: Product[] = [
     ratingLastChecked: "2026-04-15",
     images: [
       {
-        url: "https://m.media-amazon.com/images/I/71Bg0nQSTRL._AC_SL1500_.jpg",
+        url: "https://m.media-amazon.com/images/I/515Dae7-G7L._AC_SL1080_.jpg",
         alt: "PrettyLitter health monitoring cat litter 8 pound bag",
       },
     ],
-    thumbnailUrl: "https://m.media-amazon.com/images/I/71Bg0nQSTRL._AC_SL1500_.jpg",
+    thumbnailUrl: "https://m.media-amazon.com/images/I/515Dae7-G7L._AC_SL1080_.jpg",
     specs: {
       Weight: "8 lb",
       Material: "Silica gel crystals",
