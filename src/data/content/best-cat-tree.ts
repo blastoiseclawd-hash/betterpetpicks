@@ -278,7 +278,7 @@ Ceiling height matters for floor-to-ceiling tension pole trees, which are a sepa
         heading: "Sisal vs. jute scratching posts",
         body: `Sisal rope is the standard for cat tree scratching posts, and there is a real performance difference between sisal and jute.
 
-Sisal is stiffer and more abrasive. Cats prefer it because the resistance satisfies their scratching instinct better than softer materials. Sisal posts last 12-18 months under daily use from one cat before the wrap is shredded enough to need replacement.
+Sisal is stiffer and more abrasive. Cats prefer it because the resistance satisfies their scratching instinct better than softer materials. Sisal posts last 12-18 months under daily use from one cat before the wrap is shredded enough to need replacement. If your cat ignores the cat tree's scratching posts entirely, see our guide on [how to get your cat to use a scratching post](/how-to-get-cat-to-use-scratching-post) — placement and training technique matter more than the post itself.
 
 Jute is softer and cheaper. It feels less satisfying to scratch and frays faster — typically 3-6 months under similar use. Budget cat trees use jute to reduce manufacturing cost. You get a lower sticker price and a shorter lifespan.
 

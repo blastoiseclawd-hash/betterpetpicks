@@ -1,6 +1,8 @@
 // How to Get Cat to Use Scratching Post — Support/Educational Page
 // Desk: Cat Care Essentials
-// Primary keyword: how to get cat to use scratching post (Vol 2,400, KD 3, TP 2,100)
+// Primary keyword: how to get cat to use scratching post (Vol 200, KD 5, TP 400)
+// Research: 3 Reddit threads (r/CatAdvice x3), 2026-04-16
+// Research doc: data/research/how-to-get-cat-to-use-scratching-post.md
 // Purpose: Support page for the Cat Gear cluster
 
 export const howToGetCatToUseScratchingPostContent = {
@@ -67,9 +69,13 @@ Once the cat is regularly using the post, you can gradually move it a few inches
     {
       id: "catnip-and-training",
       heading: "Using catnip and positive reinforcement",
-      body: `Catnip can accelerate the process of getting a cat interested in a new scratching post, but it works differently than most people think.
+      body: `Catnip can accelerate the process, but the most effective training techniques go beyond just attracting the cat to the post.
 
-**Rub dried catnip into the sisal or fabric.** Do not just sprinkle it on top. Work it into the fibers so the cat smells it when it approaches and investigates with its nose close to the surface. The goal is to draw the cat to the post and encourage physical contact with the scratching surface. Once the cat touches the surface and feels the texture, scratching instinct often takes over.
+**Demonstrate scratching yourself.** This sounds odd, but it is the most consistently recommended technique across cat owner communities. Get on your hands and knees next to the post and scratch it with your fingernails while the cat watches. Cats learn by observing. Multiple owners report their cat began using the post within days of seeing the demonstration. Do this repeatedly — not once — whenever the cat is nearby and can see you.
+
+**Use a wand toy around the post.** Drag a feather wand up and along the post surface during play. When the cat swipes at the toy and its claws contact the sisal or cardboard, scratching instinct often takes over. This bypasses indifference to a static object by embedding the post into active play.
+
+**Rub dried catnip into the sisal or fabric.** Do not just sprinkle it on top. Work it into the fibers so the cat smells it when it approaches and investigates with its nose close to the surface. The goal is to draw the cat to the post and encourage physical contact with the scratching surface. You can also make a catnip spray by steeping dried catnip in hot water like tea, straining it, and putting the liquid in a spray bottle. Apply daily to keep interest high.
 
 Not all cats respond to catnip. Roughly 30% of cats are genetically indifferent to it. If your cat ignores catnip, silvervine or Tatarian honeysuckle are alternative attractants that trigger similar behavior in some catnip-resistant cats.
 
@@ -130,7 +136,7 @@ Never punish a cat for scratching furniture. Punishment creates anxiety, which i
 
 **Cardboard scratchers** are cheap, replaceable, and surprisingly effective. Many cats that ignore sisal posts will use a corrugated cardboard scratcher immediately because the texture is softer and the shredding sensation feels different. Cardboard wears out in 2-4 weeks of daily use, but at a few dollars per replacement, the cost is manageable. Cardboard is also the best material for testing whether a cat will scratch in a given location before committing to a permanent post.
 
-**Carpet-wrapped posts** are the weakest option. The carpet loop texture catches claws awkwardly, and cats that learn to scratch carpet-wrapped posts often transfer the behavior to actual room carpet. If your cat already scratches your carpet, a carpet-wrapped post reinforces the problem instead of solving it.
+**Carpet-wrapped posts** are the weakest option for most cats. The carpet loop texture catches claws awkwardly, and cats that learn to scratch carpet-wrapped posts often transfer the behavior to actual room carpet. However, if your cat already scratches carpet and ignores every other surface, matching that preference with a cheap outdoor rug or carpet sample may be more realistic than fighting it. Some owners nail a thick outdoor rug piece to a wall or board and let the cat scratch that instead of the room carpet. It is damage control, not a cure, but it protects the floor.
 
 **Wood and bark** are natural scratching surfaces that outdoor cats use instinctively. Indoor scratching posts wrapped in natural bark or made from driftwood appeal to some cats that reject synthetic textures. These are niche products, but worth trying if a cat ignores both sisal and cardboard.`,
     },
@@ -144,6 +150,8 @@ Never punish a cat for scratching furniture. Punishment creates anxiety, which i
 **Replace cardboard scratchers when the corrugation is flattened.** The cat needs the ridges to hook its claws into. Once the surface is smooth and compressed, it is no longer useful. This usually happens within 2-4 weeks of daily use.
 
 **Do not throw away the old post until the cat is using the new one.** Place the new post next to the old one. Rub some of the old sisal fibers onto the new post to transfer scent. Give the cat a week to transition. Some cats switch immediately. Others need the scent bridge.
+
+**If you are introducing a new cat to a previous cat's post**, the scent situation reverses. A post covered in another cat's scent can be a deterrent. If the new cat avoids the old post, replace it or sand down and re-wrap the sisal. Add fresh catnip to establish new associations.
 
 **If the post wobbles, fix or replace it immediately.** A wobbly post is a post cats stop using. Check the base bolts and tighten them. If the base itself is cracked or warped, replace the post. Stability is not negotiable — cats will not scratch a surface that moves away from them.`,
     },

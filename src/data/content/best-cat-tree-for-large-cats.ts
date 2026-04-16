@@ -142,7 +142,7 @@ export const bestCatTreeForLargeCatsGuide = {
 
 The platforms are wider than the standard FEANDREA models. Where a regular platform might be 12 inches across, the XL platforms run 15-16 inches, which gives a large cat room to lie down without legs hanging off the edge. This is not a cosmetic difference. A cat that cannot stretch out on a platform stops using it. The platform becomes a transit point instead of a resting spot, and the tree loses half its function.
 
-The 3.5-inch diameter sisal posts are matched to the weight class. Thinner posts flex when a heavy cat leans into a scratch. At 3.5 inches, the posts absorb the force without bending, which gives the cat the resistance it instinctively wants from a scratching surface. Limp posts get ignored.
+The 3.5-inch diameter sisal posts are matched to the weight class. Thinner posts flex when a heavy cat leans into a scratch. At 3.5 inches, the posts absorb the force without bending, which gives the cat the resistance it instinctively wants from a scratching surface. Limp posts get ignored. If your cat avoids the posts entirely, placement and training matter — see our guide on [how to get your cat to use a scratching post](/how-to-get-cat-to-use-scratching-post).
 
 Assembly takes 45-60 minutes and benefits from a second person. The XL parts are heavier than standard models, and holding a platform level while threading a bolt one-handed is frustrating. The instructions are the same quality as other FEANDREA products — functional but vague. Expect to dry-fit pieces before committing to bolts.`,
       pros: [
