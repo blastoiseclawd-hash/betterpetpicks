@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 import { authors } from "@/data/authors";
 import { products } from "@/data/products";
-import { bestCatLitterForOdorControlGuide } from "@/data/content/best-cat-litter-for-odor-control";
+import { bestDustFreeCatLitterGuide } from "@/data/content/best-dust-free-cat-litter";
 import { generatePageMetadata } from "@/lib/metadata";
 import { HubPage } from "@/components/pages/hub-page";
 
-const content = bestCatLitterForOdorControlGuide;
+const content = bestDustFreeCatLitterGuide;
 const author = authors.find((a) => a.slug === content.author)!;
 
 export const metadata: Metadata = generatePageMetadata({
@@ -18,7 +18,7 @@ export const metadata: Metadata = generatePageMetadata({
   authorName: author.name,
 });
 
-export default function BestCatLitterForOdorControlPage() {
+export default function BestDustFreeCatLitterPage() {
   const orderedProducts = content.productOrder
     .map((id) => products.find((p) => p.id === id))
     .filter(Boolean) as typeof products;
@@ -46,8 +46,7 @@ export default function BestCatLitterForOdorControlPage() {
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={[
         { href: "/best-cat-litter", title: "Best Cat Litter (Overall)" },
-        { href: "/best-dust-free-cat-litter", title: "Best Dust Free Cat Litter" },
-        { href: "/best-cat-water-fountain", title: "Best Cat Water Fountains" },
+        { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
         { href: "/how-we-review", title: "How We Review" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
       ]}

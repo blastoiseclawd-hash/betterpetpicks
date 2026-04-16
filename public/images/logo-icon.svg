@@ -1,34 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BetterPetPicks icon">
-  <!-- Shield -->
-  <path fill="#1C1210" d="M256 56
-    C276 56 296 60 314 67
-    L428 112
-    C445 119 456 136 456 154
-    V272
-    C456 319 433 363 395 392
-    L283 476
-    C267 488 245 488 229 476
-    L117 392
-    C79 363 56 319 56 272
-    V154
-    C56 136 67 119 84 112
-    L198 67
-    C216 60 236 56 256 56
-    Z"/>
-  <!-- Toe pads -->
-  <circle cx="164" cy="178" r="28" fill="#D4883A"/>
-  <circle cx="222" cy="146" r="28" fill="#D4883A"/>
-  <circle cx="290" cy="146" r="28" fill="#D4883A"/>
-  <circle cx="348" cy="178" r="28" fill="#D4883A"/>
-  <!-- Main pad -->
-  <path fill="#D4883A" d="M256 214
-    C227 214 196 229 170 254
-    C145 278 132 309 132 339
-    C132 381 162 412 204 412
-    C223 412 240 406 256 395
-    C272 406 289 412 308 412
-    C350 412 380 381 380 339
-    C380 309 367 278 342 254
-    C316 229 285 214 256 214
-    Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BetterPetPicks paw icon">
+  <title>BetterPetPicks paw icon</title>
+  <defs>
+    <linearGradient id="bpp-bg" x1="92" y1="64" x2="420" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1D2731" />
+      <stop offset="1" stop-color="#182029" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bpp-bg)" />
+  <rect x="22" y="22" width="468" height="468" rx="74" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="8" />
+  <g fill="#668765">
+    <ellipse cx="160" cy="240" rx="40" ry="49" transform="rotate(-7 160 240)" />
+    <ellipse cx="256" cy="196" rx="40" ry="50" />
+    <ellipse cx="352" cy="240" rx="40" ry="49" transform="rotate(7 352 240)" />
+    <path d="M256 266c-58 0-101 38-101 89 0 46 35 82 79 82 21 0 40-7 53-20 13 13 32 20 53 20 44 0 79-36 79-82 0-51-43-89-101-89-11 0-22 1-31 4-8 2-16 5-22 8-7-3-15-6-23-8-9-3-20-4-31-4Z" />
+  </g>
 </svg>

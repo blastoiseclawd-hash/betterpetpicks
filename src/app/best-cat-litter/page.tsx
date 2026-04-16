@@ -45,8 +45,9 @@ export default function BestCatLitterPage() {
       breadcrumbLabel={content.breadcrumbLabel}
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={[
+        { href: "/best-dust-free-cat-litter", title: "Best Dust Free Cat Litter" },
+        { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
         { href: "/how-we-review", title: "How We Review" },
-        { href: "/about", title: "About BetterPetPicks" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
       ]}
     />
