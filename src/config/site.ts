@@ -63,11 +63,13 @@ export const siteConfig = {
 
   nav: {
     main: [
+      { label: "Best Cat Litter", href: "/best-cat-litter" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
       { label: "Disclosure", href: "/disclosure" },
     ],
     footer: [
+      { label: "Best Cat Litter", href: "/best-cat-litter" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
       { label: "Affiliate Disclosure", href: "/disclosure" },
@@ -77,6 +79,12 @@ export const siteConfig = {
   },
 
   featuredCoverage: [
+    {
+      title: "Best Cat Litter",
+      href: "/best-cat-litter",
+      eyebrow: "First live guide",
+      description: "See the first full BetterPetPicks roundup, built around clumping, odor, dust, and real cleanup tradeoffs.",
+    },
     {
       title: "How We Review",
       href: "/how-we-review",
@@ -113,10 +121,10 @@ export const siteConfig = {
   ],
 
   comingSoonTopics: [
-    "Cat litter buying guides",
     "Water fountain comparisons",
+    "Automatic feeder coverage",
     "Odor-control roundups",
-    "Litter-area cleanup guides",
+    "Pet-hair cleanup guides",
   ],
 } as const;
 

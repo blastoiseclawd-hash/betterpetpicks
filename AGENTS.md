@@ -5,7 +5,7 @@ Keep `CLAUDE.md` as a thin compatibility shim so Claude Code and Codex read the 
 
 ## Mission
 
-Build a practical cat-care buying-guide site that helps readers choose lower-mess, lower-friction products for real homes. Recommendations stay customer-first, transparent, and tightly focused on cat-home utility products.
+Build a practical pet-home utility buying-guide site that helps readers choose lower-mess, lower-friction products for real homes. BetterPetPicks launches cat-first, but the long-term brand can expand into other pet-home utility categories once those categories have their own research backing.
 
 ## Non-Negotiable Rules
 
@@ -28,15 +28,30 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 | Desk | Focus | Writes for | Voice |
 |------|-------|-----------|-------|
-| **Cat Care Essentials Desk** | Simple, low-mess defaults | First-time cat owners | Direct, practical, uncluttered |
-| **Multi-Cat Home Desk** | Odor control and value over time | Multi-cat households | Honest, comparative, pressure-tested |
-| **Upgrade & Automation Desk** | Premium convenience gear | Convenience-oriented shoppers | Crisp, skeptical, payoff-focused |
+| **Cat Care Essentials Desk** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Direct, calm, cleanup-first |
+| **Multi-Cat Home Desk** | Higher-load odor and value tradeoffs | Household Operator | Honest, comparative, pressure-tested |
+| **Upgrade & Automation Desk** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, skeptical, worth-it focused |
 
-These desk boundaries are the launch framework. Phase 2 avatar research may refine them before the first manual content wave is planned.
+These desks are built for a broader pet-home utility brand, but the launch examples, ownership, and first-wave roadmap remain cat-first until later category research expands the site responsibly.
 
 ## Customer Avatars (Research-Backed)
 
-Pending Phase 2. Do not treat the current seed-avatar assumptions as validated until `data/avatar-research.md` is replaced with source-backed research.
+- **Practical Starter**: Newer or simpler pet households that want clear defaults, low regret, and less mess without learning a hobby.
+- **Household Operator**: Higher-load or multi-pet households that care most about scaling cleanup, odor control, and recurring-cost honesty.
+- **Clean-Space Manager**: Space-sensitive or cleanliness-sensitive households searching for low-dust, low-tracking, low-residue, easy-to-clean products.
+- **Convenience Upgrader**: Premium buyers willing to pay for automation or better materials, but only if the time-saving payoff is real.
+
+Cat-first launch expressions:
+- `Practical Starter` -> `Low-Mess Starter`
+- `Household Operator` -> `Multi-Cat Operator`
+- `Clean-Space Manager` -> `Dust-Sensitive Space Manager`
+- `Convenience Upgrader` -> `Convenience Upgrader`
+
+Desk implication for wave one:
+- Keep the current three-desk structure.
+- `Cat Care Essentials Desk` should explicitly own the cat-launch versions of `Practical Starter` and most `Clean-Space Manager` pages.
+- `Multi-Cat Home Desk` should own cat-launch `Household Operator` content.
+- `Upgrade & Automation Desk` should own self-cleaning litter box, Litter-Robot-adjacent, and premium fountain content.
 
 ## Content Categories
 
@@ -55,3 +70,4 @@ Cat Litter, Water Fountains, Odor Control, Litter Area Cleanup, Pet Hair Cleanup
 - Use `src/data/keyword-map.ts` as the route and content inventory source of truth once Phase 3 begins.
 - Prefer shared components and config updates over one-off page patterns.
 - Keep the launch cluster tightly cat-care-focused until the first manual baseline is established.
+- Do not expand into non-cat pet categories without a fresh research pass for that category first.

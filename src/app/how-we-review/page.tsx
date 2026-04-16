@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { siteConfig } from "@/config/site";
 import { howWeReviewContent } from "@/data/content/trust-pages";
 import { generatePageMetadata } from "@/lib/metadata";
@@ -63,6 +65,14 @@ export default function HowWeReviewPage() {
           <p className="mt-5 text-[1.02rem] leading-8 text-[#46525b]">
             {howWeReviewContent.independenceSection.body}
           </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/best-cat-litter" className="button-primary">
+              See the first guide live
+            </Link>
+            <Link href="/disclosure" className="button-secondary">
+              Read the disclosure
+            </Link>
+          </div>
         </div>
       </section>
     </>

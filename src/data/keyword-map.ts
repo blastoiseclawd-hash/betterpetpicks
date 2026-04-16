@@ -1,18 +1,539 @@
+/**
+ * Keyword-to-avatar map for BetterPetPicks.
+ *
+ * Phase: map-keywords-to-avatars
+ * Scope: confirmed 24-page launch slice for a broader pet-home utility brand
+ *
+ * Primary evidence:
+ * - data/ahrefs-exports/best-cat-litter.csv
+ * - data/ahrefs-exports/best-cat-litter-suggestions.csv
+ * - data/ahrefs-exports/best-cat-litter-deodorizer-suggestions.csv
+ * - data/ahrefs-exports/best-cat-water-fountain.csv
+ * - data/ahrefs-exports/best-cat-water-fountain-suggestions.csv
+ * - data/ahrefs-exports/best-automatic-cat-feeder.csv
+ * - data/ahrefs-exports/best-pet-odor-eliminator.csv
+ * - data/ahrefs-exports/best-vacuum-for-pet-hair.csv
+ * - data/autocomplete-results.json
+ * - sites/betterpetpicks/data/guide-opportunities.md
+ * - sites/betterpetpicks/data/avatar-research.md
+ * - sites/betterpetpicks/src/data/authors.ts
+ */
+
+export type InternalPageType = "hub" | "spoke" | "review" | "guide" | "trust";
+
+export type RoadmapPageType =
+  | "money-guide"
+  | "support-guide"
+  | "comparison"
+  | "directory-hub"
+  | "directory-location"
+  | "service-intent-support";
+
 export interface PageTarget {
   slug: string;
   title: string;
-  type: "hub" | "spoke" | "review" | "guide" | "trust";
+  type: InternalPageType;
+  pageType: RoadmapPageType;
   primaryKeyword: string;
   primaryVolume: number;
   primaryKd: number;
   secondaryKeywords: string[];
-  authorSlug: string; // Legacy-compatible field name for the owning editorial desk.
+  authorSlug: string;
   audienceProfile: string;
+  primaryAvatar: string;
   priority: number;
   notes: string;
 }
 
-export const pageTargets: PageTarget[] = [];
+export const pageTargets: PageTarget[] = [
+  {
+    slug: "best-cat-litter",
+    title: "Best Cat Litter (2026) - Cleaner, Lower-Mess Picks",
+    type: "hub",
+    pageType: "money-guide",
+    primaryKeyword: "best cat litter",
+    primaryVolume: 26000,
+    primaryKd: 8,
+    secondaryKeywords: [
+      "best clumping cat litter",
+      "best overall cat litter",
+      "best litter for cats",
+      "best kitty litter",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Low-Mess Starter",
+    primaryAvatar: "Practical Starter",
+    priority: 1,
+    notes:
+      "Launch hub for the whole litter cluster. It should route readers into odor, dust, tracking, and multi-cat spokes instead of trying to absorb every sub-intent.",
+  },
+  {
+    slug: "best-cat-water-fountain",
+    title: "Best Cat Water Fountains (2026) - Easy-Clean Picks That Hold Up",
+    type: "hub",
+    pageType: "money-guide",
+    primaryKeyword: "best cat water fountain",
+    primaryVolume: 9200,
+    primaryKd: 2,
+    secondaryKeywords: [
+      "best rated cat water fountain",
+      "what is the best cat water fountain",
+      "best pet water fountain for cats",
+      "the best cat water fountain",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Low-Mess Starter",
+    primaryAvatar: "Practical Starter",
+    priority: 1,
+    notes:
+      "Launch hub for the hydration cluster. It should hold broad intent while sending narrow readers toward stainless, easy-clean, no-mold, and multi-cat pages.",
+  },
+  {
+    slug: "how-much-cat-litter-to-use",
+    title: "How Much Cat Litter to Use",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "how much cat litter to use",
+    primaryVolume: 300,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "how much litter to put in litter box",
+      "how much litter in litter box",
+      "how deep should cat litter be",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Low-Mess Starter",
+    primaryAvatar: "Practical Starter",
+    priority: 1,
+    notes:
+      "Fast beginner-support page that strengthens the litter hub and gives the site a practical setup answer early in the launch.",
+  },
+  {
+    slug: "best-cat-litter-for-odor-control",
+    title: "Best Cat Litter for Odor Control (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best cat litter for odor control",
+    primaryVolume: 2200,
+    primaryKd: 2,
+    secondaryKeywords: [
+      "best cat litter for odor",
+      "best odor control cat litter",
+      "best cat litter for smell",
+      "best cat litter with odor control",
+    ],
+    authorSlug: "multi-cat-home-desk",
+    audienceProfile: "Multi-Cat Operator",
+    primaryAvatar: "Household Operator",
+    priority: 1,
+    notes:
+      "Primary odor spoke. Keep it centered on room impact, clump stability, and odor creep under real use rather than letting it swallow every multi-cat tradeoff.",
+  },
+  {
+    slug: "best-automatic-cat-feeder",
+    title: "Best Automatic Cat Feeders (2026)",
+    type: "hub",
+    pageType: "money-guide",
+    primaryKeyword: "best automatic cat feeder",
+    primaryVolume: 3700,
+    primaryKd: 12,
+    secondaryKeywords: [
+      "best automatic feeder for cats",
+      "best cat automatic feeder",
+      "what is the best automatic cat feeder",
+      "the best automatic cat feeder",
+    ],
+    authorSlug: "upgrade-automation-desk",
+    audienceProfile: "Convenience Upgrader",
+    primaryAvatar: "Convenience Upgrader",
+    priority: 1,
+    notes:
+      "First feeder hub. It should establish the automation cluster without drifting into pet-food claims or overly smart-home framing.",
+  },
+  {
+    slug: "how-to-keep-cat-litter-from-smelling",
+    title: "How to Keep Cat Litter From Smelling",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "how to keep cat litter from smelling",
+    primaryVolume: 150,
+    primaryKd: 2,
+    secondaryKeywords: [
+      "how to stop cat litter from smelling",
+      "cat litter box odor control",
+      "how to get rid of cat litter smell",
+    ],
+    authorSlug: "multi-cat-home-desk",
+    audienceProfile: "Multi-Cat Operator",
+    primaryAvatar: "Household Operator",
+    priority: 1,
+    notes:
+      "Support page for odor-control readers. It should solve routine friction and point naturally into the commercial odor pages without reading like link bait.",
+  },
+  {
+    slug: "best-stainless-steel-cat-water-fountains",
+    title: "Best Stainless Steel Cat Water Fountains (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best stainless steel cat water fountain",
+    primaryVolume: 1200,
+    primaryKd: 1,
+    secondaryKeywords: [
+      "best cat water fountain stainless steel",
+      "best stainless cat water fountain",
+      "stainless steel cat fountain",
+      "best ceramic cat water fountain",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 1,
+    notes:
+      "Material-led fountain page for readers who care most about easier wipe-down cleaning and less residue or slime anxiety.",
+  },
+  {
+    slug: "best-vacuum-for-pet-hair",
+    title: "Best Vacuum for Pet Hair (2026)",
+    type: "hub",
+    pageType: "money-guide",
+    primaryKeyword: "best vacuum for pet hair",
+    primaryVolume: 32000,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "best vacuum cleaner for pet hair",
+      "best vacuums for pet hair",
+      "best pet vacuum",
+      "best pet hair vacuum",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 1,
+    notes:
+      "Broader-brand cleanup hub. Keep the page grounded in real pet-home cleanup needs rather than turning it into a generic floorcare site.",
+  },
+  {
+    slug: "cat-litter-deodorizer-vs-baking-soda",
+    title: "Cat Litter Deodorizer vs Baking Soda",
+    type: "guide",
+    pageType: "comparison",
+    primaryKeyword: "cat litter deodorizer vs baking soda",
+    primaryVolume: 10,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "can you put baking soda in cat litter",
+      "natural deodorizer for cat litter",
+      "does litter deodorizer work",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Comparison support page for the odor cluster. It should answer a real household decision, not act like a disguised roundup.",
+  },
+  {
+    slug: "best-automatic-wet-food-cat-feeder",
+    title: "Best Automatic Wet Food Cat Feeders (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best automatic wet food cat feeder",
+    primaryVolume: 100,
+    primaryKd: 4,
+    secondaryKeywords: [
+      "automatic cat feeder wet food",
+      "best automatic cat feeder for wet food",
+      "best wet cat food automatic feeder",
+    ],
+    authorSlug: "upgrade-automation-desk",
+    audienceProfile: "Convenience Upgrader",
+    primaryAvatar: "Convenience Upgrader",
+    priority: 2,
+    notes:
+      "Distinct feeder spoke for readers who need refrigeration or wet-food-friendly scheduling, not just a generic hopper feeder.",
+  },
+  {
+    slug: "best-dust-free-cat-litter",
+    title: "Best Dust Free Cat Litter (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best dust free cat litter",
+    primaryVolume: 1200,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "best low dust cat litter",
+      "dust free cat litter",
+      "best cat litter no dust",
+      "best dustless cat litter",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Dust-control spoke for air-quality and residue-sensitive readers. Keep it distinct from tracking and odor pages.",
+  },
+  {
+    slug: "cat-water-fountain-no-mold",
+    title: "Cat Water Fountain No-Mold Guide",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "best cat water fountain no mold",
+    primaryVolume: 60,
+    primaryKd: 10,
+    secondaryKeywords: [
+      "cat water fountain no mold",
+      "cat water fountain mold",
+      "easy to clean cat water fountain",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Maintenance-support page for the fountain cluster. It should focus on slime, mold-prone corners, and upkeep friction.",
+  },
+  {
+    slug: "best-pet-odor-eliminator",
+    title: "Best Pet Odor Eliminators (2026)",
+    type: "hub",
+    pageType: "money-guide",
+    primaryKeyword: "best pet odor eliminator",
+    primaryVolume: 1000,
+    primaryKd: 5,
+    secondaryKeywords: [
+      "best pet odor eliminator for house",
+      "best pet odor eliminator for home",
+      "what is the best pet odor eliminator",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Whole-home odor hub for the broader brand. Keep the framing on household cleanup, not pet health or training.",
+  },
+  {
+    slug: "best-easy-to-clean-cat-water-fountains",
+    title: "Best Easy-to-Clean Cat Water Fountains (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best cat water fountain easy to clean",
+    primaryVolume: 70,
+    primaryKd: 6,
+    secondaryKeywords: [
+      "easiest to clean cat water fountain",
+      "cleanest cat water fountain",
+      "easy to clean cat water fountain",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Cleanup-first fountain spoke for readers who care more about scrub time and assembly friction than feature count.",
+  },
+  {
+    slug: "how-to-get-rid-of-pet-odor-in-house",
+    title: "How to Get Rid of Pet Odor in House",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "how to get rid of pet odor in house",
+    primaryVolume: 500,
+    primaryKd: 2,
+    secondaryKeywords: [
+      "how to get rid of pet odor",
+      "removing pet odors",
+      "pet odor in house",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 2,
+    notes:
+      "Support-led entry point into the broader odor cluster. It should solve the problem first and then point to products when the product angle is actually helpful.",
+  },
+  {
+    slug: "best-cat-litter-for-multiple-cats",
+    title: "Best Cat Litter for Multiple Cats (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best cat litter for multiple cats",
+    primaryVolume: 2000,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "best multi cat litter",
+      "best cat litter for 2 cats",
+      "best clumping cat litter for multiple cats",
+    ],
+    authorSlug: "multi-cat-home-desk",
+    audienceProfile: "Multi-Cat Operator",
+    primaryAvatar: "Household Operator",
+    priority: 2,
+    notes:
+      "Scale-up litter spoke. Keep the focus on refill rate, clump stability, odor under load, and value over time.",
+  },
+  {
+    slug: "best-robot-vacuum-for-pet-hair",
+    title: "Best Robot Vacuum for Pet Hair (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best robot vacuum for pet hair",
+    primaryVolume: 17000,
+    primaryKd: 10,
+    secondaryKeywords: [
+      "best automatic vacuum for pet hair",
+      "best robotic vacuum for pet hair",
+      "best robot vacuum and mop for pet hair",
+    ],
+    authorSlug: "upgrade-automation-desk",
+    audienceProfile: "Convenience Upgrader",
+    primaryAvatar: "Convenience Upgrader",
+    priority: 3,
+    notes:
+      "Automation-heavy cleanup spoke. It should link tightly with litter-tracking cleanup intent instead of acting like a general robot-vacuum site.",
+  },
+  {
+    slug: "roomba-vs-roborock-for-pet-hair",
+    title: "Roomba vs Roborock for Pet Hair",
+    type: "guide",
+    pageType: "comparison",
+    primaryKeyword: "roomba vs roborock for pet hair",
+    primaryVolume: 0,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "irobot vs roborock for pet hair",
+      "best robot vacuum for pet hair reddit",
+      "robot vacuum for pet hair comparison",
+    ],
+    authorSlug: "upgrade-automation-desk",
+    audienceProfile: "Convenience Upgrader",
+    primaryAvatar: "Convenience Upgrader",
+    priority: 3,
+    notes:
+      "Autocomplete-backed comparison page for robot-vacuum buyers who are already narrowing brands rather than choosing the whole category.",
+  },
+  {
+    slug: "best-cat-water-fountain-for-multiple-cats",
+    title: "Best Cat Water Fountains for Multiple Cats (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best cat water fountain for multiple cats",
+    primaryVolume: 50,
+    primaryKd: 6,
+    secondaryKeywords: [
+      "cat water fountain for multiple cats",
+      "best multi cat water fountain",
+      "best fountain for two cats",
+    ],
+    authorSlug: "multi-cat-home-desk",
+    audienceProfile: "Multi-Cat Operator",
+    primaryAvatar: "Household Operator",
+    priority: 3,
+    notes:
+      "Multi-cat hydration spoke. Center it on refill cadence, traffic load, and filter upkeep under heavier use.",
+  },
+  {
+    slug: "best-automatic-cat-feeder-for-multiple-cats",
+    title: "Best Automatic Cat Feeders for Multiple Cats (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best automatic cat feeder for multiple cats",
+    primaryVolume: 150,
+    primaryKd: 5,
+    secondaryKeywords: [
+      "best automatic cat feeder for 2 cats",
+      "best automatic cat feeder for two cats",
+      "best dual automatic cat feeder",
+    ],
+    authorSlug: "multi-cat-home-desk",
+    audienceProfile: "Multi-Cat Operator",
+    primaryAvatar: "Household Operator",
+    priority: 3,
+    notes:
+      "Multi-cat feeder spoke for households where portion control and schedule consistency matter more than smart-home novelty.",
+  },
+  {
+    slug: "best-non-tracking-cat-litter",
+    title: "Best Non-Tracking Cat Litter (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best non tracking cat litter",
+    primaryVolume: 1100,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "low tracking cat litter",
+      "best low tracking cat litter",
+      "best cat litter for odor and tracking",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 3,
+    notes:
+      "Tracking-control spoke focused on floor scatter and cleanup burden, not airborne dust.",
+  },
+  {
+    slug: "stainless-steel-vs-ceramic-cat-water-fountains",
+    title: "Stainless Steel vs Ceramic Cat Water Fountains",
+    type: "guide",
+    pageType: "comparison",
+    primaryKeyword: "best material for cat water fountain",
+    primaryVolume: 50,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "ceramic water fountain for cats",
+      "best ceramic cat water fountain",
+      "stainless steel cat water fountain",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 3,
+    notes:
+      "Material comparison page for readers deciding based on slime risk, residue, and wipe-down difficulty rather than general feature lists.",
+  },
+  {
+    slug: "best-pet-odor-eliminator-for-carpet",
+    title: "Best Pet Odor Eliminators for Carpet (2026)",
+    type: "spoke",
+    pageType: "money-guide",
+    primaryKeyword: "best pet odor eliminator for carpet",
+    primaryVolume: 300,
+    primaryKd: 2,
+    secondaryKeywords: [
+      "best carpet pet odor eliminator",
+      "best carpet cleaner solution for pets",
+      "best pet odor eliminator carpet",
+    ],
+    authorSlug: "cat-care-essentials-desk",
+    audienceProfile: "Dust-Sensitive Space Manager",
+    primaryAvatar: "Clean-Space Manager",
+    priority: 3,
+    notes:
+      "Surface-specific cleanup spoke that keeps the broader odor cluster grounded in real home-cleaning use cases.",
+  },
+  {
+    slug: "best-robot-vacuum-for-pet-hair-and-litter",
+    title: "Best Robot Vacuum for Pet Hair and Litter",
+    type: "guide",
+    pageType: "support-guide",
+    primaryKeyword: "best robot vacuum for pet hair and litter",
+    primaryVolume: 0,
+    primaryKd: 0,
+    secondaryKeywords: [
+      "best robot vacuum for pet hair and carpet",
+      "best robot vacuum for pet hair and hardwood floors",
+      "best robot vacuum for pet hair and litter box mess",
+    ],
+    authorSlug: "upgrade-automation-desk",
+    audienceProfile: "Convenience Upgrader",
+    primaryAvatar: "Convenience Upgrader",
+    priority: 3,
+    notes:
+      "Autocomplete-backed support page that ties broader robot-vacuum intent back to the cat-home utility launch by focusing on litter tracking cleanup.",
+  },
+];
 
 export const keywordMapStats = {
   totalPages: pageTargets.length,
@@ -23,8 +544,14 @@ export const keywordMapStats = {
   totalPrimaryVolume: pageTargets.reduce((sum, page) => sum + page.primaryVolume, 0),
   priority1Pages: pageTargets.filter((page) => page.priority === 1).length,
   byDesk: {
-    everyday: pageTargets.filter((page) => page.authorSlug === "everyday-desk").length,
-    enthusiast: pageTargets.filter((page) => page.authorSlug === "enthusiast-desk").length,
-    lab: pageTargets.filter((page) => page.authorSlug === "lab-desk").length,
+    catCareEssentials: pageTargets.filter((page) => page.authorSlug === "cat-care-essentials-desk").length,
+    multiCatHome: pageTargets.filter((page) => page.authorSlug === "multi-cat-home-desk").length,
+    upgradeAutomation: pageTargets.filter((page) => page.authorSlug === "upgrade-automation-desk").length,
+  },
+  byAvatar: {
+    practicalStarter: pageTargets.filter((page) => page.primaryAvatar === "Practical Starter").length,
+    householdOperator: pageTargets.filter((page) => page.primaryAvatar === "Household Operator").length,
+    cleanSpaceManager: pageTargets.filter((page) => page.primaryAvatar === "Clean-Space Manager").length,
+    convenienceUpgrader: pageTargets.filter((page) => page.primaryAvatar === "Convenience Upgrader").length,
   },
 };

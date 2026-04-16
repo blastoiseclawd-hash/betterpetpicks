@@ -73,7 +73,10 @@ export default function AboutPage() {
             {aboutContent.closingSection.body}
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/how-we-review" className="button-primary">
+            <Link href="/best-cat-litter" className="button-primary">
+              Read Best Cat Litter
+            </Link>
+            <Link href="/how-we-review" className="button-secondary">
               Review the methodology
             </Link>
             <Link href="/disclosure" className="button-secondary">

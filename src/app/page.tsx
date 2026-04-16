@@ -33,14 +33,14 @@ export default function HomePage() {
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <Link href="/how-we-review" className="button-primary">
-                  See how we review products
+                <Link href="/best-cat-litter" className="button-primary">
+                  Read the best cat litter guide
                 </Link>
                 <Link
-                  href="/about"
+                  href="/how-we-review"
                   className="button-secondary border-[#819375] bg-transparent text-[#f2f6f3] hover:border-[#a3b39b] hover:bg-[#24313a] hover:text-white"
                 >
-                  Learn what the site covers
+                  See how we review products
                 </Link>
               </div>
 
@@ -97,6 +97,23 @@ export default function HomePage() {
                 <p className="mt-5 text-[1rem] leading-8 text-[#46525b]">{desk.summary}</p>
               </article>
             ))}
+          </div>
+
+          <div className="mt-10 rounded-md border border-[#d6d2c9] bg-[#fffdf9] p-7">
+            <p className="eyebrow">First live guide</p>
+            <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+              <div className="max-w-3xl">
+                <h2 className="text-[2.35rem] font-bold leading-[0.98] text-[#23150f] sm:text-[2.8rem]">
+                  The first full guide is live: best cat litter.
+                </h2>
+                <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">
+                  It compares six current picks on clumping, odor control, dust, and cleanup friction so the site is now starting to feel like a real publication instead of a branded shell.
+                </p>
+              </div>
+              <Link href="/best-cat-litter" className="button-primary">
+                Open the guide
+              </Link>
+            </div>
           </div>
         </div>
       </section>
