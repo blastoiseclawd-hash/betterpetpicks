@@ -85,21 +85,46 @@ export const siteConfig = {
           { label: "Best Litter Mat", href: "/best-cat-litter-mat" },
         ],
       },
-      { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
+      { label: "Cat Water Fountain", href: "/best-cat-water-fountain" },
+      {
+        label: "Pet Hair",
+        href: "/best-vacuum-for-pet-hair",
+        children: [
+          { label: "Best Vacuum for Pet Hair", href: "/best-vacuum-for-pet-hair" },
+          { label: "Best Cordless Vacuum", href: "/best-cordless-vacuum-for-pet-hair" },
+          { label: "Best Pet Hair Remover", href: "/best-pet-hair-remover" },
+        ],
+      },
+      {
+        label: "Cat Gear",
+        href: "/best-cat-tree",
+        children: [
+          { label: "Best Cat Tree", href: "/best-cat-tree" },
+          { label: "Best for Large Cats", href: "/best-cat-tree-for-large-cats" },
+          { label: "Best Cat Harness", href: "/best-cat-harness" },
+          { label: "Best Cat Carrier", href: "/best-cat-carrier" },
+        ],
+      },
+      {
+        label: "Dog Beds",
+        href: "/best-cooling-dog-bed",
+        children: [
+          { label: "Best Cooling Dog Bed", href: "/best-cooling-dog-bed" },
+          { label: "Best Chew-Proof Dog Bed", href: "/best-chew-proof-dog-bed" },
+          { label: "Best Indestructible Dog Bed", href: "/best-indestructible-dog-bed" },
+        ],
+      },
       {
         label: "Guides",
         href: "/how-to-get-rid-of-cat-pee-smell",
         children: [
           { label: "Cat Pee Smell Removal", href: "/how-to-get-rid-of-cat-pee-smell" },
           { label: "How Much Cat Litter to Use", href: "/how-much-cat-litter-to-use" },
-        ],
-      },
-      {
-        label: "Pet Hair",
-        href: "/best-vacuum-for-pet-hair",
-        children: [
-          { label: "Best Vacuum for Pet Hair", href: "/best-vacuum-for-pet-hair" },
-          { label: "Best Cordless Vacuum for Pet Hair", href: "/best-cordless-vacuum-for-pet-hair" },
+          { label: "How Often to Change Litter", href: "/how-often-to-change-cat-litter" },
+          { label: "Clean Cat Pee From Carpet", href: "/how-to-clean-cat-pee-from-carpet" },
+          { label: "Remove Pet Hair From Couch", href: "/how-to-remove-pet-hair-from-couch" },
+          { label: "Remove Pet Hair From Clothes", href: "/how-to-remove-pet-hair-from-clothes" },
+          { label: "Scratching Post Training", href: "/how-to-get-cat-to-use-scratching-post" },
         ],
       },
       { label: "About", href: "/about" },
@@ -108,8 +133,11 @@ export const siteConfig = {
     footer: [
       { label: "Best Cat Litter", href: "/best-cat-litter" },
       { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
-      { label: "Best Litter for Odor", href: "/best-cat-litter-for-odor-control" },
-      { label: "Best Litter for Multiple Cats", href: "/best-cat-litter-for-multiple-cats" },
+      { label: "Best Vacuum for Pet Hair", href: "/best-vacuum-for-pet-hair" },
+      { label: "Best Cat Tree", href: "/best-cat-tree" },
+      { label: "Best Cat Harness", href: "/best-cat-harness" },
+      { label: "Best Cat Carrier", href: "/best-cat-carrier" },
+      { label: "Best Cooling Dog Bed", href: "/best-cooling-dog-bed" },
       { label: "Cat Pee Smell Guide", href: "/how-to-get-rid-of-cat-pee-smell" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
@@ -121,22 +149,22 @@ export const siteConfig = {
 
   featuredCoverage: [
     {
+      title: "Best Vacuums for Pet Hair",
+      href: "/best-vacuum-for-pet-hair",
+      eyebrow: "Pet hair cluster",
+      description: "Five vacuums compared on suction, brush roll tangling, noise, and surface performance.",
+    },
+    {
       title: "Best Cat Litter",
       href: "/best-cat-litter",
       eyebrow: "Flagship guide",
       description: "Six picks compared on clumping, odor control, dust, and real cleanup tradeoffs.",
     },
     {
-      title: "Best Cat Water Fountains",
-      href: "/best-cat-water-fountain",
-      eyebrow: "Hydration cluster",
-      description: "Six fountains compared on material, noise, cleaning friction, and filter cost.",
-    },
-    {
-      title: "Best Litter for Odor Control",
-      href: "/best-cat-litter-for-odor-control",
-      eyebrow: "Odor deep dive",
-      description: "Five odor mechanisms compared: baking soda, probiotics, charcoal, walnut shell, and silica crystals.",
+      title: "Best Cat Trees",
+      href: "/best-cat-tree",
+      eyebrow: "Cat gear cluster",
+      description: "Five trees compared on stability, platform count, assembly, and real-home fit.",
     },
     {
       title: "How We Review",
@@ -162,10 +190,10 @@ export const siteConfig = {
   ],
 
   comingSoonTopics: [
-    "Cat water fountain comparisons",
-    "Cat tree and carrier guides",
-    "Pet hair vacuum roundups",
-    "Dog bed buying guides",
+    "Cat water fountain material comparisons",
+    "Robot vacuum guides for pet hair",
+    "Automatic cat feeder reviews",
+    "Orthopedic dog bed deep dives",
   ],
 } as const;
 

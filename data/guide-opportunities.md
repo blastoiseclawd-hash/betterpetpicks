@@ -39,41 +39,41 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 | 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | Pet Cleanup | LIVE |
 | 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | LIVE |
 | 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | LIVE |
-| 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
-| 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
-| 8 | best-cat-harness | Cat Gear | money | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | NOT BUILT |
+| 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | LIVE |
+| 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | Pet Cleanup | LIVE |
+| 8 | best-cat-harness | Cat Gear | money | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | LIVE |
 | 9 | best-dust-free-cat-litter | Litter | money | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | LIVE |
 | 10 | how-much-cat-litter-to-use | Litter | support | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | LIVE |
 | 11 | best-non-tracking-cat-litter | Litter | money | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | LIVE |
 | 12 | best-cordless-vacuum-for-pet-hair | Pet Hair | money | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | Pet Cleanup | LIVE |
-| 13 | best-cooling-dog-bed | Dog Bed | money | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | TBD — Dog Comfort | NOT BUILT |
-| 14 | how-often-to-change-cat-litter | Litter | support | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
-| 15 | best-cat-carrier | Cat Gear | money | best cat carrier | 2,700 | 1 | 2,200 | 9.0 | Cat Care Essentials | NOT BUILT |
+| 13 | best-cooling-dog-bed | Dog Bed | money | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | Dog Comfort | LIVE |
+| 14 | how-often-to-change-cat-litter | Litter | support | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | LIVE |
+| 15 | best-cat-carrier | Cat Gear | money | best cat carrier | 2,700 | 1 | 2,200 | 9.0 | Cat Care Essentials | LIVE |
 | 16 | best-cat-litter-mat | Litter | money | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | LIVE |
-| 17 | how-to-clean-cat-pee-from-carpet | Litter | support | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
-| 18 | best-chew-proof-dog-bed | Dog Bed | money | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | TBD — Dog Comfort | NOT BUILT |
+| 17 | how-to-clean-cat-pee-from-carpet | Litter | support | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | LIVE |
+| 18 | best-chew-proof-dog-bed | Dog Bed | money | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | Dog Comfort | LIVE |
 | 19 | best-cat-litter-for-multiple-cats | Litter | money | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | LIVE |
-| 20 | best-pet-hair-remover | Pet Hair | money | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | TBD — Pet Cleanup | NOT BUILT |
-| 21 | best-upright-vacuum-for-pet-hair | Pet Hair | money | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
+| 20 | best-pet-hair-remover | Pet Hair | money | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | Pet Cleanup | LIVE |
+| 21 | best-upright-vacuum-for-pet-hair | Pet Hair | money | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | Pet Cleanup | NOT BUILT |
 | 22 | how-to-keep-cat-litter-from-smelling | Litter | support | how to keep cat litter from smelling | 150 | 2 | 1,000 | 8.8 | Multi-Cat Home | NOT BUILT |
-| 23 | best-cat-tree-for-large-cats | Cat Gear | money | best cat tree for large cats | 900 | 1 | 2,300 | 8.7 | Cat Care Essentials | NOT BUILT |
-| 24 | best-indestructible-dog-bed | Dog Bed | money | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | TBD — Dog Comfort | NOT BUILT |
-| 25 | how-to-remove-pet-hair-from-clothes | Pet Hair | support | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
+| 23 | best-cat-tree-for-large-cats | Cat Gear | money | best cat tree for large cats | 900 | 1 | 2,300 | 8.7 | Cat Care Essentials | LIVE |
+| 24 | best-indestructible-dog-bed | Dog Bed | money | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | Dog Comfort | LIVE |
+| 25 | how-to-remove-pet-hair-from-clothes | Pet Hair | support | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | Pet Cleanup | LIVE |
 | 26 | best-cat-litter-for-litter-robot | Litter | money | best cat litter for litter robot | 1,100 | 2 | 2,800 | 8.9 | Upgrade & Automation | NOT BUILT |
 | 27 | best-cat-harness-escape-proof | Cat Gear | money | best cat harness escape proof | 300 | 2 | 6,400 | 8.8 | Cat Care Essentials | NOT BUILT |
 | 28 | best-stainless-steel-cat-water-fountain | Fountain | money | best stainless steel cat water fountain | 1,200 | 1 | 1,300 | 8.7 | Cat Care Essentials | NOT BUILT |
-| 29 | how-to-wash-a-dog-bed | Dog Bed | support | how to wash a dog bed | 600 | 1 | 900 | 8.5 | TBD — Dog Comfort | NOT BUILT |
-| 30 | best-outdoor-dog-bed | Dog Bed | money | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | TBD — Dog Comfort | NOT BUILT |
+| 29 | how-to-wash-a-dog-bed | Dog Bed | support | how to wash a dog bed | 600 | 1 | 900 | 8.5 | Dog Comfort | NOT BUILT |
+| 30 | best-outdoor-dog-bed | Dog Bed | money | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | Dog Comfort | NOT BUILT |
 | 31 | best-cat-scratching-post | Cat Gear | money | best cat scratching post | 1,700 | 15 | 1,800 | 7.8 | Cat Care Essentials | NOT BUILT |
 | 32 | how-much-does-cat-litter-cost | Litter | support | how much does cat litter cost | 200 | 3 | 7,500 | 8.9 | Cat Care Essentials | NOT BUILT |
 | 33 | best-cat-carrier-backpack | Cat Gear | money | best cat carrier backpack | 80 | 1 | 6,700 | 8.6 | Cat Care Essentials | NOT BUILT |
-| 34 | best-corded-vacuum-for-pet-hair | Pet Hair | money | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | TBD — Pet Cleanup | NOT BUILT |
-| 35 | best-dog-bed-for-older-dogs | Dog Bed | money | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| 34 | best-corded-vacuum-for-pet-hair | Pet Hair | money | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | Pet Cleanup | NOT BUILT |
+| 35 | best-dog-bed-for-older-dogs | Dog Bed | money | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | Dog Comfort | NOT BUILT |
 | 36 | how-to-get-rid-of-cat-smell-in-house | Litter | support | how to get rid of cat smell in house | 800 | 3 | 1,100 | 8.4 | Cat Care Essentials | NOT BUILT |
 | 37 | best-natural-cat-litter | Litter | money | best natural cat litter | 600 | 3 | 4,500 | 8.7 | Cat Care Essentials | NOT BUILT |
 | 38 | best-cat-sling-carrier | Cat Gear | money | best cat sling carrier | 100 | 0 | 5,300 | 8.5 | Cat Care Essentials | NOT BUILT |
-| 39 | how-to-get-cat-to-use-scratching-post | Cat Gear | support | how to get cat to use scratching post | 200 | 0 | 2,500 | 8.4 | Cat Care Essentials | NOT BUILT |
-| 40 | best-dog-car-seat-cover | Dog Bed | money | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| 39 | how-to-get-cat-to-use-scratching-post | Cat Gear | support | how to get cat to use scratching post | 200 | 0 | 2,500 | 8.4 | Cat Care Essentials | LIVE |
+| 40 | best-dog-car-seat-cover | Dog Bed | money | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | Dog Comfort | NOT BUILT |
 
 ---
 
@@ -150,27 +150,27 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 |------|----------------|-----|----|----|-------|------|--------|
 | best-vacuum-for-pet-hair | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | Pet Cleanup | LIVE |
 | best-cordless-vacuum-for-pet-hair | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | Pet Cleanup | LIVE |
-| best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
-| best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | TBD — Pet Cleanup | NOT BUILT |
-| best-robot-vacuum-for-pet-hair | best robot vacuum for pet hair | 17,000 | 10 | 15,000 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
-| best-stick-vacuum-for-pet-hair | best stick vacuum for pet hair | 4,200 | 9 | 8,700 | 8.5 | TBD — Pet Cleanup | NOT BUILT |
-| best-handheld-vacuum-for-pet-hair | best handheld vacuum for pet hair | 2,200 | 5 | 350 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
-| best-pet-hair-remover | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | TBD — Pet Cleanup | NOT BUILT |
-| best-pet-hair-remover-for-furniture | best pet hair remover for furniture | 300 | 1 | 600 | 7.5 | TBD — Pet Cleanup | NOT BUILT |
-| best-pet-hair-remover-for-clothes | best pet hair remover for clothes | 150 | 3 | 1,900 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
-| best-lint-roller-for-pet-hair | best lint roller for pet hair | 300 | 0 | 350 | 7.2 | TBD — Pet Cleanup | NOT BUILT |
-| best-pet-hair-remover-for-laundry | best pet hair remover for laundry | 250 | 1 | 90 | 7.0 | TBD — Pet Cleanup | NOT BUILT |
+| best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | Pet Cleanup | NOT BUILT |
+| best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | Pet Cleanup | NOT BUILT |
+| best-robot-vacuum-for-pet-hair | best robot vacuum for pet hair | 17,000 | 10 | 15,000 | 8.8 | Pet Cleanup | NOT BUILT |
+| best-stick-vacuum-for-pet-hair | best stick vacuum for pet hair | 4,200 | 9 | 8,700 | 8.5 | Pet Cleanup | NOT BUILT |
+| best-handheld-vacuum-for-pet-hair | best handheld vacuum for pet hair | 2,200 | 5 | 350 | 7.8 | Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-furniture | best pet hair remover for furniture | 300 | 1 | 600 | 7.5 | Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-clothes | best pet hair remover for clothes | 150 | 3 | 1,900 | 7.8 | Pet Cleanup | NOT BUILT |
+| best-lint-roller-for-pet-hair | best lint roller for pet hair | 300 | 0 | 350 | 7.2 | Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-laundry | best pet hair remover for laundry | 250 | 1 | 90 | 7.0 | Pet Cleanup | NOT BUILT |
 
 **Support Pages (6):**
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| how-to-remove-pet-hair-from-couch | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
-| how-to-remove-pet-hair-from-clothes | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
-| robot-vacuum-vs-regular-vacuum-for-pet-hair | robot vacuum vs regular for pet hair | est. 50 | 0 | est. 1,000 | 7.5 | TBD — Pet Cleanup | NOT BUILT |
-| cordless-vs-corded-vacuum-for-pet-hair | cordless vs corded vacuum pet hair | est. 50 | 0 | est. 800 | 7.3 | TBD — Pet Cleanup | NOT BUILT |
-| how-to-reduce-pet-shedding | how to reduce pet shedding | est. 300 | 3 | est. 2,000 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
-| pet-hair-cleaning-routine | pet hair cleaning schedule tips | est. 100 | 0 | est. 500 | 7.0 | TBD — Pet Cleanup | NOT BUILT |
+| how-to-remove-pet-hair-from-couch | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | Pet Cleanup | NOT BUILT |
+| how-to-remove-pet-hair-from-clothes | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | Pet Cleanup | NOT BUILT |
+| robot-vacuum-vs-regular-vacuum-for-pet-hair | robot vacuum vs regular for pet hair | est. 50 | 0 | est. 1,000 | 7.5 | Pet Cleanup | NOT BUILT |
+| cordless-vs-corded-vacuum-for-pet-hair | cordless vs corded vacuum pet hair | est. 50 | 0 | est. 800 | 7.3 | Pet Cleanup | NOT BUILT |
+| how-to-reduce-pet-shedding | how to reduce pet shedding | est. 300 | 3 | est. 2,000 | 7.8 | Pet Cleanup | NOT BUILT |
+| pet-hair-cleaning-routine | pet hair cleaning schedule tips | est. 100 | 0 | est. 500 | 7.0 | Pet Cleanup | NOT BUILT |
 
 ### Cluster 4: Cat Gear — Trees, Scratching, Carriers, Harnesses (30 pages)
 
@@ -220,32 +220,32 @@ Build order interleaves money and support pages per the 2:1 cadence rule.
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| best-dog-bed | best dog bed | 4,200 | 10 | 4,000 | 8.2 | TBD — Dog Comfort | NOT BUILT |
-| best-cooling-dog-bed | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | TBD — Dog Comfort | NOT BUILT |
-| best-chew-proof-dog-bed | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | TBD — Dog Comfort | NOT BUILT |
-| best-indestructible-dog-bed | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | TBD — Dog Comfort | NOT BUILT |
-| best-outdoor-dog-bed | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | TBD — Dog Comfort | NOT BUILT |
-| best-orthopedic-dog-bed | best orthopedic dog bed | 1,300 | 15 | 9,600 | 8.0 | TBD — Dog Comfort | NOT BUILT |
-| best-small-dog-bed | best small dog bed | 150 | 3 | 5,800 | 8.3 | TBD — Dog Comfort | NOT BUILT |
-| best-dog-bed-for-older-dogs | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | TBD — Dog Comfort | NOT BUILT |
-| best-dog-bed-for-medium-dogs | best dog bed for medium dogs | 60 | 1 | 3,900 | 7.8 | TBD — Dog Comfort | NOT BUILT |
-| best-cooling-dog-bed-for-large-dogs | best cooling dog bed for large dogs | 300 | 0 | 6,000 | 8.5 | TBD — Dog Comfort | NOT BUILT |
-| best-dog-bed-for-car | best dog bed for car | 150 | 6 | 13,000 | 8.4 | TBD — Dog Comfort | NOT BUILT |
-| best-dog-car-seat-cover | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | TBD — Dog Comfort | NOT BUILT |
-| best-waterproof-dog-bed | best waterproof dog bed | 200 | 0 | 350 | 7.2 | TBD — Dog Comfort | NOT BUILT |
-| best-heated-dog-bed | best heated dog bed | 200 | 0 | 1,300 | 7.5 | TBD — Dog Comfort | NOT BUILT |
+| best-dog-bed | best dog bed | 4,200 | 10 | 4,000 | 8.2 | Dog Comfort | NOT BUILT |
+| best-cooling-dog-bed | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | Dog Comfort | NOT BUILT |
+| best-chew-proof-dog-bed | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | Dog Comfort | NOT BUILT |
+| best-indestructible-dog-bed | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | Dog Comfort | NOT BUILT |
+| best-outdoor-dog-bed | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | Dog Comfort | NOT BUILT |
+| best-orthopedic-dog-bed | best orthopedic dog bed | 1,300 | 15 | 9,600 | 8.0 | Dog Comfort | NOT BUILT |
+| best-small-dog-bed | best small dog bed | 150 | 3 | 5,800 | 8.3 | Dog Comfort | NOT BUILT |
+| best-dog-bed-for-older-dogs | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | Dog Comfort | NOT BUILT |
+| best-dog-bed-for-medium-dogs | best dog bed for medium dogs | 60 | 1 | 3,900 | 7.8 | Dog Comfort | NOT BUILT |
+| best-cooling-dog-bed-for-large-dogs | best cooling dog bed for large dogs | 300 | 0 | 6,000 | 8.5 | Dog Comfort | NOT BUILT |
+| best-dog-bed-for-car | best dog bed for car | 150 | 6 | 13,000 | 8.4 | Dog Comfort | NOT BUILT |
+| best-dog-car-seat-cover | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | Dog Comfort | NOT BUILT |
+| best-waterproof-dog-bed | best waterproof dog bed | 200 | 0 | 350 | 7.2 | Dog Comfort | NOT BUILT |
+| best-heated-dog-bed | best heated dog bed | 200 | 0 | 1,300 | 7.5 | Dog Comfort | NOT BUILT |
 
 **Support Pages (7):**
 
 | Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |------|----------------|-----|----|----|-------|------|--------|
-| how-to-wash-a-dog-bed | how to wash a dog bed | 600 | 1 | 900 | 8.5 | TBD — Dog Comfort | NOT BUILT |
-| how-to-stop-dog-from-chewing-bed | how to stop dog from chewing bed | est. 200 | 2 | est. 1,500 | 7.8 | TBD — Dog Comfort | NOT BUILT |
-| dog-bed-size-guide | what size dog bed do I need | est. 200 | 0 | est. 1,200 | 7.8 | TBD — Dog Comfort | NOT BUILT |
-| cooling-bed-vs-elevated-bed-for-dogs | cooling dog bed vs elevated bed | est. 50 | 0 | est. 500 | 7.0 | TBD — Dog Comfort | NOT BUILT |
-| orthopedic-vs-memory-foam-dog-bed | orthopedic vs memory foam dog bed | est. 50 | 0 | est. 400 | 7.0 | TBD — Dog Comfort | NOT BUILT |
-| how-to-choose-a-dog-bed | how to choose a dog bed | est. 150 | 3 | est. 1,000 | 7.5 | TBD — Dog Comfort | NOT BUILT |
-| indoor-vs-outdoor-dog-bed | indoor vs outdoor dog bed | est. 50 | 0 | est. 400 | 6.8 | TBD — Dog Comfort | NOT BUILT |
+| how-to-wash-a-dog-bed | how to wash a dog bed | 600 | 1 | 900 | 8.5 | Dog Comfort | NOT BUILT |
+| how-to-stop-dog-from-chewing-bed | how to stop dog from chewing bed | est. 200 | 2 | est. 1,500 | 7.8 | Dog Comfort | NOT BUILT |
+| dog-bed-size-guide | what size dog bed do I need | est. 200 | 0 | est. 1,200 | 7.8 | Dog Comfort | NOT BUILT |
+| cooling-bed-vs-elevated-bed-for-dogs | cooling dog bed vs elevated bed | est. 50 | 0 | est. 500 | 7.0 | Dog Comfort | NOT BUILT |
+| orthopedic-vs-memory-foam-dog-bed | orthopedic vs memory foam dog bed | est. 50 | 0 | est. 400 | 7.0 | Dog Comfort | NOT BUILT |
+| how-to-choose-a-dog-bed | how to choose a dog bed | est. 150 | 3 | est. 1,000 | 7.5 | Dog Comfort | NOT BUILT |
+| indoor-vs-outdoor-dog-bed | indoor vs outdoor dog bed | est. 50 | 0 | est. 400 | 6.8 | Dog Comfort | NOT BUILT |
 
 ---
 
