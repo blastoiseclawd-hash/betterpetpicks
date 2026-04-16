@@ -11,6 +11,10 @@
 import { siteConfig } from "@/config/site";
 import type { Product } from "@/data/products";
 
+function siteLogoUrl() {
+  return new URL(siteConfig.brand.logoIconSvg, siteConfig.url).toString();
+}
+
 // ─── WebSite Schema (homepage only) ─────────────────────────────
 
 export function websiteSchema() {
@@ -24,6 +28,7 @@ export function websiteSchema() {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: siteLogoUrl(),
     },
   };
 }
@@ -83,6 +88,7 @@ export function articleSchema({
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: siteLogoUrl(),
     },
     ...(imageUrl ? { image: imageUrl } : {}),
   };
@@ -117,6 +123,7 @@ export function webPageSchema({
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: siteLogoUrl(),
     },
   };
 }

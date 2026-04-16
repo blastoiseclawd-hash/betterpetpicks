@@ -5,7 +5,7 @@ Keep `CLAUDE.md` as a thin compatibility shim so Claude Code and Codex read the 
 
 ## Mission
 
-Build a practical pet-home utility buying-guide site that helps readers choose lower-mess, lower-friction products for real homes. BetterPetPicks launches cat-first, but the long-term brand can expand into other pet-home utility categories once those categories have their own research backing.
+Build a practical pet-home utility buying-guide site that helps readers choose lower-mess, lower-friction products for real homes. BetterPetPicks covers 5 validated clusters: cat litter & litter boxes, cat water fountains, cat gear (trees, carriers, harnesses), pet hair cleanup (vacuums, removers), and dog beds & comfort.
 
 ## Non-Negotiable Rules
 
@@ -31,8 +31,10 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 | **Cat Care Essentials Desk** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Direct, calm, cleanup-first |
 | **Multi-Cat Home Desk** | Higher-load odor and value tradeoffs | Household Operator | Honest, comparative, pressure-tested |
 | **Upgrade & Automation Desk** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, skeptical, worth-it focused |
+| **Pet Cleanup Desk** | Pet hair vacuums, removers, shedding tools | Practical Starter + Clean-Space Manager | Direct, comparison-heavy, surface-aware |
+| **Dog Comfort Desk** | Dog beds, car covers, travel comfort | Practical Starter + Household Operator | Honest, durability-focused, size-aware |
 
-These desks are built for a broader pet-home utility brand, but the launch examples, ownership, and first-wave roadmap remain cat-first until later category research expands the site responsibly.
+The first three desks have full voice guides in `authors.ts`. The Pet Cleanup and Dog Comfort desks need voice guides built via `build-editorial-desks` before content writing begins for those clusters.
 
 ## Customer Avatars (Research-Backed)
 
@@ -55,7 +57,7 @@ Desk implication for wave one:
 
 ## Content Categories
 
-Cat Litter, Water Fountains, Odor Control, Litter Area Cleanup, Pet Hair Cleanup
+Cat Litter & Litter Boxes, Cat Water Fountains, Cat Gear, Pet Hair Cleanup, Dog Beds & Comfort
 
 ## Affiliate Programs
 

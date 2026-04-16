@@ -2,8 +2,8 @@ export const siteConfig = {
   name: "BetterPetPicks",
   domain: "betterpetpicks.com",
   url: "https://betterpetpicks.com",
-  tagline: "Practical cat-care buying guides for cleaner, calmer homes.",
-  description: "BetterPetPicks publishes practical, independent buying guides for cat litter, odor control, water fountains, and the products that help cat owners keep real homes running smoothly.",
+  tagline: "Practical pet-home buying guides for cleaner, calmer homes.",
+  description: "BetterPetPicks publishes practical, independent buying guides for cat litter, cat gear, pet hair cleanup, dog beds, and the products that help pet owners keep real homes running smoothly.",
 
   colors: {
     primary: "#54785A",
@@ -13,13 +13,23 @@ export const siteConfig = {
     cta: "#2F7B51",
   },
 
-  defaultTitle: "BetterPetPicks | Practical Cat-Care Buying Guides",
+  defaultTitle: "BetterPetPicks | Practical Pet-Home Buying Guides",
   titleTemplate: `%s | BetterPetPicks`,
   ogImage: "https://betterpetpicks.com/opengraph-image",
 
+  brand: {
+    shortName: "BPP",
+    faviconSvg: "/favicon.svg",
+    logoIconSvg: "/images/logo-icon.svg",
+  },
+
+  analytics: {
+    googleAnalyticsId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "",
+  },
+
   author: {
     name: "BetterPetPicks Editorial Desks",
-    bio: "BetterPetPicks uses transparent editorial desks to cover low-mess basics, multi-cat tradeoffs, and convenience-driven upgrades for real cat-owning homes.",
+    bio: "BetterPetPicks uses transparent editorial desks to cover low-mess basics, multi-cat tradeoffs, pet hair cleanup, dog comfort, and convenience-driven upgrades for real pet-owning homes.",
     methodologyPage: "/how-we-review",
   },
 
@@ -32,29 +42,29 @@ export const siteConfig = {
 
   categories: [
     {
-      name: "Cat Litter",
+      name: "Cat Litter & Litter Boxes",
       slug: "cat-litter",
-      description: "Buying guides and comparisons for clumping, low-dust, odor-focused, and value-minded litter choices.",
+      description: "Buying guides for clumping, low-dust, odor-focused, and automatic litter choices plus the boxes themselves.",
     },
     {
-      name: "Water Fountains",
-      slug: "water-fountains",
-      description: "Guides for fountain reliability, filter upkeep, noise, cleaning friction, and cat drinking habits.",
+      name: "Cat Water Fountains",
+      slug: "cat-water-fountains",
+      description: "Guides for fountain reliability, filter upkeep, noise, cleaning friction, and material tradeoffs.",
     },
     {
-      name: "Odor Control",
-      slug: "odor-control",
-      description: "Products and strategies that help keep litter areas calmer, cleaner, and less punishing to live with.",
-    },
-    {
-      name: "Litter Area Cleanup",
-      slug: "litter-area-cleanup",
-      description: "Mats, scoops, liners, and cleanup tools that reduce scatter, tracking, and box-maintenance hassle.",
+      name: "Cat Gear",
+      slug: "cat-gear",
+      description: "Cat trees, scratching posts, carriers, harnesses, beds, and grooming tools for real homes.",
     },
     {
       name: "Pet Hair Cleanup",
       slug: "pet-hair-cleanup",
-      description: "Cleanup tools for fur, lint, and everyday home maintenance around cats and cat-heavy spaces.",
+      description: "Vacuums, lint rollers, and pet hair removers for furniture, clothes, and every surface pets touch.",
+    },
+    {
+      name: "Dog Beds & Comfort",
+      slug: "dog-beds",
+      description: "Cooling, chew-proof, orthopedic, and outdoor dog beds plus car seat covers and travel comfort.",
     },
   ],
 
@@ -64,12 +74,14 @@ export const siteConfig = {
   nav: {
     main: [
       { label: "Best Cat Litter", href: "/best-cat-litter" },
+      { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
-      { label: "Disclosure", href: "/disclosure" },
     ],
     footer: [
       { label: "Best Cat Litter", href: "/best-cat-litter" },
+      { label: "Best Cat Water Fountain", href: "/best-cat-water-fountain" },
+      { label: "Best Litter for Odor", href: "/best-cat-litter-for-odor-control" },
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
       { label: "Affiliate Disclosure", href: "/disclosure" },
@@ -82,49 +94,49 @@ export const siteConfig = {
     {
       title: "Best Cat Litter",
       href: "/best-cat-litter",
-      eyebrow: "First live guide",
-      description: "See the first full BetterPetPicks roundup, built around clumping, odor, dust, and real cleanup tradeoffs.",
+      eyebrow: "Flagship guide",
+      description: "Six picks compared on clumping, odor control, dust, and real cleanup tradeoffs.",
+    },
+    {
+      title: "Best Cat Water Fountains",
+      href: "/best-cat-water-fountain",
+      eyebrow: "Hydration cluster",
+      description: "Six fountains compared on material, noise, cleaning friction, and filter cost.",
+    },
+    {
+      title: "Best Litter for Odor Control",
+      href: "/best-cat-litter-for-odor-control",
+      eyebrow: "Odor deep dive",
+      description: "Five odor mechanisms compared: baking soda, probiotics, charcoal, walnut shell, and silica crystals.",
     },
     {
       title: "How We Review",
       href: "/how-we-review",
       eyebrow: "Editorial standards",
-      description: "See how we evaluate litter mess, odor control, cleanup friction, and long-term ownership tradeoffs.",
-    },
-    {
-      title: "About BetterPetPicks",
-      href: "/about",
-      eyebrow: "About the publication",
-      description: "Learn what BetterPetPicks covers, what stays out of scope, and how the desk model keeps recommendations clear.",
-    },
-    {
-      title: "Affiliate Disclosure",
-      href: "/disclosure",
-      eyebrow: "Transparency",
-      description: "Read how commissions work, where they matter, and why they cannot outrank customer fit.",
+      description: "See how we evaluate mess, odor control, cleanup friction, and long-term ownership tradeoffs.",
     },
   ],
 
   trustPillars: [
     {
       title: "Mess-aware testing",
-      description: "The right cat-care product has to work in a real home, not just on a feature chart.",
+      description: "The right pet product has to work in a real home, not just on a feature chart.",
     },
     {
       title: "Tradeoffs first",
       description: "We call out tracking, refill cost, cleaning hassle, noise, and the other annoyances shoppers actually care about.",
     },
     {
-      title: "Tight category focus",
-      description: "Wave one stays inside cat-home utility products so the site can build trust before expanding any wider.",
+      title: "Practical pet-home focus",
+      description: "We cover the products that reduce mess, odor, cleanup burden, and daily friction for cat and dog owners.",
     },
   ],
 
   comingSoonTopics: [
-    "Water fountain comparisons",
-    "Automatic feeder coverage",
-    "Odor-control roundups",
-    "Pet-hair cleanup guides",
+    "Cat water fountain comparisons",
+    "Cat tree and carrier guides",
+    "Pet hair vacuum roundups",
+    "Dog bed buying guides",
   ],
 } as const;
 

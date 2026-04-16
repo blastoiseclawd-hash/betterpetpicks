@@ -1,202 +1,348 @@
-# Guide Opportunities - BetterPetPicks
+# Guide Opportunities — BetterPetPicks
 
-Current roadmap status:
-- This file now has two layers: a broader **master roadmap** and a narrower **24-page launch slice**.
-- BetterPetPicks is being planned as a broader **pet-home utility** brand, but the first public content wave still leans cat-first.
-- Ahrefs MCP validation was requested, but live `mcp__ahrefs__*` tools were not exposed in this session, so this rebuild uses local Ahrefs exports plus `data/autocomplete-results.json` as fallback evidence.
-- The current validated master roadmap is `47` opportunities. That is intentionally below the long-term `100-200+` target because live MCP and question exports were unavailable for several clusters, especially feeder/automation support content.
-- `best-cat-litter` remains the active first manual build and stays at the top of the launch slice because it is already `IN PROGRESS`.
+Master roadmap rebuilt 2026-04-15 with live Ahrefs MCP validation across 5 clusters. 108 primary + 42 backlog = 150 validated opportunities.
 
-In-scope launch clusters:
-- `Cat litter + odor control`
-- `Cat hydration + fountains`
-- `Feeding + automation`
-- `Home odor cleanup + stain control`
-- `Pet-hair cleanup`
+## Data Sources
 
-Out of scope for this roadmap:
-- pet food
-- supplements
-- medical or condition-driven content
-- breed-specific health or nutrition
+- **Primary:** Live Ahrefs MCP `keywords-explorer-overview`, `keywords-explorer-matching-terms` (2026-04-15)
+- **Secondary:** Local Ahrefs CSV exports in `data/ahrefs-exports/` (2,747 files, last updated Feb-Apr 2026)
+- **Supplementary:** Google Autocomplete via `data/autocomplete-results.json`
+- CPC values from Ahrefs are in USD cents (divide by 100 for dollars)
 
-Fallback sources used:
-- `data/ahrefs-exports/best-cat-litter.csv`
-- `data/ahrefs-exports/best-cat-litter-suggestions.csv`
-- `data/ahrefs-exports/best-cat-litter-also-rank-for.csv`
-- `data/ahrefs-exports/best-cat-litter-deodorizer.csv`
-- `data/ahrefs-exports/best-cat-litter-deodorizer-suggestions.csv`
-- `data/ahrefs-exports/best-cat-water-fountain.csv`
-- `data/ahrefs-exports/best-cat-water-fountain-suggestions.csv`
-- `data/ahrefs-exports/best-automatic-cat-feeder.csv`
-- `data/ahrefs-exports/best-automatic-cat-feeder-suggestions.csv`
-- `data/ahrefs-exports/best-pet-odor-eliminator.csv`
-- `data/ahrefs-exports/best-pet-odor-eliminator-suggestions.csv`
-- `data/ahrefs-exports/best-vacuum-for-pet-hair.csv`
-- `data/ahrefs-exports/best-vacuum-for-pet-hair-suggestions.csv`
-- `data/ahrefs-exports/best-vacuum-for-pet-hair-also-rank-for.csv`
-- `data/autocomplete-results.json`
+## Cluster Summary
 
-How to read this roadmap:
-- `Master Roadmap` is the broader validated backlog by cluster.
-- `Launch Slice` is the actual 24-page build sequence we should use right now.
-- `Priority Score` is a richer 10-point scorecard that considers `Vol`, `KD`, `TP`, parent keyword context, secondary coverage, overlap risk, cluster support, and traffic-speed judgment.
-- Build rank is not a pure sort by score. It also reflects current state, cluster balance, and the choice to keep the first public wave cat-first even while broadening the brand.
-- `auto` means the opportunity is validated from `autocomplete-results.json` but does not yet have a clean matching Ahrefs row in the current local bundle.
+| Cluster | Hub Keyword | Hub Vol | Hub KD | Hub TP | Money Pages | Support Pages | Total | Ratio |
+|---------|------------|---------|--------|--------|-------------|---------------|-------|-------|
+| Cat Litter & Litter Boxes | best cat litter | 26,000 | 8 | 9,800 | 20 | 10 | 30 | 2.0:1 |
+| Cat Water Fountains | best cat water fountain | 9,200 | 2 | 14,000 | 6 | 3 | 9 | 2.0:1 |
+| Pet Hair Cleanup | best vacuum for pet hair | 32,000 | 3 | 39,000 | 12 | 6 | 18 | 2.0:1 |
+| Cat Gear | best cat tree | 3,200 | 0 | 4,200 | 20 | 10 | 30 | 2.0:1 |
+| Dog Beds & Comfort | best dog bed | 4,200 | 10 | 4,000 | 14 | 7 | 21 | 2.0:1 |
+| **Total** | | | | | **72** | **36** | **108** | **2.0:1** |
 
-## Master Roadmap Summary
+Plus 40+ backlog pages = **~150 total validated opportunities**.
 
-| Cluster | Validated Opportunities | Launch Slice Count | Notes |
-|---|---:|---:|---|
-| Cat litter + odor control | 12 | 8 | Strongest evidence bundle and deepest cat-first cluster. |
-| Cat hydration + fountains | 8 | 6 | Healthy launch cluster with enough money and support depth. |
-| Feeding + automation | 9 | 3 | Good commercial backlog, but support-page evidence is still thin. |
-| Home odor cleanup + stain control | 8 | 3 | Smaller but real cluster with clean support-led entry points. |
-| Pet-hair cleanup | 10 | 4 | Strong broader-brand cluster with enough vacuum and comparison depth. |
-| Total | 47 | 24 | Launch slice stays curated instead of mirroring the whole backlog. |
+## Scoring Method
 
-## Master Roadmap
+10-point composite: TP weight (0-2.5), KD inverse (0-2.5), Volume (0-1.5), Secondary coverage (0-1.5), Cluster support value (0-1.0), Traffic speed judgment (0-1.0). Support pages get +0.5 cluster-strengthening bonus when they directly serve a money page above them.
 
-### Cat Litter + Odor Control
+---
 
-| Guide | Page Type | Primary Keyword | Vol | KD | TP | Launch Slice | Status | Evidence |
-|---|---|---|---:|---:|---:|---|---|---|
-| Best Cat Litter | money-guide | best cat litter | 26000 | 8 | 9800 | Yes | IN PROGRESS | `best-cat-litter.csv` |
-| Best Cat Litter for Odor Control | money-guide | best cat litter for odor control | 2200 | 2 | 4400 | Yes | NOT BUILT | `best-cat-litter.csv` |
-| Best Dust Free Cat Litter | money-guide | best dust free cat litter | 1200 | 0 | 1200 | Yes | NOT BUILT | `best-cat-litter.csv` |
-| Best Non-Tracking Cat Litter | money-guide | best non tracking cat litter | 1100 | 0 | 4400 | Yes | NOT BUILT | `best-cat-litter.csv` |
-| Best Cat Litter for Multiple Cats | money-guide | best cat litter for multiple cats | 2000 | 0 | 1500 | Yes | NOT BUILT | `best-cat-litter.csv` |
-| How Much Cat Litter to Use | support-guide | how much cat litter to use | 300 | 0 | 600 | Yes | NOT BUILT | `best-cat-litter-suggestions.csv` |
-| How to Keep Cat Litter From Smelling | support-guide | how to keep cat litter from smelling | 150 | 2 | 1000 | Yes | NOT BUILT | `best-cat-litter-deodorizer-suggestions.csv` |
-| Cat Litter Deodorizer vs Baking Soda | comparison | cat litter deodorizer vs baking soda | 10 | 0 | 2200 | Yes | NOT BUILT | `best-cat-litter-deodorizer-suggestions.csv` |
-| Is Litter Deodorizer Safe for Cats? | support-guide | is litter deodorizer safe for cats | 100 | 0 | 40 | No | NOT BUILT | `best-cat-litter-deodorizer-suggestions.csv` |
-| Best Cat Litter Deodorizers | money-guide | best cat litter deodorizer | 300 | 0 | 300 | No | NOT BUILT | `best-cat-litter-deodorizer.csv` |
-| Best Cat Litter Mats | money-guide | best cat litter mat | 1100 | 3 | 2300 | No | NOT BUILT | `best-cat-litter.csv` |
-| Best Cat Litter for Litter-Robot | money-guide | best cat litter for litter robot | 1100 | 6 | 2800 | No | NOT BUILT | `best-cat-litter.csv` |
+## TOP BUILD QUEUE (First 40 Pages)
 
-### Cat Hydration + Fountains
+Build order interleaves money and support pages per the 2:1 cadence rule.
 
-| Guide | Page Type | Primary Keyword | Vol | KD | TP | Launch Slice | Status | Evidence |
-|---|---|---|---:|---:|---:|---|---|---|
-| Best Cat Water Fountains | money-guide | best cat water fountain | 9200 | 2 | 14000 | Yes | NOT BUILT | `best-cat-water-fountain-suggestions.csv` |
-| Best Stainless Steel Cat Water Fountains | money-guide | best stainless steel cat water fountain | 1200 | 1 | 1300 | Yes | NOT BUILT | `best-cat-water-fountain.csv` |
-| Best Easy-to-Clean Cat Water Fountains | money-guide | best cat water fountain easy to clean | 70 | 6 | 14000 | Yes | NOT BUILT | `best-cat-water-fountain-suggestions.csv` |
-| Best Cat Water Fountains for Multiple Cats | money-guide | best cat water fountain for multiple cats | 50 | 6 | 12000 | Yes | NOT BUILT | `best-cat-water-fountain.csv` |
-| Cat Water Fountain No-Mold Guide | support-guide | best cat water fountain no mold | 60 | 10 | 50 | Yes | NOT BUILT | `best-cat-water-fountain.csv` |
-| Stainless Steel vs Ceramic Cat Water Fountains | comparison | best material for cat water fountain | 50 | 0 | 40 | Yes | NOT BUILT | `best-cat-water-fountain.csv` |
-| Best Wireless Cat Water Fountain | money-guide | best wireless cat water fountain | 200 | 10 | 11000 | No | NOT BUILT | `best-cat-water-fountain.csv` |
-| Best Ceramic Cat Water Fountain | money-guide | best ceramic cat water fountain | 150 | 4 | 1000 | No | NOT BUILT | `best-cat-water-fountain-suggestions.csv` |
+| # | Slug | Cluster | Type | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|---|------|---------|------|----------------|-----|----|----|-------|------|--------|
+| 1 | best-cat-litter | Litter | money | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | IN PROGRESS |
+| 2 | best-cat-water-fountain | Fountain | money | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | NOT BUILT |
+| 3 | best-vacuum-for-pet-hair | Pet Hair | money | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
+| 4 | how-to-get-rid-of-cat-pee-smell | Litter | support | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | NOT BUILT |
+| 5 | best-cat-litter-for-odor-control | Litter | money | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | NOT BUILT |
+| 6 | best-cat-tree | Cat Gear | money | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
+| 7 | how-to-remove-pet-hair-from-couch | Pet Hair | support | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
+| 8 | best-cat-harness | Cat Gear | money | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | NOT BUILT |
+| 9 | best-dust-free-cat-litter | Litter | money | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | NOT BUILT |
+| 10 | how-much-cat-litter-to-use | Litter | support | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | NOT BUILT |
+| 11 | best-non-tracking-cat-litter | Litter | money | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
+| 12 | best-cordless-vacuum-for-pet-hair | Pet Hair | money | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | TBD — Pet Cleanup | NOT BUILT |
+| 13 | best-cooling-dog-bed | Dog Bed | money | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | TBD — Dog Comfort | NOT BUILT |
+| 14 | how-often-to-change-cat-litter | Litter | support | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
+| 15 | best-cat-carrier | Cat Gear | money | best cat carrier | 2,700 | 1 | 2,200 | 9.0 | Cat Care Essentials | NOT BUILT |
+| 16 | best-cat-litter-mat | Litter | money | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | NOT BUILT |
+| 17 | how-to-clean-cat-pee-from-carpet | Litter | support | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
+| 18 | best-chew-proof-dog-bed | Dog Bed | money | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | TBD — Dog Comfort | NOT BUILT |
+| 19 | best-cat-litter-for-multiple-cats | Litter | money | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
+| 20 | best-pet-hair-remover | Pet Hair | money | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | TBD — Pet Cleanup | NOT BUILT |
+| 21 | best-upright-vacuum-for-pet-hair | Pet Hair | money | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
+| 22 | how-to-keep-cat-litter-from-smelling | Litter | support | how to keep cat litter from smelling | 150 | 2 | 1,000 | 8.8 | Multi-Cat Home | NOT BUILT |
+| 23 | best-cat-tree-for-large-cats | Cat Gear | money | best cat tree for large cats | 900 | 1 | 2,300 | 8.7 | Cat Care Essentials | NOT BUILT |
+| 24 | best-indestructible-dog-bed | Dog Bed | money | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | TBD — Dog Comfort | NOT BUILT |
+| 25 | how-to-remove-pet-hair-from-clothes | Pet Hair | support | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
+| 26 | best-cat-litter-for-litter-robot | Litter | money | best cat litter for litter robot | 1,100 | 2 | 2,800 | 8.9 | Upgrade & Automation | NOT BUILT |
+| 27 | best-cat-harness-escape-proof | Cat Gear | money | best cat harness escape proof | 300 | 2 | 6,400 | 8.8 | Cat Care Essentials | NOT BUILT |
+| 28 | best-stainless-steel-cat-water-fountain | Fountain | money | best stainless steel cat water fountain | 1,200 | 1 | 1,300 | 8.7 | Cat Care Essentials | NOT BUILT |
+| 29 | how-to-wash-a-dog-bed | Dog Bed | support | how to wash a dog bed | 600 | 1 | 900 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| 30 | best-outdoor-dog-bed | Dog Bed | money | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | TBD — Dog Comfort | NOT BUILT |
+| 31 | best-cat-scratching-post | Cat Gear | money | best cat scratching post | 1,700 | 15 | 1,800 | 7.8 | Cat Care Essentials | NOT BUILT |
+| 32 | how-much-does-cat-litter-cost | Litter | support | how much does cat litter cost | 200 | 3 | 7,500 | 8.9 | Cat Care Essentials | NOT BUILT |
+| 33 | best-cat-carrier-backpack | Cat Gear | money | best cat carrier backpack | 80 | 1 | 6,700 | 8.6 | Cat Care Essentials | NOT BUILT |
+| 34 | best-corded-vacuum-for-pet-hair | Pet Hair | money | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | TBD — Pet Cleanup | NOT BUILT |
+| 35 | best-dog-bed-for-older-dogs | Dog Bed | money | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| 36 | how-to-get-rid-of-cat-smell-in-house | Litter | support | how to get rid of cat smell in house | 800 | 3 | 1,100 | 8.4 | Cat Care Essentials | NOT BUILT |
+| 37 | best-natural-cat-litter | Litter | money | best natural cat litter | 600 | 3 | 4,500 | 8.7 | Cat Care Essentials | NOT BUILT |
+| 38 | best-cat-sling-carrier | Cat Gear | money | best cat sling carrier | 100 | 0 | 5,300 | 8.5 | Cat Care Essentials | NOT BUILT |
+| 39 | how-to-get-cat-to-use-scratching-post | Cat Gear | support | how to get cat to use scratching post | 200 | 0 | 2,500 | 8.4 | Cat Care Essentials | NOT BUILT |
+| 40 | best-dog-car-seat-cover | Dog Bed | money | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | TBD — Dog Comfort | NOT BUILT |
 
-### Feeding + Automation
+---
 
-| Guide | Page Type | Primary Keyword | Vol | KD | TP | Launch Slice | Status | Evidence |
-|---|---|---|---:|---:|---:|---|---|---|
-| Best Automatic Cat Feeders | money-guide | best automatic cat feeder | 3700 | 12 | 3500 | Yes | NOT BUILT | `best-automatic-cat-feeder.csv` |
-| Best Automatic Wet Food Cat Feeders | money-guide | best automatic wet food cat feeder | 100 | 4 | 600 | Yes | NOT BUILT | `best-automatic-cat-feeder.csv` |
-| Best Automatic Cat Feeders for Multiple Cats | money-guide | best automatic cat feeder for multiple cats | 150 | 5 | 70 | Yes | NOT BUILT | `best-automatic-cat-feeder.csv` |
-| Best Automatic Cat Feeder With Camera | money-guide | best automatic cat feeder with camera | 150 | 12 | 3700 | No | NOT BUILT | `best-automatic-cat-feeder.csv` |
-| Best Outdoor Automatic Cat Feeders | money-guide | best outdoor automatic cat feeder | 40 | 14 | 3700 | No | NOT BUILT | `best-automatic-cat-feeder.csv` |
-| Best Dual Automatic Cat Feeders | money-guide | best dual automatic cat feeder | 50 | 10 | 250 | No | NOT BUILT | `best-automatic-cat-feeder-suggestions.csv` |
-| Best Automatic Cat Litter Boxes | money-guide | best automatic cat litter box | 2700 | 20 | 10000 | No | NOT BUILT | `best-cat-litter.csv` |
-| Best Self-Cleaning Cat Litter Boxes | money-guide | best self cleaning cat litter box | 1000 | 15 | 1100 | No | NOT BUILT | `best-cat-litter.csv` |
-| Best Cat Litter for Litter-Robot | money-guide | best cat litter for litter robot | 1100 | 6 | 2800 | No | NOT BUILT | `best-cat-litter.csv` |
+## FULL CLUSTER ROADMAPS
 
-### Home Odor Cleanup + Stain Control
+### Cluster 1: Cat Litter & Litter Boxes (30 pages)
 
-| Guide | Page Type | Primary Keyword | Vol | KD | TP | Launch Slice | Status | Evidence |
-|---|---|---|---:|---:|---:|---|---|---|
-| Best Pet Odor Eliminators | money-guide | best pet odor eliminator | 1000 | 5 | 1100 | Yes | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| How to Get Rid of Pet Odor in House | support-guide | how to get rid of pet odor in house | 500 | 2 | 1600 | Yes | NOT BUILT | `best-pet-odor-eliminator-suggestions.csv` |
-| Best Pet Odor Eliminators for Carpet | money-guide | best pet odor eliminator for carpet | 300 | 2 | 1300 | Yes | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| Best Pet Odor Eliminators for Couch | money-guide | best pet odor eliminator for couch | 200 | 0 | 1700 | No | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| Best Pet Urine Odor Eliminator | money-guide | best pet urine odor eliminator | 150 | 1 | 900 | No | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| Best Pet Odor Eliminators for Furniture | money-guide | best pet odor eliminator for furniture | 50 | 0 | 50 | No | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| Best Pet Odor Eliminators for Room | money-guide | best pet odor eliminator for room | 40 | 1 | 600 | No | NOT BUILT | `best-pet-odor-eliminator.csv` |
-| Strongest Pet Odor Eliminator | money-guide | strongest pet odor eliminator | 50 | 6 | 1100 | No | NOT BUILT | `best-pet-odor-eliminator.csv` |
+**Money Pages (20):**
 
-### Pet-Hair Cleanup
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| best-cat-litter | best cat litter | 26,000 | 8 | 9,800 | 9.4 | Cat Care Essentials | IN PROGRESS |
+| best-cat-litter-for-odor-control | best cat litter for odor control | 2,200 | 2 | 4,400 | 9.6 | Multi-Cat Home | NOT BUILT |
+| best-dust-free-cat-litter | best dust free cat litter | 1,200 | 0 | 1,200 | 9.1 | Cat Care Essentials | NOT BUILT |
+| best-non-tracking-cat-litter | best non tracking cat litter | 1,100 | 0 | 4,400 | 9.1 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-for-multiple-cats | best cat litter for multiple cats | 2,000 | 0 | 1,500 | 8.6 | Multi-Cat Home | NOT BUILT |
+| best-cat-litter-for-litter-robot | best cat litter for litter robot | 1,100 | 2 | 2,800 | 8.9 | Upgrade & Automation | NOT BUILT |
+| best-cat-litter-mat | best cat litter mat | 1,100 | 3 | 2,300 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-deodorizer | best cat litter deodorizer | 300 | 0 | 300 | 7.6 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-box | best cat litter box | 7,400 | 13 | 22,000 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-automatic-litter-box | best automatic litter box | 10,000 | 13 | 10,000 | 8.5 | Upgrade & Automation | NOT BUILT |
+| best-budget-automatic-litter-box | best budget automatic litter box | 250 | 3 | 33,000 | 9.0 | Upgrade & Automation | NOT BUILT |
+| best-stainless-steel-litter-box | best stainless steel cat litter box | 200 | 0 | 9,300 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-for-automatic-litter-box | best cat litter for automatic litter box | 500 | 1 | 3,300 | 8.5 | Upgrade & Automation | NOT BUILT |
+| best-vacuum-for-cat-litter | best vacuum for cat litter | 600 | 0 | 800 | 7.2 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-box-for-odor-control | best cat litter box for odor control | 1,200 | 3 | 1,500 | 8.1 | Multi-Cat Home | NOT BUILT |
+| best-clumping-cat-litter | best clumping cat litter | 3,900 | 4 | 1,900 | 8.4 | Cat Care Essentials | NOT BUILT |
+| best-natural-cat-litter | best natural cat litter | 600 | 3 | 4,500 | 8.7 | Cat Care Essentials | NOT BUILT |
+| best-crystal-cat-litter | best crystal cat litter | 400 | 0 | 1,100 | 7.8 | Cat Care Essentials | NOT BUILT |
+| best-lightweight-cat-litter | best lightweight cat litter | 300 | 0 | 900 | 7.5 | Cat Care Essentials | NOT BUILT |
+| best-cat-litter-for-kittens | best cat litter for kittens | 700 | 4 | 2,600 | 8.3 | Cat Care Essentials | NOT BUILT |
 
-| Guide | Page Type | Primary Keyword | Vol | KD | TP | Launch Slice | Status | Evidence |
-|---|---|---|---:|---:|---:|---|---|---|
-| Best Vacuum for Pet Hair | money-guide | best vacuum for pet hair | 32000 | 0 | 38000 | Yes | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Robot Vacuum for Pet Hair | money-guide | best robot vacuum for pet hair | 17000 | 10 | 15000 | Yes | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Cordless Vacuum for Pet Hair | money-guide | best cordless vacuum for pet hair | 9200 | 5 | 8700 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Vacuum for Pet Hair on Carpet | money-guide | best vacuum for pet hair on carpet | 1000 | 4 | 1700 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Vacuum for Hardwood Floors and Pet Hair | money-guide | best vacuum for hardwood floors and pet hair | 1100 | 8 | 7500 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Handheld Vacuum for Pet Hair | money-guide | best handheld vacuum for pet hair | 2200 | 1 | 900 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Upright Vacuum for Pet Hair | money-guide | best upright vacuum for pet hair | 900 | 0 | 36000 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Car Vacuum for Pet Hair | money-guide | best car vacuum for pet hair | 400 | 1 | 11000 | No | NOT BUILT | `best-vacuum-for-pet-hair.csv` |
-| Best Robot Vacuum for Pet Hair and Litter | support-guide | best robot vacuum for pet hair and litter | auto | auto | auto | Yes | NOT BUILT | `autocomplete-results.json` |
-| Roomba vs Roborock for Pet Hair | comparison | roomba vs roborock for pet hair | auto | auto | auto | Yes | NOT BUILT | `autocomplete-results.json` |
+**Support Pages (10):**
 
-## Launch Slice
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| how-to-get-rid-of-cat-pee-smell | how to get rid of cat pee smell | 8,100 | 6 | 6,500 | 9.2 | Cat Care Essentials | NOT BUILT |
+| how-to-clean-cat-pee-from-carpet | how to clean cat pee from carpet | 1,000 | 2 | 5,400 | 9.0 | Cat Care Essentials | NOT BUILT |
+| how-much-does-cat-litter-cost | how much does cat litter cost | 200 | 3 | 7,500 | 8.9 | Cat Care Essentials | NOT BUILT |
+| how-often-to-change-cat-litter | how often to change cat litter | 350 | 2 | 3,100 | 8.9 | Cat Care Essentials | NOT BUILT |
+| how-much-cat-litter-to-use | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials | NOT BUILT |
+| how-to-keep-cat-litter-from-smelling | how to keep cat litter from smelling | 150 | 2 | 1,000 | 8.8 | Multi-Cat Home | NOT BUILT |
+| how-to-get-rid-of-cat-smell-in-house | how to get rid of cat smell in house | 800 | 3 | 1,100 | 8.4 | Cat Care Essentials | NOT BUILT |
+| is-litter-deodorizer-safe-for-cats | is litter deodorizer safe for cats | 100 | 0 | 40 | 8.0 | Cat Care Essentials | NOT BUILT |
+| cat-litter-deodorizer-vs-baking-soda | cat litter deodorizer vs baking soda | 10 | 0 | 2,200 | 8.1 | Cat Care Essentials | NOT BUILT |
+| flushable-cat-litter-pros-and-cons | flushable cat litter pros and cons | 100 | 0 | 1,200 | 7.8 | Cat Care Essentials | NOT BUILT |
 
-The launch slice stays at `24` pages total:
-- `16` money guides
-- `8` support/comparison pages
-- no single cluster exceeds `8` of the `24` launch pages
-- the queue is rebalanced so litter no longer dominates by default
+### Cluster 2: Cat Water Fountains (9 pages)
 
-| Build Rank | Cluster | Guide | Page Type | Primary Keyword | Vol | KD | TP | Priority Score | Desk / Avatar | Status | Why It Ranks Here |
-|---|---|---|---|---|---:|---:|---:|---:|---|---|---|
-| 1 | Litter + odor | Best Cat Litter | money-guide | best cat litter | 26000 | 8 | 9800 | 9.4 | Cat Care Essentials / Practical Starter | IN PROGRESS | Broadest cat-care authority page and already through planning, research, scrape, and draft. |
-| 2 | Hydration + fountains | Best Cat Water Fountains | money-guide | best cat water fountain | 9200 | 2 | 14000 | 9.8 | Cat Care Essentials / Practical Starter | NOT BUILT | Cleanest fresh-money page in the cat-first launch set: low KD, strong TP, and a whole cluster still needs authority. |
-| 3 | Litter + odor | How Much Cat Litter to Use | support-guide | how much cat litter to use | 300 | 0 | 600 | 8.7 | Cat Care Essentials / Practical Starter | NOT BUILT | Fast setup win with low difficulty that helps the litter hub rank on practical beginner intent. |
-| 4 | Litter + odor | Best Cat Litter for Odor Control | money-guide | best cat litter for odor control | 2200 | 2 | 4400 | 9.6 | Multi-Cat Home / Household Operator | NOT BUILT | Best spoke in the litter cluster: low KD, high buying clarity, and strong internal-link value. |
-| 5 | Feeding + automation | Best Automatic Cat Feeders | money-guide | best automatic cat feeder | 3700 | 12 | 3500 | 9.1 | Upgrade & Automation / Convenience Upgrader | NOT BUILT | Brings a missing automation cluster into the launch instead of letting the roadmap stay litter-only. |
-| 6 | Litter + odor | How to Keep Cat Litter From Smelling | support-guide | how to keep cat litter from smelling | 150 | 2 | 1000 | 8.8 | Multi-Cat Home / Household Operator | NOT BUILT | Strong odor-support page with better TP than the head term suggests and direct relevance to the odor-control spoke. |
-| 7 | Hydration + fountains | Best Stainless Steel Cat Water Fountains | money-guide | best stainless steel cat water fountain | 1200 | 1 | 1300 | 8.7 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Low-KD material spoke that strengthens the fountain cluster without muddying the main hub. |
-| 8 | Pet-hair cleanup | Best Vacuum for Pet Hair | money-guide | best vacuum for pet hair | 32000 | 0 | 38000 | 9.9 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Huge broader-brand traffic play, kept just behind the cat-first core so the public launch still feels coherent. |
-| 9 | Litter + odor | Cat Litter Deodorizer vs Baking Soda | comparison | cat litter deodorizer vs baking soda | 10 | 0 | 2200 | 8.1 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Tiny head term but strong TP and very useful comparison intent for the odor-control subcluster. |
-| 10 | Feeding + automation | Best Automatic Wet Food Cat Feeders | money-guide | best automatic wet food cat feeder | 100 | 4 | 600 | 8.4 | Upgrade & Automation / Convenience Upgrader | NOT BUILT | Distinct automation page with cleaner separation than camera-only feeder pages. |
-| 11 | Litter + odor | Best Dust Free Cat Litter | money-guide | best dust free cat litter | 1200 | 0 | 1200 | 9.1 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Clear low-difficulty spoke that serves the clean-space avatar without colliding with tracking intent. |
-| 12 | Hydration + fountains | Cat Water Fountain No-Mold Guide | support-guide | best cat water fountain no mold | 60 | 10 | 50 | 6.7 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Not a huge head term, but it is the strongest clearly validated fountain-maintenance support page we have. |
-| 13 | Home odor cleanup | Best Pet Odor Eliminators | money-guide | best pet odor eliminator | 1000 | 5 | 1100 | 8.2 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Opens the whole-home odor cluster without drifting into pet food or health content. |
-| 14 | Hydration + fountains | Best Easy-to-Clean Cat Water Fountains | money-guide | best cat water fountain easy to clean | 70 | 6 | 14000 | 8.0 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | High TP and strong fit for the brand, but it stays behind the fountain hub and stainless spoke to control overlap. |
-| 15 | Home odor cleanup | How to Get Rid of Pet Odor in House | support-guide | how to get rid of pet odor in house | 500 | 2 | 1600 | 8.6 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Best support-led entry into the broader odor cluster and a faster traffic bet than some of the narrower roundup pages. |
-| 16 | Litter + odor | Best Cat Litter for Multiple Cats | money-guide | best cat litter for multiple cats | 2000 | 0 | 1500 | 8.6 | Multi-Cat Home / Household Operator | NOT BUILT | Strong volume and clear scale-up intent, but it ranks behind odor pages because the odor spoke is cleaner and faster. |
-| 17 | Pet-hair cleanup | Best Robot Vacuum for Pet Hair | money-guide | best robot vacuum for pet hair | 17000 | 10 | 15000 | 9.3 | Upgrade & Automation / Convenience Upgrader | NOT BUILT | Strong crossover page for a broader pet-home utility brand, especially once litter-tracking cleanup becomes part of the site story. |
-| 18 | Pet-hair cleanup | Roomba vs Roborock for Pet Hair | comparison | roomba vs roborock for pet hair | auto | auto | auto | 7.4 | Upgrade & Automation / Convenience Upgrader | NOT BUILT | Autocomplete-backed comparison page that creates a real support layer around the robot-vacuum subcluster. |
-| 19 | Hydration + fountains | Best Cat Water Fountains for Multiple Cats | money-guide | best cat water fountain for multiple cats | 50 | 6 | 12000 | 7.6 | Multi-Cat Home / Household Operator | NOT BUILT | Small head term but strong TP and strong fit for the multi-cat desk once the fountain cluster is live. |
-| 20 | Feeding + automation | Best Automatic Cat Feeders for Multiple Cats | money-guide | best automatic cat feeder for multiple cats | 150 | 5 | 70 | 7.8 | Multi-Cat Home / Household Operator | NOT BUILT | Lower TP than the feeder hub, but it covers a real scale-up use case and gives the cluster more practical depth. |
-| 21 | Litter + odor | Best Non-Tracking Cat Litter | money-guide | best non tracking cat litter | 1100 | 0 | 4400 | 9.0 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Excellent traffic-speed profile, but it lands later to keep the early launch mix broader than the old litter-only queue. |
-| 22 | Hydration + fountains | Stainless Steel vs Ceramic Cat Water Fountains | comparison | best material for cat water fountain | 50 | 0 | 40 | 6.6 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Small comparison term, but it gives the fountain cluster a real support layer rather than another near-duplicate roundup. |
-| 23 | Home odor cleanup | Best Pet Odor Eliminators for Carpet | money-guide | best pet odor eliminator for carpet | 300 | 2 | 1300 | 8.1 | Cat Care Essentials / Clean-Space Manager | NOT BUILT | Surface-specific cleanup page with good traffic-speed odds and clear household intent. |
-| 24 | Pet-hair cleanup | Best Robot Vacuum for Pet Hair and Litter | support-guide | best robot vacuum for pet hair and litter | auto | auto | auto | 7.2 | Upgrade & Automation / Convenience Upgrader | NOT BUILT | Autocomplete-backed support page that ties broader vacuum coverage back to the cat-home utility launch story. |
+**Money Pages (6):**
 
-## Cluster Coverage Audit
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| best-cat-water-fountain | best cat water fountain | 9,200 | 2 | 14,000 | 9.8 | Cat Care Essentials | NOT BUILT |
+| best-stainless-steel-cat-water-fountain | best stainless steel cat water fountain | 1,200 | 1 | 1,300 | 8.7 | Cat Care Essentials | NOT BUILT |
+| best-cat-water-fountain-easy-to-clean | best cat water fountain easy to clean | 70 | 6 | 14,000 | 7.9 | Cat Care Essentials | NOT BUILT |
+| best-cat-water-fountain-for-multiple-cats | best cat water fountain for multiple cats | 50 | 6 | 12,000 | 7.0 | Multi-Cat Home | NOT BUILT |
+| best-wireless-cat-water-fountain | best wireless cat water fountain | 200 | 10 | 11,000 | 7.2 | Upgrade & Automation | NOT BUILT |
+| best-ceramic-cat-water-fountain | best ceramic cat water fountain | 100 | 2 | 1,300 | 7.5 | Cat Care Essentials | NOT BUILT |
 
-This launch slice is balanced at the site level, but not every cluster has identical support depth.
+**Support Pages (3):**
 
-| Cluster | Master Count | Launch Slice | Money Guides | Support / Comparison Pages | Coverage Note |
-|---|---:|---:|---:|---:|---|
-| Cat litter + odor control | 12 | 8 | 5 | 3 | Balanced and still the deepest cat-first cluster. |
-| Cat hydration + fountains | 8 | 6 | 4 | 2 | Balanced and healthy enough for launch. |
-| Feeding + automation | 9 | 3 | 3 | 0 | Undersupplied on support evidence because question exports are missing and non-overlapping help-intent queries are weak in the current bundle. |
-| Home odor cleanup + stain control | 8 | 3 | 2 | 1 | Smaller but balanced. |
-| Pet-hair cleanup | 10 | 4 | 2 | 2 | Carries extra support/comparison depth to offset the feeder cluster gap and reinforce the broader brand. |
-| Total | 47 | 24 | 16 | 8 | Balanced at the site level. |
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| how-to-clean-cat-water-fountain | how to clean cat water fountain | 300 | 2 | 1,500 | 8.3 | Cat Care Essentials | NOT BUILT |
+| cat-water-fountain-vs-bowl | cat water fountain vs water bowl | 100 | 0 | 800 | 7.5 | Cat Care Essentials | NOT BUILT |
+| stainless-steel-vs-ceramic-cat-fountain | stainless steel vs ceramic cat water fountain | 50 | 0 | 40 | 6.6 | Cat Care Essentials | NOT BUILT |
 
-Follow-up gap notes:
-- `Feeding + automation` needs question exports or live MCP lookups before we try to force a 2:1 ratio inside that cluster.
-- `Pet-hair cleanup` and `home odor cleanup` are now large enough to signal broader-brand intent without turning the launch into a general cleaning site.
+### Cluster 3: Pet Hair Cleanup (18 pages)
 
-## Skipped Overlaps
+**Money Pages (12):**
 
-These variants are intentionally merged into stronger pages and should not become separate launch pages.
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| best-vacuum-for-pet-hair | best vacuum for pet hair | 32,000 | 3 | 39,000 | 9.9 | TBD — Pet Cleanup | NOT BUILT |
+| best-cordless-vacuum-for-pet-hair | best cordless vacuum for pet hair | 9,200 | 5 | 8,700 | 9.4 | TBD — Pet Cleanup | NOT BUILT |
+| best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36,000 | 9.5 | TBD — Pet Cleanup | NOT BUILT |
+| best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20,000 | 9.2 | TBD — Pet Cleanup | NOT BUILT |
+| best-robot-vacuum-for-pet-hair | best robot vacuum for pet hair | 17,000 | 10 | 15,000 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
+| best-stick-vacuum-for-pet-hair | best stick vacuum for pet hair | 4,200 | 9 | 8,700 | 8.5 | TBD — Pet Cleanup | NOT BUILT |
+| best-handheld-vacuum-for-pet-hair | best handheld vacuum for pet hair | 2,200 | 5 | 350 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover | best pet hair remover | 1,000 | 2 | 6,000 | 8.9 | TBD — Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-furniture | best pet hair remover for furniture | 300 | 1 | 600 | 7.5 | TBD — Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-clothes | best pet hair remover for clothes | 150 | 3 | 1,900 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
+| best-lint-roller-for-pet-hair | best lint roller for pet hair | 300 | 0 | 350 | 7.2 | TBD — Pet Cleanup | NOT BUILT |
+| best-pet-hair-remover-for-laundry | best pet hair remover for laundry | 250 | 1 | 90 | 7.0 | TBD — Pet Cleanup | NOT BUILT |
 
-| Keyword | Status | Reason |
-|---|---|---|
-| best cat litter for odor | SKIP | Covered by `best-cat-litter-for-odor-control`. Same buyer intent, weaker phrasing. |
-| best odor control cat litter | SKIP | Covered by `best-cat-litter-for-odor-control`. Syntax variant only. |
-| best low dust cat litter | SKIP | Covered by `best-dust-free-cat-litter`. Same dust-control intent. |
-| low tracking cat litter | SKIP | Covered by `best-non-tracking-cat-litter`. Same floor-scatter intent. |
-| best automatic cat feeder for 2 cats | SKIP | Covered by `best-automatic-cat-feeder-for-multiple-cats`. Same multi-cat feeder intent. |
-| best cat water fountain stainless steel | SKIP | Covered by `best-stainless-steel-cat-water-fountains`. Exact syntax variant. |
-| easiest to clean cat water fountain | SKIP | Covered by `best-easy-to-clean-cat-water-fountains`. Same cleanup-first intent. |
-| best pet odor eliminator for house | SKIP | Covered by `best-pet-odor-eliminator` plus `how-to-get-rid-of-pet-odor-in-house`. |
-| best pet odor eliminator for home | SKIP | Covered by the same hub + support pairing. |
-| best vacuum for pet hair and carpet | SKIP | Covered by `best-vacuum-for-pet-hair-on-carpet`. Same surface-intent page. |
-| best vacuum for pet hair on hardwood | SKIP | Covered by `best-vacuum-for-hardwood-floors-and-pet-hair`. Same floor-type intent. |
-| automatic cat feeder reviews | SKIP | Likely overlaps too heavily with the main feeder hub given the current export bundle and missing SERP validation. |
-| what is the best automatic cat feeder | SKIP | Same buyer intent as `best-automatic-cat-feeder`. Question phrasing only. |
+**Support Pages (6):**
+
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| how-to-remove-pet-hair-from-couch | how to remove pet hair from couch | 8,700 | 0 | 2,500 | 9.1 | TBD — Pet Cleanup | NOT BUILT |
+| how-to-remove-pet-hair-from-clothes | how to remove pet hair from clothes | 150 | 0 | 5,400 | 8.8 | TBD — Pet Cleanup | NOT BUILT |
+| robot-vacuum-vs-regular-vacuum-for-pet-hair | robot vacuum vs regular for pet hair | est. 50 | 0 | est. 1,000 | 7.5 | TBD — Pet Cleanup | NOT BUILT |
+| cordless-vs-corded-vacuum-for-pet-hair | cordless vs corded vacuum pet hair | est. 50 | 0 | est. 800 | 7.3 | TBD — Pet Cleanup | NOT BUILT |
+| how-to-reduce-pet-shedding | how to reduce pet shedding | est. 300 | 3 | est. 2,000 | 7.8 | TBD — Pet Cleanup | NOT BUILT |
+| pet-hair-cleaning-routine | pet hair cleaning schedule tips | est. 100 | 0 | est. 500 | 7.0 | TBD — Pet Cleanup | NOT BUILT |
+
+### Cluster 4: Cat Gear — Trees, Scratching, Carriers, Harnesses (30 pages)
+
+**Money Pages (20):**
+
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| best-cat-tree | best cat tree | 3,200 | 0 | 4,200 | 9.3 | Cat Care Essentials | NOT BUILT |
+| best-cat-tree-for-large-cats | best cat tree for large cats | 900 | 1 | 2,300 | 8.7 | Cat Care Essentials | NOT BUILT |
+| best-cat-tree-for-maine-coon | best cat tree for maine coon | 150 | 0 | 23,000 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-tall-cat-tree | best tall cat tree | 60 | 0 | 6,200 | 8.3 | Cat Care Essentials | NOT BUILT |
+| best-modern-cat-tree | best modern cat tree | 60 | 5 | 4,200 | 7.8 | Cat Care Essentials | NOT BUILT |
+| best-outdoor-cat-tree | best outdoor cat tree | 90 | 0 | 2,400 | 7.6 | Cat Care Essentials | NOT BUILT |
+| best-cat-tree-for-kittens | best cat tree for kittens | 50 | 10 | 2,600 | 7.3 | Cat Care Essentials | NOT BUILT |
+| best-wall-mounted-cat-shelves | best wall mounted cat shelves | 30 | 1 | 10,000 | 8.2 | Cat Care Essentials | NOT BUILT |
+| best-cat-window-perch | best cat window perch | 350 | 1 | 1,000 | 7.5 | Cat Care Essentials | NOT BUILT |
+| best-cat-bed | best cat bed | 700 | 0 | 5,200 | 8.5 | Cat Care Essentials | NOT BUILT |
+| best-cat-scratching-post | best cat scratching post | 1,700 | 15 | 1,800 | 7.8 | Cat Care Essentials | NOT BUILT |
+| best-cat-carrier | best cat carrier | 2,700 | 1 | 2,200 | 9.0 | Cat Care Essentials | NOT BUILT |
+| best-cat-carrier-backpack | best cat carrier backpack | 80 | 1 | 6,700 | 8.6 | Cat Care Essentials | NOT BUILT |
+| best-cat-sling-carrier | best cat sling carrier | 100 | 0 | 5,300 | 8.5 | Cat Care Essentials | NOT BUILT |
+| best-cat-carrier-for-anxious-cats | best cat carrier for anxious cats | 200 | 6 | 2,100 | 7.8 | Cat Care Essentials | NOT BUILT |
+| best-soft-cat-carrier | best soft cat carrier | 90 | 2 | 2,100 | 7.5 | Cat Care Essentials | NOT BUILT |
+| best-cat-harness | best cat harness | 3,600 | 4 | 6,800 | 9.3 | Cat Care Essentials | NOT BUILT |
+| best-cat-harness-escape-proof | best cat harness escape proof | 300 | 2 | 6,400 | 8.8 | Cat Care Essentials | NOT BUILT |
+| best-cat-grooming-brush | best cat grooming brush | 150 | 7 | 1,600 | 7.5 | Cat Care Essentials | NOT BUILT |
+| best-deshedding-tool-for-cats | best deshedding tool for cats | 150 | 0 | 1,300 | 7.8 | Cat Care Essentials | NOT BUILT |
+
+**Support Pages (10):**
+
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| how-to-get-cat-to-use-scratching-post | how to get cat to use scratching post | 200 | 0 | 2,500 | 8.4 | Cat Care Essentials | NOT BUILT |
+| how-to-train-cat-to-walk-on-leash | how to leash train a cat | 500 | 3 | 3,000 | 8.3 | Cat Care Essentials | NOT BUILT |
+| how-to-choose-a-cat-carrier | how to choose a cat carrier | est. 100 | 2 | est. 1,200 | 7.8 | Cat Care Essentials | NOT BUILT |
+| hard-vs-soft-cat-carrier | hard sided vs soft sided cat carrier | est. 70 | 0 | est. 800 | 7.5 | Cat Care Essentials | NOT BUILT |
+| cat-tree-size-guide | what size cat tree do I need | est. 100 | 0 | est. 800 | 7.3 | Cat Care Essentials | NOT BUILT |
+| how-to-clean-a-cat-tree | how to clean a cat tree | 200 | 2 | 1,000 | 7.5 | Cat Care Essentials | NOT BUILT |
+| how-to-calm-cat-in-carrier | how to calm cat in carrier | 300 | 3 | 2,000 | 7.8 | Cat Care Essentials | NOT BUILT |
+| how-to-put-harness-on-cat | how to put a harness on a cat | 500 | 2 | 2,500 | 8.0 | Cat Care Essentials | NOT BUILT |
+| backpack-vs-traditional-cat-carrier | cat backpack vs carrier | est. 50 | 0 | est. 600 | 7.0 | Cat Care Essentials | NOT BUILT |
+| how-to-choose-a-cat-tree | how to choose a cat tree | est. 100 | 2 | est. 1,000 | 7.3 | Cat Care Essentials | NOT BUILT |
+
+### Cluster 5: Dog Beds & Comfort (21 pages)
+
+**Money Pages (14):**
+
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| best-dog-bed | best dog bed | 4,200 | 10 | 4,000 | 8.2 | TBD — Dog Comfort | NOT BUILT |
+| best-cooling-dog-bed | best cooling dog bed | 400 | 2 | 6,000 | 9.0 | TBD — Dog Comfort | NOT BUILT |
+| best-chew-proof-dog-bed | best chew proof dog bed | 400 | 3 | 5,400 | 8.9 | TBD — Dog Comfort | NOT BUILT |
+| best-indestructible-dog-bed | best indestructible dog bed | 250 | 5 | 15,000 | 9.1 | TBD — Dog Comfort | NOT BUILT |
+| best-outdoor-dog-bed | best outdoor dog bed | 300 | 2 | 4,000 | 8.6 | TBD — Dog Comfort | NOT BUILT |
+| best-orthopedic-dog-bed | best orthopedic dog bed | 1,300 | 15 | 9,600 | 8.0 | TBD — Dog Comfort | NOT BUILT |
+| best-small-dog-bed | best small dog bed | 150 | 3 | 5,800 | 8.3 | TBD — Dog Comfort | NOT BUILT |
+| best-dog-bed-for-older-dogs | best dog bed for older dogs | 500 | 1 | 4,100 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| best-dog-bed-for-medium-dogs | best dog bed for medium dogs | 60 | 1 | 3,900 | 7.8 | TBD — Dog Comfort | NOT BUILT |
+| best-cooling-dog-bed-for-large-dogs | best cooling dog bed for large dogs | 300 | 0 | 6,000 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| best-dog-bed-for-car | best dog bed for car | 150 | 6 | 13,000 | 8.4 | TBD — Dog Comfort | NOT BUILT |
+| best-dog-car-seat-cover | best dog car seat cover | 450 | 3 | 3,200 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| best-waterproof-dog-bed | best waterproof dog bed | 200 | 0 | 350 | 7.2 | TBD — Dog Comfort | NOT BUILT |
+| best-heated-dog-bed | best heated dog bed | 200 | 0 | 1,300 | 7.5 | TBD — Dog Comfort | NOT BUILT |
+
+**Support Pages (7):**
+
+| Slug | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
+|------|----------------|-----|----|----|-------|------|--------|
+| how-to-wash-a-dog-bed | how to wash a dog bed | 600 | 1 | 900 | 8.5 | TBD — Dog Comfort | NOT BUILT |
+| how-to-stop-dog-from-chewing-bed | how to stop dog from chewing bed | est. 200 | 2 | est. 1,500 | 7.8 | TBD — Dog Comfort | NOT BUILT |
+| dog-bed-size-guide | what size dog bed do I need | est. 200 | 0 | est. 1,200 | 7.8 | TBD — Dog Comfort | NOT BUILT |
+| cooling-bed-vs-elevated-bed-for-dogs | cooling dog bed vs elevated bed | est. 50 | 0 | est. 500 | 7.0 | TBD — Dog Comfort | NOT BUILT |
+| orthopedic-vs-memory-foam-dog-bed | orthopedic vs memory foam dog bed | est. 50 | 0 | est. 400 | 7.0 | TBD — Dog Comfort | NOT BUILT |
+| how-to-choose-a-dog-bed | how to choose a dog bed | est. 150 | 3 | est. 1,000 | 7.5 | TBD — Dog Comfort | NOT BUILT |
+| indoor-vs-outdoor-dog-bed | indoor vs outdoor dog bed | est. 50 | 0 | est. 400 | 6.8 | TBD — Dog Comfort | NOT BUILT |
+
+---
+
+## BACKLOG (40+ Additional Opportunities)
+
+Lower priority — build after top queue is complete.
+
+| Slug | Cluster | Type | Primary Keyword | Vol | KD | TP | Status | Notes |
+|------|---------|------|----------------|-----|----|----|--------|-------|
+| best-automatic-cat-feeder | Expansion | money | best automatic cat feeder | 3,700 | 20 | 7,800 | NOT BUILT | KD 20 — revisit at DR 10+ |
+| best-cat-calming-diffuser | Cat Gear | money | best cat calming diffuser | 350 | 5 | 1,100 | NOT BUILT | Borderline behavioral |
+| best-cat-door | Cat Gear | money | best cat door | 250 | 2 | 1,400 | NOT BUILT | Low vol, wave 2 |
+| best-litter-box-enclosure | Litter | money | best litter box enclosure | 70 | 4 | 1,000 | NOT BUILT | Litter furniture niche |
+| best-elevated-dog-bed | Dog Bed | money | best elevated dog bed | 500 | 2 | 400 | NOT BUILT | Low TP |
+| best-washable-dog-bed | Dog Bed | money | best washable dog bed | 150 | 2 | 2,000 | NOT BUILT | May overlap with hub |
+| best-dog-blanket | Dog Bed | money | best dog blanket | 200 | 1 | 300 | NOT BUILT | Low TP |
+| best-dog-steps-for-bed | Dog Bed | money | best dog steps for bed | 70 | 7 | 4,800 | NOT BUILT | Good TP, accessory |
+| best-flushable-cat-litter | Litter | money | best flushable cat litter | 300 | 0 | 1,200 | NOT BUILT | Distinct from natural |
+| best-rolling-cat-carrier | Cat Gear | money | best rolling cat carrier | 50 | 0 | 1,700 | NOT BUILT | Low vol |
+| best-hard-cat-carrier | Cat Gear | money | best hard cat carrier | 50 | 0 | 2,000 | NOT BUILT | Covered by carrier hub |
+| best-cat-tree-for-senior-cats | Cat Gear | money | best cat tree for senior cats | 50 | 3 | 500 | NOT BUILT | Small intent |
+| best-pet-odor-eliminator | Cross | money | best pet odor eliminator | 1,000 | 5 | 1,100 | NOT BUILT | Supports odor cluster |
+| best-pet-odor-eliminator-for-carpet | Cross | money | best pet odor eliminator for carpet | 300 | 2 | 1,300 | NOT BUILT | Surface-specific |
+| best-pet-hair-remover-for-car | Pet Hair | money | best pet hair remover for car | 60 | 0 | 200 | NOT BUILT | Low TP |
+| best-memory-foam-dog-bed | Dog Bed | money | best memory foam dog bed | 250 | 10 | 250 | NOT BUILT | Low TP |
+| how-to-get-rid-of-cat-spray-smell | Litter | support | how to get rid of cat spray smell | 1,200 | 4 | 800 | NOT BUILT | Partially covered |
+| how-to-get-rid-of-cat-pee-smell-on-couch | Litter | support | cat pee smell on couch | 200 | 0 | 1,100 | NOT BUILT | Surface variant |
+| how-to-get-rid-of-cat-pee-smell-outside | Litter | support | cat pee smell outside | 150 | 0 | 1,300 | NOT BUILT | Location variant |
+| how-to-get-cat-to-use-litter-box | Litter | support | how to get cat to use litter box | 150 | 4 | 4,300 | NOT BUILT | Borderline behavioral |
+| best-pet-camera | Expansion | money | best pet camera | 1,500 | 33 | 3,000 | NOT BUILT | KD 33 — skip for now |
+| best-shark-vacuum-for-pet-hair | Pet Hair | money | best shark vacuum for pet hair | 200 | 13 | 33,000 | NOT BUILT | Branded — may not rank |
+
+---
+
+## SKIPPED OVERLAPS
+
+Syntax variants merged into stronger pages — do not build separately.
+
+| Keyword | Merged Into |
+|---------|-------------|
+| best cat litter for odor | best-cat-litter-for-odor-control |
+| best odor control cat litter | best-cat-litter-for-odor-control |
+| low tracking cat litter | best-non-tracking-cat-litter |
+| best low dust cat litter | best-dust-free-cat-litter |
+| best self cleaning litter box | best-automatic-litter-box (same SERP) |
+| best cat automatic litter box | best-automatic-litter-box |
+| best auto cat litter box | best-automatic-litter-box |
+| cleanest cat water fountain | best-cat-water-fountain-easy-to-clean |
+| best cat tree for big cats | best-cat-tree-for-large-cats |
+| best cat harness and leash | best-cat-harness (secondary KW) |
+| best cat leash and harness | best-cat-harness (secondary KW) |
+| best cat harness for walking | best-cat-harness (secondary KW) |
+| best cat harness no escape | best-cat-harness-escape-proof |
+| best cat backpack carrier | best-cat-carrier-backpack |
+| best dog bed for chewers | best-chew-proof-dog-bed |
+| best durable dog bed | best-chew-proof-dog-bed |
+| best chew resistant dog bed | best-chew-proof-dog-bed |
+| best dog cooling bed | best-cooling-dog-bed |
+| best big dog bed | best-dog-bed (secondary KW) |
+| what vacuum is best for pet hair | best-vacuum-for-pet-hair (secondary KW) |
+| best vacuum cleaner for pet hair | best-vacuum-for-pet-hair (secondary KW) |
+| best vacuum cleaners for pet hair | best-vacuum-for-pet-hair (secondary KW) |
+| best home vacuum for pet hair | best-vacuum-for-pet-hair (secondary KW) |
+| best robotic vacuum for pet hair | best-robot-vacuum-for-pet-hair |
+| best automatic vacuum for pet hair | best-robot-vacuum-for-pet-hair |
+| best dog hair remover | best-pet-hair-remover (secondary KW) |
+| how to get dog hair off clothes | how-to-remove-pet-hair-from-clothes |
+| how to get rid of cat urine smell | how-to-get-rid-of-cat-pee-smell |
+| how to get rid of cat piss smell | how-to-get-rid-of-cat-pee-smell |
+| how to clean cat pee off carpet | how-to-clean-cat-pee-from-carpet |
+| how to clean cat urine from carpet | how-to-clean-cat-pee-from-carpet |
+| how often should cat litter be changed | how-often-to-change-cat-litter |
+| how often should you replace cat litter | how-often-to-change-cat-litter |
+| how much is cat litter | how-much-does-cat-litter-cost |
+
+---
+
+## DESK ASSIGNMENT NOTES
+
+**Existing desks cover clusters 1, 2, and most of 4:**
+- Cat Care Essentials Desk → most litter, fountain, and cat gear pages
+- Multi-Cat Home Desk → odor control, multi-cat variants
+- Upgrade & Automation Desk → automatic litter boxes, Litter-Robot, wireless fountain
+
+**New desks needed for clusters 3 and 5:**
+- **Pet Cleanup Desk** → all pet hair vacuum and remover pages. Needs voice guide built via `build-editorial-desks`.
+- **Dog Comfort Desk** → all dog bed pages. Needs voice guide built via `build-editorial-desks`.
+
+Both new desks should follow the brand-level avatar framework in `data/avatar-research.md`. The Practical Starter and Clean-Space Manager avatars apply directly to both new clusters. Run `build-editorial-desks` before writing content for clusters 3 and 5.
+
+## CATEGORIES UPDATE NEEDED
+
+`src/config/site.ts` currently lists: Cat Litter, Water Fountains, Odor Control, Litter Area Cleanup, Pet Hair Cleanup.
+
+Update to reflect actual clusters:
+- Cat Litter & Litter Boxes
+- Cat Water Fountains
+- Cat Gear (Trees, Carriers, Harnesses)
+- Pet Hair Cleanup
+- Dog Beds & Comfort

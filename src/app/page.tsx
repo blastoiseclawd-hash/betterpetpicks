@@ -25,11 +25,11 @@ export default function HomePage() {
                 BetterPetPicks
               </h1>
               <p className="mt-7 max-w-3xl text-[1.18rem] leading-9 text-[#dbe4de] sm:text-[1.28rem]">
-                Practical cat-care buying guides for cleaner, calmer homes.
+                Practical pet-home buying guides for cleaner, calmer homes.
               </p>
               <p className="mt-4 max-w-3xl text-[1.02rem] leading-8 text-[#b9c6c0]">
-                BetterPetPicks is being built around cat litter, odor control, water fountains, litter-area
-                cleanup, and the tools that make real cat-owning homes easier to keep up with.
+                BetterPetPicks covers cat litter, water fountains, cat gear, pet hair cleanup, and dog
+                beds — the products that help real pet-owning homes run smoother.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -50,22 +50,22 @@ export default function HomePage() {
             </div>
 
             <aside className="sand-panel p-7 sm:p-8">
-              <p className="eyebrow">Wave one focus</p>
+              <p className="eyebrow">Five coverage clusters</p>
               <h2 className="mt-4 text-[2.65rem] font-bold leading-[0.96] text-[#182028]">
-                Tight category focus beats a messy pet superstore launch.
+                Focused clusters beat a messy pet superstore.
               </h2>
               <ul className="mt-6 space-y-3 text-[0.98rem] leading-7 text-[#42515b]">
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Stay inside cat-home utility products instead of drifting into pet food or health claims.</span>
+                  <span>Cat litter, water fountains, and cat gear for the core cat-home stack.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Use the desk model to separate simple defaults, multi-cat tradeoffs, and convenience upgrades.</span>
+                  <span>Pet hair vacuums and removers for every surface pets touch.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-3 h-1.5 w-1.5 shrink-0 bg-[#7f8f79]" />
-                  <span>Keep automation off until the first manual pages establish the voice and trust baseline.</span>
+                  <span>Dog beds and comfort gear for homes that need durability and easy cleanup.</span>
                 </li>
               </ul>
             </aside>
@@ -79,7 +79,7 @@ export default function HomePage() {
             <div className="max-w-3xl">
               <span className="editorial-rule">Editorial desks</span>
               <h2 className="mt-5 text-[2.8rem] font-bold leading-[0.98] text-[#23150f] sm:text-[3.4rem]">
-                Each desk owns a different kind of cat-owner frustration.
+                Each desk owns a different kind of pet-owner frustration.
               </h2>
             </div>
             <p className="max-w-xl text-[1.02rem] leading-8 text-[#4d5862]">
@@ -100,18 +100,18 @@ export default function HomePage() {
           </div>
 
           <div className="mt-10 rounded-md border border-[#d6d2c9] bg-[#fffdf9] p-7">
-            <p className="eyebrow">First live guide</p>
+            <p className="eyebrow">Live guides</p>
             <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
               <div className="max-w-3xl">
                 <h2 className="text-[2.35rem] font-bold leading-[0.98] text-[#23150f] sm:text-[2.8rem]">
-                  The first full guide is live: best cat litter.
+                  Three full guides are live.
                 </h2>
                 <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">
-                  It compares six current picks on clumping, odor control, dust, and cleanup friction so the site is now starting to feel like a real publication instead of a branded shell.
+                  Best cat litter, best cat water fountains, and best litter for odor control. Each one compares real products on the tradeoffs that matter most to the desk that wrote it.
                 </p>
               </div>
               <Link href="/best-cat-litter" className="button-primary">
-                Open the guide
+                Start with cat litter
               </Link>
             </div>
           </div>
@@ -121,9 +121,9 @@ export default function HomePage() {
       <section className="section-space-sm bg-[#eef0ea]">
         <div className="site-shell">
           <div className="max-w-3xl">
-            <span className="editorial-rule">Launch categories</span>
+            <span className="editorial-rule">Coverage clusters</span>
             <h2 className="mt-5 text-[2.45rem] font-bold leading-[0.98] text-[#23150f] sm:text-[3rem]">
-              The first cluster stays narrow on purpose.
+              Five clusters, each built around a real household problem.
             </h2>
           </div>
 
