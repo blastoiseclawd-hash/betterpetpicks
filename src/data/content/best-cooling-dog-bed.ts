@@ -68,11 +68,11 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The Furhaven Cooling Gel Dog Bed is the best cooling dog bed for most homes because it combines a working gel layer with orthopedic foam underneath. If your dog runs hotter than average or you need sustained cooling without a power outlet, the K&H Cool Bed III uses water instead of gel and holds temperature for hours instead of minutes.",
+    "For most dogs, the Coolaroo Elevated Pet Bed is the best cooling bed you can buy — airflow underneath beats any gel layer for sustained cooling, it survives outdoor use, and at around $28 for the large size it is half the price of the nearest gel competitor. Choose a gel bed (Furhaven, Green Pet Shop) only if you need indoor cushioning too. For hours of sustained cooling without electricity, the K&H Cool Bed III uses water. Set expectations honestly: cooling beds are a buffer, not a replacement for air conditioning.",
 
   productOrder: [
-    "furhaven-cooling-gel-dog-bed",
     "coolaroo-elevated-pet-bed",
+    "furhaven-cooling-gel-dog-bed",
     "green-pet-shop-cooling-pad",
     "kh-pet-cool-bed-iii",
     "arf-pets-self-cooling-mat",
@@ -87,8 +87,8 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
   },
 
   badges: {
-    "furhaven-cooling-gel-dog-bed": "Best Overall Cooling",
-    "coolaroo-elevated-pet-bed": "Best Elevated Airflow",
+    "coolaroo-elevated-pet-bed": "Best Overall Cooling",
+    "furhaven-cooling-gel-dog-bed": "Best Cushioned Gel",
     "green-pet-shop-cooling-pad": "Best Cooling Pad",
     "kh-pet-cool-bed-iii": "Best Water-Based",
     "arf-pets-self-cooling-mat": "Best Budget Cooling",
@@ -96,10 +96,10 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
 
   curatedSpecs: {
     "furhaven-cooling-gel-dog-bed": {
-      Size: "36\" x 27\" x 6.5\" (Large)",
-      "Weight Capacity": "Up to 75 lb",
-      "Cooling Type": "Gel memory foam (3\")",
-      "Cover": "Machine-washable faux fur + suede",
+      Size: "Medium (dogs up to 35 lb)",
+      "Weight Capacity": "Up to 35 lb",
+      "Cooling Type": "Cooling gel memory foam",
+      "Cover": "Pinsonic quilted polyester + removable bolsters",
     },
     "coolaroo-elevated-pet-bed": {
       Size: "51\" x 31.5\" x 8\" (Large)",
@@ -108,19 +108,19 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
       "Cover": "Breathable HDPE knitted fabric",
     },
     "green-pet-shop-cooling-pad": {
-      Size: "35.4\" x 19.7\" (Large)",
-      "Weight Capacity": "Up to 80 lb",
-      "Cooling Type": "Pressure-activated gel",
+      Size: "Large (dogs 46-80 lb)",
+      "Weight Capacity": "46-80 lb",
+      "Cooling Type": "Pressure-activated non-toxic gel",
       "Cover": "Sealed nylon shell",
     },
     "kh-pet-cool-bed-iii": {
-      Size: "32\" x 22\" (Large)",
+      Size: "44\" x 32\" (Large)",
       "Weight Capacity": "Up to 100 lb",
       "Cooling Type": "Water-filled core",
       "Cover": "Vinyl-coated nylon",
     },
     "arf-pets-self-cooling-mat": {
-      Size: "35\" x 21\" (Large)",
+      Size: "31\" x 37\"",
       "Weight Capacity": "Up to 80 lb",
       "Cooling Type": "Non-toxic solid gel core",
       "Cover": "Scratch-resistant nylon",
@@ -137,23 +137,23 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
   comparisonTable: [
     {
       badge: "Best Overall Cooling",
-      name: "Furhaven Cooling Gel Dog Bed",
-      price: "$49.99",
-      goodFor: "Orthopedic support + cooling",
-      coolingType: "Gel foam",
-      weightCapacity: "75 lb",
-      keyFeature: "3\" gel foam + memory foam base",
-      slug: "furhaven-cooling-gel-dog-bed",
-    },
-    {
-      badge: "Best Elevated Airflow",
       name: "Coolaroo Elevated Pet Bed",
-      price: "$29.99",
-      goodFor: "Sustained cooling, indoor/outdoor",
+      price: "$28.34",
+      goodFor: "Sustained cooling, indoor/outdoor, chewers",
       coolingType: "Elevated airflow",
       weightCapacity: "100 lb",
-      keyFeature: "360-degree air circulation",
+      keyFeature: "Airflow-based cooling that never needs recharging",
       slug: "coolaroo-elevated-pet-bed",
+    },
+    {
+      badge: "Best Cushioned Gel",
+      name: "Furhaven Cooling Gel Dog Bed",
+      price: "$42.97",
+      goodFor: "Small/medium dogs that want cushioning",
+      coolingType: "Gel foam",
+      weightCapacity: "35 lb",
+      keyFeature: "Gel layer + removable bolsters for head support",
+      slug: "furhaven-cooling-gel-dog-bed",
     },
     {
       badge: "Best Cooling Pad",
