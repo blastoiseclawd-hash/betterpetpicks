@@ -60,7 +60,7 @@ export type BestChewProofDogBedGuide = {
 
 export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
   slug: "best-chew-proof-dog-bed",
-  title: "Best Chew-Proof Dog Beds (2026): 4 Beds That Survive Destructive Dogs",
+  title: "Best Chew-Proof Dog Beds (2026): 4 Tough Picks",
   description:
     "Best chew-proof dog beds compared by frame, fabric, and real durability. Kuranda leads for destructive chewers, with honest picks from $94.99 to $149.99.",
   author: "dog-comfort-desk",

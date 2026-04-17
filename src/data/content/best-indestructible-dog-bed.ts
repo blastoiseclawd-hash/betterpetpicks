@@ -60,9 +60,9 @@ export type BestIndestructibleDogBedGuide = {
 
 export const bestIndestructibleDogBedGuide: BestIndestructibleDogBedGuide = {
   slug: "best-indestructible-dog-bed",
-  title: "Best Indestructible Dog Beds (2026): 5 Beds That Last Years, Not Months",
+  title: "Best Indestructible Dog Beds (2026): 5 Long-Lasting Picks",
   description:
-    "Best indestructible dog beds for large breeds and chewers. Honest picks from $60 to $275, separated into foam-longevity and chew-proof categories so you buy for your actual problem.",
+    "Best indestructible dog beds for large breeds and chewers. Honest picks from $60 to $275, separated into foam-longevity and chew-proof categories so you buy.",
   author: "dog-comfort-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

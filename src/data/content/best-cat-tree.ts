@@ -9,7 +9,7 @@ export const bestCatTreeGuide = {
   slug: "best-cat-tree",
   title: "Best Cat Trees (2026): 5 Picks From Sturdy to Budget",
   description:
-    "Best cat trees compared on stability, platform size, scratching surface, and assembly. The Feandrea 56-inch leads for most homes with a wide base and sisal-wrapped posts.",
+    "Best cat trees compared on stability, platform size, scratching surface, and assembly. The Feandrea 56-inch leads for most homes.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

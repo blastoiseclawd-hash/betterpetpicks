@@ -8,7 +8,7 @@
 export const howOftenToChangeCatLitterContent = {
   title: "How Often to Change Cat Litter",
   description:
-    "Daily scooping plus a full change about once a month for clumping litter with one cat. Full schedule by type, the real signs it is time, and why a too-clean box can backfire.",
+    "Daily scooping plus a full change about once a month for clumping litter with one cat. Full schedule by type, the real signs it is time, and why a too-clean.",
   slug: "how-often-to-change-cat-litter",
   authorSlug: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",

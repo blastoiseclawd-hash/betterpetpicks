@@ -7,7 +7,7 @@
 export const howToRemovePetHairFromClothesContent = {
   title: "How to Remove Pet Hair From Clothes",
   description:
-    "How to get pet hair off clothes using the dryer pre-cycle trick, lint rollers, washing machine management, and fabric-specific methods. Step-by-step guide ranked by effectiveness.",
+    "How to get pet hair off clothes using the dryer pre-cycle trick, lint rollers, washing machine management, and fabric-specific methods.",
   slug: "how-to-remove-pet-hair-from-clothes",
   authorSlug: "pet-cleanup-desk",
   publishedDate: "2026-04-16",

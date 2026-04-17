@@ -46,10 +46,10 @@ export type Author = EditorialDesk;
 export const editorialDesks: EditorialDesk[] = [
   {
     slug: "cat-care-essentials-desk",
-    name: "Cat Care Essentials Desk",
+    name: "The House Cat",
     title: "Low-mess everyday picks",
     avatar: "/images/desks/everyday-desk.svg",
-    bio: "The Cat Care Essentials Desk covers the obvious, practical answers for cleaner routines, easier setup, and lower daily friction across cat litter, water fountains, and cat gear. It serves Practical Starter and Clean-Space Manager readers who want the shortest path to a working solution without overanalyzing every option.",
+    bio: "The House Cat covers the obvious, practical answers for cleaner routines, easier setup, and lower daily friction across cat litter, water fountains, and cat gear. It serves Practical Starter and Clean-Space Manager readers who want the shortest path to a working solution without overanalyzing every option.",
     audience: "Practical Starter and Clean-Space Manager readers across cat litter, cat water fountains, and cat gear. Newer owners, first-time buyers, smaller-home or apartment dwellers, and anyone who wants the simple default that creates less mess and less confusion.",
     expertise: [
       "best overall cat litter picks",
@@ -225,10 +225,10 @@ export const editorialDesks: EditorialDesk[] = [
   },
   {
     slug: "multi-cat-home-desk",
-    name: "Multi-Cat Home Desk",
+    name: "The Multi-Cat",
     title: "Odor and value tradeoffs",
     avatar: "/images/desks/enthusiast-desk.svg",
-    bio: "The Multi-Cat Home Desk focuses on products that still hold up when usage scales, routines slip, and the monthly bill starts to matter. It covers multi-cat litter, high-load fountains, and any product where adding a second or third cat changes the math. It exists to answer the hard household questions that simple one-cat recommendations miss.",
+    bio: "The Multi-Cat focuses on products that still hold up when usage scales, routines slip, and the monthly bill starts to matter. It covers multi-cat litter, high-load fountains, and any product where adding a second or third cat changes the math. It exists to answer the hard household questions that simple one-cat recommendations miss.",
     audience:
       "Household Operator readers managing multi-cat or higher-load households. People dealing with more smell, faster reservoir depletion, heavier wear on equipment, and tighter tolerance for products that fail under volume.",
     expertise: [
@@ -389,10 +389,10 @@ export const editorialDesks: EditorialDesk[] = [
   },
   {
     slug: "upgrade-automation-desk",
-    name: "Upgrade & Automation Desk",
+    name: "The Upgrade Edit",
     title: "Premium convenience analysis",
     avatar: "/images/desks/lab-desk.svg",
-    bio: "The Upgrade & Automation Desk covers products that promise to remove routine friction through automation, premium materials, or better maintenance design across cat litter, fountains, and cat gear. Its job is not to chase novelty. Its job is to decide whether the higher spend actually buys back time and lowers hassle.",
+    bio: "The Upgrade Edit covers products that promise to remove routine friction through automation, premium materials, or better maintenance design across cat litter, fountains, and cat gear. Its job is not to chase novelty. Its job is to decide whether the higher spend actually buys back time and lowers hassle.",
     audience:
       "Convenience Upgrader readers across all cat clusters. Buyers considering self-cleaning litter systems, premium stainless steel or smart fountains, real-wood cat trees, modular wall-mounted systems, airline-compliant carriers, or other higher-ticket upgrades that claim to save time or improve quality of life.",
     expertise: [
@@ -557,10 +557,10 @@ export const editorialDesks: EditorialDesk[] = [
   },
   {
     slug: "pet-cleanup-desk",
-    name: "Pet Cleanup Desk",
+    name: "The Cleanup",
     title: "Hair, fur, and surface solutions",
     avatar: "/images/desks/cleanup-desk.svg",
-    bio: "The Pet Cleanup Desk covers vacuums, removers, lint tools, and grooming accessories that address pet hair on every household surface. It exists because pet hair cleanup is a daily, multi-surface problem with genuinely different tool categories — upright vacuums, cordless sticks, robot vacuums, handheld vacuums, lint rollers, reusable removers, and grooming kits all serve different jobs. This desk knows the difference and matches the tool to the surface, the shedding level, and the household.",
+    bio: "The Cleanup covers vacuums, removers, lint tools, and grooming accessories that address pet hair on every household surface. It exists because pet hair cleanup is a daily, multi-surface problem with genuinely different tool categories — upright vacuums, cordless sticks, robot vacuums, handheld vacuums, lint rollers, reusable removers, and grooming kits all serve different jobs. This desk knows the difference and matches the tool to the surface, the shedding level, and the household.",
     audience:
       "Practical Starter, Clean-Space Manager, and Household Operator readers dealing with pet hair. First-time tool buyers who need one good vacuum, allergy-sensitive households that need HEPA filtration and sealed systems, and multi-pet homes managing heavy shedding across floors, furniture, clothes, and cars.",
     expertise: [
@@ -741,10 +741,10 @@ export const editorialDesks: EditorialDesk[] = [
   },
   {
     slug: "dog-comfort-desk",
-    name: "Dog Comfort Desk",
+    name: "The Dog Den",
     title: "Beds, covers, and durable comfort",
     avatar: "/images/desks/comfort-desk.svg",
-    bio: "The Dog Comfort Desk covers dog beds, car seat covers, and comfort accessories where sizing accuracy, durability, washability, and real-world endurance matter more than aesthetics or novelty. It exists because dog bed content is dominated by size, weight capacity, chew resistance, orthopedic support, and clinical claims — a fundamentally different buying decision than the mess and odor language of cat products.",
+    bio: "The Dog Den covers dog beds, car seat covers, and comfort accessories where sizing accuracy, durability, washability, and real-world endurance matter more than aesthetics or novelty. It exists because dog bed content is dominated by size, weight capacity, chew resistance, orthopedic support, and clinical claims — a fundamentally different buying decision than the mess and odor language of cat products.",
     audience:
       "Practical Starter, Household Operator, and Convenience Upgrader readers shopping for dog comfort products. First-time dog bed buyers, owners of heavy or senior dogs needing orthopedic support, multi-dog households managing durability and washing, and premium buyers evaluating clinical joint-support claims.",
     expertise: [

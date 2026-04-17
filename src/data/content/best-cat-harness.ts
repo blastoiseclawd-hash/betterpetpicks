@@ -9,7 +9,7 @@ export const bestCatHarnessGuide = {
   slug: "best-cat-harness",
   title: "Best Cat Harnesses (2026): 5 Picks That Stay On",
   description:
-    "Best cat harnesses compared on escape-proofing, fit, and comfort. The rabbitgoo Cat Harness leads with an adjustable vest design and strong escape prevention across body types.",
+    "Best cat harnesses compared on escape-proofing, fit, and comfort. The rabbitgoo Cat Harness leads with an adjustable vest design and strong escape prevention.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

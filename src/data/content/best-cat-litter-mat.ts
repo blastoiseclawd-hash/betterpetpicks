@@ -360,7 +360,7 @@ The tradeoff is obvious. A textured surface cannot trap as much litter per step 
     { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
     { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
     { href: "/best-cat-litter", title: "Best Cat Litter" },
-    { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
+    { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
   ],
 
   breadcrumbLabel: "Best Cat Litter Mat",

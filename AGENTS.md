@@ -28,11 +28,11 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 | Desk | Focus | Writes for | Voice | Emotional Posture |
 |------|-------|-----------|-------|-------------------|
-| **Cat Care Essentials Desk** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Calm, reassuring, gentle permission | REASSURANCE — friend who adopted a cat two years ago and remembers the confusion |
-| **Multi-Cat Home Desk** | Higher-load odor and value tradeoffs | Household Operator | Knowing, cost-honest, pressure-tested | SOLIDARITY — running the same chaotic household, never judges the number of cats |
-| **Upgrade & Automation Desk** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, conditional, failure-mode-aware | SKEPTICAL INVESTOR — burned by hype before, demands proof before opening wallet |
-| **Pet Cleanup Desk** | Pet hair vacuums, removers, shedding tools | Practical Starter + Clean-Space Manager | Validating, surface-specific, battle-tested | PERMISSION — pet hair is a daily war, not a character flaw |
-| **Dog Comfort Desk** | Dog beds, car covers, travel comfort | Practical Starter + Household Operator | Dog-first, spec-honest, protective | ADVOCACY — the dog cannot write a review, this desk reads their body language |
+| **The House Cat** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Calm, reassuring, gentle permission | REASSURANCE — friend who adopted a cat two years ago and remembers the confusion |
+| **The Multi-Cat** | Higher-load odor and value tradeoffs | Household Operator | Knowing, cost-honest, pressure-tested | SOLIDARITY — running the same chaotic household, never judges the number of cats |
+| **The Upgrade Edit** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, conditional, failure-mode-aware | SKEPTICAL INVESTOR — burned by hype before, demands proof before opening wallet |
+| **The Cleanup** | Pet hair vacuums, removers, shedding tools | Practical Starter + Clean-Space Manager | Validating, surface-specific, battle-tested | PERMISSION — pet hair is a daily war, not a character flaw |
+| **The Dog Den** | Dog beds, car covers, travel comfort | Practical Starter + Household Operator | Dog-first, spec-honest, protective | ADVOCACY — the dog cannot write a review, this desk reads their body language |
 
 All 5 desks have full voice guides in `authors.ts` with distinct emotional postures (reworked 2026-04-16). Each desk meets the reader at a different emotional entry point. Content can be written for any cluster.
 
@@ -58,11 +58,11 @@ Research date: 2026-04-16. Full artifact: `data/avatar-research.md`.
 
 | Desk | Primary Avatars | Clusters |
 |---|---|---|
-| Cat Care Essentials | Practical Starter, Clean-Space Manager | Cat Litter (core), Cat Fountains, Cat Gear |
-| Multi-Cat Home | Household Operator | Cat Litter (multi-cat), Cat Fountains (multi-cat) |
-| Upgrade & Automation | Convenience Upgrader | Cat Litter (automation), Cat Fountains (premium), Cat Gear (premium) |
-| Pet Cleanup | Practical Starter, Clean-Space Manager, Household Operator | Pet Hair Cleanup |
-| Dog Comfort | Practical Starter, Household Operator, Convenience Upgrader | Dog Beds & Comfort |
+| The House Cat | Practical Starter, Clean-Space Manager | Cat Litter (core), Cat Fountains, Cat Gear |
+| The Multi-Cat | Household Operator | Cat Litter (multi-cat), Cat Fountains (multi-cat) |
+| The Upgrade Edit | Convenience Upgrader | Cat Litter (automation), Cat Fountains (premium), Cat Gear (premium) |
+| The Cleanup | Practical Starter, Clean-Space Manager, Household Operator | Pet Hair Cleanup |
+| The Dog Den | Practical Starter, Household Operator, Convenience Upgrader | Dog Beds & Comfort |
 
 ## Content Categories
 

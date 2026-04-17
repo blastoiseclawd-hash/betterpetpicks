@@ -108,27 +108,8 @@ export const pageTargets: PageTarget[] = [
     notes:
       "Fast beginner-support page that strengthens the litter hub and gives the site a practical setup answer early in the launch.",
   },
-  {
-    slug: "best-cat-litter-for-odor-control",
-    title: "Best Cat Litter for Odor Control (2026)",
-    type: "spoke",
-    pageType: "money-guide",
-    primaryKeyword: "best cat litter for odor control",
-    primaryVolume: 2200,
-    primaryKd: 2,
-    secondaryKeywords: [
-      "best cat litter for odor",
-      "best odor control cat litter",
-      "best cat litter for smell",
-      "best cat litter with odor control",
-    ],
-    authorSlug: "multi-cat-home-desk",
-    audienceProfile: "Multi-Cat Operator",
-    primaryAvatar: "Household Operator",
-    priority: 1,
-    notes:
-      "Primary odor spoke. Keep it centered on room impact, clump stability, and odor creep under real use rather than letting it swallow every multi-cat tradeoff.",
-  },
+  // Phase 4 P4.7 — /best-cat-litter-for-odor-control merged into /best-cat-litter
+  // via 301 redirect in next.config.ts. See data/bpp-cluster-triage-2026-04-17.md.
   {
     slug: "best-automatic-cat-feeder",
     title: "Best Automatic Cat Feeders (2026)",
@@ -231,27 +212,8 @@ export const pageTargets: PageTarget[] = [
     notes:
       "Distinct feeder spoke for readers who need refrigeration or wet-food-friendly scheduling, not just a generic hopper feeder.",
   },
-  {
-    slug: "best-dust-free-cat-litter",
-    title: "Best Dust Free Cat Litter (2026)",
-    type: "spoke",
-    pageType: "money-guide",
-    primaryKeyword: "best dust free cat litter",
-    primaryVolume: 1200,
-    primaryKd: 0,
-    secondaryKeywords: [
-      "best low dust cat litter",
-      "dust free cat litter",
-      "best cat litter no dust",
-      "best dustless cat litter",
-    ],
-    authorSlug: "cat-care-essentials-desk",
-    audienceProfile: "Dust-Sensitive Space Manager",
-    primaryAvatar: "Clean-Space Manager",
-    priority: 2,
-    notes:
-      "Dust-control spoke for air-quality and residue-sensitive readers. Keep it distinct from tracking and odor pages.",
-  },
+  // Phase 4 P4.7 — /best-dust-free-cat-litter merged into /best-cat-litter
+  // via 301 redirect in next.config.ts. See data/bpp-cluster-triage-2026-04-17.md.
   {
     slug: "cat-water-fountain-no-mold",
     title: "Cat Water Fountain No-Mold Guide",
@@ -453,26 +415,8 @@ export const pageTargets: PageTarget[] = [
     notes:
       "High-volume support page (8,100) for the litter/odor cluster. Strengthens commercial pages by teaching the cleanup method and pointing readers to the right litter.",
   },
-  {
-    slug: "best-non-tracking-cat-litter",
-    title: "Best Non-Tracking Cat Litter (2026)",
-    type: "spoke",
-    pageType: "money-guide",
-    primaryKeyword: "best non tracking cat litter",
-    primaryVolume: 1100,
-    primaryKd: 0,
-    secondaryKeywords: [
-      "low tracking cat litter",
-      "best low tracking cat litter",
-      "best cat litter for odor and tracking",
-    ],
-    authorSlug: "cat-care-essentials-desk",
-    audienceProfile: "Dust-Sensitive Space Manager",
-    primaryAvatar: "Clean-Space Manager",
-    priority: 3,
-    notes:
-      "Tracking-control spoke focused on floor scatter and cleanup burden, not airborne dust.",
-  },
+  // Phase 4 P4.7 — /best-non-tracking-cat-litter merged into /best-cat-litter
+  // via 301 redirect in next.config.ts. See data/bpp-cluster-triage-2026-04-17.md.
   {
     slug: "stainless-steel-vs-ceramic-cat-water-fountains",
     title: "Stainless Steel vs Ceramic Cat Water Fountains",

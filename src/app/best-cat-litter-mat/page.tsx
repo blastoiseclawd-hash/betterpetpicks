@@ -46,7 +46,6 @@ export default function BestCatLitterMatPage() {
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={[
         { href: "/best-cat-litter", title: "Best Cat Litter (Overall)" },
-        { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
         { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
         { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
         { href: "/how-to-get-rid-of-cat-pee-smell", title: "How to Get Rid of Cat Pee Smell" },

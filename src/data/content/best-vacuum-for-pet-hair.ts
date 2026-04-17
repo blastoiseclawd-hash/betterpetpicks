@@ -51,9 +51,9 @@ export type PetVacuumGuide = {
 
 export const bestVacuumForPetHairGuide: PetVacuumGuide = {
   slug: "best-vacuum-for-pet-hair",
-  title: "Best Vacuums for Pet Hair (2026): 5 Picks That Handle Real Shedding",
+  title: "Best Vacuums for Pet Hair (2026): 5 Top Picks",
   description:
-    "Best vacuums for pet hair, picked on sealed HEPA, real dustbin capacity, and the maintenance schedule product pages hide. Shark Navigator ZU561 is the everyday workhorse.",
+    "Best vacuums for pet hair, picked on sealed HEPA, real dustbin capacity, and the maintenance schedule product pages hide.",
   author: "pet-cleanup-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

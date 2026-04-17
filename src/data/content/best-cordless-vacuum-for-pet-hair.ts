@@ -54,7 +54,7 @@ export const bestCordlessVacuumForPetHairGuide: CordlessVacuumGuide = {
   slug: "best-cordless-vacuum-for-pet-hair",
   title: "Best Cordless Vacuums for Pet Hair (2026): 3 Picks by Budget",
   description:
-    "Best cordless vacuums for pet hair, picked on real boost-mode runtime, dustbin capacity, and anti-tangle that actually holds up. Dyson V15 Detect leads, Shark Vertex Pro wins mixed floors.",
+    "Best cordless vacuums for pet hair, picked on real boost-mode runtime, dustbin capacity, and anti-tangle that actually holds up.",
   author: "pet-cleanup-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

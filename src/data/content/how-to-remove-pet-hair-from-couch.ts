@@ -6,7 +6,7 @@
 export const howToRemovePetHairFromCouchContent = {
   title: "How to Remove Pet Hair From a Couch",
   description:
-    "How to remove pet hair from a couch with the rubber glove method, a squeegee, a reusable roller, and a vacuum. Surface-safe techniques and the prevention moves that actually solve it.",
+    "How to remove pet hair from a couch with the rubber glove method, a squeegee, a reusable roller, and a vacuum.",
   slug: "how-to-remove-pet-hair-from-couch",
   authorSlug: "pet-cleanup-desk",
   publishedDate: "2026-04-16",

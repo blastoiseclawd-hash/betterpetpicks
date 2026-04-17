@@ -78,10 +78,7 @@ export const siteConfig = {
         href: "/best-cat-litter",
         children: [
           { label: "Best Cat Litter", href: "/best-cat-litter" },
-          { label: "Best for Odor Control", href: "/best-cat-litter-for-odor-control" },
           { label: "Best for Multiple Cats", href: "/best-cat-litter-for-multiple-cats" },
-          { label: "Best Dust-Free", href: "/best-dust-free-cat-litter" },
-          { label: "Best Non-Tracking", href: "/best-non-tracking-cat-litter" },
           { label: "Best Litter Mat", href: "/best-cat-litter-mat" },
         ],
       },

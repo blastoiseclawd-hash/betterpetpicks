@@ -7,7 +7,7 @@
 export const howMuchCatLitterToUseContent = {
   title: "How Much Cat Litter to Use",
   description:
-    "How much cat litter to put in the litter box: 2 to 3 inches for most litter types. The pickup test, what too much or too little actually does, and how to top off without overfilling.",
+    "How much cat litter to put in the litter box: 2 to 3 inches for most types. The pickup test and what too much or too little actually does.",
   slug: "how-much-cat-litter-to-use",
   authorSlug: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",

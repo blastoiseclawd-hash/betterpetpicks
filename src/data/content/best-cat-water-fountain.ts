@@ -61,7 +61,7 @@ export const bestCatWaterFountainGuide: CatWaterFountainGuide = {
   slug: "best-cat-water-fountain",
   title: "Best Cat Water Fountains in 2026: 6 Picks That Stay Clean",
   description:
-    "Best cat water fountains compared on material, noise, cleaning friction, and filter cost. The Veken 95oz stainless steel fountain is the best pick for most homes, with honest options from $18 to $76.",
+    "Best cat water fountains compared on material, noise, cleaning friction, and filter cost. Veken 95oz stainless steel is the top pick.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-15",
   modifiedDate: "2026-04-17",

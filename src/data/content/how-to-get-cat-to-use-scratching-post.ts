@@ -7,7 +7,7 @@
 export const howToGetCatToUseScratchingPostContent = {
   title: "How to Get Your Cat to Use a Scratching Post",
   description:
-    "How to get your cat to use a scratching post instead of furniture. Covers placement, material choice, catnip, redirection training, and when to replace a worn post.",
+    "How to get your cat to use a scratching post instead of furniture. Covers placement, material choice, catnip, redirection training, and when to replace a worn.",
   slug: "how-to-get-cat-to-use-scratching-post",
   authorSlug: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",

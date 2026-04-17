@@ -45,10 +45,8 @@ export default function BestCatLitterPage() {
       breadcrumbLabel={content.breadcrumbLabel}
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={[
-        { href: "/best-dust-free-cat-litter", title: "Best Dust Free Cat Litter" },
-        { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
-        { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
         { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
+        { href: "/best-cat-litter-mat", title: "Best Cat Litter Mat" },
         { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
         { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
         { href: "/how-to-clean-cat-pee-from-carpet", title: "How to Clean Cat Pee from Carpet" },

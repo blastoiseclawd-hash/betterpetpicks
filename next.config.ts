@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      { source: "/best-dust-free-cat-litter", destination: "/best-cat-litter", permanent: true },
+      { source: "/best-non-tracking-cat-litter", destination: "/best-cat-litter", permanent: true },
+      { source: "/best-cat-litter-for-odor-control", destination: "/best-cat-litter", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;

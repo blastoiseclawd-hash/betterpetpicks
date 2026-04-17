@@ -7,7 +7,7 @@
 export const howToGetRidOfCatPeeSmellContent = {
   title: "How to Get Rid of Cat Pee Smell",
   description:
-    "How to get rid of cat pee smell for good. The science behind why it lingers, the only cleaner that works, and surface-by-surface instructions for carpet, hardwood, mattresses, and more.",
+    "How to get rid of cat pee smell for good. The science behind why it lingers, the only cleaner that works, and surface-by-surface instructions for carpet.",
   slug: "how-to-get-rid-of-cat-pee-smell",
   authorSlug: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",

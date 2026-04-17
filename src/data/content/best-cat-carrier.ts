@@ -8,7 +8,7 @@ export const bestCatCarrierGuide = {
   slug: "best-cat-carrier",
   title: "Best Cat Carriers (2026): 5 Picks for Vet Trips and Flights",
   description:
-    "Best cat carriers compared on loading ease, airline compliance, and durability. The Sherpa Original Deluxe leads for airline travel; the Petmate Two-Door Top Load is the one vets quietly wish you owned.",
+    "Best cat carriers compared on loading ease, airline compliance, and durability. The Sherpa Original Deluxe leads for airline travel.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

@@ -9,7 +9,7 @@ export const bestCatTreeForLargeCatsGuide = {
   slug: "best-cat-tree-for-large-cats",
   title: "Best Cat Trees for Large Cats (2026): 5 Picks That Won't Wobble",
   description:
-    "Best cat trees for large cats compared on weight capacity, post diameter, base stability, and platform width. The Feandrea 68.5-inch XL leads for cats 15-22 pounds.",
+    "Best cat trees for large cats compared on weight capacity, post diameter, base stability, and platform width.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",

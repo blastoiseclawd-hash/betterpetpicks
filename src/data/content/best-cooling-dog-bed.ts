@@ -60,9 +60,9 @@ export type BestCoolingDogBedGuide = {
 
 export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
   slug: "best-cooling-dog-bed",
-  title: "Best Cooling Dog Beds (2026): 5 Picks That Actually Lower Temperature",
+  title: "Best Cooling Dog Beds (2026): 5 Picks That Actually Work",
   description:
-    "Best cooling dog beds compared by cooling type, duration, and weight capacity. Coolaroo elevated mesh beats gel for sustained cooling, with honest picks from $28 to $50.",
+    "Best cooling dog beds compared by cooling type, duration, and weight capacity. Coolaroo elevated mesh beats gel for sustained cooling.",
   author: "dog-comfort-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
