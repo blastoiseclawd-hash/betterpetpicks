@@ -28,7 +28,7 @@ export default function HowToCleanCatPeeFromCarpetPage() {
       sections={content.sections}
       faqs={content.faqs}
       relatedLinks={content.relatedLinks}
-      breadcrumbLabel="How to Clean Cat Pee From Carpet"
+      breadcrumbLabel="How to Clean Cat Pee from Carpet"
       estimatedTime={content.estimatedTime}
     />
   );

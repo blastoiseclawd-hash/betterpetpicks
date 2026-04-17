@@ -51,6 +51,7 @@ export default function BestCatLitterForMultipleCatsPage() {
         { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
         { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
         { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
+        { href: "/how-to-clean-cat-pee-from-carpet", title: "How to Clean Cat Pee from Carpet" },
         { href: "/how-to-get-rid-of-cat-pee-smell", title: "How to Get Rid of Cat Pee Smell" },
         { href: "/how-we-review", title: "How We Review" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
