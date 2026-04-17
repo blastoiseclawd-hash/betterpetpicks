@@ -1,7 +1,6 @@
-// How to Remove Pet Hair From Clothes — Support/Educational Page
-// Desk: Pet Cleanup
+// How to Remove Pet Hair From Clothes - Support/Educational Page
+// Desk: Pet Cleanup (PERMISSION voice)
 // Primary keyword: how to remove pet hair from clothes (Vol 150, KD 0, TP 5,400)
-// Research: 4 Reddit threads (r/CleaningTips, r/homemaking, r/laundry x2), 2026-04-16
 // Research doc: data/research/how-to-remove-pet-hair-from-clothes.md
 // Purpose: Support page for the Pet Hair Cleanup cluster
 
@@ -25,11 +24,11 @@ export const howToRemovePetHairFromClothesContent = {
   ],
 
   intro:
-    "Pet hair clings to clothes because the charge difference between animal fur and textile fibers creates a static bond that casual brushing cannot break. A lint roller handles what sits on top, but embedded hair needs a different approach. The single most effective method is one most people skip — and it happens before the washing machine.",
+    "If you have thrown clothes in the wash and watched them come out hairier than they went in, you are not imagining it. Pet hair does not dissolve in water. It floats through the rinse cycle and redistributes across every item in the load. The single most effective fix is a step most people skip, and it happens before the washing machine. The full routine below covers the dryer pre-cycle, lint roller technique, washing machine management, fabric-specific methods for fleece and wool and silk, emergency fixes when you have no tools, and the prevention moves that actually reduce hair on clothes in the first place.",
 
   heroImage: {
     src: "/images/guides/how-to-remove-pet-hair-from-clothes/01-hero.png",
-    alt: "How to remove pet hair from clothes — dryer pre-cycle, lint roller, fabric-specific methods, and washing machine management",
+    alt: "How to remove pet hair from clothes: dryer pre-cycle, lint roller, fabric-specific methods, and washing machine management",
   },
 
   estimatedTime: "PT6M",
@@ -49,11 +48,11 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
 
 **Low heat or no heat both work.** Multiple owners report that a cold tumble-only cycle is enough. The agitation matters more than the temperature. Low heat softens the static bond slightly, but the mechanical action of tumbling does most of the work.
 
-**Add wool dryer balls or a dryer sheet.** Wool dryer balls physically agitate clothes during tumbling, which loosens more hair. Dryer sheets reduce static, which helps hair release from fabric. Either option helps. Using both does not double the effect — pick one.
+**Add wool dryer balls or a dryer sheet.** Wool dryer balls physically agitate clothes during tumbling, which loosens more hair. Dryer sheets reduce static, which helps hair release from fabric. Either one helps. Using both does not double the effect, so pick one.
 
-**Clean the lint trap before and after.** A full trap captures nothing. If the trap is coated before you start, the dryer moves hair around instead of removing it. Clean the dryer vent periodically too — better airflow means more hair reaches the trap.
+**Clean the lint trap before and after.** A full trap captures nothing. If the trap is coated before you start, the dryer moves hair around instead of removing it. Clean the dryer vent periodically too, because better airflow means more hair reaches the trap.
 
-**The hygiene question.** Some people object to putting unwashed clothes in a dryer. For everyday clothing — t-shirts, jeans, sweatshirts — the heat handles bacteria and the clothes are not meaningfully dirty. If you work in a kitchen or handle oils, this concern is more valid. The alternative is shaking each item outside before washing, which removes less hair.`,
+**The hygiene question.** Some people object to putting unwashed clothes in a dryer. For everyday clothing like t-shirts, jeans, and sweatshirts, the heat handles bacteria and the clothes are not meaningfully dirty. If you work in a kitchen or handle oils, this concern is more valid. The alternative is shaking each item outside before washing, which removes less hair.`,
       steps: [
         {
           name: "Clean the lint trap completely",
@@ -61,12 +60,12 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
             "Remove any lint or hair from the previous cycle. A full trap captures nothing. Wipe the screen with your hand or a damp cloth until it is clear.",
         },
         {
-          name: "Load hairy clothes loosely — no more than two-thirds full",
+          name: "Load hairy clothes loosely, no more than two-thirds full",
           description:
             "Hair releases better when clothes have room to tumble freely. A packed drum means clothes clump together instead of separating, and hair stays trapped between layers.",
         },
         {
-          name: "Add 3-4 wool dryer balls or a dryer sheet",
+          name: "Add 3 to 4 wool dryer balls or a dryer sheet",
           description:
             "Wool dryer balls bounce between clothes and physically knock hair loose. A dryer sheet reduces static so hair releases more easily. One or the other is sufficient.",
         },
@@ -93,7 +92,7 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
 
 **Use a wide roller for coats and pants.** Standard-width lint rollers are sized for shirt fronts. An 8-inch wide roller covers pants, jackets, and long sleeves in half the passes. The per-sheet cost is higher, but it finishes faster.
 
-**The refill math.** A household going through a roll per week spends roughly $5-8 per month on sheets. If that cost bothers you, a reusable electrostatic roller handles most of the same job without ongoing cost. But for the 30-second doorway pass before you leave, adhesive rollers still win on speed.
+**The refill math.** A household going through a roll per week spends roughly $5 to $8 per month on sheets. If that cost bothers you, a reusable electrostatic roller handles most of the same job without ongoing cost. For the 30-second doorway pass before you leave, adhesive rollers still win on speed.
 
 **Keep one by the front door.** A final pass catches what you missed. This does not prevent hair from getting on clothes, but it keeps you from walking out wearing it.`,
     },
@@ -109,11 +108,11 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
 
 **Run the dryer pre-cycle first.** This removes most hair before it reaches the wash water. If you follow one tip from this page, that is the one.
 
-**Wash pet-heavy items separately.** Do not mix the dog bed cover with work shirts. Hair transfers freely in wash water, and a single heavily-shed item contaminates the entire load. Keep two laundry baskets — one for pet-contact items, one for everything else.
+**Wash pet-heavy items separately.** Do not mix the dog bed cover with work shirts. Hair transfers freely in wash water, and a single heavily-shed item contaminates the entire load. Keep two laundry baskets, one for pet-contact items and one for everything else.
 
 **Use liquid detergent, not powder.** Powder detergent granules trap hair against fabric during the wash cycle. Liquid detergent dissolves fully and lets hair flow freely toward the drain.
 
-**Add a half cup of white vinegar to the rinse cycle.** Not the wash cycle — the rinse. Vinegar softens fabric fibers, which releases trapped hair. It also reduces static in the dryer cycle that follows. The smell does not survive the rinse.
+**Add a half cup of white vinegar to the rinse cycle.** Not the wash cycle, the rinse. Vinegar softens fabric fibers, which releases trapped hair. It also reduces static in the dryer cycle that follows. The smell does not survive the rinse.
 
 **The scouring pad trick.** Cut a colorful (non-metallic) kitchen scouring pad into quarters and throw the pieces into the wash with your clothes. The textured surface catches pet hair in the water as the load agitates. Owners with long-haired cats report this makes a visible difference. Pull the pad pieces out before transferring to the dryer.
 
@@ -126,7 +125,7 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
       heading: "Fabric-specific methods",
       image: {
         src: "/images/guides/how-to-remove-pet-hair-from-clothes/03-fabric-guide.png",
-        alt: "Best pet hair removal method by fabric type — fleece with lint roller, wool with garment brush, cotton with damp hand, silk with tape, denim with rubber glove",
+        alt: "Best pet hair removal method by fabric type: fleece with lint roller, wool with garment brush, cotton with damp hand, silk with tape, denim with rubber glove",
         caption: "The right method depends on the fabric.",
       },
       body: `Different fabrics hold pet hair differently. The wrong removal method wastes time or damages the garment.
@@ -137,7 +136,7 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
 
 **Cotton** releases hair more easily than synthetics because cotton generates less static. A lint roller or a damp hand pass usually handles it. The dryer pre-cycle works well on cotton without risk of damage.
 
-**Silk and delicate synthetics** should not go in the dryer. Use a lint roller with a light touch or a strip of packing tape wrapped around your hand, sticky side out. Press gently — do not drag, which can snag delicate fabric.
+**Silk and delicate synthetics** should not go in the dryer. Use a lint roller with a light touch, or a strip of packing tape wrapped around your hand sticky side out. Press gently, do not drag, because dragging can snag delicate fabric.
 
 **Denim and tightly woven fabrics** shed pet hair more readily than loose weaves. A damp rubber glove run across the surface in one direction balls up hair through friction. The dryer pre-cycle also works well on denim.
 
@@ -192,17 +191,17 @@ The tumbling action shakes hair loose from fabric fibers. The lint trap catches 
     {
       question: "How do I keep pet hair off black clothes?",
       answer:
-        "Store black clothes in a closed closet or garment bag away from pet-accessible areas. Before wearing, run through the dryer pre-cycle if machine-safe, then use a lint roller in one-directional strokes. Fabric choice matters — tightly woven cotton and smooth synthetics hold less hair than fleece or knits.",
+        "Store black clothes in a closed closet or garment bag away from pet-accessible areas. Before wearing, run through the dryer pre-cycle if machine-safe, then use a lint roller in one-directional strokes. Fabric choice matters, because tightly woven cotton and smooth synthetics hold less hair than fleece or knits.",
     },
     {
       question: "Do wool dryer balls help with pet hair in laundry?",
       answer:
-        "Yes. Wool dryer balls physically agitate clothes during tumbling, which knocks pet hair loose so the lint trap can catch it. Use 3-4 balls per load. They work about as well as dryer sheets for hair removal but do not reduce static as effectively. Either option is sufficient — using both does not double the effect.",
+        "Yes. Wool dryer balls physically agitate clothes during tumbling, which knocks pet hair loose so the lint trap can catch it. Use 3 to 4 balls per load. They work about as well as dryer sheets for hair removal but do not reduce static as effectively. Either option is sufficient. Using both does not double the effect.",
     },
     {
       question: "Does vinegar help remove pet hair from laundry?",
       answer:
-        "A half cup of white vinegar added to the rinse cycle — not the wash cycle — softens fabric fibers and reduces static, which helps release trapped pet hair. It also reduces static cling in the dryer cycle that follows. The vinegar smell does not survive the rinse.",
+        "A half cup of white vinegar added to the rinse cycle (not the wash cycle) softens fabric fibers and reduces static, which helps release trapped pet hair. It also reduces static cling in the dryer cycle that follows. The vinegar smell does not survive the rinse.",
     },
   ],
 
