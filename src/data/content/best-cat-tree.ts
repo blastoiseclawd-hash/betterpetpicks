@@ -14,7 +14,7 @@ export const bestCatTreeGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The best cat tree for most homes is the FEANDREA 56-Inch Cat Tree. It has a wide, weighted base that stays stable on hard floors and carpet, sisal-wrapped posts thick enough for adult cats, and platforms that accommodate cats up to 15 pounds without wobble. For multi-cat homes, the Go Pet Club 62-Inch gives you more platforms and perches at a lower price per level. If budget matters most, the Amazon Basics Cat Tower with Hammock gets the job done under $40.",
+    "The best cat tree for most homes is the Feandrea 56.3-Inch. Wide weighted base (the single biggest predictor of a tree your cat will actually use), sisal-wrapped posts thick enough for adult scratching, and platforms large enough that a 15-pound cat can actually lie down on them. For multi-cat homes, the Go Pet Club 72-Inch gives enough separate resting spots for three cats. If budget is the real constraint, the Amazon Basics Cat Tower works under $30 for a single cat under 12 pounds. If your cat is a Maine coon or 15+ pounds, jump straight to our Best Cat Tree for Large Cats guide — standard trees will not hold up.",
 
   productOrder: [
     "feandrea-cat-tree-56",
@@ -25,11 +25,11 @@ export const bestCatTreeGuide = {
   ],
 
   displayNames: {
-    "feandrea-cat-tree-56": "FEANDREA 56\" Cat Tree",
-    "go-pet-club-62-cat-tree": "Go Pet Club 62\" Cat Tree",
+    "feandrea-cat-tree-56": "Feandrea 56.3\" Cat Tree",
+    "go-pet-club-62-cat-tree": "Go Pet Club 72\" Cat Tree",
     "amazon-basics-cat-tower-hammock": "Amazon Basics Cat Tower",
-    "vesper-v-high-base": "Vesper V-High Base",
-    "petepela-cat-tree-small": "PETEPELA Cat Tree (Small)",
+    "vesper-v-high-base": "Vesper High Base (Walnut)",
+    "petepela-cat-tree-small": "PETEPELA 32\" Cat Tree",
   },
 
   badges: {
@@ -48,25 +48,25 @@ export const bestCatTreeGuide = {
       "Best fit": "Single or two-cat homes wanting stability",
     },
     "go-pet-club-62-cat-tree": {
-      Height: "62 inches",
+      Height: "72 inches",
       "Base size": "24 x 22 inches",
       "Post wrap": "Sisal rope",
       "Best fit": "Multi-cat homes needing enough levels for everyone",
     },
     "amazon-basics-cat-tower-hammock": {
-      Height: "35 inches",
-      "Base size": "15.7 x 15.7 inches",
-      "Post wrap": "Jute rope",
-      "Best fit": "Budget-conscious first cat tree",
+      Height: "19.7 inches",
+      "Base size": "15.8 x 15.8 inches",
+      "Post wrap": "Sisal rope",
+      "Best fit": "Budget-conscious starter for a single small cat",
     },
     "vesper-v-high-base": {
-      Height: "47 inches",
+      Height: "47.8 inches",
       "Base size": "22 x 22 inches",
       "Post wrap": "Sisal rope",
       "Best fit": "Living rooms where appearance matters",
     },
     "petepela-cat-tree-small": {
-      Height: "33 inches",
+      Height: "32 inches",
       "Base size": "13.4 x 13.4 inches",
       "Post wrap": "Sisal rope",
       "Best fit": "Apartments and tight corners",
@@ -83,20 +83,20 @@ export const bestCatTreeGuide = {
   comparisonTable: [
     {
       badge: "Best Overall",
-      name: "FEANDREA 56\" Cat Tree",
-      price: "$69.99",
+      name: "Feandrea 56.3\" Cat Tree",
+      price: "$64.99",
       goodFor: "Stable everyday default",
-      height: "56\"",
-      capacity: "Up to 15 lb per platform",
+      height: "56.3\"",
+      capacity: "Adult cats up to 15 lb",
       keyFeature: "Wide weighted base",
       slug: "feandrea-cat-tree-56",
     },
     {
       badge: "Best for Multiple Cats",
-      name: "Go Pet Club 62\" Cat Tree",
-      price: "$79.99",
+      name: "Go Pet Club 72\" Cat Tree",
+      price: "$89.99",
       goodFor: "2-3 cat homes",
-      height: "62\"",
+      height: "72\"",
       capacity: "Multiple platforms for sharing",
       keyFeature: "High perch count per dollar",
       slug: "go-pet-club-62-cat-tree",
@@ -104,31 +104,31 @@ export const bestCatTreeGuide = {
     {
       badge: "Best Budget",
       name: "Amazon Basics Cat Tower",
-      price: "$44.99",
-      goodFor: "First cat tree under $40",
-      height: "35\"",
-      capacity: "Single cat up to 12 lb",
-      keyFeature: "Hammock + platform at low cost",
+      price: "$29.39",
+      goodFor: "First tiny tree under $30",
+      height: "19.7\"",
+      capacity: "Single cat under 12 lb",
+      keyFeature: "Hammock + top perch at low cost",
       slug: "amazon-basics-cat-tower-hammock",
     },
     {
       badge: "Best Looking",
-      name: "Vesper V-High Base",
-      price: "$179.99",
+      name: "Vesper High Base (Walnut)",
+      price: "$124.99",
       goodFor: "Living rooms, visible spaces",
-      height: "47\"",
-      capacity: "Up to 18 lb",
+      height: "47.8\"",
+      capacity: "Up to 30 lb",
       keyFeature: "Walnut-finish wood frame",
       slug: "vesper-v-high-base",
     },
     {
       badge: "Best for Small Spaces",
-      name: "PETEPELA Cat Tree (Small)",
+      name: "PETEPELA 32\" Cat Tree",
       price: "$39.99",
       goodFor: "Apartments, tight corners",
-      height: "33\"",
-      capacity: "Single cat up to 11 lb",
-      keyFeature: "Narrow footprint",
+      height: "32\"",
+      capacity: "Single cat up to 18 lb",
+      keyFeature: "Narrow footprint + hammock",
       slug: "petepela-cat-tree-small",
     },
   ],
@@ -138,13 +138,15 @@ export const bestCatTreeGuide = {
       heading: "FEANDREA 56\" Cat Tree: The Stable Default",
       reviewerScore: 9.0,
       scoreDiffReason: "",
-      body: `The FEANDREA 56-inch is the cat tree this page exists to recommend. The base is 19.7 by 15.7 inches and weighted, which means it stays planted when a cat launches off the top platform. That sounds basic, but base stability is the single biggest differentiator between cat trees that last and cat trees that end up in the garage after two months.
+      body: `The FEANDREA 56-inch is the tree most single-cat and two-cat homes should default to. The base is 19.7 by 15.7 inches and weighted, which means it stays planted when a cat launches off the top. That sounds basic, but base stability is the single biggest differentiator between cat trees that last and cat trees that end up in the garage after two months.
 
-The posts are wrapped in sisal rope, not jute or carpet. Sisal holds up to daily scratching for 12-18 months before showing significant wear. The posts are also thicker than most budget models — 3.5 inches in diameter — which makes them usable for adult cats that lean their full weight into a scratch.
+The posts are wrapped in sisal rope, not jute or carpet. Sisal holds up to daily scratching for 12 to 18 months before showing significant wear. The posts are thicker than most budget models — around 3.5 inches in diameter — which makes them usable for adult cats that lean full body weight into a scratch. The top platform measures roughly 15 inches, which is where a cat can actually stretch out rather than perch precariously.
 
-The platform layout gives you a mix of open perches, a condo box, and a top platform with raised edges. This matters because cats use different levels for different purposes: high perches for surveillance, enclosed spaces for sleeping, and mid-level platforms for casual lounging. Having all three in one tree means one piece of furniture replaces three separate cat accessories.
+One honest caveat the product listing does not tell you: FEANDREA is a high-volume Amazon brand with some batch-to-batch quality variance. Most units arrive exactly as described. A minority show up with loose hardware, slightly misaligned holes, or carpet that pulls at the staples. Check the structure carefully during assembly. If something is off, initiate a return rather than working around it — the product is returnable and replacements are fast.
 
-Assembly takes 30-45 minutes with the included Allen keys. The instructions are not great. The pieces fit together by screwing threaded bolts into pre-drilled holes, and some holes do not align perfectly. A rubber mallet helps. Once assembled, the joints are tight and the structure feels solid. It is not a 10-minute job, but it is a one-time job.`,
+The platform layout gives you a mix of open perches, a condo box, and a top platform with raised edges. That matters because cats use different levels for different purposes: high perches for surveillance, enclosed spaces for sleeping, and mid-level platforms for casual lounging. Having all three in one tree means one piece of furniture replaces three separate cat accessories.
+
+Assembly takes 30 to 45 minutes with the included Allen keys. The instructions are not great. A rubber mallet helps with bolts that bind. Once assembled, the joints are tight and the structure feels solid. This is a one-time job.`,
       pros: [
         "Wide weighted base resists tipping even when cats jump on and off aggressively",
         "Sisal-wrapped posts at 3.5-inch diameter stand up to daily use from adult cats",
@@ -158,10 +160,10 @@ Assembly takes 30-45 minutes with the included Allen keys. The instructions are 
         "The default recommendation for single-cat and two-cat homes. Stability is the reason it leads, and stability is the one thing you cannot fix with a replacement part after purchase.",
     },
     "go-pet-club-62-cat-tree": {
-      heading: "Go Pet Club 62\": More Room for Less Money",
+      heading: "Go Pet Club 72\": More Room for Less Money",
       reviewerScore: 8.0,
       scoreDiffReason: "",
-      body: `The Go Pet Club 62-inch cat tree has been on the market longer than most competitors on this page, and the owner feedback volume reflects that. It is the multi-cat pick because it gives you more usable platforms, condos, and perches per dollar than anything else at this height.
+      body: `The Go Pet Club 72-inch cat tree has been on the market longer than most competitors on this page, and the owner feedback volume reflects that. It is the multi-cat pick because it gives you more usable platforms, condos, and perches per dollar than anything else at this height.
 
 The layout matters for multi-cat homes. With two condos, multiple mid-level perches, and a top platform, there are enough separate resting spots for three cats to use the tree simultaneously without crowding each other. Cats that share a tree with too few platforms tend to guard the top perch and push others off, which leads to the tree being used by one cat while the others avoid it entirely.
 
@@ -255,8 +257,16 @@ Assembly is straightforward and takes 15-20 minutes. The small size means fewer 
     title: "What to look for before you buy a cat tree.",
     sections: [
       {
+        heading: "Platform size (check this first)",
+        body: `Before height, before posts, before looks — measure the top platform. The single most common reason a cat tree gets ignored is that the platforms are too small for the cat to actually lie down on. A 12-inch platform fits a kitten and some small adults, but not a 12-pound cat who wants to stretch out and nap.
+
+The practical threshold is a 15-inch square platform for an average adult cat. For cats over 12 pounds, 18 inches is more comfortable. The listing usually buries this spec under "dimensions" at the bottom. Read it before buying. If it is not listed, there is a reason.
+
+Owners who buy based on height alone and find their cat perched on the floor next to the tree usually got the platform size wrong. This is recoverable — you can add a larger flat board on top — but it is easier to buy the right size up front.`,
+      },
+      {
         heading: "Stability and base width",
-        body: `Base width relative to height is the most important spec on a cat tree and the one most buyers overlook. A tall tree with a narrow base wobbles when a cat jumps on or off. After a few wobbles, most cats stop using the tree entirely. They do not trust it.
+        body: `Base width relative to height is the second spec that matters, and the one most buyers overlook. A tall tree with a narrow base wobbles when a cat jumps on or off. After a few wobbles, most cats stop using the tree entirely. They do not trust it.
 
 Look at the base dimensions and the overall height as a ratio. A tree under 40 inches tall can get away with a 14-inch base. A tree over 50 inches needs at least 18-20 inches of base width. If you have heavy cats, add 2-3 inches to those minimums.
 
@@ -285,6 +295,14 @@ Jute is softer and cheaper. It feels less satisfying to scratch and frays faster
 Carpet-wrapped posts are the worst option for scratching. The carpet loop texture catches claws and can tear nails. Cats that use carpet-wrapped posts often develop a preference for scratching actual room carpet, which creates a bigger problem than the cat tree was meant to solve.
 
 If a product listing says "natural fiber" without specifying sisal, it is usually jute. Check reviews for photos of the posts after a few months of use — that tells you more than the listing description.`,
+      },
+      {
+        heading: "Heavy cats and Maine coons need different trees",
+        body: `Standard cat trees are engineered for cats in the 8-to-12-pound range. A 15+ pound cat — Maine coons, Ragdolls, Norwegian forest cats, and large domestic shorthairs — will deform or collapse a standard tree within months. The pattern shows up the same way: thin sisal posts bend under the cat's weight during scratching, top platforms crack at the corner when the cat jumps, and the whole structure develops wobble that spreads from the top down.
+
+The fix is a large-cat tree — heavier construction, thicker posts (4+ inches), wider platforms, lower center of gravity. They cost more, typically $120-200 versus $70-100 for standard trees. They also last much longer because they are built for the load.
+
+If your cat is 15 pounds or more, or full-breed Maine coon or Ragdoll, skip the standard picks on this page and go to our [Best Cat Tree for Large Cats](/best-cat-tree-for-large-cats) guide. The recommendations there use different construction entirely. Buying a standard tree for a heavy cat is usually a waste of money — you will replace it within a year.`,
       },
       {
         heading: "Assembly reality",
@@ -324,6 +342,16 @@ Check all bolts after the first week of use. Cats jumping on and off a new tree 
       question: "Should I get a cat tree with a condo or without?",
       answer:
         "A condo gives cats an enclosed hiding spot, which most cats use for sleeping or when they want to feel secure. If your cat already hides under beds or in closets, a tree with a condo will likely get more use. If your cat prefers open perching and rarely hides, the condo is wasted space — choose a tree with more open platforms instead.",
+    },
+    {
+      question: "What if my cat is a Maine coon or weighs more than 15 pounds?",
+      answer:
+        "Skip the standard trees on this page and see our Best Cat Tree for Large Cats guide. Heavy cats deform standard trees within months — posts bend, platforms crack at the corners, and the whole structure develops wobble. Large-cat trees use thicker posts (4+ inches), wider platforms, and lower centers of gravity. They cost more but last far longer because they are built for the load.",
+    },
+    {
+      question: "My cat will not use the cat tree. What now?",
+      answer:
+        "Placement matters more than product. Trees in unused corners or rooms the cat does not visit get ignored regardless of quality. Move it next to a window, near where the cat already sleeps, or into the room where the family spends evenings. Add catnip to the scratching posts to trigger the first contact. Most cats that ignore a new tree start using it within two weeks after repositioning.",
     },
   ],
 
