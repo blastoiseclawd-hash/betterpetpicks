@@ -73,7 +73,7 @@ export const bestDustFreeCatLitterGuide: DustFreeLitterGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The best dust free cat litter for most homes is Sustainably Yours Large-Grain. It clumps like clay, produces almost no airborne dust, and costs less than the premium tofu options. If you want to stay with clay, ARM & Hammer Cloud Control Platinum is the lowest-dust clay we found. If dust is a diagnosed medical issue, Tuft & Paw Really Great Cat Litter (tofu) or the Tidy Cats Breeze pellet system are the closest things to zero dust that exist.",
+    "If you are coughing every time you pour litter or wiping dust off your baseboards near the box, you are not being dramatic. Most clay litter puts real dust into the air, and for allergy or asthma homes it is a genuine problem, not a preference. The best dust-free litter for most homes is Sustainably Yours Large-Grain, because it clumps like clay, produces almost no airborne dust, and costs less than the premium tofu options. If you want to stay with clay, ARM and Hammer Cloud Control Platinum is the lowest-dust clay we found. If dust is a diagnosed medical issue (asthma, severe allergies, a newborn in the house), Tuft and Paw Really Great Cat Litter in tofu or the Tidy Cats Breeze pellet system are the closest things to zero dust that exist.",
 
   productOrder: [
     "sustainably-yours-large-grain",
