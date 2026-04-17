@@ -14,7 +14,7 @@ export const bestCatTreeForLargeCatsGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The best cat tree for large cats is the FEANDREA Cat Tree Large XL. The reinforced base and 3.5-inch diameter sisal posts handle cats up to 25 pounds without wobble, and the oversized platforms give large breeds room to stretch out instead of hanging over the edge. For proven multi-cat durability at a lower price, the Armarkat 72-Inch has years of large-cat owner reports confirming it holds up. The Go Pet Club 62-Inch gives the most platform options for multi-cat large-breed homes.",
+    "The best cat tree for large cats is the Feandrea 68.5-Inch XL. Thicker sisal posts, larger platforms, and a reinforced base handle 15-25 pound cats without the wobble that defeats standard trees. If your cat is a Maine coon or a truly heavy 20+ pound cat, step up to the Armarkat A7202 72-Inch — real-wood construction that does not need aftermarket weights on the base like most Amazon trees. The Go Pet Club 72-Inch gives the most platforms per dollar for multi-cat large-breed homes.",
 
   productOrder: [
     "feandrea-cat-tree-large-xl",
@@ -25,11 +25,11 @@ export const bestCatTreeForLargeCatsGuide = {
   ],
 
   displayNames: {
-    "feandrea-cat-tree-large-xl": "FEANDREA Cat Tree Large XL",
-    "armarkat-cat-tree-72": "Armarkat 72\" Cat Tree",
-    "go-pet-club-62-cat-tree": "Go Pet Club 62\" Cat Tree",
-    "feandrea-cat-tree-56": "FEANDREA 56\" Cat Tree",
-    "vesper-v-high-base": "Vesper V-High Base",
+    "feandrea-cat-tree-large-xl": "Feandrea 68.5\" XL Cat Tree",
+    "armarkat-cat-tree-72": "Armarkat A7202 72\" Real Wood",
+    "go-pet-club-62-cat-tree": "Go Pet Club 72\" Cat Tree",
+    "feandrea-cat-tree-56": "Feandrea 56.3\" Cat Tree",
+    "vesper-v-high-base": "Vesper High Base (Walnut)",
   },
 
   badges: {
@@ -42,33 +42,33 @@ export const bestCatTreeForLargeCatsGuide = {
 
   curatedSpecs: {
     "feandrea-cat-tree-large-xl": {
-      Height: "65 inches",
-      "Base size": "23.6 x 19.7 inches",
-      "Post diameter": "3.5 inches",
-      "Best fit": "Single large cat or two large cats",
+      Height: "68.5 inches",
+      "Base construction": "Reinforced MDF with large perch",
+      "Post material": "Thick sisal rope",
+      "Best fit": "Large cats 15-22 lb without real-wood pricing",
     },
     "armarkat-cat-tree-72": {
       Height: "72 inches",
-      "Base size": "24 x 24 inches",
-      "Post diameter": "3.5 inches",
-      "Best fit": "Proven durability for heavy daily use",
+      "Base size": "53 x 22 inches (real wood)",
+      "Post material": "Sisal rope on solid wood",
+      "Best fit": "Maine coons and 20+ lb cats, long-term stability",
     },
     "go-pet-club-62-cat-tree": {
-      Height: "62 inches",
+      Height: "72 inches",
       "Base size": "24 x 22 inches",
-      "Post diameter": "3 inches",
+      "Post material": "Sisal rope",
       "Best fit": "Multi-cat homes with large breeds",
     },
     "feandrea-cat-tree-56": {
-      Height: "56 inches",
+      Height: "56.3 inches",
       "Base size": "19.7 x 15.7 inches",
-      "Post diameter": "3.5 inches",
-      "Best fit": "Large cat on a moderate budget",
+      "Post material": "Thick sisal rope",
+      "Best fit": "Large cat up to about 15 lb on a moderate budget",
     },
     "vesper-v-high-base": {
-      Height: "47 inches",
+      Height: "47.8 inches",
       "Base size": "22 x 22 inches",
-      "Post diameter": "3 inches",
+      "Post material": "Sisal rope",
       "Best fit": "Living rooms where appearance matters",
     },
   },
@@ -83,51 +83,51 @@ export const bestCatTreeForLargeCatsGuide = {
   comparisonTable: [
     {
       badge: "Best Overall for Large Cats",
-      name: "FEANDREA Cat Tree Large XL",
+      name: "Feandrea 68.5\" XL Cat Tree",
       price: "$89.99",
-      goodFor: "Large breeds up to 25 lb",
-      height: "65\"",
-      weightCapacity: "Up to 25 lb per platform",
-      keyFeature: "Reinforced base + oversized platforms",
+      goodFor: "Large breeds 15-22 lb",
+      height: "68.5\"",
+      weightCapacity: "Oversized perch + double caves",
+      keyFeature: "Reinforced base + larger platforms",
       slug: "feandrea-cat-tree-large-xl",
     },
     {
       badge: "Most Proven Heavy-Duty",
-      name: "Armarkat 72\" Cat Tree",
-      price: "$119.99",
-      goodFor: "Heavy daily use",
+      name: "Armarkat A7202 72\" Real Wood",
+      price: "$163.98",
+      goodFor: "Maine coons, 20+ lb cats",
       height: "72\"",
-      weightCapacity: "Up to 25 lb per platform",
-      keyFeature: "Years of large-cat owner reports",
+      weightCapacity: "Up to 50 lb total load",
+      keyFeature: "Real-wood frame, no extra weights needed",
       slug: "armarkat-cat-tree-72",
     },
     {
       badge: "Best for Multi-Cat Large",
-      name: "Go Pet Club 62\" Cat Tree",
-      price: "$79.99",
+      name: "Go Pet Club 72\" Cat Tree",
+      price: "$89.99",
       goodFor: "2-3 large cats",
-      height: "62\"",
-      weightCapacity: "Up to 18 lb per platform",
+      height: "72\"",
+      weightCapacity: "Up to 40 lb total load",
       keyFeature: "Most platforms and perches per dollar",
       slug: "go-pet-club-62-cat-tree",
     },
     {
       badge: "Best Value for Large Cats",
-      name: "FEANDREA 56\" Cat Tree",
-      price: "$69.99",
+      name: "Feandrea 56.3\" Cat Tree",
+      price: "$64.99",
       goodFor: "Budget large-cat option",
-      height: "56\"",
-      weightCapacity: "Up to 15 lb per platform",
+      height: "56.3\"",
+      weightCapacity: "Adult cats up to 15 lb",
       keyFeature: "Thick sisal posts at a lower price",
       slug: "feandrea-cat-tree-56",
     },
     {
       badge: "Best Modern for Large Cats",
-      name: "Vesper V-High Base",
-      price: "$179.99",
+      name: "Vesper High Base (Walnut)",
+      price: "$124.99",
       goodFor: "Living rooms with large cats",
-      height: "47\"",
-      weightCapacity: "Up to 18 lb",
+      height: "47.8\"",
+      weightCapacity: "Up to 30 lb",
       keyFeature: "Widest base-to-height ratio",
       slug: "vesper-v-high-base",
     },
@@ -135,10 +135,10 @@ export const bestCatTreeForLargeCatsGuide = {
 
   reviews: {
     "feandrea-cat-tree-large-xl": {
-      heading: "FEANDREA Large XL: Built for the Weight",
+      heading: "Feandrea 68.5\" XL: Built for the Weight",
       reviewerScore: 9.0,
       scoreDiffReason: "",
-      body: `The FEANDREA Large XL is the cat tree that takes big-cat weight seriously from the base up. The 23.6 by 19.7 inch base is reinforced with extra-thick MDF, and the weight of the base alone keeps the tree planted when a 20-pound cat launches from the top platform. This is the stability test that most standard cat trees fail. A 12-pound cat barely stresses a cat tree. A 20-pound Maine Coon landing on the top platform with momentum stresses every joint in the structure. This tree handles it.
+      body: `The Feandrea 68.5-inch XL is the cat tree that takes big-cat weight seriously from the base up. The reinforced base keeps the tree planted when a 20-pound cat launches from the top platform. This is the stability test that most standard cat trees fail. A 12-pound cat barely stresses a cat tree. A 20-pound Maine Coon landing on the top platform with momentum stresses every joint in the structure. This tree handles it — though owners of truly heavy cats (22+ lb) sometimes still step up to the real-wood Armarkat for long-term peace of mind.
 
 The platforms are wider than the standard FEANDREA models. Where a regular platform might be 12 inches across, the XL platforms run 15-16 inches, which gives a large cat room to lie down without legs hanging off the edge. This is not a cosmetic difference. A cat that cannot stretch out on a platform stops using it. The platform becomes a transit point instead of a resting spot, and the tree loses half its function.
 
@@ -158,12 +158,12 @@ Assembly takes 45-60 minutes and benefits from a second person. The XL parts are
         "The default recommendation for homes with large breeds. Stability and platform size are the two things that matter most for big cats, and this tree leads on both.",
     },
     "armarkat-cat-tree-72": {
-      heading: "Armarkat 72\": Years of Proof",
+      heading: "Armarkat A7202 72\": Real Wood, Years of Proof",
       reviewerScore: 8.5,
       scoreDiffReason: "",
-      body: `The Armarkat 72-inch has been on the market longer than most competitors and has accumulated the deepest pool of long-term owner reviews in the large cat tree category. That review depth is worth something. Any cat tree can look good for the first month. The useful data comes from 1-year and 2-year reviews, and the Armarkat has more of those than any other tree on this page.
+      body: `The Armarkat A7202 is the real-wood cat tree Maine coon owners recommend after giving up on cheaper Amazon trees. Several owners in the r/mainecoons thread describe putting 25 to 35 pound gym plates on the base of other trees just to keep them from tipping. The Armarkat does not need that. The real-wood frame and 53-inch-wide base are engineered for the load, not accessorized afterwards.
 
-The 24 by 24 inch square base is the largest on this page and the primary reason the tree stays upright at 72 inches. The square footprint distributes weight more evenly than rectangular bases, which reduces wobble from any direction. For homes with hardwood or tile floors where cat trees tend to slide, the Armarkat's mass helps it grip.
+The review depth is worth something. Any cat tree can look good for the first month. The useful data comes from 1-year and 2-year reviews, and the Armarkat has more of those than any other tree on this page.
 
 At 72 inches, this is the tallest tree on the page. Cats that want maximum height advantage will use the top platform as their primary resting spot. The height also means the tree needs wall anchoring in most homes. An L-bracket at the top secured to a wall stud eliminates the remaining wobble that even a wide base cannot fully prevent at this height.
 
@@ -181,10 +181,10 @@ The condo boxes on this tree are larger than most, which matters for large cats 
         "The proven pick for owners who want long-term confidence. The review depth backs up the stability claims in a way newer products cannot yet match. Anchor it to the wall.",
     },
     "go-pet-club-62-cat-tree": {
-      heading: "Go Pet Club 62\": Enough Room for Everyone",
+      heading: "Go Pet Club 72\": Enough Room for Everyone",
       reviewerScore: 8.0,
       scoreDiffReason: "",
-      body: `The Go Pet Club 62-inch earns its spot on this page for the same reason it appears on the standard cat tree page: platform count per dollar. In a multi-cat home with large breeds, the problem is not just weight capacity — it is territory. Two 16-pound cats will not share a single top platform. They need separate resting spots at similar heights, or the dominant cat claims the top and the other cat stops using the tree.
+      body: `The Go Pet Club 72-inch earns its spot on this page for the same reason it appears on the standard cat tree page: platform count per dollar. In a multi-cat home with large breeds, the problem is not just weight capacity — it is territory. Two 16-pound cats will not share a single top platform. They need separate resting spots at similar heights, or the dominant cat claims the top and the other cat stops using the tree.
 
 The Go Pet Club layout addresses this with multiple platforms, condos, and perches arranged at staggered heights. Two or three large cats can use the tree simultaneously, each on a separate level, without direct confrontation. This layout decision matters more than individual platform strength for multi-cat households.
 
@@ -204,7 +204,7 @@ The base at 24 by 22 inches is wide but the upper structure is top-heavy when fu
         "The right pick for 2-3 large cats sharing one tree. The platform count prevents territorial guarding better than any single-perch alternative. Anchor to the wall on hard floors.",
     },
     "feandrea-cat-tree-56": {
-      heading: "FEANDREA 56\": Large-Cat Capable at a Lower Price",
+      heading: "Feandrea 56.3\": Large-Cat Capable at a Lower Price",
       reviewerScore: 7.5,
       scoreDiffReason: "",
       body: `The FEANDREA 56-inch is not specifically marketed as a large-cat tree, but the 3.5-inch sisal posts and solid base construction make it work for cats up to 15 pounds. It appears on this page as the value option for homes where the cat is on the larger side but not truly in the heavyweight category — think a solid domestic shorthair at 13-14 pounds rather than a 22-pound Maine Coon.
@@ -227,10 +227,10 @@ The same assembly caveats apply as with other FEANDREA models. Allen keys, pre-d
         "The right pick for cats in the 12-15 pound range where a full XL tree is more than you need. Above 15 pounds, move up to the Large XL or Armarkat for proper support.",
     },
     "vesper-v-high-base": {
-      heading: "Vesper V-High Base: Modern Design, Solid Base",
+      heading: "Vesper High Base: Modern Design, Solid Base",
       reviewerScore: 8.0,
       scoreDiffReason: "",
-      body: `The Vesper V-High Base makes this page because of its base-to-height ratio. At 47 inches tall with a 22-inch square base, it is the most inherently stable tree here relative to its height. The MDF frame is heavy, which adds to the stability. A large cat jumping onto the top platform does not cause wobble because the center of gravity stays low.
+      body: `The Vesper High Base makes this page because of its base-to-height ratio. At 47.8 inches tall with a 22-inch square base, it is the most inherently stable tree here relative to its height. The MDF frame is heavy, which adds to the stability. A large cat jumping onto the top platform does not cause wobble because the center of gravity stays low.
 
 The walnut-finish wood frame and clean design make it the only tree on this page that does not look like a carpeted tower. For living rooms, home offices, and spaces where the cat tree is visible to guests, the Vesper solves an appearance problem that no amount of carpet covering or faux-fur platforms can fix on traditional trees.
 
@@ -279,6 +279,16 @@ Measure your cat from chest to rump while lying on its side. Add 3-4 inches. Tha
 Hammock-style resting spots handle large cats better than flat platforms because the fabric conforms to the cat's body. A hammock that sags under a 20-pound cat wraps around the body and prevents the overhang problem. If the tree includes hammocks, those may become the primary sleeping spots for large cats, not the flat platforms.`,
       },
       {
+        heading: "Real wood vs MDF (the structural distinction)",
+        body: `Most cat trees are MDF — compressed wood fiber with a veneer finish. MDF is fine for cats under 15 pounds. For larger cats, MDF compresses at the joints over time. The tree loosens, develops wobble, and eventually needs replacement even if nothing visibly broke.
+
+Real-wood cat trees (the Armarkat line is the main one at a reasonable price) use solid pine or similar. The joints do not compress the same way. A real-wood tree that feels solid at month one will still feel solid at year three. The upfront cost is 50-100 percent higher, but the replacement cycle is also longer.
+
+The clue in a product listing: look for "real wood" or "solid wood" in the frame description, not "pressed wood" or "particle board" or "MDF." Cheaper brands sometimes use "natural wood" loosely — if the listing is vague, assume MDF.
+
+One Reddit insight worth passing along: Maine coon owners in r/mainecoons describe putting 25 to 35 pound gym plates on the base of standard Amazon trees just to keep them from tipping. The fact that this workaround is common tells you the category default does not work for heavy cats. A real-wood tree does not need it.`,
+      },
+      {
         heading: "Wall anchoring: when and how",
         body: `Wall anchoring is not a sign of a bad cat tree. It is a practical step that prevents tipping in homes with large, active cats.
 
@@ -295,7 +305,12 @@ Placement also helps. A cat tree in a corner with two walls already has more sta
     {
       question: "What cat tree is best for Maine Coons?",
       answer:
-        "The FEANDREA Cat Tree Large XL and the Armarkat 72-Inch are both built for cats in the 15-25 pound range that Maine Coons typically reach. Look for platforms at least 16 inches wide, posts at least 3.5 inches in diameter, and bases over 20 inches in at least one dimension. Wall anchoring is recommended for any tree used by a Maine Coon.",
+        "The Armarkat A7202 72-Inch real-wood tree is the strongest recommendation for Maine coons based on r/mainecoons owner reports. The Feandrea 68.5-Inch XL is a solid mid-budget alternative. Avoid trees with MDF bases and 3-inch posts unless you are prepared to add weights or wall-anchor the tree — Maine coons will find and expose the weakest joint on any standard tree.",
+    },
+    {
+      question: "Will putting weights on the base really keep a cat tree from tipping?",
+      answer:
+        "It helps, but it is a workaround, not a fix. Heavy gym plates on the base of a standard Amazon cat tree can stabilize it against a Maine coon's zoomies short-term. The underlying problem — compressing MDF joints and thin posts — still progresses. Better to buy a tree built for the weight (real-wood construction, 4+ inch posts) and skip the aftermarket weighting entirely.",
     },
     {
       question: "How much weight can a cat tree hold?",
