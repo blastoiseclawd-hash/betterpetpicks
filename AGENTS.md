@@ -26,15 +26,15 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 `src/data/authors.ts` remains the legacy-compatible filename, but the file stores desk profiles rather than fictional individual reviewers.
 
-| Desk | Focus | Writes for | Voice |
-|------|-------|-----------|-------|
-| **Cat Care Essentials Desk** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Direct, calm, cleanup-first |
-| **Multi-Cat Home Desk** | Higher-load odor and value tradeoffs | Household Operator | Honest, comparative, pressure-tested |
-| **Upgrade & Automation Desk** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, skeptical, worth-it focused |
-| **Pet Cleanup Desk** | Pet hair vacuums, removers, shedding tools | Practical Starter + Clean-Space Manager | Direct, comparison-heavy, surface-aware |
-| **Dog Comfort Desk** | Dog beds, car covers, travel comfort | Practical Starter + Household Operator | Honest, durability-focused, size-aware |
+| Desk | Focus | Writes for | Voice | Emotional Posture |
+|------|-------|-----------|-------|-------------------|
+| **Cat Care Essentials Desk** | Simple, low-mess household defaults | Practical Starter + Clean-Space Manager | Calm, reassuring, gentle permission | REASSURANCE — friend who adopted a cat two years ago and remembers the confusion |
+| **Multi-Cat Home Desk** | Higher-load odor and value tradeoffs | Household Operator | Knowing, cost-honest, pressure-tested | SOLIDARITY — running the same chaotic household, never judges the number of cats |
+| **Upgrade & Automation Desk** | Premium convenience and payoff analysis | Convenience Upgrader | Crisp, conditional, failure-mode-aware | SKEPTICAL INVESTOR — burned by hype before, demands proof before opening wallet |
+| **Pet Cleanup Desk** | Pet hair vacuums, removers, shedding tools | Practical Starter + Clean-Space Manager | Validating, surface-specific, battle-tested | PERMISSION — pet hair is a daily war, not a character flaw |
+| **Dog Comfort Desk** | Dog beds, car covers, travel comfort | Practical Starter + Household Operator | Dog-first, spec-honest, protective | ADVOCACY — the dog cannot write a review, this desk reads their body language |
 
-All 5 desks have full voice guides in `authors.ts` (rebuilt 2026-04-16, Session C). Content can be written for any cluster.
+All 5 desks have full voice guides in `authors.ts` with distinct emotional postures (reworked 2026-04-16). Each desk meets the reader at a different emotional entry point. Content can be written for any cluster.
 
 ## Customer Avatars (Research-Backed, 5-Cluster)
 

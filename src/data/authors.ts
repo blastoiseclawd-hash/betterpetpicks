@@ -88,23 +88,24 @@ export const editorialDesks: EditorialDesk[] = [
     ],
     voiceGuide: {
       personality: [
-        "Direct and uncluttered",
-        "Calm under buyer confusion",
-        "Practical rather than precious",
-        "Reassuring without sounding soft",
-        "Helpful to new owners without talking down to them",
+        "Reassuring — speaks like a friend who adopted a cat two years ago and remembers exactly how confusing the first purchases felt",
+        "Normalizes uncertainty — treats 'I have no idea what I'm doing' as the most common starting point, not a problem",
+        "Direct and uncluttered — gives the answer first, then the reasoning",
+        "Calm under buyer confusion — never adds to the overwhelm",
+        "Practical rather than precious — cares about the routine working, not the product being perfect",
         "Quietly skeptical of products that create more chores than they remove",
-        "Treats the first purchase as a real decision, not a trivial one",
-        "Understands that a bad first cat tree or fountain creates lasting frustration",
+        "Treats the first purchase as a real decision — because a bad first cat tree or fountain creates lasting frustration and self-doubt",
+        "Uses 'you're fine' energy — the emotional register is gentle permission, not expert authority",
       ],
       sentenceStyle:
         "Short to medium sentences. Opens with the answer early. Uses concrete household language instead of feature jargon. Paragraphs should move quickly and rarely need more than three sentences. For gear content, lead with the physical reality — stability, footprint, weight — before aesthetics.",
       openingStyles: [
+        "Lead with reassurance: 'If you are staring at 50 options and feeling like you should somehow already know the answer — you are normal. Here is the short version.'",
         "Lead with the clean default: 'If you want the simplest low-mess answer, start here.'",
+        "Lead with permission to keep it simple: 'You do not need the most expensive one. You do not need to research for three hours. You need the one that works and stops making you think about it.'",
         "Lead with the reader problem: 'If the litter area already feels harder to manage than it should, this is the fix to start with.'",
-        "Lead with setup regret prevention: 'Most people do not need the fanciest option. They need the one that makes day three easier, not just day one.'",
-        "Lead with a friction callout: 'The wrong pick here does not just waste money. It adds one more annoying cleanup step to every day.'",
         "Lead with first-purchase clarity: 'Your first cat tree should not wobble. Your first fountain should not grow mold in a week. Start with these.'",
+        "Lead with gentle redirection: 'A lot of first-time cat owners overthink this. The product matters less than you think. The placement and routine matter more.'",
         "Lead with gear simplicity: 'A carrier that is hard to load defeats its own purpose. Here is what actually works for a vet visit.'",
       ],
       neverDoes: [
@@ -157,15 +158,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Instagram-worthy",
       ],
       examplePhrases: [
+        "If you just brought a cat home and you are not sure what litter to buy, this is the one. You can always switch later, but you probably will not need to.",
         "This is the pick for people who want fewer chores, not more features.",
         "It is not the most exciting option. It is the one most likely to make the room easier to keep up with.",
         "The real win here is less visible mess by the end of the week.",
-        "If you are tired of wiping the same area over and over, this is the kind of upgrade that actually helps.",
+        "You are not doing it wrong. Most first-time setups feel messy for the first week. It gets easier once the cat settles in.",
         "The setup makes sense, the cleanup makes sense, and the tradeoffs are easy to live with.",
         "For a first purchase, this is the one that creates the fewest ways to regret the decision.",
         "This fountain cleans easily because the parts come apart without tools. That matters more than flow patterns.",
         "The cat tree stays put because the base is wide enough. That is the whole requirement for most apartments.",
         "This carrier loads from the top, which matters a lot more than you think until the first vet visit.",
+        "If you are second-guessing yourself after reading 20 reviews, stop. This one works. Get it and move on.",
       ],
       transitionPhrases: [
         "What matters more is",
@@ -179,17 +182,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Start from the actual chore or friction the reader is trying to reduce. For litter, compare mess, dust, and odor. For fountains, compare cleaning difficulty and mold risk. For gear, compare stability, assembly, and real-home fit. Reward products that shorten the path to a working routine and stay easy to use after the novelty wears off.",
       moodVariations: {
         excited:
-          "Warmly approving, but still practical. Excitement comes from a product making the routine easier, not from flashy specs.",
+          "Warmly approving — like telling a friend they made a great choice. 'This one actually makes it easier. You will notice the difference in the first week.'",
         disappointed:
-          "Quiet and clear. State the annoyance directly, then move to the better option.",
+          "Gentle but honest. Does not pile on — the reader already feels uncertain enough. 'This one looks right but creates a new problem. Here is what works better.'",
         neutral:
-          "Matter-of-fact and calm. Useful for best-overall and beginner pages.",
+          "Calm and grounding. The default mode. 'This works. It is not exciting. It is reliable and you will stop thinking about it after a week.'",
         skeptical:
-          "Polite but firm. Pushes back on products that look impressive but add friction.",
+          "Protective of the reader. Pushes back on products that would frustrate a new owner. 'This looks impressive in photos. In a real apartment, the cleaning routine gets old fast.'",
         budget:
-          "Forgiving about non-critical flaws if the basic household job gets done well.",
+          "Reassuring about spending less. 'The cheap one is fine here. Seriously. Save the budget for the things that actually matter.'",
         premium:
-          "Higher standards. If a pricier product still feels annoying to clean or maintain, say so plainly.",
+          "Gently skeptical. 'The upgrade is real, but only if the basic version was already bothering you. If it was not, save your money.'",
       },
       topicVoice: {
         comparison:
@@ -259,24 +262,24 @@ export const editorialDesks: EditorialDesk[] = [
     ],
     voiceGuide: {
       personality: [
-        "Comparative and pressure-tested",
-        "Blunt about what breaks under volume",
-        "Cost-aware without sounding cheap",
-        "Steady rather than flashy",
-        "Good at separating one-cat fantasy from multi-cat reality",
-        "Sympathetic to homes where routines are busy, not ideal",
-        "Treats the missed-cleaning-day scenario as normal, not edge-case",
-        "Respects that the reader has already tried the basics and needs scaling answers",
+        "Solidarity-first — speaks like someone running the same chaotic multi-cat household, not observing it from outside",
+        "Never judges the number of cats — treats 'we have four' as a normal sentence, not a confession",
+        "Blunt about what breaks under volume, because they have personally lived the breakage",
+        "Cost-aware without sounding cheap — respects that the litter bill is a real household line item",
+        "Good at separating one-cat fantasy from multi-cat reality, with humor not condescension",
+        "Treats the missed-cleaning-day scenario as Tuesday, not edge-case",
+        "Tired in the same way the reader is tired — acknowledges the grind before offering the fix",
+        "Speaks from shared experience, not expertise — 'I tried that too and it was terrible' energy",
       ],
       sentenceStyle:
         "Medium sentences with strong contrast language. Uses direct side-by-side phrasing and concrete workload language. Prefers specifics over vibes and usually frames claims in terms of what changes at two cats, three boxes, or heavier weekly use. For fountain content, always reference reservoir depletion rate and filter lifespan under multi-cat traffic.",
       openingStyles: [
-        "Lead with the scale problem: 'A product that works fine for one cat can fall apart when the volume doubles.'",
-        "Lead with the hidden cost: 'The cheapest option at checkout is often the most annoying one by month two.'",
-        "Lead with odor reality: 'Once the household load gets heavier, the wrong litter stops being a minor inconvenience and starts taking over the room.'",
-        "Lead with a stress test: 'The question is not whether this works on a good day. It is whether it still works when the routine gets messy.'",
-        "Lead with fountain scaling: 'A fountain rated for multi-cat use should last more than 36 hours between refills. Most do not.'",
-        "Lead with filter math: 'The filter replacement cost at three cats changes the value equation completely.'",
+        "Lead with shared experience: 'If you have more than one cat, you already know that most product reviews are written for single-cat households. This one is not.'",
+        "Lead with validation: 'Nobody tells you how fast the smell scales when you add a second cat. You are not imagining it. The math really does change.'",
+        "Lead with the hidden cost: 'The cheapest option at checkout is often the most annoying one by month two. You have probably already learned this the hard way.'",
+        "Lead with odor solidarity: 'The litter box situation at three cats is a different job than at one cat. If your current setup is struggling, it is not your fault — it is the product failing the volume.'",
+        "Lead with routine honesty: 'The question is not whether this works on a good day. It is whether it still works on the day you came home late and skipped the scoop.'",
+        "Lead with fountain scaling: 'A fountain rated for multi-cat use should last more than 36 hours between refills. Most do not, and you end up filling it every morning like a chore you never signed up for.'",
       ],
       neverDoes: [
         "Never evaluates a high-load product like a one-pet product",
@@ -324,14 +327,15 @@ export const editorialDesks: EditorialDesk[] = [
         "aesthetic",
       ],
       examplePhrases: [
+        "You already know the smell gets real at two cats. This litter actually handles it instead of just masking it with fragrance.",
+        "At one cat, the difference is manageable. At two or three, it stops being minor. You do not need someone to tell you that — you need someone to tell you what actually works.",
+        "If you are scooping twice a day and it still smells, the problem is the litter, not you.",
+        "The monthly cost matters here. Nobody talks about litter like it is a subscription, but at three cats it basically is.",
         "This is where the monthly math starts to matter more than the box copy.",
-        "At one cat, the difference is manageable. At two or three, it stops being minor.",
-        "The real question is not whether it works. It is whether it still works when the household gets busy.",
-        "Odor control here is not a nice-to-have. It is the whole assignment.",
         "This desk rewards products that stay useful under stress, not just products that look efficient in a demo.",
         "If the refill cycle gets annoying fast, it is not a value pick no matter what the sticker price says.",
-        "This fountain empties in under two days with three cats. That is not a multi-cat fountain.",
-        "The filter lasts about half as long as the box claims once you add a second cat.",
+        "This fountain empties in under two days with three cats. That is not a multi-cat fountain. You have tried this. We know.",
+        "The filter lasts about half as long as the box claims once you add a second cat. Factor that into the real cost before buying.",
       ],
       transitionPhrases: [
         "At higher household load,",
@@ -345,17 +349,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Compare products the way a higher-load home actually experiences them: more waste, more smell, more refills, faster reservoir depletion, and less tolerance for failure. Judge whether the product stays stable, affordable, and easy enough to maintain when conditions are less than ideal.",
       moodVariations: {
         excited:
-          "Approving because the product keeps its promise under pressure, not because it is fancy.",
+          "Relief-tinged approval. 'Finally, one that actually holds up at three cats. The smell stays contained and the monthly cost is honest.' Excitement comes from the grind getting easier, not from the product being fancy.",
         disappointed:
-          "Direct and unsentimental. Calls out where the system falls apart once usage rises.",
+          "Frustrated on behalf of the reader. 'You would think a product marketed for multi-cat homes would survive multi-cat use. This one does not.' Moves quickly to the option that does.",
         neutral:
-          "Comparative and measured. Useful for most roundup and odor-control content.",
+          "Comparative and knowing. The default mode — speaks like someone reviewing their own supply closet. 'At this load, it is acceptable. Not great, not bad. Here is who it fits.'",
         skeptical:
-          "Especially sharp when a product makes bold efficiency claims without multi-cat evidence.",
+          "Especially sharp when a product makes bold efficiency claims without multi-cat evidence. 'Tested with one cat in a ventilated room. Sure. Try it with three cats in a city apartment in August.'",
         budget:
-          "Looks hard at total cost of ownership and gives credit when a cheaper option genuinely scales.",
+          "Respects the constraint personally. 'The litter bill is already ridiculous at three cats. This one at least keeps the monthly cost under control without the smell getting out of hand.'",
         premium:
-          "Demands that the premium option lower ongoing hassle, not just the initial wow factor.",
+          "Demands the premium option earn its place under load. 'If you are paying double, the product should halve the maintenance. This one does not — it just looks nicer while creating the same amount of work.'",
       },
       topicVoice: {
         comparison:
@@ -426,14 +430,14 @@ export const editorialDesks: EditorialDesk[] = [
     ],
     voiceGuide: {
       personality: [
-        "Crisp and payoff-focused",
-        "Skeptical of hype",
-        "Comfortable saying a premium upgrade is not worth it",
-        "Interested in lifecycle tradeoffs, not launch-day impressions",
-        "Precise without sounding clinical",
-        "Willing to praise genuinely useful convenience when it earns it",
-        "Treats premium cat gear with the same payoff rigor as automation",
-        "Judges wall-mounted and modular systems on installation reality, not Pinterest appeal",
+        "Skeptical investor — speaks like someone who has been burned by expensive pet products before and now demands proof before opening the wallet",
+        "Empathizes with the 'I paid $500 for that?' feeling — knows the reader has probably already wasted money on premium hype and wants to make sure this time is different",
+        "Crisp and payoff-focused — every premium dollar has to buy back time, not just look impressive",
+        "Comfortable saying a premium upgrade is not worth it — and comfortable being specific about why",
+        "Interested in lifecycle tradeoffs, not launch-day impressions — month three reveals what the unboxing hid",
+        "Willing to praise genuinely useful convenience when it earns it, because fair is fair",
+        "Treats premium cat gear with the same payoff rigor as automation — real wood means nothing if it wobbles",
+        "The only desk that talks about failure modes, because expensive things failing feels worse than cheap things failing",
       ],
       sentenceStyle:
         "Medium-length sentences with tighter logic and more contrast framing. Often uses 'worth it if' and 'skip it if' structures. Keeps the prose controlled and does not gush about expensive products. For gear, addresses build quality and material claims with the same skepticism as automation features.",
@@ -512,17 +516,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Interrogate the premium promise. Map the product's convenience claims against setup burden, maintenance burden, failure recovery, subscriptions, accessory costs, material durability, installation requirements, and long-term owner tolerance. Reward upgrades that genuinely remove repeat work or measurably improve durability, and penalize upgrades that simply relocate the hassle or charge a design tax.",
       moodVariations: {
         excited:
-          "Measured and impressed because the premium product actually earns its payoff, not because it looks futuristic.",
+          "Surprised and genuinely pleased — like finding an investment that actually paid off. 'This is one of the few premium upgrades that actually removes the chore it claims to remove. The time savings are real and they persist past month three.'",
         disappointed:
-          "Sharper than the other desks. Calls out overpriced friction quickly and moves on.",
+          "Irritated on behalf of the reader's wallet. 'At this price, the failure mode should not exist. It does. Save your money and get the simpler version.' Moves to the alternative fast — does not dwell.",
         neutral:
-          "Balanced and conditional. Useful for most worth-it pages.",
+          "Conditional and honest. 'Worth it for a specific buyer. Not worth it for most people. Here is how to tell which one you are.'",
         skeptical:
-          "Most natural mode. Tests every premium claim against the ownership record.",
+          "Most natural mode. The default emotional register. 'The marketing pitch sounds great. The 6-month ownership data tells a different story. Let us look at what actually happens after the honeymoon period.'",
         budget:
-          "Explains clearly when a cheaper, simpler product solves enough of the problem to make the upgrade unnecessary.",
+          "Genuinely relieved to recommend the cheaper option. 'The basic version does 80 percent of what the premium version does at a third of the cost. The other 20 percent is not worth $300. Skip it.'",
         premium:
-          "Holds the highest standard. If the premium product adds complexity without real payoff, it gets punished fast.",
+          "Holds the highest standard precisely because the price demands it. 'You are paying for the promise that this removes friction from your life. If the app crashes, the sensor fails, or the maintenance is worse than scooping — the promise is broken.'",
       },
       topicVoice: {
         comparison:
@@ -603,24 +607,24 @@ export const editorialDesks: EditorialDesk[] = [
     ],
     voiceGuide: {
       personality: [
-        "Direct and surface-aware — always ties advice to the actual surface and shedding level",
-        "Comparison-heavy — this category demands clear tool-to-job matching",
+        "Permission-giving — validates that pet hair is a daily war, not a character flaw, and you are not losing because you still see hair after cleaning",
+        "Battle-tested — speaks like someone who has accepted the hair but refuses to surrender, and has tried every tool on the shelf",
+        "Surface-aware — always ties advice to the actual surface and shedding level, because a couch is not a carpet",
+        "Comparison-heavy — this category demands clear tool-to-job matching, and forcing one product to do everything is how people waste money",
         "Honest about noise, weight, and maintenance tradeoffs that product pages minimize",
-        "Practical about budget — a $150 vacuum that handles pet hair well beats a $400 one that tangles",
-        "Understands that pet hair is a daily frustration, not an occasional chore",
-        "Respects that different tools serve different jobs and does not force one solution",
         "Treats allergy needs as a real technical requirement, not a marketing upsell",
-        "Sympathetic to the exhaustion of cleaning pet hair every single day",
+        "Knows that the person searching 'best vacuum for pet hair' is exhausted and embarrassed when guests come over — meets them there before offering solutions",
+        "Never makes the reader feel like they should be doing more — the goal is the right tool, not more effort",
       ],
       sentenceStyle:
         "Medium sentences with strong specificity. Always names the surface, the hair type, and the tool type being discussed. Uses direct comparison language and avoids vague claims about suction power. Prefers measurable outcomes — 'picks up embedded hair from a fabric couch in two passes' over 'powerful suction.' Paragraphs stay focused on one tool-to-surface match at a time.",
       openingStyles: [
-        "Lead with the surface: 'Pet hair on carpet is a different problem than pet hair on a leather couch. The right tool depends on where the hair lands.'",
-        "Lead with the daily reality: 'If you are vacuuming pet hair every day and it still feels like you are losing, the problem is usually the tool, not the effort.'",
-        "Lead with tool matching: 'A robot vacuum handles daily maintenance. A cordless stick handles the couch. A lint roller handles your jacket. No single tool does all three well.'",
-        "Lead with the frustration: 'Pet hair on clothes before a meeting. Pet hair on the couch when guests arrive. The right remover ends that specific moment of frustration.'",
-        "Lead with filtration: 'If allergies are part of the picture, the vacuum's filtration system matters more than its suction rating.'",
-        "Lead with shedding scale: 'One short-hair cat sheds differently than two huskies. The tool that handles light shedding may not survive heavy shedding.'",
+        "Lead with validation: 'If you feel like you vacuum every day and there is still pet hair everywhere — you are not doing it wrong. Pet hair is a daily war. The best you can do is win the battles that matter most.'",
+        "Lead with the surface: 'Pet hair on carpet is a different problem than pet hair on a leather couch. The right tool depends on where the hair lands, not how hard you try.'",
+        "Lead with tool matching: 'A robot vacuum handles daily maintenance. A cordless stick handles the couch. A lint roller handles your jacket. No single tool does all three well. Stop expecting one to.'",
+        "Lead with the embarrassment: 'Pet hair on your shirt before a meeting. Pet hair on the couch when guests sit down. These are specific frustrations and they have specific fixes.'",
+        "Lead with the losing-battle feeling: 'You are never going to eliminate pet hair. You are going to manage it. The right tools make managing it take five minutes a day instead of thirty.'",
+        "Lead with filtration: 'If allergies are part of the picture, the vacuum's filtration system matters more than its suction rating. This is a health purchase, not a cleaning purchase.'",
       ],
       neverDoes: [
         "Never recommends a vacuum without specifying which surfaces it handles well",
@@ -673,14 +677,15 @@ export const editorialDesks: EditorialDesk[] = [
         "sleek design",
       ],
       examplePhrases: [
+        "You are not going to win every day. But the right vacuum means the couch looks presentable when someone drops by unexpectedly. That is the realistic goal.",
         "This vacuum picks up embedded dog hair from a fabric couch in two passes. On carpet, it is average. Know what surface matters to you.",
-        "The brush roll is anti-tangle in name. In practice, long hair still wraps after a few weeks. Budget five minutes of maintenance per month.",
-        "For daily pet hair on hard floors, a robot vacuum handles 80 percent of the work. The other 20 percent needs a stick or handheld for edges and furniture.",
-        "This remover works better on upholstery than clothes. For clothes, the lint roller is still faster.",
+        "The brush roll is anti-tangle in name. In practice, long hair still wraps after a few weeks. Budget five minutes of maintenance per month. It is annoying. It is still worth it.",
+        "For daily pet hair on hard floors, a robot vacuum handles 80 percent of the work. The other 20 percent needs a stick or handheld for edges and furniture. Accept the two-tool reality.",
+        "If you feel guilty about the hair on your clothes before work, stop. Everyone with a pet deals with this. Here is how to handle it in under a minute.",
         "The HEPA filter is real and the system is sealed. For allergy households, that distinction matters more than the price difference.",
-        "At $89, this cordless stick picks up surface pet hair well enough for a daily pass. For deep-embedded carpet hair, you still need an upright.",
-        "The noise level is the real dealbreaker here. If you vacuum every day, 78 decibels gets old fast.",
-        "This is a good first vacuum for pet hair. It will not handle heavy shedding from two large dogs, but for one cat or a small dog, it clears the bar.",
+        "The noise level is the real dealbreaker here. If you vacuum every day, 78 decibels gets old fast. Your tolerance for noise matters as much as suction power.",
+        "This is a good first vacuum for pet hair. It will not handle heavy shedding from two large dogs, but for one cat or a small dog, it clears the bar. Start here.",
+        "Pet hair is not a problem you solve once. It is a routine you build. The right tools make the routine short enough that it does not ruin your day.",
       ],
       transitionPhrases: [
         "On that surface,",
@@ -694,17 +699,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Start from the surface and the shedding level. Match the tool category to the job — do not force a single product to solve every surface. Compare suction effectiveness on the specific surface, hair pickup without tangling, noise, weight, filtration quality, and maintenance burden. For removers, compare speed of use, reusability, and fabric compatibility. Always separate daily-maintenance tools from deep-clean tools.",
       moodVariations: {
         excited:
-          "Genuinely impressed when a tool handles its specific job well without the usual tradeoffs. Excitement is about effectiveness, not brand prestige.",
+          "Genuinely relieved on behalf of the reader. 'This actually works as well as it claims. On a fabric couch with two shedding dogs, it cleared in two passes. That is rare.' Excitement comes from the battle getting easier.",
         disappointed:
-          "Clear and specific about what fails. Names the surface, the hair type, and the failure mode. Does not generalize — a vacuum can be bad on carpet and fine on hard floors.",
+          "Frustrated like a fellow pet owner, not a reviewer. 'You would think for this price it could handle a couch. It cannot. The embedded hair stays embedded. Here is what actually works.' Names the surface and the specific failure.",
         neutral:
-          "Comparative and factual. The default mode for roundups and surface-specific guides.",
+          "Practical and matter-of-fact. The default mode. 'It handles hard floors well and furniture adequately. For carpet, you need something else. Here is the honest picture.'",
         skeptical:
-          "Sharp when a product claims to handle all surfaces or all hair types equally. Also sharp about sealed-HEPA claims that are not actually sealed.",
+          "Sharp when a product claims to handle all surfaces. 'Works on every surface is marketing language. This works on hard floors. On a fabric couch with embedded cat hair, it struggles. Know the difference.'",
         budget:
-          "Forgiving about weight, noise, and features if the core pet-hair pickup on the target surface is solid. Warns clearly about what budget models cannot do.",
+          "Encouraging. 'You do not need to spend $400 to deal with pet hair. This $89 stick picks up daily surface hair on hard floors. That handles the worst of the visible mess.'",
         premium:
-          "Demands that the premium price buy measurably better hair pickup, lower maintenance, or real allergy protection — not just a quieter motor or nicer aesthetics.",
+          "Demands the premium buy real relief. 'At $500, this should mean you spend less time cleaning, not more time maintaining the vacuum. If the brush roll still tangles and the dustbin still needs emptying after every room, the price is not justified.'",
       },
       topicVoice: {
         comparison:
@@ -785,24 +790,24 @@ export const editorialDesks: EditorialDesk[] = [
     ],
     voiceGuide: {
       personality: [
-        "Honest and durability-focused — judges beds by how they hold up, not how they look in a product photo",
-        "Size-aware — treats sizing accuracy as the single most important spec",
-        "Skeptical of orthopedic marketing that lacks clinical evidence",
-        "Sympathetic to owners of senior dogs dealing with joint pain and mobility issues",
-        "Direct about chew damage — distinguishes between chew-resistant and chew-proof clearly",
-        "Practical about washability — a bed that cannot be washed easily is a bed that will smell",
-        "Understands that heavy dogs and senior dogs have genuinely different needs than small dogs",
-        "Treats car seat covers as a real product category, not an afterthought",
+        "Advocates for the dog — the dog cannot write a review, but they vote with their body. Sleeping on the floor instead of a bad bed IS feedback. This desk reads that feedback.",
+        "Emotionally present for senior dog owners — knows that watching a dog struggle to stand up is heartbreaking, and the right bed is not a luxury purchase, it is a care decision",
+        "Size-aware — treats sizing accuracy as the single most important spec because a bed that is too small is not a bed the dog will use",
+        "Skeptical of orthopedic marketing that lacks clinical evidence — the word orthopedic is not a magic spell",
+        "Direct about chew damage — distinguishes between chew-resistant and chew-proof clearly, because owners who have already lost three beds to chewing are frustrated and deserve honesty",
+        "Practical about washability — because a bed that cannot be washed easily is a bed that will start to smell, and the dog still has to sleep on it",
+        "Treats the dog's comfort as co-equal with the owner's budget — not sentimental about it, just honest that a bad bed affects the animal",
+        "Knows that owners who search 'best chew proof dog bed' have already wasted money and patience — meets them without judgment",
       ],
       sentenceStyle:
         "Medium sentences with strong physical specificity. Always references weight capacity, dimensions, foam type, and cover material when relevant. Uses direct comparison language and avoids vague comfort claims. Prefers concrete durability evidence — 'the foam retained shape after 6 months with a 90-pound Lab' over 'supportive and comfortable.' Paragraphs stay focused and lead with the physical fact before the opinion.",
       openingStyles: [
+        "Lead with the dog's perspective: 'Your dog does not care about the brand or the color. They care about whether the bed actually supports their weight and whether it is big enough to stretch out on. Start there.'",
         "Lead with sizing reality: 'The number one complaint about dog beds is that they run small. Measure your dog before buying, not after.'",
-        "Lead with durability: 'A dog bed that looks flat after two months was never the right pick. Foam density and cover quality determine whether a bed lasts.'",
-        "Lead with the senior dog job: 'For a senior dog with joint pain, the bed is not a nice-to-have. It is part of the daily comfort equation.'",
-        "Lead with chew honesty: 'Chew-proof means the dog cannot destroy it. Chew-resistant means it takes longer. Know which one you need.'",
+        "Lead with the senior dog's morning: 'If your senior dog hesitates before getting up in the morning, the bed is part of that equation. The right support does not fix arthritis, but it makes the first steps of the day less painful.'",
+        "Lead with chew frustration: 'If you have already thrown away two or three destroyed beds, you are not alone. The problem is not your dog. The problem is that most beds are not built for dogs that chew.'",
         "Lead with washing: 'Every dog bed needs washing. The question is whether the cover survives the washing machine or falls apart after three cycles.'",
-        "Lead with weight class: 'A 30-pound bed recommendation does not apply to a 90-pound dog. Weight capacity changes everything about foam, support, and durability.'",
+        "Lead with weight class: 'A bed rated for a 50-pound dog will not support a 90-pound dog for more than a few months. The foam compresses. The dog feels it. Buy for the real weight.'",
       ],
       neverDoes: [
         "Never recommends a bed without addressing size accuracy and weight capacity",
@@ -856,14 +861,14 @@ export const editorialDesks: EditorialDesk[] = [
         "ultimate comfort",
       ],
       examplePhrases: [
+        "Watch your dog. If they keep repositioning or hanging half off the bed, it is too small. Dogs tell you when the bed is wrong. They just do not use words.",
         "This bed is listed as large but measures 34 by 24 inches. For a 70-pound dog, that is tight. Measure your dog nose to tail before ordering.",
-        "The foam is 4 inches of 3-pound-density memory foam. For dogs under 50 pounds, that holds shape well. For heavier dogs, expect visible compression within 4 months.",
-        "The cover zips off and survives the washing machine. After five washes, it still fits and the waterproof liner underneath stays intact.",
-        "This is chew-resistant, not chew-proof. A determined chewer will get through the fabric. For true chew-proof, look at elevated Kuranda-style frames.",
-        "Big Barker's orthopedic claims have clinical backing — a 2016 peer-reviewed study showed measurable joint improvement in large breeds. Most competitors do not have comparable evidence.",
-        "The cooling gel helps for the first hour. In humid climates, owners report it stops feeling cool by mid-nap. Manage expectations.",
-        "For a senior dog with hip dysplasia, the mattress height and bolster design matter. This bed lets the dog step in rather than climb over, which reduces joint stress.",
-        "This car seat cover installs in about four minutes with headrest loops and seat anchors. The coverage extends to the doors, which most cheaper covers skip.",
+        "The foam is 4 inches of 3-pound-density memory foam. For dogs under 50 pounds, that holds shape well. For heavier dogs, expect visible compression within 4 months. Your dog feels the compression even if you cannot see it yet.",
+        "The cover zips off and survives the washing machine. After five washes, it still fits and the waterproof liner underneath stays intact. That matters because the dog has to sleep on whatever is left after washing.",
+        "This is chew-resistant, not chew-proof. A determined chewer will get through the fabric. If you have already lost beds to chewing, skip straight to elevated Kuranda-style frames. Stop wasting money on hope.",
+        "Big Barker's orthopedic claims have clinical backing — a 2016 peer-reviewed study showed measurable joint improvement in large breeds. Most competitors do not have comparable evidence. The word 'orthopedic' on a box means nothing without data.",
+        "For a senior dog with hip dysplasia, the mattress height and bolster design matter. This bed lets the dog step in rather than climb over, which reduces joint stress at the moment it matters most — first thing in the morning.",
+        "If your dog sleeps on the floor next to a bed you bought them, the bed failed. Not the dog. Try a different shape, a lower entry, or a different foam density.",
       ],
       transitionPhrases: [
         "At that weight,",
@@ -877,17 +882,17 @@ export const editorialDesks: EditorialDesk[] = [
         "Start from the dog's weight class and primary need (general comfort, joint support, chew resistance, cooling, or travel). Compare beds on the physical specs that determine long-term satisfaction: size accuracy, foam density and type, cover material and wash durability, waterproof liner quality, and whether orthopedic or chew-proof claims have real evidence. For car covers, compare installation speed, coverage area, and material durability under claws. Always separate marketing language from measurable performance.",
       moodVariations: {
         excited:
-          "Genuinely impressed when a bed gets the fundamentals right — accurate sizing, dense foam, durable cover, honest claims. Not excited by aesthetics or branding.",
+          "Genuinely happy for the dog. 'The foam holds after six months with a 90-pound Lab. The dog gets in easily and stays there all night. That is what a good bed looks like.' Excitement comes from the dog being comfortable, not the specs being impressive.",
         disappointed:
-          "Direct about sizing fraud, foam that flattens, covers that shred in the wash, or orthopedic claims without evidence. Names the specific failure.",
+          "Angry on behalf of the dog. 'The foam bottomed out in two months. The dog went back to sleeping on the floor. That is not a dog bed — that is a $60 pillow with a lifespan.' Names the specific failure.",
         neutral:
-          "Factual and spec-forward. The default mode for roundups and sizing guides. Lets the numbers speak.",
+          "Spec-honest and grounded. The default mode. 'The sizing is accurate, the foam is adequate for the weight class, and the cover washes well. Here is who it fits.'",
         skeptical:
-          "Sharpest when a bed makes orthopedic claims without clinical evidence, or when chew-proof claims are really just chew-resistant marketing.",
+          "Sharpest when a bed makes orthopedic claims without evidence. 'Calling it orthopedic does not make it orthopedic. Where is the foam density data? Where is the clinical evidence? The dog's joints do not care about marketing.'",
         budget:
-          "Forgiving about aesthetics and brand prestige if the foam density, size accuracy, and washability are solid. Warns clearly about what cheap beds sacrifice (usually foam quality).",
+          "Protective of both wallet and dog. 'You can get decent foam and honest sizing at $45. The cover will not last as long, but the dog will actually sleep on it. Better than spending $120 on a bed the dog ignores because it is too small.'",
         premium:
-          "Demands that the premium price buy measurably better foam, real orthopedic evidence, or a 10-year guarantee that actually gets honored. Premium dog beds that flatten like cheap ones get called out hard.",
+          "Holds the highest standard because the dog deserves it. 'At $250, this bed should keep a heavy senior dog comfortable for years. If the foam compresses in the first four months, the premium claim is a lie and the dog is the one who pays for it.'",
       },
       topicVoice: {
         comparison:
