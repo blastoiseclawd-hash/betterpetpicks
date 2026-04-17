@@ -1,10 +1,8 @@
-// How Much Cat Litter to Use — Support/Educational Page
-// Desk: Cat Care Essentials
+// How Much Cat Litter to Use - Support/Educational Page
+// Desk: Cat Care Essentials (REASSURANCE voice)
 // Primary keyword: how much cat litter to use (Vol 300, KD 0, TP 600)
-// Research: 4 Reddit threads (r/CatAdvice), Catster vet-reviewed, Litter-Robot official, Pam Johnson-Bennett
 // Research doc: data/research/how-much-cat-litter-to-use.md
 // Purpose: Support page for the Cat Litter cluster
-// Voice: Cat Care Essentials — REASSURANCE posture (calm friend, normalizes new-owner uncertainty)
 
 export const howMuchCatLitterToUseContent = {
   title: "How Much Cat Litter to Use",
@@ -163,7 +161,7 @@ If your cat is not covering consistently, add half an inch of litter and check a
       heading: "Depth and usage by litter type",
       image: {
         src: "/images/guides/how-much-cat-litter-to-use/02-depth-guide.png",
-        alt: "Three glass bowls on woven beige mats showing different cat litter types — grey clumping clay on the left, white silica crystals in the middle, and tan natural pine pellets on the right",
+        alt: "Three glass bowls on woven beige mats showing different cat litter types: grey clumping clay on the left, white silica crystals in the middle, and tan natural pine pellets on the right",
         caption: "Different litter types have different optimal depths and consumption rates.",
       },
       body: `Quick reference for each common litter type. Use this when you switch brands or types so you do not have to relearn the depth.
@@ -189,7 +187,7 @@ If your cat is not covering consistently, add half an inch of litter and check a
     {
       question: "How often should I completely change cat litter?",
       answer:
-        "With clumping litter and daily scooping, every 2 to 4 weeks is the conservative answer. Some owners with high-quality clumping litter go much longer between full changes — sometimes months — as long as scooping is consistent and the box does not develop a baseline odor. Non-clumping litter needs a full change every 1 to 2 weeks. Trust your nose: if the box smells between scoops despite being at the right depth, the full-change interval is too long.",
+        "With clumping litter and daily scooping, every 2 to 4 weeks is the conservative answer. Some owners with high-quality clumping litter go much longer between full changes (sometimes months) as long as scooping is consistent and the box does not develop a baseline odor. Non-clumping litter needs a full change every 1 to 2 weeks. Trust your nose. If the box smells between scoops despite being at the right depth, the full-change interval is too long.",
     },
     {
       question: "Can I just keep adding litter instead of changing it?",
@@ -209,7 +207,7 @@ If your cat is not covering consistently, add half an inch of litter and check a
     {
       question: "Do kittens need less litter?",
       answer:
-        "Use the same depth guidelines but in a smaller box. Kittens use standard-depth litter but produce less waste, so a smaller box at 2 inches deep works well. Do not use a shallow layer in a large box — kittens still need enough depth to dig and cover. For kittens under 4 months, use non-clumping litter to avoid ingestion risks.",
+        "Use the same depth guidelines but in a smaller box. Kittens use standard-depth litter but produce less waste, so a smaller box at 2 inches deep works well. Do not use a shallow layer in a large box, because kittens still need enough depth to dig and cover. For kittens under 4 months, use non-clumping litter to avoid ingestion risks.",
     },
   ],
 
