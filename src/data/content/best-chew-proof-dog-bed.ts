@@ -68,7 +68,7 @@ export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The Kuranda Chewproof Elevated Bed is the best chew-proof dog bed because it uses an all-aluminum frame with 1000-denier Cordura fabric that shelters have trusted for years with their most destructive dogs. If your dog needs cushioning along with chew resistance, the PetFusion Serenity Lounge is the best chew-resistant cushioned option, though it will not survive a truly determined chewer.",
+    "The Kuranda Chewproof Elevated Bed is the most chew-proof dog bed you can buy because it uses an all-aluminum frame with heavy-duty vinyl — shelters have trusted it with destructive dogs for years. If you also want a PADDED chew-proof bed (rare combination), the FXW TitanNest elevated cot is the one. If your dog needs real memory-foam cushioning, the PetFusion Ultimate Orthopedic Bed is chew-resistant, not chew-proof — a determined chewer will eventually get through the microsuede. Honest rule: no bed is indestructible. The right pick depends on whether your dog chews out of boredom (use a Kuranda) or out of destructive intent (cage-and-bed approach is safer).",
 
   productOrder: [
     "kuranda-chewproof-elevated-bed",
@@ -80,8 +80,8 @@ export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
   displayNames: {
     "kuranda-chewproof-elevated-bed": "Kuranda Chewproof Elevated Bed",
     "k9-ballistics-chew-proof-elevated": "K9 Ballistics Chew Proof Elevated",
-    "frisco-steel-elevated-bed": "Frisco Steel-Framed Elevated Bed",
-    "petfusion-serenity-lounge-bed": "PetFusion Serenity Lounge Bed",
+    "frisco-steel-elevated-bed": "FXW TitanNest Chew-Proof Cot",
+    "petfusion-serenity-lounge-bed": "PetFusion Ultimate Orthopedic",
   },
 
   badges: {
@@ -105,16 +105,16 @@ export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
       Fabric: "Ripstop ballistic fabric",
     },
     "frisco-steel-elevated-bed": {
-      Size: "43.5\" x 32.5\" x 7\" (Large)",
+      Size: "42\" x 27\" x 5\" (Medium)",
       "Weight Capacity": "Up to 100 lb",
-      Frame: "Steel",
-      Fabric: "Breathable mesh",
+      Frame: "Chew-proof steel + padded top",
+      Fabric: "Woven fabric with hidden zipper",
     },
     "petfusion-serenity-lounge-bed": {
-      Size: "36\" x 28\" x 9\" (Large)",
+      Size: "Large orthopedic floor bed",
       "Weight Capacity": "Up to 100 lb",
       Frame: "None — floor bed",
-      Fabric: "Tear-resistant microsuede + YKK zippers",
+      Fabric: "35% cotton cover + waterproof liner + YKK zippers",
     },
   },
 
@@ -128,42 +128,42 @@ export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
   comparisonTable: [
     {
       badge: "Best Chew-Proof Overall",
-      name: "Kuranda Chewproof Elevated Bed",
-      price: "$89.95",
+      name: "Kuranda Chewproof Elevated",
+      price: "$138.95",
       goodFor: "Destructive chewers, shelter dogs",
-      construction: "Aluminum frame + Cordura nylon",
+      construction: "Aluminum frame + heavy-duty vinyl",
       weightCapacity: "125 lb",
       keyFeature: "Shelter-tested with thousands of dogs",
       slug: "kuranda-chewproof-elevated-bed",
     },
     {
-      badge: "Best Chew-Proof Guarantee",
-      name: "K9 Ballistics Chew Proof Elevated",
-      price: "$74.99",
-      goodFor: "Chewers needing a replacement guarantee",
+      badge: "Best Chew-Proof Cot",
+      name: "K9 Ballistics Chew Proof Cot",
+      price: "$120.00",
+      goodFor: "Chewers needing preassembled cooling cot",
       construction: "Aluminum frame + ripstop ballistic",
       weightCapacity: "150 lb",
-      keyFeature: "Chew-proof guarantee with replacement",
+      keyFeature: "Preassembled, chew-proof guarantee",
       slug: "k9-ballistics-chew-proof-elevated",
     },
     {
-      badge: "Best Budget Elevated",
-      name: "Frisco Steel-Framed Elevated Bed",
-      price: "$24.99",
-      goodFor: "Testing if your dog will use an elevated bed",
-      construction: "Steel frame + mesh",
+      badge: "Best Padded Chew-Proof",
+      name: "FXW TitanNest Chew-Proof Cot",
+      price: "$94.99",
+      goodFor: "Chewers who want cushioning",
+      construction: "Steel frame + padded top",
       weightCapacity: "100 lb",
-      keyFeature: "At $24.99, lowest risk entry point",
+      keyFeature: "Elevated cot WITH padding — rare combo",
       slug: "frisco-steel-elevated-bed",
     },
     {
       badge: "Best Chew-Resistant Cushioned",
-      name: "PetFusion Serenity Lounge Bed",
-      price: "$129.95",
-      goodFor: "Casual chewers needing joint support",
-      construction: "6\" foam + tear-resistant cover",
+      name: "PetFusion Ultimate Orthopedic",
+      price: "$149.99",
+      goodFor: "Casual chewers needing memory foam",
+      construction: "Memory foam + cotton cover + YKK zippers",
       weightCapacity: "100 lb",
-      keyFeature: "Real orthopedic foam with tough cover",
+      keyFeature: "Real orthopedic foam with waterproof liner",
       slug: "petfusion-serenity-lounge-bed",
     },
   ],
@@ -218,14 +218,14 @@ The limitation is the same as every elevated chew-proof bed: no foam. And the re
     },
 
     "frisco-steel-elevated-bed": {
-      heading: "Best Budget Elevated: Frisco Steel-Framed Elevated Bed",
+      heading: "Best Padded Chew-Proof: FXW TitanNest Elevated Cot",
       reviewerScore: 7.5,
       scoreDiffReason: "",
-      body: `The Frisco answers a specific question: will your dog actually use an elevated bed? At $24.99, this is the cheapest way to find out before committing $75 to $90 on a Kuranda or K9 Ballistics. The steel frame is stronger than the plastic frames that most budget elevated beds use, and the 100-pound weight capacity handles medium and large breeds.
+      body: `Most elevated chew-proof beds force you to pick between durability and comfort. The FXW TitanNest is the rare exception — an elevated cot with a padded sleeping surface, a chew-proof steel frame, and a hidden-zipper cover that keeps the weakest part (the zipper pull) out of the dog's reach. At 4.7 stars across 9,500 reviews, owner feedback is unusually strong for this category.
 
-The mesh fabric is breathable and easy to clean. Hose it off, let it air dry, and it is ready to go. But mesh is not Cordura and it is not ripstop. A determined chewer will tear through it. The Frisco is chew-resistant in the sense that a dog cannot eat foam stuffing from it, but the fabric itself is not built to survive aggressive chewing the way the Kuranda and K9 Ballistics fabrics are.
+The medium size (42" by 27") fits most dogs under 100 pounds. Large-breed owners will need to look elsewhere — there is no XL variant yet. For medium dogs that chew out of boredom rather than determined destruction, the combination of airflow underneath and a thin pad on top covers both comfort and durability.
 
-That makes the Frisco a test bed, not a permanent solution for destructive dogs. If the mesh survives a month with your dog, you know your dog is a candidate for an elevated bed and you can invest in a more durable frame and fabric. If your dog shreds the mesh in a week, you are out $25 instead of $90.
+The tradeoff versus pure mesh cots like the Kuranda: slightly reduced airflow due to the padded surface. For indoor use in AC rooms, this is not a meaningful difference. For outdoor summer use in hot climates, the pure mesh Kuranda cools better.
 
 The steel frame can rust if left outdoors in wet conditions for extended periods. For indoor use or covered outdoor spaces, that is not a concern. The 43.5 by 32.5 inch sleeping surface is actually the largest on this page, which is notable given the lowest price point. Assembly is quick and requires no tools.`,
       pros: [
@@ -242,7 +242,7 @@ The steel frame can rust if left outdoors in wet conditions for extended periods
     },
 
     "petfusion-serenity-lounge-bed": {
-      heading: "Best Chew-Resistant Cushioned: PetFusion Serenity Lounge Bed",
+      heading: "Best Chew-Resistant Cushioned: PetFusion Ultimate Orthopedic",
       reviewerScore: 7.5,
       scoreDiffReason: "",
       body: `This is the only bed on this page with real foam inside it. Six inches of dual-layer foam — 4 inches of memory foam over a 2-inch support base — provide genuine orthopedic support that no elevated frame bed can match. The tear-resistant microsuede cover with concealed YKK zippers is tougher than standard dog bed covers, and the waterproof inner liner protects the foam from drool and accidents.
