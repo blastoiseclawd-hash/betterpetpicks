@@ -784,7 +784,7 @@ export const products: Product[] = [
       "60oz capacity is on the smaller side for multi-cat households",
     ],
     verdict:
-      "The Pioneer Raindrop is the pick when material hygiene matters most. Veterinarians recommend non-porous surfaces for cats with recurring chin acne, and ceramic is the gold standard.",
+      "The Pioneer Raindrop is the pick when material hygiene matters most. Owner reports consistently tie recurring chin acne to porous plastic bowls, and non-porous ceramic is the typical switch that resolves it.",
     authorSlug: "cat-care-essentials-desk",
     affiliateLinks: [
       {

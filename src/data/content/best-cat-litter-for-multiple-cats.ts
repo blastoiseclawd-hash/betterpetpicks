@@ -370,7 +370,7 @@ Where it loses ground is dust and tracking. Both are moderate. In a single-cat h
       },
       {
         heading: "The N+1 box rule",
-        body: "Veterinarians and experienced multi-cat owners agree on this: the right number of litter boxes is the number of cats plus one. Two cats need three boxes. Three cats need four. This is not about convenience. Cats that feel crowded at the box will avoid it, and avoidance leads to accidents that create worse problems than the litter bill. More boxes means more litter consumption, more scooping, and more full changes per week. The litter you choose should make that maintenance manageable, not impressive on paper.",
+        body: "The long-standing N+1 rule — widely shared across multi-cat owner forums and standard pet-care guidance — is simple: the right number of litter boxes is the number of cats plus one. Two cats need three boxes. Three cats need four. This is not about convenience. Cats that feel crowded at the box will avoid it, and avoidance leads to accidents that create worse problems than the litter bill. More boxes means more litter consumption, more scooping, and more full changes per week. The litter you choose should make that maintenance manageable, not impressive on paper.",
       },
       {
         heading: "Odor scales faster than you expect",
@@ -396,7 +396,7 @@ Where it loses ground is dust and tracking. Both are moderate. In a single-cat h
     {
       question: "Can two cats share the same litter box?",
       answer:
-        "They can, but they should not have to. The veterinary recommendation is one box per cat plus one extra. Shared boxes fill faster, smell worse, and increase the risk of litter box avoidance, which leads to accidents outside the box. If space limits you to fewer boxes, choose a litter with strong odor control and scoop more frequently.",
+        "They can, but they should not have to. The standard guidance — often called the N+1 rule in multi-cat households — is one box per cat plus one extra. Shared boxes fill faster, smell worse, and increase the risk of litter box avoidance, which leads to accidents outside the box. If space limits you to fewer boxes, choose a litter with strong odor control and scoop more frequently.",
     },
     {
       question: "Is multi-cat litter different from regular litter?",

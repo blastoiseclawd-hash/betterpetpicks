@@ -311,8 +311,8 @@ The tradeoffs are obvious. 1.5 liters needs daily refilling for anything beyond 
       heading: "Best Ceramic: Pioneer Pet Raindrop",
       reviewerScore: 3.5,
       scoreDiffReason:
-        "It earns its spot because ceramic is the healthiest material option and veterinarians specifically recommend it for cats with chin acne. The smaller capacity keeps it from ranking higher.",
-      body: `Ceramic is the material veterinarians recommend when chin acne keeps showing up on your cat. The non-porous surface resists the bacterial colonization that porous plastic encourages, and for cats that react to plastic food and water dishes, switching material can genuinely solve the problem.
+        "It earns its spot because non-porous ceramic resists the bacterial colonization that owner reports consistently tie to plastic-surface chin acne flare-ups. The smaller capacity keeps it from ranking higher.",
+      body: `Ceramic is the material owners switch to when chin acne keeps showing up on their cat. The non-porous surface resists the bacterial colonization that porous plastic encourages, and for cats that react to plastic food and water dishes, switching material can genuinely solve the problem.
 
 The Raindrop design is also the least pet-product-looking fountain on this page. It sits on a counter or floor without announcing itself the way a plastic flower fountain does. That is a minor thing, but it matters to owners who care about how their kitchen looks.
 
