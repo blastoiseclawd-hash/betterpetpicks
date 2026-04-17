@@ -10,17 +10,20 @@ export interface PublicRouteEntry {
   path: string;
   changeFrequency: ChangeFrequency;
   priority: number;
+  lastModified: string;
 }
 
-const TRUST_ROUTES = new Set(["/about", "/disclosure", "/how-we-review", "/privacy", "/terms"]);
+const TRUST_ROUTES = new Set(["/about", "/disclosure", "/how-we-review", "/privacy", "/terms", "/ai-disclosure"]);
 
-function collectRoutesFromApp(appDir: string): string[] {
-  const routes = new Set<string>();
+function collectRoutesFromApp(appDir: string): Array<{ route: string; pagePath: string }> {
+  const routes: Array<{ route: string; pagePath: string }> = [];
+  const seen = new Set<string>();
 
   function visit(currentDir: string) {
     const entries = fs.readdirSync(currentDir, { withFileTypes: true });
 
-    if (entries.some((entry) => entry.isFile() && entry.name === "page.tsx")) {
+    const pageFile = entries.find((entry) => entry.isFile() && entry.name === "page.tsx");
+    if (pageFile) {
       const relativeDir = path.relative(appDir, currentDir);
       const routeSegments = relativeDir
         .split(path.sep)
@@ -29,7 +32,11 @@ function collectRoutesFromApp(appDir: string): string[] {
         .filter((segment) => !segment.startsWith("["))
         .filter((segment) => segment !== "api");
 
-      routes.add(routeSegments.length === 0 ? "/" : `/${routeSegments.join("/")}`);
+      const route = routeSegments.length === 0 ? "/" : `/${routeSegments.join("/")}`;
+      if (!seen.has(route)) {
+        seen.add(route);
+        routes.push({ route, pagePath: path.join(currentDir, "page.tsx") });
+      }
     }
 
     for (const entry of entries) {
@@ -44,7 +51,7 @@ function collectRoutesFromApp(appDir: string): string[] {
   }
 
   visit(appDir);
-  return [...routes].sort((a, b) => a.localeCompare(b));
+  return routes.sort((a, b) => a.route.localeCompare(b.route));
 }
 
 function routeMetadata(routePath: string): Pick<PublicRouteEntry, "changeFrequency" | "priority"> {
@@ -74,20 +81,29 @@ function routeMetadata(routePath: string): Pick<PublicRouteEntry, "changeFrequen
   }
 }
 
+function pageMtime(pagePath: string): string {
+  try {
+    return fs.statSync(pagePath).mtime.toISOString();
+  } catch {
+    return new Date().toISOString();
+  }
+}
+
 export function getPublicPageRoutes(): PublicRouteEntry[] {
   const appDir = path.join(process.cwd(), "src", "app");
   const routes = collectRoutesFromApp(appDir);
 
-  return routes.map((routePath) => ({
-    path: routePath,
-    ...routeMetadata(routePath),
+  return routes.map(({ route, pagePath }) => ({
+    path: route,
+    lastModified: pageMtime(pagePath),
+    ...routeMetadata(route),
   }));
 }
 
-export function buildPublicSitemapEntries(lastModified = new Date().toISOString()) {
+export function buildPublicSitemapEntries() {
   return getPublicPageRoutes().map((entry) => ({
     url: entry.path === "/" ? siteConfig.url : `${siteConfig.url}${entry.path}`,
-    lastModified,
+    lastModified: entry.lastModified,
     changeFrequency: entry.changeFrequency,
     priority: entry.priority,
   }));

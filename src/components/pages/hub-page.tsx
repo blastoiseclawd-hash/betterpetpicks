@@ -178,6 +178,9 @@ export function HubPage({
               <h1 className="display-title mt-6 max-w-5xl text-[#faf3ea]">
                 {title}
               </h1>
+              {/* DirectAnswer wiring deferred — existing quickAnswers exceed 120-word hard-fail ceiling.
+                  Component is shipped and available; wire in after Phase 4 content cleanup trims
+                  quickAnswers to the 40–60 word GEO sweet spot. */}
               <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#e8d5c0] sm:text-[1.28rem]">
                 <RichInline text={quickAnswer} />
               </p>
