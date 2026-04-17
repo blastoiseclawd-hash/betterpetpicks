@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { type Author } from "@/data/authors";
 import { AuthorBioCard } from "@/components/content/author-bio";
+import { RichText } from "@/components/content/rich-text";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 
@@ -65,30 +66,6 @@ interface SupportPageProps {
   estimatedTime?: string;
 }
 
-// ─── Rich text renderer ─────────────────────────────────────────
-// Handles **bold**, inline links, and paragraph splits
-
-function RichParagraphs({ text }: { text: string }) {
-  return (
-    <>
-      {text.split("\n\n").map((paragraph, i) => {
-        // Bold text support
-        if (paragraph.includes("**")) {
-          return (
-            <p
-              key={i}
-              dangerouslySetInnerHTML={{
-                __html: paragraph.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"),
-              }}
-            />
-          );
-        }
-        return <p key={i}>{paragraph}</p>;
-      })}
-    </>
-  );
-}
-
 // ─── Section image component ────────────────────────────────────
 
 function SectionImage({ image }: { image: SupportImage }) {
@@ -126,7 +103,7 @@ function StepCard({ step, index }: { step: SupportStep; index: number }) {
         {step.name}
       </h3>
       <div className="mt-3 text-[1.02rem] leading-8 text-[#35231a]">
-        <RichParagraphs text={step.description} />
+        <RichText text={step.description} />
       </div>
       {step.image && <SectionImage image={step.image} />}
     </div>
@@ -152,7 +129,7 @@ function FaqSection({ faqs }: { faqs: SupportFaq[] }) {
             </span>
           </summary>
           <div className="pb-6 pl-10 text-[1.02rem] leading-8 text-[#35231a]">
-            <RichParagraphs text={faq.answer} />
+            <RichText text={faq.answer} />
           </div>
         </details>
       ))}
@@ -388,7 +365,7 @@ export function SupportPage({
 
               {/* Section body text */}
               <div className="mt-6 space-y-5 text-[1.05rem] leading-8 text-[#35231a]">
-                <RichParagraphs text={section.body} />
+                <RichText text={section.body} />
               </div>
 
               {/* Section image (if no steps) */}

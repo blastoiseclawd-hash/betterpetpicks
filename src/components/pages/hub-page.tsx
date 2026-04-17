@@ -3,6 +3,7 @@ import Link from "next/link";
 import { type Author } from "@/data/authors";
 import { priceDisplay, type Product } from "@/data/products";
 import { AuthorBioCard } from "@/components/content/author-bio";
+import { RichText, RichInline } from "@/components/content/rich-text";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
@@ -178,7 +179,7 @@ export function HubPage({
                 {title}
               </h1>
               <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#e8d5c0] sm:text-[1.28rem]">
-                {quickAnswer}
+                <RichInline text={quickAnswer} />
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c4a890]">
@@ -487,9 +488,7 @@ export function HubPage({
                       </h2>
 
                       <div className="mt-6 space-y-5 text-[1.08rem] leading-8 text-[#35231a]">
-                        {content.body.split("\n\n").map((paragraph) => (
-                          <p key={paragraph}>{paragraph}</p>
-                        ))}
+                        <RichText text={content.body} />
                       </div>
 
                       <div className="mt-8 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
@@ -497,7 +496,9 @@ export function HubPage({
                           <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
                             <div className="max-w-2xl">
                               <p className="eyebrow">Editor verdict</p>
-                              <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">{content.verdict}</p>
+                              <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">
+                                <RichInline text={content.verdict} />
+                              </p>
                             </div>
                             <div className="sm:min-w-[120px]">
                               <div className="rounded-sm border border-[#e1d2c3] bg-[#fffcf8] px-4 py-3">
@@ -565,7 +566,9 @@ export function HubPage({
                       <h3 className="font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#1c1210]">
                         {item.heading}
                       </h3>
-                      <p className="mt-4 text-[1.05rem] leading-8 text-[#4f3b31]">{item.body}</p>
+                      <p className="mt-4 text-[1.05rem] leading-8 text-[#4f3b31]">
+                        <RichInline text={item.body} />
+                      </p>
                     </div>
                   </article>
                 ))}
@@ -602,7 +605,9 @@ export function HubPage({
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                       </svg>
                     </summary>
-                    <div className="pb-5 text-[1rem] leading-8 text-[#5a4a3e]">{faq.answer}</div>
+                    <div className="pb-5 text-[1rem] leading-8 text-[#5a4a3e]">
+                      <RichText text={faq.answer} />
+                    </div>
                   </details>
                 ))}
               </div>
