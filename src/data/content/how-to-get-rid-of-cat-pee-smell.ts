@@ -1,6 +1,7 @@
-// How to Get Rid of Cat Pee Smell — Support/Educational Page
-// Desk: Cat Care Essentials
+// How to Get Rid of Cat Pee Smell - Support/Educational Page
+// Desk: Cat Care Essentials (REASSURANCE voice)
 // Primary keyword: how to get rid of cat pee smell (Vol 8,100, KD 6, TP 6,500)
+// Research doc: data/research/how-to-get-rid-of-cat-pee-smell.md
 // Purpose: Support page for the Cat Litter & Odor Control cluster
 
 export const howToGetRidOfCatPeeSmellContent = {
@@ -24,7 +25,7 @@ export const howToGetRidOfCatPeeSmellContent = {
   ],
 
   intro:
-    "If you have already tried cleaning a cat pee stain and the smell came back, you are not imagining it. Cat urine contains a compound that most household cleaners cannot break down. Here is what actually works, surface by surface, with the chemistry that explains why.",
+    "If you have already cleaned a cat pee spot and the smell came back a week later, you are not cleaning wrong. Cat urine contains a compound that most household cleaners cannot actually break down, and vinegar, baking soda, bleach, and soap all leave it behind. The smell fades for a few days and then comes back every time the humidity rises. Below is what actually works, the chemistry that explains why, surface-by-surface instructions for carpet, hardwood, mattresses, clothing, and concrete, the mistakes that make it worse, and the honest answer for when cleaning is not enough and replacement is the right call.",
 
   heroImage: {
     src: "/images/guides/how-to-get-rid-of-cat-pee-smell/01-hero.png",
