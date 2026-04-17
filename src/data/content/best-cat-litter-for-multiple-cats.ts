@@ -45,6 +45,7 @@ export type MultiCatLitterGuide = {
     sections: Array<{ heading: string; body: string }>;
   };
   faqs: Array<{ question: string; answer: string }>;
+  relatedLinks?: Array<{ href: string; title: string }>;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
 };
@@ -413,6 +414,13 @@ Where it loses ground is dust and tracking. Both are moderate. In a single-cat h
       answer:
         "Dr. Elsey's Ultra Unscented at $0.52 per pound is the cheapest quality option. Tidy Cats 24/7 Performance at $0.68 per pound is the runner-up. Going cheaper than these usually means sacrificing clumping quality, which leads to broken clumps, escaped odor, and faster box changes that offset any savings on the sticker price.",
     },
+  ],
+
+  relatedLinks: [
+    { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
+    { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
+    { href: "/best-cat-litter", title: "Best Cat Litter" },
+    { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
   ],
 
   breadcrumbLabel: "Best Cat Litter for Multiple Cats",

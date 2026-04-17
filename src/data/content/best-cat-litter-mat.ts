@@ -45,6 +45,7 @@ export type LitterMatGuide = {
     sections: Array<{ heading: string; body: string }>;
   };
   faqs: Array<{ question: string; answer: string }>;
+  relatedLinks?: Array<{ href: string; title: string }>;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
 };
@@ -353,6 +354,13 @@ The tradeoff is obvious. A textured surface cannot trap as much litter per step 
       answer:
         "A mat with a non-slip rubber or silicone backing that will not scratch or leave residue. The PetFusion ToughGrip (silicone) and Catit (non-slip backing) are both safe for hardwood. Avoid mats with rough PVC backing that can leave marks or create static grip that pulls finish off the floor over time.",
     },
+  ],
+
+  relatedLinks: [
+    { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
+    { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
+    { href: "/best-cat-litter", title: "Best Cat Litter" },
+    { href: "/best-non-tracking-cat-litter", title: "Best Non-Tracking Cat Litter" },
   ],
 
   breadcrumbLabel: "Best Cat Litter Mat",

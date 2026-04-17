@@ -53,6 +53,7 @@ export type BestCatLitterGuide = {
     question: string;
     answer: string;
   }>;
+  relatedLinks?: Array<{ href: string; title: string }>;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
 };
@@ -407,6 +408,13 @@ That does not make it a bad litter. It makes it the fallback. There is a differe
       answer:
         "Fresh Step Heavy Duty Odor Block is the odor-first pick in this lineup because it tackles smell more aggressively than the calmer unscented options. That does not make it the best overall litter. It makes it the better answer when room smell is the problem you need to solve first.",
     },
+  ],
+
+  relatedLinks: [
+    { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
+    { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
+    { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
+    { href: "/best-cat-litter-for-odor-control", title: "Best Cat Litter for Odor Control" },
   ],
 
   breadcrumbLabel: "Best Cat Litter 2026",
