@@ -1,0 +1,17 @@
+{
+  "site": "betterpetpicks",
+  "phase": "daily-maintenance-ready",
+  "lastDailyRunAt": null,
+  "lastWeeklyReviewAt": null,
+  "lastMonthlyRefreshAt": null,
+  "nextQueueItemId": null,
+  "openPRs": [],
+  "pendingApprovals": [],
+  "blockers": [],
+  "metrics": {
+    "pagesLive": 29,
+    "pagesQueued": 150,
+    "pagesDraft": 0
+  },
+  "notes": "Phase 0 seed 2026-04-17. 24 live content + 5 trust. 108 primary + 42 backlog opportunities per guide-opportunities.md. Cat litter sub-variant cannibalization triage scheduled in Phase 4 P4.7."
+}
