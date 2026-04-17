@@ -72,7 +72,7 @@ export const bestNonTrackingCatLitterGuide: NonTrackingLitterGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The best non-tracking cat litter for most homes is Tuft & Paw Really Great Cat Litter. The tofu pellets are long and smooth enough that they fall off paws before your cat leaves the box. If you want to stay with clay, Fresh Step Clean Paws has larger particles designed to reduce scatter. And if you want tracking to stop almost entirely, the Tidy Cats Breeze pellet-and-pad system keeps nearly everything inside the box because the pellets are too large to travel on paws at all.",
+    "If you are sweeping litter off the kitchen floor every day and stepping on granules in the hallway at 3am, you are not imagining it and you are not cleaning wrong. Some litter just tracks more than others. The best non-tracking litter for most homes is Tuft and Paw Really Great Cat Litter in tofu, because the pellets are long and smooth enough that they fall off paws before your cat even leaves the box. If you want to stay with clay (which most households do), Fresh Step Clean Paws has larger particles designed to reduce scatter. And if you want tracking to stop almost entirely, the Tidy Cats Breeze pellet-and-pad system keeps nearly everything inside the box because the pellets are too large to travel on paws at all. One honest note: a good mat under the box helps more than most people expect, and the [best cat litter mat](/best-cat-litter-mat) page covers that.",
 
   productOrder: [
     "tuft-paw-really-great-charcoal",
