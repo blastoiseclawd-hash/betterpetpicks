@@ -2,7 +2,7 @@
  * JSON-LD schema generators for scaffolded affiliate sites.
  *
  * Generates structured data for Google rich results.
- * Schema types: Product, Review, FAQPage, BreadcrumbList, Article, WebSite
+ * Schema types: Product, Review, FAQPage, BreadcrumbList, Article, WebSite, Organization, Person
  *
  * RULE: Only generate schema for data that ACTUALLY EXISTS on the page.
  * Never fabricate AggregateRating or Review schema without real content.
@@ -10,9 +10,97 @@
 
 import { siteConfig } from "@/config/site";
 import type { Product } from "@/data/products";
+import { editor, publisher, reviewer } from "@/data/publisher";
 
-function siteLogoUrl() {
-  return new URL(siteConfig.brand.logoIconSvg, siteConfig.url).toString();
+function publisherOrganization() {
+  return {
+    "@type": "Organization",
+    name: publisher.name,
+    url: publisher.url,
+    logo: {
+      "@type": "ImageObject",
+      url: publisher.logo,
+      width: 512,
+      height: 512,
+    },
+    ...(publisher.foundingDate ? { foundingDate: publisher.foundingDate } : {}),
+    ...(publisher.sameAs && publisher.sameAs.length ? { sameAs: publisher.sameAs } : {}),
+  };
+}
+
+function editorPerson() {
+  if (editor.sameAs.length === 0) {
+    throw new Error("editor.sameAs must not be empty; Person schema without verifiable identity is worse than none.");
+  }
+  return {
+    "@type": "Person",
+    name: editor.name,
+    jobTitle: editor.jobTitle,
+    image: `${publisher.url}${editor.headshot}`,
+    url: `${publisher.url}/about`,
+    sameAs: editor.sameAs,
+    description: editor.bio,
+    hasCredential: editor.hasCredential.map((c) => ({
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: c.credentialCategory,
+      name: c.name,
+      ...(c.identifier ? { identifier: c.identifier } : {}),
+      ...(c.url ? { url: c.url } : {}),
+      recognizedBy: {
+        "@type": "Organization",
+        name: c.issuingBody,
+      },
+    })),
+    worksFor: {
+      "@type": "Organization",
+      name: publisher.name,
+      url: publisher.url,
+    },
+  };
+}
+
+function reviewerPerson() {
+  const r = reviewer;
+  if (!r) return null;
+  return {
+    "@type": "Person",
+    name: r.name,
+    image: `${publisher.url}${r.headshot}`,
+    sameAs: r.sameAs,
+    description: r.bio,
+    hasCredential: r.credentials.map((c) => ({
+      "@type": "EducationalOccupationalCredential",
+      name: c,
+      url: r.credentialVerificationUrl,
+    })),
+  };
+}
+
+export function organizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    ...publisherOrganization(),
+  };
+}
+
+export function publisherSchema() {
+  return organizationSchema();
+}
+
+export function editorPersonSchema() {
+  return {
+    "@context": "https://schema.org",
+    ...editorPerson(),
+  };
+}
+
+export function reviewerPersonSchema() {
+  const p = reviewerPerson();
+  if (!p) return null;
+  return {
+    "@context": "https://schema.org",
+    ...p,
+  };
 }
 
 // ─── WebSite Schema (homepage only) ─────────────────────────────
@@ -24,12 +112,7 @@ export function websiteSchema() {
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.description,
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url,
-      logo: siteLogoUrl(),
-    },
+    publisher: publisherOrganization(),
   };
 }
 
@@ -58,20 +141,20 @@ export function articleSchema({
   url,
   datePublished,
   dateModified,
-  authorName,
-  authorUrl,
   imageUrl,
+  isYmyl,
 }: {
   title: string;
   description: string;
   url: string;
   datePublished: string;
   dateModified: string;
-  authorName: string;
-  authorUrl: string;
+  authorName?: string;
+  authorUrl?: string;
   imageUrl?: string;
+  isYmyl?: boolean;
 }) {
-  return {
+  const base: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
@@ -79,19 +162,18 @@ export function articleSchema({
     url,
     datePublished,
     dateModified,
-    author: {
-      "@type": "Organization",
-      name: authorName,
-      url: authorUrl,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url,
-      logo: siteLogoUrl(),
-    },
+    author: editorPerson(),
+    editor: editorPerson(),
+    publisher: publisherOrganization(),
     ...(imageUrl ? { image: imageUrl } : {}),
   };
+  if (isYmyl) {
+    const reviewerP = reviewerPerson();
+    if (reviewerP) {
+      base.reviewedBy = reviewerP;
+    }
+  }
+  return base;
 }
 
 // ─── Product Schema (for individual product mentions) ───────────
@@ -119,12 +201,7 @@ export function webPageSchema({
       name: siteConfig.name,
       url: siteConfig.url,
     },
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url,
-      logo: siteLogoUrl(),
-    },
+    publisher: publisherOrganization(),
   };
 }
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
+import { editor, publisher } from "@/data/publisher";
 
 export function Footer() {
   return (
@@ -72,6 +73,12 @@ export function Footer() {
       <div className="border-t border-[#3a2820] bg-[#150e0c]">
         <div className="site-shell flex flex-col gap-3 py-5 text-center text-[0.85rem] text-[#a09080] sm:text-left">
           <p>{siteConfig.ftcDisclosure}</p>
+          <p>
+            Published by {publisher.name} &middot; Edited by{" "}
+            <Link href="/about" className="font-medium text-[#d4c0a8] hover:text-white">
+              {editor.name}
+            </Link>
+          </p>
           <p>
             Copyright {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
