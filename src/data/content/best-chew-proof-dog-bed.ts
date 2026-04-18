@@ -32,6 +32,7 @@ export type BestChewProofDogBedGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -66,6 +67,9 @@ export const bestChewProofDogBedGuide: BestChewProofDogBedGuide = {
   author: "dog-comfort-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "The Kuranda Chewproof Elevated is the best chew-proof dog bed because its aluminum frame plus heavy-duty vinyl gives a chewer nothing to grip — it is the bed shelters actually use. If you want an elevated bed with padding on top (rare combination), the FXW TitanNest is the new category entrant that delivers.",
 
   quickAnswer:
     "If you have already thrown away two or three destroyed beds, the problem is not your dog. The problem is that most beds are not built for dogs that chew. The Kuranda Chewproof Elevated is the one shelters use because aluminum frame plus heavy-duty vinyl gives a chewer nothing to grip. If you want an elevated bed that also has padding on top (rare combination), the FXW TitanNest is the new category entrant that actually delivers. For a formal chew-proof guarantee with replacement, K9 Ballistics covers you for the first 90 days. If your dog chews casually rather than destructively, the PetFusion Ultimate Orthopedic gives you real memory foam with a reinforced cover. And one honest line: if your dog truly destroys every bed out of separation anxiety, a crate plus a behaviorist is the real answer, not a more expensive bed.",

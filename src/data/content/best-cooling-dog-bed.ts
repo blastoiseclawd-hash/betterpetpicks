@@ -32,6 +32,7 @@ export type BestCoolingDogBedGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -66,6 +67,9 @@ export const bestCoolingDogBedGuide: BestCoolingDogBedGuide = {
   author: "dog-comfort-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "A cooling bed is a buffer, not a replacement for air conditioning. The Coolaroo Elevated Pet Bed is the right pick for most dogs because airflow underneath beats any gel layer for sustained cooling, survives outdoor use, and at around $28 for the large it is half the price of the nearest gel competitor.",
 
   quickAnswer:
     "Start with this: a cooling bed is a buffer, not a replacement for air conditioning. Nothing on this page will cool an overheated dog in a hot garage. That said, the Coolaroo Elevated Pet Bed is the right pick for most dogs because airflow underneath beats any gel layer for sustained cooling, it survives outdoor use, and at around $28 for the large it is half the price of the nearest gel competitor. Go gel (Furhaven, Green Pet Shop) only if your dog needs cushioning as well. For hours of passive cooling without electricity, the K&H Cool Bed III uses water. And if your dog chews or digs at beds, elevated mesh is the only option that does not end in gel on your rug.",

@@ -14,6 +14,9 @@ export const bestCatTreeForLargeCatsGuide = {
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
 
+  directAnswer:
+    "The Feandrea 68.5-Inch XL is the best cat tree for large cats 15–22 pounds. Thicker sisal posts, larger platforms, and a reinforced base handle the weight without the wobble that defeats standard trees. For full-breed Maine coons or truly heavy 20-plus pound cats, step up to the Armarkat A7202 72-Inch real-wood build.",
+
   quickAnswer:
     "If you have a big cat, your standard cat tree will not work. This is not a pessimistic take, it is what shows up across r/mainecoons every time the sturdy-tree question comes up. The Feandrea 68.5-Inch XL is the default answer for most homes with cats 15 to 22 pounds. Thicker sisal posts, larger platforms, and a reinforced base handle the weight without the wobble that defeats standard trees. If your cat is a full-breed Maine coon or a truly heavy 20-plus pound cat, step up to the Armarkat A7202 72-Inch. Real-wood construction, no aftermarket weights needed on the base. For multi-cat large-breed homes, the Go Pet Club 72-Inch gives the most platforms per dollar so the cats are not competing for one top perch.",
 

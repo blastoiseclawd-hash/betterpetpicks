@@ -31,6 +31,7 @@ export type BestCatLitterGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -66,6 +67,9 @@ export const bestCatLitterGuide: BestCatLitterGuide = {
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-15",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "For a new cat owner, start with unscented clumping clay — that covers what most cats need. BoxiePro Probiotic is the top pick because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins many odor-first formulas. For the simpler value answer, Dr. Elsey's Ultra Unscented is the year-round staple.",
 
   quickAnswer:
     "If you are a new cat owner standing in the litter aisle looking at twenty options, the honest answer is simpler than it looks. Start with unscented clumping clay. That covers what most cats actually need, and you can dial in later if odor, dust, or tracking turns out to be your specific problem. For most homes, BoxiePro Probiotic is the top pick because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins a lot of odor-first formulas. If you want the simpler value answer, Dr. Elsey's Ultra Unscented is the better buy and a genuine year-round staple. For multi-cat homes, scroll to Arm and Hammer Slide or check the dedicated multi-cat page linked below.",

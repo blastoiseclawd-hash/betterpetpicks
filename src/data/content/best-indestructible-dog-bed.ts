@@ -32,6 +32,7 @@ export type BestIndestructibleDogBedGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -66,6 +67,9 @@ export const bestIndestructibleDogBedGuide: BestIndestructibleDogBedGuide = {
   author: "dog-comfort-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "No bed is truly indestructible, and the word conflates two problems. For foam longevity under a heavy dog, the K9 Ballistics Tough Orthopedic Bolster is the premium Amazon pick. For chew survival, the Kuranda Chewproof Elevated has nothing a dog can grip because there is no foam to destroy.",
 
   quickAnswer:
     "Start with an honest sentence: no bed is truly indestructible. The word conflates two different problems, and most articles pretend it is one. Problem one is foam longevity, the bed does not flatten under a heavy dog. Problem two is chew resistance, the bed survives actual destruction. Those are different products. For foam longevity and a 150-pound-rated orthopedic bed, the K9 Ballistics Tough Orthopedic Bolster is the premium Amazon pick. For chew survival, the Kuranda Chewproof Elevated has nothing a dog can grip because there is no foam to destroy. For an under-$100 budget pick, the Sytopia Indestructible holds up for casual chewers, though the 3.4-star review variance is real and worth naming. And for a truly destructive dog with separation anxiety, the real answer is a crate plus a behaviorist, not a more expensive bed.",

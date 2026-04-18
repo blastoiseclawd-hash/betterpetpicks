@@ -33,6 +33,7 @@ export type CordlessVacuumGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -58,6 +59,9 @@ export const bestCordlessVacuumForPetHairGuide: CordlessVacuumGuide = {
   author: "pet-cleanup-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "The Dyson V15 Detect Plus is the best cordless vacuum for pet hair because its Hair Screw tool is best-in-class anti-tangle and the laser reveals hair you would otherwise miss. For whole-home sessions, the Shark Vertex Pro includes two batteries for 120 minutes of combined runtime — the honest whole-home cordless answer.",
 
   quickAnswer:
     "Start with a reframe. Cordless runtime numbers are always the eco-mode number with no motorized head attached. In a real pet home with the pet head on boost mode, expect roughly 15 minutes of usable time per battery. That changes which vacuum is honestly right for your home. The Dyson V15 Detect Plus is the best overall because the Hair Screw tool is best-in-class anti-tangle and the laser actually reveals hair you would otherwise miss. The Shark Vertex Pro is the pick for a whole-home session because two included batteries give you 120 minutes of combined runtime, which is the only honest whole-home cordless answer on this page. For under $200, the Shark Pet Cordless IX141 has 14,000+ reviews and is a real daily-maintenance tool with honest limits. And one note worth saying plainly: a cordless battery is a 2- to 3-year part, not a lifetime tool.",

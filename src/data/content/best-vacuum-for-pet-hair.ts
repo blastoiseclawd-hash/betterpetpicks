@@ -32,6 +32,7 @@ export type PetVacuumGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -57,6 +58,9 @@ export const bestVacuumForPetHairGuide: PetVacuumGuide = {
   author: "pet-cleanup-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "The Shark Navigator ZU561 is the best vacuum for pet hair for most homes. Self-cleaning brushroll, Anti-Allergen Complete Seal HEPA, lift-away pod for stairs, under $250. For deep carpet and heavy shedders, the Dyson Ball Animal 3 pulls harder than anything else — the tradeoff is price and weight.",
 
   quickAnswer:
     "If your dog hides when you pull the vacuum out, you are not cleaning as often as you think you are. Start there. For most pet homes, the Shark Navigator ZU561 is the vacuum you actually keep. Self-cleaning brushroll, Anti-Allergen Complete Seal HEPA, lift-away pod for stairs and furniture, under $250. If your home is mostly deep carpet and you have a heavy shedder, the Dyson Ball Animal 3 pulls harder than anything else on this page. If your budget is under $200, the Bissell CleanView Swivel Rewind Pet has 105,000 owner reviews backing it. Two quieter truths. Every vacuum here advertises HEPA, but only the Shark and Dyson models are actually sealed systems that keep dander in. And cordless or corded is not a power question, it is a frequency question. The vacuum that gets used is the vacuum that works.",

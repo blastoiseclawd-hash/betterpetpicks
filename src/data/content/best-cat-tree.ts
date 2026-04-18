@@ -14,6 +14,9 @@ export const bestCatTreeGuide = {
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-17",
 
+  directAnswer:
+    "The Feandrea 56.3-Inch is the best cat tree for most single-cat and two-cat homes. Its wide weighted base keeps it stable, sisal-wrapped posts are thick enough for adult scratching, and the top platform fits a 15-pound cat. For multi-cat homes, the Go Pet Club 72-Inch offers separate resting spots so cats stop fighting for the top perch.",
+
   quickAnswer:
     "Your first cat tree should not wobble, and your cat should actually fit on the top platform. That is the whole buying decision in one sentence, and most of the 40-plus Amazon options fail one of those two tests. The Feandrea 56.3-Inch is the easy default for single-cat and two-cat homes. Wide weighted base, sisal-wrapped posts thick enough for adult scratching, and a top platform a 15-pound cat can actually stretch out on. For multi-cat homes, the Go Pet Club 72-Inch gives enough separate resting spots that the cats are not fighting for the top perch. If budget is the real constraint, the Amazon Basics Cat Tower is fine under $30 for a single cat under 12 pounds. If your cat is a Maine coon or 15-plus pounds, skip the standard picks entirely and read our Best Cat Tree for Large Cats guide. Standard trees will not hold up.",
 

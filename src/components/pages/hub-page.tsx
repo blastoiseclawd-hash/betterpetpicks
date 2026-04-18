@@ -3,6 +3,7 @@ import Link from "next/link";
 import { type Author } from "@/data/authors";
 import { priceDisplay, type Product } from "@/data/products";
 import { AuthorBioCard } from "@/components/content/author-bio";
+import { DirectAnswer } from "@/components/content/direct-answer";
 import { RichText, RichInline } from "@/components/content/rich-text";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
@@ -45,6 +46,7 @@ interface HubPageProps {
   publishedDate: string;
   modifiedDate?: string;
   quickAnswer: string;
+  directAnswer?: string;
 
   // Author
   author: Author;
@@ -93,6 +95,7 @@ export function HubPage({
   publishedDate,
   modifiedDate,
   quickAnswer,
+  directAnswer,
   author,
   productOrder,
   orderedProducts,
@@ -178,12 +181,26 @@ export function HubPage({
               <h1 className="display-title mt-6 max-w-5xl text-[#faf3ea]">
                 {title}
               </h1>
-              {/* DirectAnswer wiring deferred — existing quickAnswers exceed 120-word hard-fail ceiling.
-                  Component is shipped and available; wire in after Phase 4 content cleanup trims
-                  quickAnswers to the 40–60 word GEO sweet spot. */}
-              <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#e8d5c0] sm:text-[1.28rem]">
-                <RichInline text={quickAnswer} />
-              </p>
+              {directAnswer ? (
+                <>
+                  <DirectAnswer
+                    text={directAnswer}
+                    className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#faf3ea] sm:text-[1.28rem]"
+                  >
+                    <RichInline text={directAnswer} />
+                  </DirectAnswer>
+                  <p className="mt-5 max-w-3xl text-[1.08rem] leading-8 text-[#e8d5c0] sm:text-[1.14rem]">
+                    <RichInline text={quickAnswer} />
+                  </p>
+                </>
+              ) : (
+                <DirectAnswer
+                  text={quickAnswer}
+                  className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#e8d5c0] sm:text-[1.28rem]"
+                >
+                  <RichInline text={quickAnswer} />
+                </DirectAnswer>
+              )}
 
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c4a890]">
                 <span>

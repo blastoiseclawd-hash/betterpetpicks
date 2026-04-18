@@ -31,6 +31,7 @@ export type CatWaterFountainGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -65,6 +66,9 @@ export const bestCatWaterFountainGuide: CatWaterFountainGuide = {
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-15",
   modifiedDate: "2026-04-17",
+
+  directAnswer:
+    "The Veken 95oz Stainless Steel Fountain is the best cat water fountain for most homes. It solves the two biggest category frustrations at once — slimy plastic buildup and a loud pump — and at around $30 it costs barely more than a plastic starter. For three or more cats, the PetSafe Drinkwell 360 handles the volume.",
 
   quickAnswer:
     "If your cat is ignoring the water bowl and you are worried about hydration, you are reading the right page and you are not overthinking it. Cats evolved to prefer moving water, and most of them drink more from a fountain than a bowl. For most homes, the Veken 95oz Stainless Steel Fountain is the right starting place. It solves the two biggest category frustrations at once, slimy plastic buildup and a loud pump, and at around $30 it costs barely more than a plastic starter. If you just want to find out whether your cat will drink from a fountain at all before spending more, the Catit Flower Fountain is the safer experiment at $25. For three or more cats, the PetSafe Drinkwell 360 is the one that actually handles the volume.",

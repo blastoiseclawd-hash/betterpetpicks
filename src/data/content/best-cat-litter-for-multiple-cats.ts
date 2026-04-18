@@ -32,6 +32,7 @@ export type MultiCatLitterGuide = {
   author: string;
   publishedDate: string;
   modifiedDate: string;
+  directAnswer?: string;
   quickAnswer: string;
   productOrder: string[];
   displayNames: Record<string, string>;
@@ -58,6 +59,9 @@ export const bestCatLitterForMultipleCatsGuide: MultiCatLitterGuide = {
   author: "multi-cat-home-desk",
   publishedDate: "2026-04-16",
   modifiedDate: "2026-04-16",
+
+  directAnswer:
+    "Dr. Elsey's Ultra Unscented is the best multi-cat litter because at $0.52 per pound the monthly math still works, clumps hold under heavy traffic, and the 40-pound bag means fewer store trips. If odor is the bigger problem at scale, ARM and HAMMER Clump and Seal Platinum seals smell at the clump level.",
 
   quickAnswer:
     "If you have more than one cat, you already know most litter reviews are written for single-cat households. This one is not. The smell gets real at two cats, the monthly bill gets real at three, and the product that works fine for one falls apart under volume. For most multi-cat homes, Dr. Elsey's Ultra Unscented is the right default because at $0.52 per pound the monthly math still works, the clumps hold under heavier traffic, and the 40-pound bag means fewer trips to the store. If odor is the bigger problem at scale (and at three cats in an apartment it usually is), ARM and HAMMER Clump and Seal Platinum seals smell at the clump level with moisture-activated microgranules. For ammonia specifically (the sharp chemical smell, not just general odor), BoxiePro Probiotic is the one to read first because probiotics suppress the bacteria that produce it.",

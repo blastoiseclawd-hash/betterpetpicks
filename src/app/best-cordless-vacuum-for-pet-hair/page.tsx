@@ -31,6 +31,7 @@ export default function BestCordlessVacuumForPetHairPage() {
       publishedDate={content.publishedDate}
       modifiedDate={content.modifiedDate}
       quickAnswer={content.quickAnswer}
+      directAnswer={content.directAnswer}
       author={author}
       productOrder={content.productOrder}
       orderedProducts={orderedProducts}
