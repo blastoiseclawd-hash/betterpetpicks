@@ -81,3 +81,36 @@ Cat Litter & Litter Boxes, Cat Water Fountains, Cat Gear, Pet Hair Cleanup, Dog 
 - Use `src/data/keyword-map.ts` as the route and content inventory source of truth once Phase 3 begins.
 - Prefer shared components and config updates over one-off page patterns.
 - All 5 clusters are research-validated (avatar research pass completed 2026-04-16). Content can be built for any cluster once the owning desk has a full voice guide.
+
+---
+
+## Portable Rules (auto-enforced)
+
+Do not edit the block below by hand. Edit `AGENTS-PORTABLE.md` at the parent-repo root and run `npm run audit:repo` to detect drift. Site-specific rules live OUTSIDE this block in the sections above.
+
+<!-- BEGIN PORTABLE -->
+## Skills
+
+Before starting any task, scan `.claude/skills/SKILLS-INDEX.md` at the parent repo and follow the matching workflow exactly. Do not invent your own workflow when a documented skill exists.
+
+## Portable Non-Negotiable Rules
+
+1. **Exact prices only.** Real scraped price or "Check current price ->". Never ranges.
+2. **Customer-first recommendations.** Commission is a tiebreaker, never the driver.
+3. **No internal metrics exposed.** Readers never see KD, commission %, niche scores.
+4. **FTC disclosure** on every page with affiliate links.
+5. **No AI slop.** Follow the repo skills. Keep claims grounded in real source material.
+6. **Schema markup only for real content.** Never fabricate ratings, reviews, or review counts.
+7. **Named publisher attribution** visible in footer, About page, and Organization schema.
+8. **AI disclosure** matching the site's actual practice, published on an `/ai-disclosure` route.
+9. **Statistic attribution.** Every numerical claim on YMYL content carries an inline citation or footnote link to a primary source (product-data numbers exempt).
+10. **Visual inspection gate.** Any task touching UI, content, layout, or routing requires dev-server load + real browser check before commit. Audit-pass and build-pass are code-shape checks; neither proves the page looks right.
+
+## Before marking any task complete
+
+A task is not complete until all three pass:
+
+1. **Audit clean.** `node tools/audit/audit-site.js --site <slug>` reports no blocking errors (or remaining errors are documented as out-of-scope with reason).
+2. **Build passes.** `npm run build` compiles with no TypeScript errors and all expected static routes generate.
+3. **Visual-verify in browser.** Dev server loaded, affected pages opened on desktop AND mobile, hero / mid-page / footer inspected. If browser or Playwright is unavailable in the session, stop and say so — don't ship on lint alone.
+<!-- END PORTABLE -->
