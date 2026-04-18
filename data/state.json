@@ -13,5 +13,17 @@
     "pagesQueued": 150,
     "pagesDraft": 0
   },
-  "notes": "Phase 0 seed 2026-04-17. 24 live content + 5 trust. 108 primary + 42 backlog opportunities per guide-opportunities.md. Cat litter sub-variant cannibalization triage scheduled in Phase 4 P4.7."
+  "notes": "Phase 0 seed 2026-04-17. 24 live content + 5 trust. 108 primary + 42 backlog opportunities per guide-opportunities.md. Cat litter sub-variant cannibalization triage scheduled in Phase 4 P4.7. Phase 5-lite scheduled tasks registered 2026-04-17 (see scheduled_tasks).",
+  "scheduled_tasks": {
+    "status": "active",
+    "reason": "threshold crossed (29 pages live, >= 10 required)",
+    "enabledAt": "2026-04-18T01:22:00Z",
+    "registeredTriggers": [
+      {"name": "audit-fabrication", "cronUtc": "30 7 1 * *", "triggerId": "trig_01DHzdxfbtYekzxKEhuCpN8J"},
+      {"name": "audit-voice-drift", "cronUtc": "30 8 1 * *", "triggerId": "trig_013BjC39P3H8Bp24B6hizjmF"}
+    ],
+    "pendingTriggers": [
+      {"name": "weekly-growth-review", "reason": "Ahrefs MCP not yet on claude.ai connector list; blocks cloud-remote scheduling"}
+    ]
+  }
 }
