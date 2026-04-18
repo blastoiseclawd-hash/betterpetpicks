@@ -28,6 +28,21 @@ Plus 40+ backlog pages = **~150 total validated opportunities**.
 
 ---
 
+## Linkable Assets
+
+*Discovered via `identify-linkable-assets` on 2026-04-17. Full candidate file: `data/linkable-asset-candidates.md`.*
+*Asset Score is the 0–12 `identify-linkable-assets` rubric, NOT the volume-weighted score used in cluster tables. Consumed by `build-guide-pipeline` on the 1-in-10 cadence.*
+
+| # | Asset Score (0–12) | Pattern | Zone | Build hrs | Desk | Status | Title |
+|---|-------------------|---------|------|-----------|------|--------|-------|
+| 1 | 11 | lookup | 1 | 6 | Cat Care Essentials | NOT BUILT | Cat litter decision table — filterable by brand, dust, tracking, clumping, odor, price per pound |
+| 2 | 10 | downloadable | 1 | 5 | Cat Care Essentials | NOT BUILT | Printable cat litter box placement checklist (PDF + HTML) |
+| 3 | 9 | calculator | 2 | 14 | Multi-Cat Home | NOT BUILT | Litter box sizing calculator — N+1 boxes + monthly litter cost + mat coverage |
+| 4 | 9 | lookup | 1 | 7 | Pet Cleanup | NOT BUILT | Pet hair cleanup decision table — surface × tool type × fur type |
+| 5 | 8 | downloadable | 1 | 4 | Cat Care Essentials | NOT BUILT | Printable cat water fountain cleaning schedule |
+
+---
+
 ## TOP BUILD QUEUE (First 40 Pages)
 
 Build order interleaves money and support pages per the 2:1 cadence rule.
