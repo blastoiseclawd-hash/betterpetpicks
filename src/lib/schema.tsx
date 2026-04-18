@@ -206,25 +206,59 @@ export function webPageSchema({
 }
 
 export function productSchema(product: Product) {
+  const priceValidUntil = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
+
+  const images =
+    product.images.length > 1
+      ? product.images.map((img) => img.url)
+      : product.images.length === 1
+        ? product.images[0].url
+        : undefined;
+
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
+    sku: product.id,
     brand: {
       "@type": "Brand",
       name: product.brand,
     },
     description: product.verdict || `${product.brand} ${product.model}`,
-    ...(product.images.length > 0 ? { image: product.images[0].url } : {}),
+    ...(images ? { image: images } : {}),
   };
 
-  // Only add offers if we have a real price
+  if (product.pros && product.pros.length >= 2) {
+    schema.positiveNotes = {
+      "@type": "ItemList",
+      itemListElement: product.pros.map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: p,
+      })),
+    };
+  }
+  if (product.cons && product.cons.length >= 2) {
+    schema.negativeNotes = {
+      "@type": "ItemList",
+      itemListElement: product.cons.map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: c,
+      })),
+    };
+  }
+
   if (product.price !== null) {
     schema.offers = {
       "@type": "Offer",
       url: product.affiliateLinks[0]?.url || "",
       priceCurrency: product.priceCurrency,
       price: product.price,
+      priceValidUntil,
+      itemCondition: "https://schema.org/NewCondition",
       availability:
         product.status === "active"
           ? "https://schema.org/InStock"
