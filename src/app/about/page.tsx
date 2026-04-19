@@ -78,7 +78,7 @@ export default function AboutPage() {
               <p className="mt-2 text-[0.95rem] font-semibold uppercase tracking-[0.18em] text-[#7a5a3e]">
                 {editor.jobTitle} · {publisher.name}
               </p>
-              <p className="mt-5 text-[1.02rem] leading-8 text-[#5a4a3e]">{editor.bio}</p>
+              <p className="mt-5 text-[1.02rem] leading-8 text-[#5a4a3e]">{editor.visibleBio ?? editor.bio}</p>
               <ul className="mt-5 flex flex-wrap gap-4 text-[0.95rem]">
                 <li>
                   <a
