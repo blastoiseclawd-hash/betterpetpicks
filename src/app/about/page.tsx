@@ -79,30 +79,6 @@ export default function AboutPage() {
                 {editor.jobTitle} · {publisher.name}
               </p>
               <p className="mt-5 text-[1.02rem] leading-8 text-[#5a4a3e]">{editor.visibleBio ?? editor.bio}</p>
-              <ul className="mt-5 flex flex-wrap gap-4 text-[0.95rem]">
-                <li>
-                  <a
-                    href={editor.sameAs[0]}
-                    rel="me noopener"
-                    target="_blank"
-                    className="font-semibold text-[#7a5a3e] underline underline-offset-4 hover:text-[#1c1210]"
-                  >
-                    LinkedIn profile
-                  </a>
-                </li>
-                {editor.hasCredential.map((c) => (
-                  <li key={c.name}>
-                    <a
-                      href={c.url}
-                      rel="me noopener"
-                      target="_blank"
-                      className="font-semibold text-[#7a5a3e] underline underline-offset-4 hover:text-[#1c1210]"
-                    >
-                      {c.name} · License #{c.identifier}
-                    </a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
