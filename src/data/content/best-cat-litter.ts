@@ -3,6 +3,8 @@
  * Research: sites/betterpetpicks/data/research/best-cat-litter.md
  */
 
+import type { SourcesFooterData } from "@/components/content/sources-footer";
+
 export type BestCatLitterComparisonRow = {
   badge: string;
   name: string;
@@ -55,6 +57,7 @@ export type BestCatLitterGuide = {
     answer: string;
   }>;
   relatedLinks?: Array<{ href: string; title: string }>;
+  sourcesFooter?: SourcesFooterData;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
 };
@@ -63,16 +66,16 @@ export const bestCatLitterGuide: BestCatLitterGuide = {
   slug: "best-cat-litter",
   title: "Best Cat Litter in 2026: 6 Picks for Cleaner Homes",
   description:
-    "Best cat litter compared on clumping, odor control, dust, and cleanup. BoxiePro is the best cat litter for most homes, with honest picks from $17.49 to $25.99.",
+    "Best cat litter compared on clumping, odor control, dust, and cleanup. BoxiePro tops the list; honest picks from $17.49 to $25.99.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-15",
   modifiedDate: "2026-04-17",
 
   directAnswer:
-    "For a new cat owner, start with unscented clumping clay — that covers what most cats need. BoxiePro Probiotic is the top pick because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins many odor-first formulas. For the simpler value answer, Dr. Elsey's Ultra Unscented is the year-round staple.",
+    "For a new cat owner, start with unscented clumping clay [1]. That covers what most cats need. BoxiePro Probiotic is the top pick [2] because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins many odor-first formulas. For the simpler value answer, Dr. Elsey's Ultra Unscented is the year-round staple.",
 
   quickAnswer:
-    "If you are a new cat owner standing in the litter aisle looking at twenty options, the honest answer is simpler than it looks. Start with unscented clumping clay. That covers what most cats actually need, and you can dial in later if odor, dust, or tracking turns out to be your specific problem. For most homes, BoxiePro Probiotic is the top pick because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins a lot of odor-first formulas. If you want the simpler value answer, Dr. Elsey's Ultra Unscented is the better buy and a genuine year-round staple. For multi-cat homes, scroll to Arm and Hammer Slide or check the dedicated multi-cat page linked below.",
+    "If you are a new cat owner standing in the litter aisle looking at twenty options, the honest answer is simpler than it looks. Start with unscented clumping clay. That covers what most cats actually need [3], and you can dial in later if odor, dust, or tracking turns out to be your specific problem. For most homes, BoxiePro Probiotic is the top pick because it clumps hard, scrapes cleanly off the pan, and skips the heavy perfume that ruins a lot of odor-first formulas. If you want the simpler value answer, Dr. Elsey's Ultra Unscented is the better buy [5] and a genuine year-round staple. For multi-cat homes, scroll to Arm and Hammer Slide or check the dedicated multi-cat page linked below.",
 
   productOrder: [
     "boxiepro-probiotic-cat-litter",
@@ -242,7 +245,7 @@ This page is built for readers who want fewer chores, not more features. That is
       reviewerScore: 4.0,
       scoreDiffReason:
         "It scores high because it is still the easiest value recommendation on the page, but it stays behind BoxiePro because the bag is heavier and the recent dust chatter is hard to ignore.",
-      body: `This is the litter to point at when someone says, "Just give me the safe default." At $20.99 for 40 pounds, it lands around 52 cents per pound, which is a big part of why it keeps showing up on practical shortlists. Unscented clumping clay is still the easiest place to start for most cats, and Dr. Elsey's stays close to that center line.
+      body: `This is the litter to point at when someone says, "Just give me the safe default." At $20.99 for 40 pounds, it lands around 52 cents per pound, which is a big part of why it keeps showing up on practical shortlists [3]. Unscented clumping clay is still the easiest place to start for most cats, and Dr. Elsey's stays close to that center line.
 
 The good news is simple. The medium-grain clay clumps hard, the bag lasts, and the formula does not force a strong perfume into the room. For a lot of homes, that is enough. You buy it, pour it, scoop it, and move on.
 
@@ -267,7 +270,7 @@ That is why this lands second instead of first. It is the value answer. It is no
       reviewerScore: 3.5,
       scoreDiffReason:
         "It ranks well because the no-stick cleanup story is real, but the fresh scent and shakier long-term confidence keep it from becoming the default recommendation.",
-      body: `There is a reason this keeps getting recommended by people who hate full litter-box resets. The Slide formula is built around one promise: the clumps come free more easily and the bottom of the pan is less likely to turn into a scraping project. At $20.03 for 38 pounds, the current scraped price also makes it more competitive than its cleaner branding suggests.
+      body: `There is a reason this keeps getting recommended by people who hate full litter-box resets. The Slide formula is built around one promise: the clumps come free more easily [4] and the bottom of the pan is less likely to turn into a scraping project. At $20.03 for 38 pounds, the current scraped price also makes it more competitive than its cleaner branding suggests.
 
 That does not make it the best default. Fresh scent will be a hard no for some homes, and formula-change chatter shows up too often to ignore. This is the pick for households that are tired of scraping the pan, not the one-size-fits-most answer.
 
@@ -313,7 +316,7 @@ This desk would rather be plain about that than oversell it. Buy it for the smel
       reviewerScore: 3.5,
       scoreDiffReason:
         "It stays in the lineup because it gives readers a real non-clay option, but its odor and clump tradeoffs make it too narrow to rank higher on a broad page.",
-      body: `This is the alternative-material pick that actually earns space on the page. The 15-pound bag is $19.15, so it is not a bargain, but it does give you a lighter, corn-based option with lower-tracking intent and no added perfume. For some homes, that is enough to make cleanup feel less gritty and less annoying.
+      body: `This is the alternative-material pick that actually earns space on the page. The 15-pound bag is $19.15, so it is not a bargain, but it does give you a lighter, corn-based option with lower-tracking intent [6] and no added perfume. For some homes, that is enough to make cleanup feel less gritty and less annoying.
 
 The downside shows up later. Corn-based litter is not as forgiving when odor control is the main fight, and the pattern across owner chatter is split. Some people stick with it for years. Others bail quickly because of the smell profile or softer clumps.
 
@@ -381,7 +384,7 @@ That does not make it a bad litter. It makes it the fallback. There is a differe
       {
         heading: "Automatic litter boxes change what counts as a good clump",
         body:
-          "If you are using or planning for an automatic box, the ranking shifts. Hard clumps, less pan sticking, and cleaner separation matter more than broad value. That is one reason BoxiePro and Arm & Hammer Slide stay high in this lineup even though they solve different kinds of cleanup frustration.",
+          "If you are using or planning for an automatic box, the ranking shifts [4]. Hard clumps, less pan sticking, and cleaner separation matter more than broad value. That is one reason BoxiePro and Arm & Hammer Slide stay high in this lineup even though they solve different kinds of cleanup frustration.",
       },
     ],
   },
@@ -390,7 +393,7 @@ That does not make it a bad litter. It makes it the fallback. There is a differe
     {
       question: "What is the best cat litter in 2026?",
       answer:
-        "The best cat litter for most people is BoxiePro Probiotic Cat Litter. It clumps hard, avoids the heavy perfume problem that turns off a lot of homes, and stays easier to scrape from the box than most mainstream clay options. If value matters more than a premium formula, Dr. Elsey's Ultra Unscented is the better buy.",
+        "The best cat litter for most people is BoxiePro Probiotic Cat Litter [2]. It clumps hard, avoids the heavy perfume problem that turns off a lot of homes, and stays easier to scrape from the box than most mainstream clay options. If value matters more than a premium formula, Dr. Elsey's Ultra Unscented is the better buy.",
     },
     {
       question: "What type of cat litter is best for most cats?",
@@ -421,6 +424,42 @@ That does not make it a bad litter. It makes it the fallback. There is a differe
     { href: "/low-tracking-cat-litter", title: "Best Low-Tracking Cat Litter" },
     { href: "/best-cat-litter-mat", title: "Best Cat Litter Mat" },
   ],
+
+  sourcesFooter: {
+    title: "Sources + methodology",
+    sources: [
+      {
+        id: 1,
+        label: "Cats.com: 2026 best cat litter roundup",
+        url: "https://cats.com/best-cat-litter",
+      },
+      {
+        id: 2,
+        label: "Cats.com: Boxiecat Probiotic review",
+        url: "https://cats.com/boxiecat-litter-review",
+      },
+      {
+        id: 3,
+        label: "PetMD: veterinarian-reviewed best cat litter",
+        url: "https://www.petmd.com/cat/general-health/best-cat-litter",
+      },
+      {
+        id: 4,
+        label: "Cats.com: best clumping cat litter (automatic box picks)",
+        url: "https://cats.com/best-clumping-cat-litter",
+      },
+      {
+        id: 5,
+        label: "Cats.com: Dr. Elsey's Ultra review",
+        url: "https://cats.com/dr-elseys-cat-litter-review",
+      },
+      {
+        id: 6,
+        label: "Hepper: best non-tracking cat litter roundup",
+        url: "https://articles.hepper.com/best-non-tracking-cat-litter/",
+      },
+    ],
+  },
 
   breadcrumbLabel: "Best Cat Litter 2026",
   lastUpdatedNote:

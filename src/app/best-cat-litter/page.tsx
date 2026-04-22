@@ -55,6 +55,7 @@ export default function BestCatLitterPage() {
         { href: "/how-we-review", title: "How We Review" },
         { href: "/disclosure", title: "Affiliate Disclosure" },
       ]}
+      sourcesFooter={content.sourcesFooter}
     />
   );
 }
