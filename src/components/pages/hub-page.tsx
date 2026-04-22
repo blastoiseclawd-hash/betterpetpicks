@@ -11,6 +11,7 @@ import {
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { DirectAnswer } from "@/components/content/direct-answer";
 import { RichText, RichInline } from "@/components/content/rich-text";
+import { SourcesFooter, type SourcesFooterData } from "@/components/content/sources-footer";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
@@ -88,6 +89,9 @@ interface HubPageProps {
 
   // Last updated note
   lastUpdatedNote?: string;
+
+  // Sources footer — numbered citations matching [N] footnote markers in body prose
+  sourcesFooter?: SourcesFooterData;
 }
 
 export function HubPage({
@@ -112,6 +116,7 @@ export function HubPage({
   relatedLinks,
   breadcrumbLabel,
   lastUpdatedNote,
+  sourcesFooter,
 }: HubPageProps) {
   const hasComparisonTable = comparisonTable.length > 0;
   const topProduct = orderedProducts[0];
@@ -686,6 +691,9 @@ export function HubPage({
           </div>
         </section>
       )}
+
+      {/* Sources + methodology footer (optional, renders when sourcesFooter prop provided) */}
+      {sourcesFooter && <SourcesFooter data={sourcesFooter} />}
 
       {/* Footer / author bio */}
       <section className="section-space-sm bg-[#1c1210]">

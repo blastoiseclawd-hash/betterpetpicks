@@ -4,6 +4,7 @@ import Link from "next/link";
 import { type Author } from "@/data/authors";
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { RichText } from "@/components/content/rich-text";
+import { SourcesFooter, type SourcesFooterData } from "@/components/content/sources-footer";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 
@@ -64,6 +65,9 @@ interface SupportPageProps {
   // HowTo schema data (optional — only for how-to guides)
   howToSteps?: { name: string; description: string }[];
   estimatedTime?: string;
+
+  // Sources footer — numbered citations matching [N] footnote markers in body prose
+  sourcesFooter?: SourcesFooterData;
 }
 
 // ─── Section image component ────────────────────────────────────
@@ -178,6 +182,7 @@ export function SupportPage({
   breadcrumbLabel,
   howToSteps,
   estimatedTime,
+  sourcesFooter,
 }: SupportPageProps) {
   const pageUrl = `${siteConfig.url}/${slug}`;
   const resolvedModifiedDate = modifiedDate || publishedDate;
@@ -423,6 +428,9 @@ export function SupportPage({
           </div>
         </section>
       )}
+
+      {/* Sources + methodology footer (optional, renders when sourcesFooter prop provided) */}
+      {sourcesFooter && <SourcesFooter data={sourcesFooter} />}
 
       {/* ── Author bio ── */}
       <section className="border-t border-[#d9d4cb] bg-[#f3f2ec]">

@@ -11,6 +11,10 @@ export interface EditorialDesk {
   primaryAvatars: string[];
   secondaryAvatars: string[];
   ownedCoverage: string[];
+  // Substance anchors — 3-5 concrete questions the avatar came to learn.
+  // Enforced by `.claude/hooks/avatar-substance-check.js` (warn-level on existing
+  // content until retrofit stable, then promote to block).
+  avatarJobsToAnswer?: string[];
   voiceGuide: {
     personality: string[];
     sentenceStyle: string;
@@ -85,6 +89,13 @@ export const editorialDesks: EditorialDesk[] = [
       "Scratching post guides",
       "Home-fit and apartment-friendly gear pages",
       "Straightforward cleanup tools",
+    ],
+    avatarJobsToAnswer: [
+      "one clear low-mess default for a first-time or single-cat household",
+      "whether this pick tracks, smells, or fails the dust test I actually care about",
+      "what changes in the first week of switching to this from my current setup",
+      "when to stretch for a premium pick vs stay with the default",
+      "how to introduce this without triggering litter-box avoidance",
     ],
     voiceGuide: {
       personality: [
@@ -260,6 +271,13 @@ export const editorialDesks: EditorialDesk[] = [
       "Pages where scaling stress changes the product ranking",
       "Filter and refill cost comparison pages",
     ],
+    avatarJobsToAnswer: [
+      "how this product holds up with 2+ cats sharing it, not just single-cat",
+      "cost per cat per month including refills, filters, and replacement parts",
+      "which smell or maintenance failure shows up first under heavy multi-cat load",
+      "when two basic products beat one premium product on cost and reliability",
+      "what changes in the cleanup routine when cats scale from one to three",
+    ],
     voiceGuide: {
       personality: [
         "Solidarity-first — speaks like someone running the same chaotic multi-cat household, not observing it from outside",
@@ -427,6 +445,13 @@ export const editorialDesks: EditorialDesk[] = [
       "Worth-it analyses across all cat clusters",
       "Automation and smart-feature comparisons",
       "Higher-ticket maintenance and payoff pages",
+    ],
+    avatarJobsToAnswer: [
+      "is this premium upgrade worth 2-3x the price of the basic version",
+      "what goes wrong in month three to six of ownership, not the unboxing experience",
+      "total cost of ownership including subscriptions, refills, and accessory lock-in",
+      "does the automation actually remove chores or just move the work",
+      "what happens when it breaks — warranty, customer service, manual override",
     ],
     voiceGuide: {
       personality: [
@@ -604,6 +629,13 @@ export const editorialDesks: EditorialDesk[] = [
       "Surface-specific pet hair guides",
       "Vacuum comparison pages (cordless vs upright, robot vs manual)",
       "Grooming vacuum and at-source shedding tools",
+    ],
+    avatarJobsToAnswer: [
+      "which tool actually picks up cat or dog hair from my floor, couch, car, or clothes",
+      "what breaks first with daily pet-hair use vs occasional cleanup",
+      "how often I'll empty, wash, or replace the consumable part",
+      "the one tool that replaces the three I already own",
+      "allergy-grade filtration vs regular — when is HEPA actually needed",
     ],
     voiceGuide: {
       personality: [
@@ -787,6 +819,13 @@ export const editorialDesks: EditorialDesk[] = [
       "Dog bed washing and care guides",
       "Orthopedic vs standard bed buying guides",
       "Size and weight capacity comparison pages",
+    ],
+    avatarJobsToAnswer: [
+      "will this bed fit my breed, size, and sleep-style (sprawlers vs curlers)",
+      "will it survive my dog's chewing, digging, or pacing",
+      "washable cover truth — can it hold up to weekly washes without falling apart",
+      "which orthopedic claim is real vs memory-foam marketing",
+      "when is premium worth it vs a $60 bed that lasts two years",
     ],
     voiceGuide: {
       personality: [

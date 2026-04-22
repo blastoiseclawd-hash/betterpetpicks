@@ -4,11 +4,13 @@ import Link from "next/link";
 type Token =
   | { type: "text"; value: string }
   | { type: "bold"; value: string }
-  | { type: "link"; text: string; href: string };
+  | { type: "link"; text: string; href: string }
+  | { type: "footnote"; n: string };
 
 function tokenize(input: string): Token[] {
   const tokens: Token[] = [];
-  const pattern = /\*\*(.+?)\*\*|\[([^\]]+)\]\(([^)]+)\)/g;
+  // Matches **bold**, [text](url), OR [N] footnote (standalone bracket-wrapped integer NOT followed by `(`).
+  const pattern = /\*\*(.+?)\*\*|\[([^\]]+)\]\(([^)]+)\)|\[(\d+)\](?!\()/g;
   let cursor = 0;
   let match: RegExpExecArray | null;
 
@@ -20,6 +22,8 @@ function tokenize(input: string): Token[] {
       tokens.push({ type: "bold", value: match[1] });
     } else if (match[2] !== undefined && match[3] !== undefined) {
       tokens.push({ type: "link", text: match[2], href: match[3] });
+    } else if (match[4] !== undefined) {
+      tokens.push({ type: "footnote", n: match[4] });
     }
     cursor = match.index + match[0].length;
   }
@@ -38,6 +42,19 @@ function renderTokens(input: string): ReactNode[] {
     }
     if (token.type === "bold") {
       return <strong key={i}>{token.value}</strong>;
+    }
+    if (token.type === "footnote") {
+      return (
+        <sup key={i} className="text-[0.72em] leading-none">
+          <a
+            href={`#source-${token.n}`}
+            className="ml-[1px] text-[#1c1210] no-underline hover:underline"
+            aria-label={`Source ${token.n}`}
+          >
+            [{token.n}]
+          </a>
+        </sup>
+      );
     }
     const isInternal = token.href.startsWith("/") && !token.href.startsWith("//");
     if (isInternal) {
