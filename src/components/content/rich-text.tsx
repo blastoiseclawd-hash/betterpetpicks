@@ -48,7 +48,7 @@ function renderTokens(input: string): ReactNode[] {
         <sup key={i} className="text-[0.72em] leading-none">
           <a
             href={`#source-${token.n}`}
-            className="ml-[1px] text-[#1c1210] no-underline hover:underline"
+            className="ml-[1px] font-semibold text-current underline decoration-current/60 underline-offset-2 hover:decoration-current"
             aria-label={`Source ${token.n}`}
           >
             [{token.n}]
@@ -59,7 +59,7 @@ function renderTokens(input: string): ReactNode[] {
     const isInternal = token.href.startsWith("/") && !token.href.startsWith("//");
     if (isInternal) {
       return (
-        <Link key={i} href={token.href} className="underline decoration-[#2a5a8a]/40 underline-offset-2 hover:decoration-[#1a3d5c]">
+        <Link key={i} href={token.href} className="underline decoration-current/50 underline-offset-2 hover:decoration-current">
           {token.text}
         </Link>
       );
@@ -70,7 +70,7 @@ function renderTokens(input: string): ReactNode[] {
         key={i}
         href={token.href}
         {...(isAbsolute ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-        className="underline decoration-[#2a5a8a]/40 underline-offset-2 hover:decoration-[#1a3d5c]"
+        className="underline decoration-current/50 underline-offset-2 hover:decoration-current"
       >
         {token.text}
       </a>

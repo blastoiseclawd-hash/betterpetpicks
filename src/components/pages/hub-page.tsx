@@ -585,7 +585,9 @@ export function HubPage({
                               </div>
                             </div>
                           </div>
-                          <p className="mt-5 text-[0.94rem] leading-7 text-[#6b5649]">{content.scoreDiffReason}</p>
+                          <p className="mt-5 text-[0.94rem] leading-7 text-[#6b5649]">
+                            <RichInline text={content.scoreDiffReason} />
+                          </p>
                         </blockquote>
 
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-1">
@@ -595,7 +597,7 @@ export function HubPage({
                               {content.pros.map((pro) => (
                                 <li key={pro} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#244131]">
                                   <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#2f6842]" />
-                                  <span>{pro}</span>
+                                  <span><RichInline text={pro} /></span>
                                 </li>
                               ))}
                             </ul>
@@ -606,7 +608,7 @@ export function HubPage({
                               {content.cons.map((con) => (
                                 <li key={con} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#5b2e2b]">
                                   <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#b64542]" />
-                                  <span>{con}</span>
+                                  <span><RichInline text={con} /></span>
                                 </li>
                               ))}
                             </ul>
