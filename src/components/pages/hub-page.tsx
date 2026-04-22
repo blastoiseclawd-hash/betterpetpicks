@@ -1,7 +1,13 @@
 import Link from "next/link";
 
 import { type Author } from "@/data/authors";
-import { priceDisplay, type Product } from "@/data/products";
+import {
+  getAffiliateLinksByPriority,
+  getCommerceLinkRel,
+  getProductOfferLink,
+  priceDisplay,
+  type Product,
+} from "@/data/products";
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { DirectAnswer } from "@/components/content/direct-answer";
 import { RichText, RichInline } from "@/components/content/rich-text";
@@ -82,10 +88,6 @@ interface HubPageProps {
 
   // Last updated note
   lastUpdatedNote?: string;
-}
-
-function reviewLink(product: Product) {
-  return product.affiliateLinks.find((link) => link.url && !link.url.includes("/dp/?tag="));
 }
 
 export function HubPage({
@@ -330,6 +332,8 @@ export function HubPage({
               .sort((a, b) => (reviews[b.slug]?.reviewerScore ?? 0) - (reviews[a.slug]?.reviewerScore ?? 0))
               .map((row) => {
               const review = reviews[row.slug];
+              const product = orderedProducts.find((p) => p.id === row.slug);
+              const offer = product ? getProductOfferLink(product, siteConfig.affiliatePrograms.amazon.tag) : null;
               return (
                 <article key={row.slug} className="sand-panel p-5">
                   <div className="flex items-start justify-between gap-4">
@@ -360,6 +364,16 @@ export function HubPage({
                       </div>
                     ))}
                   </dl>
+                  {offer && (
+                    <a
+                      href={offer.url}
+                      target="_blank"
+                      rel={getCommerceLinkRel(offer)}
+                      className="button-primary mt-5 block w-full text-center"
+                    >
+                      Shop {offer.retailer}
+                    </a>
+                  )}
                 </article>
               );
             })}
@@ -371,13 +385,14 @@ export function HubPage({
               <table className="w-full table-fixed text-left">
                 <thead className="border-b border-[#dbd3c7] bg-[#f5efe6]">
                   <tr>
-                    <th className="w-[13%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Pick</th>
-                    <th className="w-[20%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Product</th>
-                    <th className="w-[8%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Score</th>
-                    <th className="w-[9%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Price</th>
+                    <th className="w-[12%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Pick</th>
+                    <th className="w-[18%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Product</th>
+                    <th className="w-[7%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Score</th>
+                    <th className="w-[8%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Price</th>
                     {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                       <th key={col.key} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">{col.label}</th>
                     ))}
+                    <th className="w-[14%] px-4 py-4 text-right text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#8b7355]">Buy</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -385,6 +400,8 @@ export function HubPage({
                     .sort((a, b) => (reviews[b.slug]?.reviewerScore ?? 0) - (reviews[a.slug]?.reviewerScore ?? 0))
                     .map((row, index) => {
                     const review = reviews[row.slug];
+                    const product = orderedProducts.find((p) => p.id === row.slug);
+                    const offer = product ? getProductOfferLink(product, siteConfig.affiliatePrograms.amazon.tag) : null;
                     return (
                       <tr key={row.slug} className={index % 2 === 0 ? "bg-[#fffcf8]" : "bg-[#f5efe6]"}>
                         <td className="px-4 py-5 text-sm font-semibold text-[#8b7355]">{row.badge}</td>
@@ -400,6 +417,20 @@ export function HubPage({
                         {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                           <td key={col.key} className="px-4 py-5 text-[0.95rem] text-[#5a4a3e]">{row[col.key] ?? "—"}</td>
                         ))}
+                        <td className="px-3 py-5 text-right">
+                          {offer ? (
+                            <a
+                              href={offer.url}
+                              target="_blank"
+                              rel={getCommerceLinkRel(offer)}
+                              className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-[#1c1210] px-3 py-2 text-[0.8rem] font-semibold text-[#fffcf8] transition hover:bg-[#3d2a22]"
+                            >
+                              Shop {offer.retailer}
+                            </a>
+                          ) : (
+                            <span className="text-[0.85rem] text-[#8b7355]">—</span>
+                          )}
+                        </td>
                       </tr>
                     );
                   })}
@@ -430,8 +461,11 @@ export function HubPage({
               if (!content) return null;
 
               const specs = curatedSpecs[product.id] || {};
-              const cta = reviewLink(product);
+              const cta = getProductOfferLink(product, siteConfig.affiliatePrograms.amazon.tag);
               const badge = badges[product.id] || "";
+              const secondaryLinks = getAffiliateLinksByPriority(product).filter(
+                (link) => !cta || link.url !== cta.url,
+              );
               return (
                 <section
                   key={product.id}
@@ -482,10 +516,10 @@ export function HubPage({
                             <a
                               href={cta.url}
                               target="_blank"
-                              rel="noopener noreferrer nofollow sponsored"
+                              rel={getCommerceLinkRel(cta)}
                               className="button-primary w-full"
                             >
-                              Check price on {cta.retailer}
+                              Shop {cta.retailer}
                             </a>
                           ) : (
                             <a
@@ -494,10 +528,27 @@ export function HubPage({
                               rel="noopener noreferrer nofollow sponsored"
                               className="button-primary w-full"
                             >
-                              Check price on Amazon
+                              Shop Amazon
                             </a>
                           )}
                         </div>
+
+                        {secondaryLinks.length > 0 ? (
+                          <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-[#6F4E37]">
+                            <span className="text-[#7a6557]">Also available at</span>
+                            {secondaryLinks.map((link) => (
+                              <a
+                                key={`${product.id}-${link.retailer}-${link.priority}`}
+                                href={link.url}
+                                target="_blank"
+                                rel={getCommerceLinkRel(link)}
+                                className="font-semibold hover:text-[#2C1810]"
+                              >
+                                {link.retailer}
+                              </a>
+                            ))}
+                          </div>
+                        ) : null}
                       </div>
                     </aside>
 
