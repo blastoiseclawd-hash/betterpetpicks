@@ -46,6 +46,7 @@ export default function LowTrackingCatLitterPage() {
       breadcrumbLabel={content.breadcrumbLabel}
       lastUpdatedNote={content.lastUpdatedNote}
       relatedLinks={content.relatedLinks}
+      sourcesFooter={content.sourcesFooter}
     />
   );
 }

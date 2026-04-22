@@ -5,6 +5,8 @@
  * Intent-hierarchy: primary_commercial_sub of /best-cat-litter hub
  */
 
+import type { SourcesFooterData } from "@/components/content/sources-footer";
+
 export type LowTrackingLitterComparisonRow = {
   badge: string;
   name: string;
@@ -50,22 +52,23 @@ export type LowTrackingLitterGuide = {
   relatedLinks?: Array<{ href: string; title: string }>;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
+  sourcesFooter?: SourcesFooterData;
 };
 
 export const lowTrackingCatLitterGuide: LowTrackingLitterGuide = {
   slug: "low-tracking-cat-litter",
-  title: "Best Low-Tracking Cat Litter (2026): 5 Picks That Stay in the Box",
+  title: "Best Low-Tracking Cat Litter (2026): Top 5 Picks",
   description:
-    "Best low-tracking cat litter compared on granule size, paw-stickiness, and floor scatter. Fresh Step Clean Paws Unscented is the low-mess default at $21.99.",
+    "Best low-tracking cat litter compared on granule size, paw-stickiness, and scatter. Fresh Step Clean Paws Unscented is the low-mess default.",
   author: "cat-care-essentials-desk",
   publishedDate: "2026-04-22",
   modifiedDate: "2026-04-22",
 
   directAnswer:
-    "Fresh Step Clean Paws Multi-Cat Unscented is the best low-tracking cat litter because its particle shape and weight keep granules in the box and off your floors. For a natural clumping option, World's Best Low Tracking and Dust Control uses larger corn granules that do not stick to paws. For the lowest tracking possible, Feline Pine Original pellets are too heavy to travel.",
+    "Fresh Step Clean Paws Multi-Cat Unscented is the best low-tracking cat litter because its particle shape and weight keep granules in the box [1]. For a natural clumping option, World's Best Low Tracking and Dust Control uses larger corn granules that do not stick to paws [2][5]. For the lowest tracking possible, Feline Pine Original pellets are too heavy to travel.",
 
   quickAnswer:
-    "If granules keep showing up six feet from the box, it is not you. It is the litter. Fine, light clay sticks to paws and scatters every time a cat jumps out. For most low-tracking households, Fresh Step Clean Paws Multi-Cat Unscented is the obvious pick because the particle shape is designed to stay in the box, and the unscented formula avoids the fragrance rejection that makes some cats dig harder and kick more. If you want a natural clumping answer, World's Best Low Tracking and Dust Control uses larger corn granules that physically do not stick to paws the way clay does. If tracking is your only priority and you are willing to give up clumping, Feline Pine Original pellets are the lowest-tracking option on this page because the pellets are too heavy to travel. For a flushable, low-dust premium choice, Tuft and Paw Really Great Charcoal tofu pellets cover the extreme-low-tracking end of the market.",
+    "If granules keep showing up six feet from the box, it is not you. It is the litter. Fine, light clay sticks to paws and scatters every time a cat jumps out. For most low-tracking households, Fresh Step Clean Paws Multi-Cat Unscented is the obvious pick because the particle shape is designed to stay in the box [1], and the unscented formula avoids the fragrance rejection that makes some cats dig harder and kick more. If you want a natural clumping answer, World's Best Low Tracking and Dust Control uses larger corn granules that physically do not stick to paws the way clay does [2]. If tracking is your only priority and you are willing to give up clumping, Feline Pine Original pellets are the lowest-tracking option on this page because the pellets are too heavy to travel. For a flushable, low-dust premium choice, Tuft and Paw Really Great Charcoal tofu pellets cover the extreme-low-tracking end of the market [2].",
 
   productOrder: [
     "fresh-step-clean-paws-unscented",
@@ -199,7 +202,7 @@ export const lowTrackingCatLitterGuide: LowTrackingLitterGuide = {
       heading: "Best Overall Low-Tracking: Fresh Step Clean Paws Unscented",
       reviewerScore: 4.5,
       scoreDiffReason:
-        "It ranks first because the Clean Paws formula was purpose-engineered for low tracking, and the unscented variant removes the one common complaint about the standard Fresh Step line (fragrance). For most households dealing with granules on the floor, this is the obvious default to try before anything more exotic.",
+        "It ranks first because the Clean Paws formula was purpose-engineered for low tracking and anchored the Best Overall Non-Tracking slot in the most recent tier-1 roundup [1], and the unscented variant removes the one common complaint about the standard Fresh Step line (fragrance). For most households dealing with granules on the floor, this is the obvious default to try before anything more exotic.",
       body: `Most clumping clay litters track because fine, light clay clings to wet paws and scatters the moment a cat jumps out of the box. Fresh Step engineered the Clean Paws line specifically to reduce that. The particles are shaped and weighted to settle back into the box rather than ride out on the pads of a cat's feet.
 
 The unscented version matters more than the scented one for low-tracking buyers. Heavily scented litters can trigger harder digging and more kicking, which makes any tracking problem worse. Unscented removes that variable. It also avoids the fragrance rejection that sometimes causes cats to scratch outside the box or shake their paws aggressively on exit, both of which spread granules.
@@ -208,7 +211,7 @@ On a hardwood or LVP floor where tracking is visually loud, the difference betwe
 
 Clumping is solid under normal conditions. Not the hardest clumps on the market, but hard enough for daily scooping without silty breakdown. Odor control is adequate rather than specialized, which is fine for a single-cat or two-cat household. If odor is the bigger problem than tracking, the standard Fresh Step Heavy Duty formula is a better fit for that specific pain point.`,
       pros: [
-        "Particle shape and weight are purpose-engineered to reduce paw-stickiness",
+        "Particle shape and weight are purpose-engineered to reduce paw-stickiness, which earned this variant the Best Overall Non-Tracking slot in the most recent tier-1 roundup [1]",
         "Unscented formula avoids fragrance-driven over-digging that spreads more granules",
         "Clumps hard enough for normal daily scooping without crumbling",
         "Widely available at grocery, pet retail, and Amazon",
@@ -226,8 +229,8 @@ Clumping is solid under normal conditions. Not the hardest clumps on the market,
       heading: "Best Natural Clumping: World's Best Low Tracking & Dust Control",
       reviewerScore: 4.0,
       scoreDiffReason:
-        "It earns a strong score as the only natural clumping option that actually delivers on the tracking claim. The cost per pound prevents it from outranking the clay default above for most households.",
-      body: `Most natural litters do not clump well, and most clumping litters are clay. World's Best sits in the narrow overlap where both work. The corn-based formula forms clumps that hold up during daily scooping, and the Low Tracking and Dust Control variant uses larger granules than the standard World's Best line to specifically address the scatter problem.
+        "It earns a strong score as the only natural clumping option that actually delivers on the tracking claim, and it holds the Best Clumping Natural slot in the most recent tier-1 roundup [2]. The cost per pound prevents it from outranking the clay default above for most households.",
+      body: `Most natural litters do not clump well, and most clumping litters are clay. World's Best sits in the narrow overlap where both work [2]. The corn-based formula forms clumps that hold up during daily scooping, and the Low Tracking and Dust Control variant uses larger granules than the standard World's Best line to specifically address the scatter problem [5].
 
 The tracking reduction is real but not dramatic. Compared to a fine clay litter, the difference is noticeable on hardwood floors within the first week. Compared to pine pellets or walnut shell, clay is still clay, and this performs like a well-engineered version of it rather than a pellet-style tracking solution.
 
@@ -280,10 +283,10 @@ The primary hesitation is cost. At the retail pricing shown above for the 30 lb 
       heading: "Lowest Tracking Non-Clumping: Feline Pine Original",
       reviewerScore: 3.5,
       scoreDiffReason:
-        "It earns a spot because pine pellets are physically the lowest-tracking litter material available. The non-clumping format and stronger scent keep the score from going higher for typical households.",
-      body: `If tracking is your only priority and you are willing to give up clumping, pine pellets are the answer. The pellets are large, heavy, and cylindrical. They do not stick to paws. They do not scatter when a cat exits. They are too bulky to wedge between paw pads.
+        "It earns a spot because pine pellets are physically the lowest-tracking litter material available, and it anchored the Best Non-Clumping slot in the most recent tier-1 editorial roundup [2]. The non-clumping format and stronger scent keep the score from going higher for typical households.",
+      body: `If tracking is your only priority and you are willing to give up clumping, pine pellets are the answer [2]. The pellets are large, heavy, and cylindrical. They do not stick to paws. They do not scatter when a cat exits. They are too bulky to wedge between paw pads.
 
-For single-cat homes where the floor-scatter problem has become a daily annoyance, switching to Feline Pine Original is the closest thing to a guaranteed fix. The pellet shape alone eliminates roughly 80 percent of the tracking that clay litters produce. Owner reports on hardwood and LVP floors consistently describe the change as immediate.
+For single-cat homes where the floor-scatter problem has become a daily annoyance, switching to Feline Pine Original is the closest thing to a one-move fix. The pellet shape alone eliminates a large majority of the tracking that clay litters produce. Owner reports on hardwood and LVP floors consistently describe the change as immediate.
 
 The tradeoffs are structural. This is a non-clumping litter. Waste sits in the box and sawdust forms under the pellets as they break down. Scooping pulls solid waste out, but the pine sawdust layer needs to be sifted or replaced in the full change. Some households use a sifting box to separate used sawdust from intact pellets.
 
@@ -307,8 +310,8 @@ The pine scent is also stronger than the unscented clay options on this page. Mo
       heading: "Best Premium Flushable: Tuft & Paw Really Great Charcoal",
       reviewerScore: 3.5,
       scoreDiffReason:
-        "It earns a spot as the premium tofu-pellet option for households willing to pay for flushable, low-dust, and low-tracking in one product. Subscription-only availability and the price keep the score from competing with mainstream picks.",
-      body: `Tofu and soybean-byproduct pellets are the newest low-tracking material category to reach US buyers. The pellets are long, thin, and light, and the shape alone solves the tracking problem because paw pads cannot grip them the way they grip round granules.
+        "It earns a spot as the premium tofu-pellet option for households willing to pay for flushable, low-dust, and low-tracking in one product, and it holds the Best Overall slot in the most recent tier-1 editorial roundup [2]. Subscription-only availability and the price keep the score from competing with mainstream picks.",
+      body: `Tofu and soybean-byproduct pellets are the newest low-tracking material category to reach US buyers [2]. The pellets are long, thin, and light, and the shape alone solves the tracking problem because paw pads cannot grip them the way they grip round granules.
 
 The Really Great formula from Tuft and Paw adds activated charcoal for odor absorption, which addresses the one common complaint about plain tofu pellets (weaker odor control than clay). The charcoal is unscented, so the litter itself smells like nothing. Households that have tried and rejected every fragrance option tend to find this combination works when others have not.
 
@@ -336,7 +339,7 @@ The reasons to skip it are practical. This is a subscription-only direct-to-cons
     sections: [
       {
         heading: "Tracking is a granule-physics problem, not a marketing claim",
-        body: "Most tracking is caused by three physical properties of the litter: granule size (smaller granules wedge between paw pads), granule weight (lighter granules ride out on wet paws), and granule shape (round granules roll; angular granules cling). Low-tracking litters address at least one of these. Clay formulas like Fresh Step Clean Paws work on shape and weight. Natural options like World's Best corn and Naturally Fresh walnut work on weight and density. Pellet options like Feline Pine and Tuft and Paw work on size and shape at once. If a litter claims low tracking without addressing any of these mechanisms, the claim is mostly marketing.",
+        body: "Most tracking is caused by three physical properties of the litter: granule size (smaller granules wedge between paw pads), granule weight (lighter granules ride out on wet paws), and granule shape (round granules roll; angular granules cling) [6]. Low-tracking litters address at least one of these. Clay formulas like Fresh Step Clean Paws work on shape and weight. Natural options like World's Best corn and Naturally Fresh walnut work on weight and density [5]. Pellet options like Feline Pine and Tuft and Paw work on size and shape at once. If a litter claims low tracking without addressing any of these mechanisms, the claim is mostly marketing.",
       },
       {
         heading: "Your floor type decides the visible scatter budget",
@@ -406,4 +409,41 @@ The reasons to skip it are practical. This is a subscription-only direct-to-cons
 
   breadcrumbLabel: "Best Low-Tracking Cat Litter",
   lastUpdatedNote: "Prices verified April 2026.",
+
+  sourcesFooter: {
+    title: "Sources + methodology",
+    body: "Picks on this page reconcile two tier-1 editorial roundups with test panels that rotate through 30 or more cat-litter models at a time, plus a manufacturer disclosure and a third-party lab panel that included tracking as a scored dimension. Inline [N] markers point to the source that anchors the specific claim; we do not name outlets in body prose.",
+    sources: [
+      {
+        id: 1,
+        label: "Catster: \"7 Best Non-Tracking Cat Litters in 2026,\" Ed Malaker, updated March 8, 2026.",
+        url: "https://www.catster.com/lifestyle/best-non-tracking-cat-litter/",
+      },
+      {
+        id: 2,
+        label: "Cats.com: \"The 9 Best Non-Tracking Cat Litters of 2026,\" Kate Barrington (NAVC-certified), fact-checked by Mallory Crusta, January 1, 2026.",
+        url: "https://cats.com/best-non-tracking-cat-litter",
+      },
+      {
+        id: 3,
+        label: "The Spruce Pets 29-litter test panel (scored tracking alongside odor + clumping; named Boxiecat Probiotic Clumping Clay Best Overall), August 2025.",
+        url: "https://www.thesprucepets.com/best-cat-litters-4154326",
+      },
+      {
+        id: 4,
+        label: "Chewy editorial: \"10 Best Low Tracking Cat Litters 2026: According to Reviews.\"",
+        url: "https://www.chewy.com/best/low-tracking-cat-litters_s2098582",
+      },
+      {
+        id: 5,
+        label: "World's Best Cat Litter: manufacturer disclosure on the Low Tracking & Dust Control formula (\"larger granules help reduce tracking; no dust during pour\").",
+        url: "https://www.worldsbestcatlitter.com/blog/low-tracking-cat-litter-review/",
+      },
+      {
+        id: 6,
+        label: "Arm & Hammer: \"5 Tips to Help Stop Cat Litter Tracking\" (granule-physics mechanism explanation).",
+        url: "https://www.armandhammer.com/en/articles/5-tips-to-help-stop-litter-tracking",
+      },
+    ],
+  },
 };
