@@ -418,6 +418,7 @@ That does not make it a bad litter. It makes it the fallback. There is a differe
     { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
     { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
     { href: "/best-cat-litter-for-multiple-cats", title: "Best Cat Litter for Multiple Cats" },
+    { href: "/low-tracking-cat-litter", title: "Best Low-Tracking Cat Litter" },
     { href: "/best-cat-litter-mat", title: "Best Cat Litter Mat" },
   ],
 

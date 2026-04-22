@@ -1,0 +1,34 @@
+{
+  "best-pet-hair-vacuum": {
+    "forceSkip": true,
+    "forceNotes": "Duplicate intent of LIVE /best-vacuum-for-pet-hair; keep generic pet-hair vacuum intent consolidated there."
+  },
+  "automatic-litter-box-cleaner": {
+    "forceSkip": true,
+    "forceNotes": "Duplicate of the canonical queued row /best-automatic-litter-box; do not split self-cleaning litter-box intent."
+  },
+  "automatic-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Duplicate of the canonical queued row /best-automatic-litter-box; keep automatic litter box intent on the clearer canonical slug."
+  },
+  "best-vacuum-for-pet-hair-and-carpet": {
+    "forceSkip": true,
+    "forceNotes": "Covered by LIVE /best-vacuum-for-pet-hair, which already serves carpet-heavy homes and deep-carpet use cases."
+  },
+  "best-cat-litter-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Covered by LIVE /best-cat-litter; odor-control intent is already handled on the canonical litter page."
+  },
+  "cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Covered by LIVE /best-cat-tree-for-large-cats; do not split this generic cat-tree query into a second page."
+  },
+  "maine-coon-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Covered by LIVE /best-cat-tree-for-large-cats; that page already recommends the Armarkat A7202 72-Inch specifically for Maine coons and 20-plus-pound cats in its directAnswer and quickAnswer. Breed-specific variant would cannibalize the same SERP and duplicate the Armarkat pick."
+  },
+  "cat-water-fountain": {
+    "forceSkip": true,
+    "forceNotes": "Covered by LIVE /best-cat-water-fountain; the generic alias should not remain in the queue."
+  }
+}

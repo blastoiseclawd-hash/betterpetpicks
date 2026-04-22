@@ -424,6 +424,7 @@ Where it loses ground is dust and tracking. Both are moderate. In a single-cat h
     { href: "/how-much-cat-litter-to-use", title: "How Much Cat Litter to Use" },
     { href: "/how-often-to-change-cat-litter", title: "How Often to Change Cat Litter" },
     { href: "/best-cat-litter", title: "Best Cat Litter" },
+    { href: "/low-tracking-cat-litter", title: "Best Low-Tracking Cat Litter" },
     { href: "/best-cat-litter-mat", title: "Best Cat Litter Mat" },
   ],
 
