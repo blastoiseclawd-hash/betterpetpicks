@@ -26,6 +26,8 @@ export type AutomaticLitterBoxReview = {
   verdict: string;
 };
 
+import type { SourcesFooterData } from "@/components/content/sources-footer";
+
 export type AutomaticLitterBoxGuide = {
   slug: string;
   title: string;
@@ -50,6 +52,7 @@ export type AutomaticLitterBoxGuide = {
   relatedLinks?: Array<{ href: string; title: string }>;
   breadcrumbLabel: string;
   lastUpdatedNote: string;
+  sourcesFooter?: SourcesFooterData;
 };
 
 export const bestAutomaticLitterBoxGuide: AutomaticLitterBoxGuide = {
@@ -62,10 +65,10 @@ export const bestAutomaticLitterBoxGuide: AutomaticLitterBoxGuide = {
   modifiedDate: "2026-04-22",
 
   directAnswer:
-    "The Litter-Robot 4 Supply Bundle is the best automatic litter box because it has the broadest ownership track record at the premium tier and anchors most 2026 testing roundups as the reliability benchmark. The Neakasa M1 Plus is the better pick if your cat refuses enclosed globes or if you have a large breed, and it has the widest real-world ownership sample in this guide. The PetKit PuraMax 2 is the value-premium alternative at roughly half the Litter-Robot's price.",
+    "The Litter-Robot 4 Supply Bundle is the best automatic litter box because it has the broadest ownership track record at the premium tier and anchors most 2026 testing roundups [1][2][3] as the reliability benchmark. The Neakasa M1 Plus is the better pick if your cat refuses enclosed globes or if you have a large breed, and it has the widest real-world ownership sample in this guide. The PetKit PuraMax 2 is the value-premium alternative at roughly half the Litter-Robot's price.",
 
   quickAnswer:
-    "The real question with any $400 to $750 litter box is not whether the automation feels advanced in the first week. It is whether the automation still works in month six, and whether the savings in scooping time justify the sticker shock. Across the five picks on this page, the Litter-Robot 4 is the reliability benchmark because it has the broadest owner track record at the premium tier and anchors the reliability slot in most 2026 testing roundups. The Neakasa M1 Plus earns its place because it has the widest real-world ownership sample in this guide, and the open-top form solves the single most common failure mode where cats refuse enclosed globes. The PetKit PuraMax 2 is the value-premium answer if the Litter-Robot is out of budget and you want a lower entry barrier for older cats. Leo's Loo Too is worth paying $599 for only if Alexa or Google Home is load-bearing in your household. The PetSafe ScoopFree SmartSpin is the entry-tier pick, and the owner-reported reliability gap is the honest cost of the lower price.",
+    "The real question with any $400 to $750 litter box is not whether the automation feels advanced in the first week. It is whether the automation still works in month six, and whether the savings in scooping time justify the sticker shock. Across the five picks on this page, the Litter-Robot 4 is the reliability benchmark because it has the broadest owner track record at the premium tier and anchors the reliability slot in most 2026 testing roundups [1][2][3]. The Neakasa M1 Plus earns its place because it has the widest real-world ownership sample in this guide, and the open-top form solves the single most common failure mode where cats refuse enclosed globes. The PetKit PuraMax 2 is the value-premium answer if the Litter-Robot is out of budget and you want a lower entry barrier for older cats. Leo's Loo Too is worth paying $599 for only if Alexa or Google Home is load-bearing in your household [5]. The PetSafe ScoopFree SmartSpin is the entry-tier pick, and the owner-reported reliability gap is the honest cost of the lower price.",
 
   productOrder: [
     "litter-robot-4-supply-bundle",
@@ -199,8 +202,8 @@ export const bestAutomaticLitterBoxGuide: AutomaticLitterBoxGuide = {
       heading: "Best Overall Automatic: Litter-Robot 4 Supply Bundle",
       reviewerScore: 4.5,
       scoreDiffReason:
-        "It earns the top slot because the ownership track record at this price tier is the broadest of any automatic in this guide, and the reliability slot in most 2026 testing roundups goes to this box specifically. The score is not a 5 because $749 still demands scrutiny, and no rotating-globe design works for every cat.",
-      body: `The real question with a $749 litter box is whether it still works in month six. The Litter-Robot 4 has the longest public ownership track at this sticker, and independent test panels that rotate through 30 or more models at a time consistently slot it into the reliability benchmark position for a cluster hub like this one. That is the data point worth paying for. The bundle ships with the box, 3 OdorTrap refills, 10 liners, 30 cleaner wipes, and 2 carbon filters, which covers roughly the first ownership year of consumables.
+        "It earns the top slot because the ownership track record at this price tier is the broadest of any automatic in this guide, and the reliability slot in most 2026 testing roundups [1][2][3] goes to this box specifically. The score is not a 5 because $749 still demands scrutiny, and no rotating-globe design works for every cat.",
+      body: `The real question with a $749 litter box is whether it still works in month six. The Litter-Robot 4 has the longest public ownership track at this sticker, and independent test panels that rotate through 30 or more models at a time [1] consistently slot it into the reliability benchmark position for a cluster hub like this one. That is the data point worth paying for. The bundle ships with the box, 3 OdorTrap refills, 10 liners, 30 cleaner wipes, and 2 carbon filters, which covers roughly the first ownership year of consumables.
 
 The mechanical design rotates the globe after each use, sifts waste into a carbon-lined drawer, and seals it away from the living space. Whisker pairs this with a 2.4GHz WiFi app that tracks per-cat bathroom habits by weight. For multi-cat households, that weight-tracking feature doubles as an early-warning signal when one cat's habits change, which is a genuine use of automation rather than a gimmick.
 
@@ -208,7 +211,7 @@ Where the Litter-Robot earns its premium over cheaper rotating designs is the pa
 
 The reasons this does not work for every household are honest and predictable. Cats that prefer open-top boxes may refuse the globe, so budget for a 30-day return window. The physical footprint (roughly 22 x 22 x 29.5 inches) needs a dedicated floor space. And the $749 price tag is the highest entry point in this guide, so the payoff has to be scooping time actually disappearing from your week.`,
       pros: [
-        "Broadest owner track record at the premium tier and the reliability slot in most 2026 testing roundups",
+        "Broadest owner track record at the premium tier and the reliability slot in most 2026 testing roundups [1][2][3]",
         "Works with any clumping litter, no proprietary crystal-only lock-in",
         "Whisker app per-cat weight tracking is a genuine automation use, not a gimmick",
         "Supply bundle covers roughly the first ownership year of consumables",
@@ -280,15 +283,15 @@ The honest read on the ownership evidence is that you are paying less and receiv
         "It earns its spot as the smart-home specialist with Alexa and Google Home integration plus UV odor treatment. The thinner owner sample and $599 pricing between the PuraMax and Litter-Robot keep it from earning a higher score.",
       body: `Leo's Loo Too occupies a specific niche: the smart-home household where the litter box needs to participate in the same automation layer as the thermostat, lighting, and voice assistants. The Wi-Fi, Alexa, and Google Home integration is first-class, and the Casa Leo app coordinates activity data with the rest of a connected-home dashboard in a way the Whisker, PetKit, and PetSafe apps do not.
 
-The UV odor defense is also genuinely different from the carbon-filter approach every other pick here uses. Short-wavelength UV neutralizes odor compounds rather than absorbing them, which matters in smell-sensitive households like studio apartments, shared bedrooms, or homes with cats that already produce strong-smelling waste. The Casa Leo product page specifies a noise floor under 30 decibels, which is the quietest published spec in this guide.
+The UV odor defense is also genuinely different from the carbon-filter approach every other pick here uses. Short-wavelength UV neutralizes odor compounds rather than absorbing them, which matters in smell-sensitive households like studio apartments, shared bedrooms, or homes with cats that already produce strong-smelling waste. The Casa Leo product page specifies a noise floor under 30 decibels [4], which is the quietest published spec in this guide.
 
 The hesitation at the $599 price tier is not about features. It is about positioning. This box sits between the PetKit PuraMax 2 at $370 (comparable core function, $230 cheaper) and the Litter-Robot 4 at $749 (longer ownership track, $150 more). If you do not specifically want the Alexa or Google Home integration, the math does not lead you here.
 
 The owner sample here is the second-thinnest in this guide. The star rating is fine, but the smaller sample means more variance hidden in the data than a longer-established product would expose. For a skeptical buyer, that sample size is worth noting before committing $599.`,
       pros: [
-        "Published sub-30 decibel noise spec per Casa Leo is the quietest claim in this guide, which matters in studio apartments",
+        "Published sub-30 decibel noise spec per Casa Leo [4] is the quietest claim in this guide, which matters in studio apartments",
         "UV odor defense is genuinely different from carbon-filter absorption",
-        "Alexa and Google Home integration lets the litter box participate in existing smart-home automation",
+        "Alexa and Google Home integration is a genuine differentiator per NBC News Select's hands-on review [5]",
         "Anti-pinch safety sensors address one of the most-cited failure modes in rotating-globe designs",
       ],
       cons: [
@@ -330,7 +333,7 @@ For most households, the honest recommendation is to stretch to the PuraMax 2 at
     sections: [
       {
         heading: "The premium claim only holds if month-three ownership still works",
-        body: "Every automatic litter box looks convenient in the unboxing photos. The honest test runs on two timelines: month three, when the first common failure mode appears (motor pause, app disconnect, sensor miscalibration), and month twelve, when consumable costs compound and the original convenience pitch either holds or breaks down. Independent testing roundups that rotate through 30 or more models at a time cluster the Litter-Robot 4 into the reliability benchmark slot, and the Neakasa M1 Plus into the open-top slot. That clustering is useful because it tells you where editorial testers agree and where the cluster hub actually sits in the category. Before paying $400 to $750, look at how long the product has been in-market and how broad its ownership track is, not just the star rating.",
+        body: "Every automatic litter box looks convenient in the unboxing photos. The honest test runs on two timelines: month three, when the first common failure mode appears (motor pause, app disconnect, sensor miscalibration), and month twelve, when consumable costs compound and the original convenience pitch either holds or breaks down. Independent testing roundups that rotate through 30 or more models at a time [1][2][3] cluster the Litter-Robot 4 into the reliability benchmark slot, and the Neakasa M1 Plus into the open-top slot. That clustering is useful because it tells you where editorial testers agree and where the cluster hub actually sits in the category. Before paying $400 to $750, look at how long the product has been in-market and how broad its ownership track is, not just the star rating.",
       },
       {
         heading: "Rotating globe vs open-top is a cat-preference decision first",
@@ -355,7 +358,7 @@ For most households, the honest recommendation is to stretch to the PuraMax 2 at
     {
       question: "Which automatic litter box is actually worth the money?",
       answer:
-        "The Litter-Robot 4 Supply Bundle at $749 is worth it for multi-cat households because it has the broadest ownership track record at the premium tier and anchors the reliability slot in most 2026 editorial testing roundups. The Neakasa M1 Plus at $399.99 is worth it if your cat refuses enclosed globes or if you own a large breed, and the owner sample is the widest on this page. The PetKit PuraMax 2 at $369.99 is worth it if the Litter-Robot is out of budget and you want a low 7.87-inch entry for older cats. Below $360, the reliability math gets harder to justify.",
+        "The Litter-Robot 4 Supply Bundle at $749 is worth it for multi-cat households because it has the broadest ownership track record at the premium tier and anchors the reliability slot in most 2026 editorial testing roundups [1][2][3]. The Neakasa M1 Plus at $399.99 is worth it if your cat refuses enclosed globes or if you own a large breed, and the owner sample is the widest on this page. The PetKit PuraMax 2 at $369.99 is worth it if the Litter-Robot is out of budget and you want a low 7.87-inch entry for older cats. Below $360, the reliability math gets harder to justify.",
     },
     {
       question: "Is the Litter-Robot 4 worth $749 compared to cheaper automatic boxes?",
@@ -405,4 +408,41 @@ For most households, the honest recommendation is to stretch to the PuraMax 2 at
 
   breadcrumbLabel: "Best Automatic Litter Box",
   lastUpdatedNote: "Prices and specs verified April 22, 2026.",
+
+  sourcesFooter: {
+    title: "Sources + methodology",
+    body: "Tier-1 editorial testing panels and manufacturer documentation consulted during 2026-04-22 research pass. Ownership-pattern signals sourced from r/litterrobot, r/cats, and r/CatAdvice threads and from Chewy verified-purchase review aggregates. Community sources inform the cons sections but are not cited as authority.",
+    sources: [
+      {
+        id: 1,
+        label: "Cats.com: \"The 7 Best Automatic Litter Boxes of 2026 (Tested 33 Models),\" Kate Barrington, updated March 13, 2026",
+        url: "https://cats.com/reviews/best-self-cleaning-litter-box",
+      },
+      {
+        id: 2,
+        label: "Catster: \"7 Best Automatic Litter Boxes for Self-Cleaning in 2026,\" Jeff Weishaupt, updated March 10, 2026",
+        url: "https://www.catster.com/lifestyle/best-automatic-cat-litter-box/",
+      },
+      {
+        id: 3,
+        label: "CNN (reviews vertical): \"The best self-cleaning litter boxes in 2026: Tested and reviewed,\" Michelle Rae Uy, updated January 1, 2026",
+        url: "https://www.cnn.com/cnn-underscored/reviews/best-self-cleaning-litter-boxes",
+      },
+      {
+        id: 4,
+        label: "Casa Leo: Leo's Loo Too Wi-Fi Self-Cleaning Cat Litter Box (manufacturer product page + spec sheet)",
+        url: "https://casaleopet.com/products/leo-s-loo-too",
+      },
+      {
+        id: 5,
+        label: "NBC News Select: Casa Leo Leo's Loo Too hands-on review (Alexa + Google Home integration)",
+        url: "https://www.nbcnews.com/select/shopping/automatic-litter-box-leo-too-review-rcna189883",
+      },
+      {
+        id: 6,
+        label: "Whisker: Litter-Robot 4 product page (manufacturer spec sheet + warranty terms)",
+        url: "https://www.whisker.com/litter-robot",
+      },
+    ],
+  },
 };
