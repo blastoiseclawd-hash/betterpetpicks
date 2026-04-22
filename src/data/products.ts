@@ -113,6 +113,14 @@ export const categorySpecs: Record<string, string[]> = {
     "Waterproof",
     "Washable",
   ],
+  "cat-litter-boxes": [
+    "Waste Capacity",
+    "Cat Weight Range",
+    "Dimensions",
+    "Connectivity",
+    "Litter Type",
+    "Best Fit",
+  ],
 };
 
 export function buildAmazonLink(asin: string, tag = "betterpetpicks-20"): string {
@@ -133,6 +141,43 @@ export function preferredAffiliateLink(product: Product): AffiliateLink | undefi
   return candidates.reduce((best, link) =>
     link.priority < best.priority ? link : best
   );
+}
+
+export function getAffiliateLinksByPriority(product: Product): AffiliateLink[] {
+  return [...product.affiliateLinks]
+    .filter((link) => Boolean(link.url))
+    .sort((left, right) => left.priority - right.priority);
+}
+
+export function getProductOfferLink(
+  product: Product,
+  tag = "betterpetpicks-20",
+): AffiliateLink | null {
+  const preferred = preferredAffiliateLink(product);
+  if (preferred) {
+    return preferred;
+  }
+
+  if (product.asin) {
+    return {
+      retailer: "Amazon",
+      url: buildAmazonLink(product.asin, tag),
+      tag,
+      priority: 999,
+    };
+  }
+
+  return null;
+}
+
+export function getCommerceLinkRel(link: AffiliateLink | null | undefined): string {
+  if (!link?.url) {
+    return "noopener noreferrer";
+  }
+
+  return link.tag
+    ? "noopener noreferrer nofollow sponsored"
+    : "noopener noreferrer nofollow";
 }
 
 export const products: Product[] = [
@@ -4234,5 +4279,288 @@ export const products: Product[] = [
     updateNotes: "Initial product data for indestructible dog bed roundup.",
     status: "active",
   },
+  {
+    id: "litter-robot-4-supply-bundle",
+    slug: "litter-robot-4-supply-bundle",
+    asin: "B0FFF2Y8R9",
+    name: "Litter-Robot 4 Supply Bundle by Whisker",
+    brand: "Whisker",
+    model: "Litter-Robot 4",
+    category: "cat-litter-boxes",
+    subcategory: "rotating-globe-premium",
+    bestFor: ["Best overall", "Reliability benchmark", "Multi-cat homes"],
+    price: 749.0,
+    priceCurrency: "USD",
+    priceLastChecked: "2026-04-22",
+    priceSource: "amazon",
+    rating: 4.6,
+    reviewCount: 869,
+    ratingLastChecked: "2026-04-22",
+    images: [
+      {
+        url: "https://m.media-amazon.com/images/I/71EdQJ5H1VL._AC_SL1500_.jpg",
+        alt: "Litter-Robot 4 Supply Bundle in white, automatic self-cleaning rotating-globe cat litter box with WiFi app control",
+      },
+    ],
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71EdQJ5H1VL._AC_SL1500_.jpg",
+    specs: {
+      "Waste Capacity": "Extra-large sifting drawer (compatible with any clumping litter)",
+      "Cat Weight Range": "3+ lbs, multi-cat household support",
+      Dimensions: "22 x 22 x 29.5 in",
+      Connectivity: "WiFi (2.4GHz) + Whisker app iOS/Android",
+      "Litter Type": "Any clumping litter",
+      "Best Fit": "Multi-cat households, 3-4 cats, reliability-first buyers",
+    },
+    pros: [
+      "869 Amazon ratings at 4.6 stars indicates the real-world reliability that the price demands",
+      "Works with any clumping litter — no proprietary crystal lock-in like the ScoopFree line",
+      "Whisker app tracks per-cat weight and bathroom habits, which doubles as an early-warning signal if a cat's habits change",
+      "Bundle includes 3 OdorTrap refills, 10 liners, 30 cleaner wipes, and 2 carbon filters — the first ownership year comes with the supplies",
+    ],
+    cons: [
+      "$749 is the highest entry price in this guide — the payoff only lands if the automation genuinely removes scooping from your week",
+      "Cats that dislike enclosed globes may refuse it; return window matters more than usual here",
+    ],
+    verdict:
+      "The reliability benchmark for a reason. The 869-rating 4.6-star average is the most important data point on this page — at this price, the question is whether it still works in month six, and the owner base says yes often enough to justify the spend for multi-cat households.",
+    authorSlug: "upgrade-automation-desk",
+    affiliateLinks: [
+      {
+        retailer: "Amazon",
+        url: buildAmazonLink("B0FFF2Y8R9"),
+        tag: "betterpetpicks-20",
+        priority: 1,
+      },
+    ],
+    lastUpdated: "2026-04-22",
+    updateNotes: "Initial product data for best-automatic-litter-box roundup.",
+    status: "active",
+  },
+  {
+    id: "petkit-puramax-2",
+    slug: "petkit-puramax-2",
+    asin: "B0F1YMM29X",
+    name: "PETKIT PuraMax 2 Automatic Cat Litter Box",
+    brand: "PetKit",
+    model: "PuraMax 2 (2025 Upgrade)",
+    category: "cat-litter-boxes",
+    subcategory: "rotating-drum-mid-premium",
+    bestFor: ["Value-premium alternative", "Apartment multi-cat", "Low-entry design"],
+    price: 369.99,
+    priceCurrency: "USD",
+    priceLastChecked: "2026-04-22",
+    priceSource: "amazon",
+    rating: 4.0,
+    reviewCount: 375,
+    ratingLastChecked: "2026-04-22",
+    images: [
+      {
+        url: "https://m.media-amazon.com/images/I/71bs-mY4SSL._AC_SL1500_.jpg",
+        alt: "PETKIT PuraMax 2 automatic cat litter box with app control and 2-way odor remover, 4th-generation model",
+      },
+    ],
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71bs-mY4SSL._AC_SL1500_.jpg",
+    specs: {
+      "Waste Capacity": "15 days (one cat) before the waste bin needs emptying",
+      "Cat Weight Range": "3.3+ lbs, 6+ months old",
+      Dimensions: "7.87 inch low entry barrier (senior-cat friendly)",
+      Connectivity: "WiFi (2.4GHz) + PetKit app",
+      "Litter Type": "Compatible with standard clumping litter",
+      "Best Fit": "Apartment multi-cat households, older or short-legged cats",
+    },
+    pros: [
+      "At $370 it costs roughly half what the Litter-Robot 4 costs — the value-premium alternative for buyers who refuse the $749 tier",
+      "7.87-inch low entry barrier is meaningfully more accessible than the rotating-globe designs for senior cats or short-legged breeds",
+      "7 infrared + 4 weight sensors per the manufacturer's own spec page — redundant detection is exactly the safety design skeptical buyers want",
+      "Bundle ships with smart spray, 2 refills, odor dispeller, 20 trash bags, litter mat, sifter, litter remover, and power adapter",
+    ],
+    cons: [
+      "4.0-star average vs 4.6 on the Litter-Robot reflects a real reliability gap — expect to interact with customer service at some point in ownership",
+      "Proprietary waste bag geometry raises the consumable cost vs using any trash bag",
+    ],
+    verdict:
+      "The value-premium pick if the Litter-Robot 4 is out of budget and a rotating globe is the wrong shape for your household. Skeptical note: the 4.0-star rating is the honest gap between this and the Litter-Robot — the lower price buys a real reliability compromise, not a free lunch.",
+    authorSlug: "upgrade-automation-desk",
+    affiliateLinks: [
+      {
+        retailer: "Amazon",
+        url: buildAmazonLink("B0F1YMM29X"),
+        tag: "betterpetpicks-20",
+        priority: 1,
+      },
+    ],
+    lastUpdated: "2026-04-22",
+    updateNotes: "Initial product data for best-automatic-litter-box roundup.",
+    status: "active",
+  },
+  {
+    id: "casa-leo-leos-loo-too",
+    slug: "casa-leo-leos-loo-too",
+    asin: "B09LL9S99B",
+    name: "Casa Leo Leo's Loo Too Self-Cleaning Cat Litter Box",
+    brand: "Casa Leo",
+    model: "Leo's Loo Too (Wi-Fi)",
+    category: "cat-litter-boxes",
+    subcategory: "rotating-globe-smart-home",
+    bestFor: ["Smart-home integration", "UV odor control", "Quiet operation"],
+    price: 599.0,
+    priceCurrency: "USD",
+    priceLastChecked: "2026-04-22",
+    priceSource: "amazon",
+    rating: 4.0,
+    reviewCount: 245,
+    ratingLastChecked: "2026-04-22",
+    images: [
+      {
+        url: "https://m.media-amazon.com/images/I/61nR6ZTs6jL._AC_SL1500_.jpg",
+        alt: "Casa Leo Leo's Loo Too Wi-Fi enabled self-cleaning cat litter box with UV odor defense and health monitoring",
+      },
+    ],
+    thumbnailUrl: "https://m.media-amazon.com/images/I/61nR6ZTs6jL._AC_SL1500_.jpg",
+    specs: {
+      "Waste Capacity": "Large integrated waste drawer with UV odor treatment",
+      "Cat Weight Range": "Supports adult cats, multi-cat capable",
+      Dimensions: "24 x 22 x 27.6 in",
+      Connectivity: "Wi-Fi + Alexa + Google Home via Casa Leo app",
+      "Litter Type": "Compatible with clumping litter",
+      "Best Fit": "Smart-home households, noise-sensitive apartments",
+    },
+    pros: [
+      "Published <30 dB noise spec per Casa Leo's product page is the quietest claim in this guide — matters in studio apartments or bedrooms with a nervous cat",
+      "UV odor defense is a genuinely different approach than carbon filters — worth paying for in smell-sensitive households",
+      "Alexa + Google Home integration means the litter-box activity signal feeds the same automation layer as the rest of the smart home",
+      "Anti-pinch safety sensors and health monitoring address two of the most-cited failure modes in rotating-globe designs",
+    ],
+    cons: [
+      "At $599 it prices between the PuraMax 2 and the Litter-Robot 4 without clearly beating either on reliability",
+      "245 ratings is a thinner ownership base than Litter-Robot 4's 869 or Neakasa M1 Plus's 3,315 — the sample size is smaller",
+    ],
+    verdict:
+      "The smart-home pick if Alexa or Google Home is load-bearing in your household and the UV odor treatment is the differentiator you want. If neither matters, the Litter-Robot 4 at $150 more offers more proven reliability and the PuraMax 2 at $230 less offers comparable core function.",
+    authorSlug: "upgrade-automation-desk",
+    affiliateLinks: [
+      {
+        retailer: "Amazon",
+        url: buildAmazonLink("B09LL9S99B"),
+        tag: "betterpetpicks-20",
+        priority: 1,
+      },
+    ],
+    lastUpdated: "2026-04-22",
+    updateNotes: "Initial product data for best-automatic-litter-box roundup.",
+    status: "active",
+  },
+  {
+    id: "neakasa-m1-plus-open-top",
+    slug: "neakasa-m1-plus-open-top",
+    asin: "B0CSKBWBF6",
+    name: "Neakasa M1 Plus Open-Top Self-Cleaning Cat Litter Box",
+    brand: "Neakasa",
+    model: "M1 Plus (2026 upgrade)",
+    category: "cat-litter-boxes",
+    subcategory: "open-top-rotating-drum",
+    bestFor: ["Open-top for nervous cats", "Large cats", "High review volume"],
+    price: 399.99,
+    priceCurrency: "USD",
+    priceLastChecked: "2026-04-22",
+    priceSource: "amazon",
+    rating: 3.9,
+    reviewCount: 3315,
+    ratingLastChecked: "2026-04-22",
+    images: [
+      {
+        url: "https://m.media-amazon.com/images/I/71zX8DQYIbL._AC_SL1500_.jpg",
+        alt: "Neakasa M1 Plus open-top self-cleaning cat litter box with 360-degree safety sensors for multi-cat homes",
+      },
+    ],
+    thumbnailUrl: "https://m.media-amazon.com/images/I/71zX8DQYIbL._AC_SL1500_.jpg",
+    specs: {
+      "Waste Capacity": "11.2L waste bin + 7.2L litter capacity, 7-14 days before emptying",
+      "Cat Weight Range": "3.3-33 lbs, up to 3 cats (Kitten Mode for <3.3 lbs)",
+      Dimensions: "Open-top design (no enclosed globe)",
+      Connectivity: "Wi-Fi (2.4GHz only) + Neakasa app",
+      "Litter Type": "Compatible with standard clumping litter",
+      "Best Fit": "Cats that refuse enclosed globes, large breeds, multi-cat",
+    },
+    pros: [
+      "3,315 Amazon ratings is more than the Litter-Robot 4, PuraMax 2, Leo's Loo Too, and ScoopFree SmartSpin combined — the largest ownership sample in this guide",
+      "Open-top form factor is the single highest de-risking feature if your cat rejected a rotating globe previously",
+      "33-pound upper weight spec accommodates Maine Coons and large breeds that physically don't fit the rotating-globe chambers",
+      "7-14 day 11.2L waste bin spec is the longest hands-free window in this guide per Neakasa's product page",
+    ],
+    cons: [
+      "3.9-star average is the lowest in this guide — the high review volume reveals real reliability variance skeptical buyers should expect",
+      "Open-top design sacrifices odor containment vs the enclosed-globe picks — filter and bin-change cadence matters more here",
+    ],
+    verdict:
+      "The correct first choice if your cat already refused a rotating globe or you own a large breed the globes can't accommodate. The 3,315-review sample is the most honest reliability read in this category — worth trading some star rating for that data volume.",
+    authorSlug: "upgrade-automation-desk",
+    affiliateLinks: [
+      {
+        retailer: "Amazon",
+        url: buildAmazonLink("B0CSKBWBF6"),
+        tag: "betterpetpicks-20",
+        priority: 1,
+      },
+    ],
+    lastUpdated: "2026-04-22",
+    updateNotes: "Initial product data for best-automatic-litter-box roundup.",
+    status: "active",
+  },
+  {
+    id: "petsafe-scoopfree-smartspin",
+    slug: "petsafe-scoopfree-smartspin",
+    asin: "B0D4GHS7V6",
+    name: "PetSafe ScoopFree SmartSpin Self-Cleaning Cat Litter Box",
+    brand: "PetSafe",
+    model: "ScoopFree SmartSpin",
+    category: "cat-litter-boxes",
+    subcategory: "budget-smart-automatic",
+    bestFor: ["Budget-smart entry", "Sealed waste drawer", "App-controlled"],
+    price: 359.99,
+    priceCurrency: "USD",
+    priceLastChecked: "2026-04-22",
+    priceSource: "amazon",
+    rating: 3.7,
+    reviewCount: 539,
+    ratingLastChecked: "2026-04-22",
+    images: [
+      {
+        url: "https://m.media-amazon.com/images/I/718NPUECJ8L._AC_SL1500_.jpg",
+        alt: "PetSafe ScoopFree SmartSpin self-cleaning cat litter box with app control and sealed odor drawer",
+      },
+    ],
+    thumbnailUrl: "https://m.media-amazon.com/images/I/718NPUECJ8L._AC_SL1500_.jpg",
+    specs: {
+      "Waste Capacity": "Sealed odor drawer with health-monitoring counter",
+      "Cat Weight Range": "Single-cat or light multi-cat",
+      Dimensions: "Compact rotating-drum footprint",
+      Connectivity: "WiFi + PetSafe app with usage alerts",
+      "Litter Type": "Standard clumping litter compatible",
+      "Best Fit": "Budget-first smart buyers, single-cat households",
+    },
+    pros: [
+      "$359.99 puts it at the lowest price tier in this guide among WiFi-enabled smart designs",
+      "25-year PetSafe brand history is a longer customer-service backstop than most of the newer entrants on this page",
+      "Sealed waste drawer + anti-odor design addresses the core complaint about cheaper non-sealed automatics",
+    ],
+    cons: [
+      "3.7-star average across 539 ratings is the lowest rating in this guide — the budget tier shows up in the reliability numbers",
+      "App integration is narrower than Whisker's or Casa Leo's smart-home coverage",
+    ],
+    verdict:
+      "The entry-tier pick if $359 is the ceiling and a smart app + sealed drawer are the minimum features you want. Skeptical note: the 3.7-star rating is the honest cost of the lower price — for $40 more, the PuraMax 2 at 4.0 stars or the Neakasa M1 Plus at 3.9 with 3,315 ratings both offer more proven track records.",
+    authorSlug: "upgrade-automation-desk",
+    affiliateLinks: [
+      {
+        retailer: "Amazon",
+        url: buildAmazonLink("B0D4GHS7V6"),
+        tag: "betterpetpicks-20",
+        priority: 1,
+      },
+    ],
+    lastUpdated: "2026-04-22",
+    updateNotes: "Initial product data for best-automatic-litter-box roundup.",
+    status: "active",
+  },
 ];
-
