@@ -1,16 +1,16 @@
 # BetterPetPicks 180-Day Launch Queue
 
-*Generated 2026-04-22 directly from data/guide-opportunities.json. The queue is a pure consumer of the ordered roadmap; it does not re-rank pages.*
+*Generated 2026-04-24 directly from data/guide-opportunities.json. The queue is a pure consumer of the ordered roadmap; it does not re-rank pages.*
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Queued pages | 180 |
-| Money guides | 54 |
-| Support guides | 94 |
-| Comparisons | 19 |
-| Linkable assets | 13 |
+| Queued pages | 148 |
+| Money guides | 130 |
+| Support guides | 17 |
+| Comparisons | 1 |
+| Linkable assets | 0 |
 
 ## Ordered Queue
 
@@ -19,181 +19,149 @@
 | 1 | Foundation | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-good | is world's best cat litter good | 100 | 1 | 6200 | 70.3 |
 | 2 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-to-clean-litter-box | best way to clean cat litter box | 450 | 2 | 1300 | 62.8 |
 | 3 | Foundation | comparison | cat-litter | multi-cat-home-desk | best-cat-litter-vs-dr-elsey | best cat litter vs dr elsey | 400 | 6 | 400 | 57.6 |
-| 4 | Foundation | money-guide | cat-litter | multi-cat-home-desk | low-tracking-cat-litter | best cat litter for tracking | 2800 | 0 | 5100 | 78.3 |
-| 5 | Foundation | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-is-best | what cat litter is best | 150 | 15 | 10000 | 60.6 |
-| 6 | Foundation | support-guide | cat-gear | cat-care-essentials-desk | how-big-should-a-cat-carrier-be | how big should a cat carrier be | 100 | 1 | 100 | 57.6 |
-| 7 | Foundation | money-guide | ordered-backlog | upgrade-and-automation | best-automatic-litter-box | best automatic litter box | 10000 | 18 | 20000 | 76.3 |
-| 8 | Foundation | support-guide | cat-litter | multi-cat-home-desk | what-is-world-s-best-cat-litter-made-of | what is world's best cat litter made of | 100 | 2 | 500 | 56.8 |
-| 9 | Foundation | linkable-asset | cat-litter | multi-cat-home-desk | types-of-cat-litter-explained | different types of cat litter explained | 500 | 10 | 500 | 40 |
-| 10 | Foundation | money-guide | cat-litter | multi-cat-home-desk | best-litter-box | best rated automatic cat litter box | 7400 | 11 | 12000 | 75.3 |
-| 11 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-much-cat-litter-should-be-in-a-litter-box | how much cat litter should be in a litter box | 60 | 0 | 1000 | 56.1 |
-| 12 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-much-cat-litter-should-i-use | how much cat litter should i use | 30 | 0 | 400 | 55.5 |
-| 13 | Foundation | comparison | cat-litter | multi-cat-home-desk | best-cat-litter-vs-arm-and-hammer | best cat litter vs arm and hammer | 500 | 10 | 500 | 54.9 |
-| 14 | Foundation | money-guide | ordered-backlog | cat-care-essentials | best-cat-litter-box | best cat litter box | 7400 | 11 | 19000 | 75 |
-| 15 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-to-stop-cat-litter-from-smelling | how to stop cat litter from smelling | 30 | 0 | 400 | 55.5 |
-| 16 | Foundation | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-flushable | is world's best cat litter flushable | 150 | 1 | 250 | 54.9 |
-| 17 | Foundation | money-guide | ordered-backlog | dog-comfort | cooling-dog-bed | best cooling dog bed for large dogs | 3400 | 1 | 6000 | 74.1 |
-| 18 | Foundation | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-best-vacuum-for-pet-hair | what best vacuum for pet hair | 0 | 0 | 0 | 54.3 |
-| 19 | Foundation | linkable-asset | dog-beds-and-comfort | dog-comfort-desk | dog-bed-size-chart-by-breed | dog bed size chart by breed | 500 | 10 | 500 | 39.3 |
-| 20 | Foundation | money-guide | cat-litter | multi-cat-home-desk | cat-litter-furniture | best cat litter furniture | 1400 | 4 | 5100 | 72.3 |
-| 21 | Foundation | support-guide | cat-gear | cat-care-essentials-desk | what-the-best-cat-scratching-post | what the best cat scratching post | 0 | 0 | 0 | 54.3 |
-| 22 | Foundation | support-guide | cat-litter | multi-cat-home-desk | can-you-flush-world-s-best-cat-litter | can you flush world's best cat litter | 70 | 0 | 200 | 54.1 |
-| 23 | Foundation | comparison | cat-litter | multi-cat-home-desk | best-cat-litter-vs-swheat-scoop | best cat litter vs swheat scoop | 0 | 0 | 0 | 53.4 |
-| 24 | Foundation | money-guide | ordered-backlog | cat-care-essentials | best-clumping-cat-litter | best clumping cat litter | 3900 | 1 | 3200 | 71.3 |
-| 25 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-much-does-cat-litter-cost | how much does cat litter cost | 200 | 3 | 7500 | 54.1 |
-| 26 | Foundation | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-safe-for-kittens | is world's best cat litter safe for kittens | 30 | 0 | 30 | 53.1 |
-| 27 | Foundation | money-guide | cat-gear | cat-care-essentials-desk | mau-cat-tree | best looking cat tree | 6100 | 3 | 12000 | 70.5 |
-| 28 | Foundation | support-guide | cat-gear | cat-care-essentials-desk | what-to-look-for-in-a-cat-tree | what to look for in a cat tree | 50 | 0 | 50 | 51.5 |
-| 29 | Foundation | linkable-asset | cat-water-fountains | upgrade-automation-desk | how-do-cat-water-fountains-work | how do cat water fountains work | 500 | 10 | 500 | 39.3 |
-| 30 | Foundation | money-guide | ordered-backlog | upgrade-and-automation | best-litter-for-litter-robot | best cat litter for litter robot | 3600 | 2 | 2900 | 70.3 |
-| 31 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials-desk | how-to-get-rid-of-cat-pee-smell-on-couch | cat pee smell on couch | 200 | 0 | 1100 | 50.7 |
-| 32 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials-desk | how-to-get-rid-of-cat-pee-smell-outside | cat pee smell outside | 150 | 0 | 1300 | 50.7 |
-| 33 | Confidence Expansion | comparison | dog-beds-and-comfort | dog-comfort-desk | memory-foam-vs-orthopedic-dog-bed | memory foam vs orthopedic dog bed | 500 | 10 | 500 | 42.8 |
-| 34 | Confidence Expansion | money-guide | backlog-40-additional-opportunities | upgrade-automation-desk | best-automatic-cat-feeder | best automatic cat feeder | 3700 | 12 | 3500 | 70 |
-| 35 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials | how-to-calm-cat-in-carrier | how to calm cat in carrier | 300 | 3 | 2000 | 49.2 |
-| 36 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials | how-to-clean-cat-water-fountain | how to clean cat water fountain | 300 | 2 | 1500 | 49.2 |
-| 37 | Confidence Expansion | money-guide | dog-beds-and-comfort | dog-comfort-desk | best-dog-bed-for-large-dogs | best dog bed for large dogs? | 500 | 22 | 13000 | 70 |
-| 38 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials | how-to-get-rid-of-cat-smell-in-house | how to get rid of cat smell in house | 800 | 3 | 1100 | 49.2 |
-| 39 | Confidence Expansion | linkable-asset | cat-water-fountains | upgrade-automation-desk | how-do-pumpless-cat-water-fountains-work | how do pumpless cat water fountains work | 180 | 10 | 180 | 36.3 |
-| 40 | Confidence Expansion | money-guide | ordered-backlog | cat-care-essentials | best-cat-scratching-post | best cat scratching post | 1700 | 15 | 1800 | 69.7 |
-| 41 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials | how-to-train-cat-to-walk-on-leash | how to leash train a cat | 500 | 3 | 3000 | 49.2 |
-| 42 | Confidence Expansion | support-guide | ordered-backlog | cat-care-essentials | how-to-put-harness-on-cat | how to put a harness on a cat | 500 | 2 | 2500 | 49.2 |
-| 43 | Confidence Expansion | comparison | cat-water-fountains | upgrade-automation-desk | ceramic-vs-stainless-steel-cat-water-fountain | ceramic vs stainless steel cat water fountain | 500 | 10 | 500 | 42 |
-| 44 | Confidence Expansion | money-guide | ordered-backlog | dog-comfort | best-dog-car-seat-cover | best dog car seat cover | 450 | 3 | 3200 | 69.5 |
-| 45 | Confidence Expansion | support-guide | dog-beds-and-comfort | dog-comfort-desk | is-an-elevated-dog-bed-better | is an elevated dog bed better | 300 | 10 | 300 | 43.9 |
-| 46 | Confidence Expansion | support-guide | dog-beds-and-comfort | dog-comfort-desk | how-to-make-a-chew-proof-dog-bed | how to make a chew proof dog bed | 0 | 0 | 0 | 43 |
-| 47 | Confidence Expansion | money-guide | cat-gear | cat-care-essentials-desk | floor-to-ceiling-cat-tree | best floor to ceiling cat tree | 2600 | 0 | 1500 | 69.1 |
-| 48 | Confidence Expansion | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-is-best-vacuum-cleaner-for-pet-hair | what is best vacuum cleaner for pet hair | 0 | 0 | 0 | 42.6 |
-| 49 | Confidence Expansion | linkable-asset | cat-water-fountains | upgrade-automation-desk | how-do-wireless-cat-water-fountains-work | how do wireless cat water fountains work | 180 | 10 | 180 | 36.3 |
-| 50 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | low-dust-cat-litter | best cat litter for dust control | 3800 | 0 | 3900 | 71.3 |
-| 51 | Confidence Expansion | support-guide | top-build-queue-first-40-pages | multi-cat-home-desk | how-to-keep-cat-litter-from-smelling | how to keep cat litter from smelling | 150 | 2 | 1000 | 59.6 |
-| 52 | Confidence Expansion | support-guide | cat-litter | multi-cat-home-desk | what-is-best-for-cat-litter | what is best for cat litter | 0 | 0 | 0 | 51.5 |
-| 53 | Confidence Expansion | comparison | cat-litter | multi-cat-home-desk | world-best-cat-litter-vs-fresh-step | world best cat litter vs fresh step | 0 | 0 | 0 | 53.4 |
-| 54 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | litter-robot | best self cleaning cat litter | 266000 | 9 | 280000 | 70.8 |
-| 55 | Confidence Expansion | support-guide | cat-litter | multi-cat-home-desk | can-you-use-cat-litter-deodorizer-on-carpet | can you use cat litter deodorizer on carpet | 40 | 0 | 30 | 51.4 |
-| 56 | Confidence Expansion | support-guide | cat-litter | multi-cat-home-desk | is-cat-litter-deodorizer-safe | is cat litter deodorizer safe | 50 | 0 | 40 | 51.4 |
-| 57 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-odor | best cat litter to control odor | 4100 | 2 | 4600 | 70.5 |
-| 58 | Confidence Expansion | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-safe | is world's best cat litter safe | 40 | 0 | 40 | 51 |
-| 59 | Confidence Expansion | linkable-asset | cat-litter | multi-cat-home-desk | how-does-cat-litter-works | how does cat litter works | 300 | 14 | 300 | 39.3 |
-| 60 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | crystal-cat-litter | best silica cat litter | 5600 | 2 | 2600 | 69.8 |
-| 61 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-multi-cat-litter-better | is multi cat litter better | 0 | 0 | 0 | 50.1 |
-| 62 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-clumping-or-non-clumping-cat-litter-best | is clumping or non clumping cat litter best | 300 | 10 | 300 | 44 |
-| 63 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | best-cat-litter-vs-sustainably-yours | best cat litter vs sustainably yours | 30 | 0 | 30 | 49.3 |
-| 64 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | outdoor-cat-tree | best outdoor cat tree | 3600 | 0 | 3000 | 69 |
-| 65 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-bentonite-cat-litter-good | is bentonite cat litter good | 500 | 14 | 500 | 43.9 |
-| 66 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-bentonite-cat-litter-safe | is bentonite cat litter safe | 300 | 14 | 300 | 43.9 |
-| 67 | Cluster Depth | money-guide | backlog-40-additional-opportunities | cat-care-essentials-desk | best-pet-odor-eliminator | best pet odor eliminator | 1000 | 5 | 1100 | 68.8 |
-| 68 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-clay-cat-litter-better | is clay cat litter better | 300 | 14 | 300 | 43.9 |
-| 69 | Cluster Depth | linkable-asset | cat-litter | multi-cat-home-desk | how-cat-litter-works | how cat litter works | 500 | 20 | 500 | 36.6 |
-| 70 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials-desk | best-shark-vacuum-for-pet-hair | best shark vacuum for pet hair | 200 | 13 | 33000 | 68.7 |
-| 71 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-dr-elsey-s-cat-litter-safe | is dr elsey's cat litter safe | 300 | 10 | 300 | 43.9 |
-| 72 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-works-best | what cat litter works best | 500 | 14 | 500 | 43.6 |
-| 73 | Cluster Depth | comparison | cat-litter | cat-care-essentials-desk | cat-litter-deodorizer-vs-baking-soda | cat litter deodorizer vs baking soda | 10 | 0 | 2200 | 49.2 |
-| 74 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-works-best-for-odor | what cat litter works best for odor | 300 | 10 | 300 | 43.6 |
-| 75 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-works-best-for-smell | what cat litter works best for smell | 300 | 10 | 300 | 43.6 |
-| 76 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter-pellets | best cat litter pellets | 3700 | 3 | 2200 | 68 |
-| 77 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | are-automatic-self-cleaning-litter-boxes-worth-it | are automatic.self cleaning litter boxes worth it | 300 | 10 | 300 | 43.5 |
-| 78 | Cluster Depth | linkable-asset | cat-litter | multi-cat-home-desk | how-automatic-cat-litter-box-works | how automatic cat litter box works | 80 | 10 | 80 | 36.3 |
-| 79 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | cat-trees | best modern cat tree | 1600 | 9 | 8400 | 67.3 |
-| 80 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | why-does-cat-litter-work | why does cat litter work | 300 | 14 | 300 | 43.5 |
-| 81 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | why-is-cat-litter-called-litter | why is cat litter called litter | 300 | 10 | 300 | 43.5 |
-| 82 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | automatic-vs-self-cleaning-litter-box | automatic vs self cleaning litter box | 500 | 10 | 500 | 44.1 |
-| 83 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | dust-free-cat-litter | dust free cat litter | 2700 | 0 | 3900 | 67.3 |
-| 84 | Cluster Depth | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-vacuum-cleaner-is-the-best-for-pet-hair | what vacuum cleaner is the best for pet hair | 0 | 0 | 0 | 42.6 |
-| 85 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-it-best-cat-litter-for-litter-robot | is it best cat litter for litter robot | 0 | 0 | 0 | 42.5 |
-| 86 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-on-carpet | best vacuum for pet hair and carpet | 2100 | 1 | 1700 | 67.2 |
-| 87 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-good-for-litter-robot | is world's best cat litter good for litter robot | 0 | 0 | 0 | 42.5 |
-| 88 | Cluster Depth | linkable-asset | cat-litter | multi-cat-home-desk | how-cat-litter-box-work | how cat litter box work | 180 | 14 | 180 | 36.3 |
-| 89 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-robot-vacuum-for-pet-hair | best self vacuum for pet hair | 90 | 13 | 16000 | 67 |
-| 90 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | should-you-cover-a-cat-carrier | should you cover a cat carrier | 0 | 0 | 0 | 42 |
-| 91 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | what-kind-of-scratching-post-is-best | what kind of scratching post is best | 0 | 0 | 0 | 42 |
-| 92 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | clumping-vs-non-clumping-cat-litter | clumping vs non-clumping cat litter | 500 | 14 | 500 | 43.5 |
-| 93 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter-reviews | best cat litter in the world | 450 | 10 | 7400 | 66.8 |
-| 94 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | can-you-really-flush-world-s-best-cat-litter | can you really flush world's best cat litter | 0 | 0 | 0 | 41.9 |
-| 95 | Cluster Depth | support-guide | pet-hair-cleanup | pet-cleanup-desk | is-it-best-handheld-vacuum-for-pet-hair | is it best handheld vacuum for pet hair? | 0 | 0 | 0 | 41.9 |
-| 96 | Cluster Depth | money-guide | dog-beds-and-comfort | dog-comfort-desk | indestructible-dog-bed | best dog bed chew proof | 8000 | 1 | 11000 | 66.6 |
-| 97 | Cluster Depth | support-guide | pet-hair-cleanup | pet-cleanup-desk | is-it-best-robot-vacuum-for-pet-hair | is it best robot vacuum for pet hair | 0 | 0 | 0 | 41.9 |
-| 98 | Cluster Depth | linkable-asset | cat-water-fountains | upgrade-automation-desk | how-does-a-pumpless-cat-water-fountain-work | how does a pumpless cat water fountain work | 80 | 10 | 80 | 36.3 |
-| 99 | Cluster Depth | money-guide | ordered-backlog | multi-cat-home | best-cat-litter-box-for-odor-control | best cat litter box for odor control | 1200 | 5 | 1900 | 66.3 |
-| 100 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | is-it-best-to-cover-cat-carrier-for-car-travel | is it best to cover cat carrier for car travel | 0 | 0 | 0 | 41.9 |
-| 101 | Cluster Depth | support-guide | pet-hair-cleanup | pet-cleanup-desk | is-it-best-vacuum-for-cleaning-up-pet-hair | is it best vacuum for cleaning up pet hair | 0 | 0 | 0 | 41.9 |
-| 102 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | scoopable-vs-non-scoopable-cat-litter | what's best clumping or non clumping cat litter | 400 | 10 | 400 | 43.5 |
-| 103 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | self-cleaning-litter-box | best self-cleaning cat litter box | 49000 | 18 | 202000 | 66.2 |
-| 104 | Cluster Depth | support-guide | pet-hair-cleanup | pet-cleanup-desk | is-it-best-vacuum-for-pet-hair | is it best vacuum for pet hair | 0 | 0 | 0 | 41.9 |
-| 105 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | is-it-cheaper-to-build-a-cat-tree | is it cheaper to build a cat tree | 0 | 0 | 0 | 41.9 |
-| 106 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | flushable-cat-litter | flushable cat litter | 2700 | 0 | 1200 | 66 |
-| 107 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-it-what-s-the-best-cat-litter-for-odor-control | is it what's the best cat litter for odor control | 0 | 0 | 0 | 41.9 |
-| 108 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter-deodorizer | best deodorizer for cat litter room | 1700 | 1 | 700 | 65.8 |
-| 109 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-being-discontinued | is world's best cat litter being discontinued | 0 | 0 | 0 | 41.9 |
-| 110 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | is-world-s-best-cat-litter-safe-for-cats | is world's best cat litter safe for cats | 0 | 0 | 0 | 41.9 |
-| 111 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | dr-elsey-s-vs-world-s-best-cat-litter | dr elsey's vs world's best cat litter | 500 | 10 | 500 | 42.8 |
-| 112 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | do-cats-need-cat-tree | do cats need cat tree | 0 | 0 | 0 | 41.5 |
-| 113 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | do-older-cats-like-cat-trees | do older cats like cat trees | 0 | 0 | 0 | 41.5 |
-| 114 | Cluster Depth | support-guide | cat-gear | cat-care-essentials-desk | how-cat-trees-are-made | how cat trees are made | 0 | 0 | 0 | 41.5 |
-| 115 | Cluster Depth | linkable-asset | cat-litter | multi-cat-home-desk | how-does-cat-litter-work-on-ice | how does cat litter work on ice | 110 | 10 | 110 | 36.3 |
-| 116 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-litter-box-for-cats | best odor control cat litter box | 200 | 15 | 13000 | 64.5 |
-| 117 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | how-do-i-stop-cat-litter-smelling | how do i stop cat litter smelling | 0 | 0 | 0 | 41.5 |
-| 118 | Cluster Depth | support-guide | cat-litter | multi-cat-home-desk | how-many-cat-litter-boxes-for-4-cats | how many cat litter boxes for 4 cats | 0 | 0 | 0 | 41.5 |
-| 119 | Cluster Depth | comparison | cat-litter | multi-cat-home-desk | bentonite-vs-silica-cat-litter | bentonite vs silica cat litter | 500 | 14 | 500 | 42 |
-| 120 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials-desk | best-pet-camera | best pet camera | 1500 | 33 | 3000 | 64.2 |
-| 121 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-many-cat-litter-boxes-for-5-cats | how many cat litter boxes for 5 cats | 0 | 0 | 0 | 41.5 |
-| 122 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-many-cat-litter-boxes-should-i-have | how many cat litter boxes should i have | 0 | 0 | 0 | 41.5 |
-| 123 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-much-cat-litter-should-i-put-in-a-box | how much cat litter should i put in a box | 0 | 0 | 0 | 41.5 |
-| 124 | Backlog | linkable-asset | cat-litter | multi-cat-home-desk | how-does-lightweight-cat-litter-work | how does lightweight cat litter work | 80 | 10 | 80 | 36.3 |
-| 125 | Backlog | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-odor-control-and-dust-free | best cat litter for odor control and dust free | 900 | 3 | 3800 | 63.8 |
-| 126 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | how-much-is-a-good-cat-tree | how much is a good cat tree | 0 | 0 | 0 | 41.5 |
-| 127 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-much-is-good-cat-litter | how much is good cat litter | 0 | 0 | 0 | 41.5 |
-| 128 | Backlog | comparison | cat-litter | multi-cat-home-desk | cat-litter-clay-vs-natural | cat litter clay vs natural | 500 | 14 | 500 | 42 |
-| 129 | Backlog | money-guide | top-build-queue-first-40-pages | cat-care-essentials-desk | best-stainless-steel-cat-water-fountain | best stainless steel cat water fountain | 1200 | 1 | 1300 | 63.6 |
-| 130 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-much-is-world-s-best-cat-litter | how much is world's best cat litter | 0 | 0 | 0 | 41.5 |
-| 131 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | how-often-should-i-replace-my-cat-tree | how often should i replace my cat tree | 0 | 0 | 0 | 41.5 |
-| 132 | Backlog | money-guide | ordered-backlog | pet-cleanup | best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20000 | 63.3 |
-| 133 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-often-to-change-worlds-best-cat-litter | how often to change worlds best cat litter | 0 | 0 | 0 | 41.5 |
-| 134 | Backlog | linkable-asset | cat-water-fountains | upgrade-automation-desk | how-to-make-cat-water-fountain-work | how to make cat water fountain work | 80 | 10 | 80 | 36.3 |
-| 135 | Backlog | money-guide | cat-litter | multi-cat-home-desk | cat-litter-odor-control | best smell | 700 | 3 | 700 | 63.3 |
-| 136 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-to-best-dispose-of-cat-litter | how to best dispose of cat litter | 0 | 0 | 0 | 41.5 |
-| 137 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | how-to-choose-best-cat-carrier | how to choose best cat carrier | 0 | 0 | 0 | 41.5 |
-| 138 | Backlog | comparison | cat-litter | multi-cat-home-desk | clumping-vs-non-clumping-cat-litter-for-kittens | clumping vs non clumping cat litter for kittens | 300 | 10 | 300 | 42 |
-| 139 | Backlog | money-guide | cat-litter | multi-cat-home-desk | health-monitor-cat-litter | best health monitoring cat litter | 100 | 3 | 72000 | 63.2 |
-| 140 | Backlog | support-guide | cat-litter | multi-cat-home-desk | how-to-choose-the-best-cat-litter | how to choose the best cat litter | 0 | 0 | 0 | 41.5 |
-| 141 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-are-good-cat-trees | what are good cat trees | 0 | 0 | 0 | 41.5 |
-| 142 | Backlog | money-guide | top-build-queue-first-40-pages | cat-care-essentials-desk | best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36000 | 63 |
-| 143 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-are-the-best-cat-carriers-for-air-travel | what are the best cat carriers for air travel | 0 | 0 | 0 | 41.5 |
-| 144 | Backlog | money-guide | general | cat-care-essentials | best-cat-sling-carrier | best cat sling carrier | 100 | 0 | 5300 | 62.7 |
-| 145 | Backlog | money-guide | cat-litter | multi-cat-home-desk | best-litter-for-self-cleaning-litter-box | best cat litter for automatic litter boxes | 100 | 3 | 1500 | 62.5 |
-| 146 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-are-the-best-scratching-posts-for-cats | what are the best scratching posts for cats | 0 | 0 | 0 | 41.5 |
-| 147 | Backlog | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-are-the-best-vacuum-cleaners-for-pet-hair | what are the best vacuum cleaners for pet hair? | 0 | 0 | 0 | 41.5 |
-| 148 | Backlog | comparison | cat-litter | multi-cat-home-desk | corn-vs-wheat-cat-litter | corn vs wheat cat litter | 500 | 14 | 500 | 42 |
-| 149 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-cat-carrier-is-best | what cat carrier is best | 0 | 0 | 0 | 41.5 |
-| 150 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-cat-carrier-should-i-get | what cat carrier should i get | 0 | 0 | 0 | 41.5 |
-| 151 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-dyson-for-pet-hair | best dyson for pet hair | 1900 | 4 | 11000 | 62.5 |
-| 152 | Backlog | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-eliminates-odors-best | what cat litter eliminates odors best | 0 | 0 | 0 | 41.5 |
-| 153 | Backlog | money-guide | cat-litter | multi-cat-home-desk | where-to-buy-cat-litter | where to buy cat litter | 100 | 1 | 11000 | 62.5 |
-| 154 | Backlog | money-guide | ordered-backlog | upgrade-and-automation | best-litter-for-automatic-litter-box | best cat litter for automatic litter box | 600 | 1 | 800 | 61.4 |
-| 155 | Backlog | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-is-the-best-for-odor-control | what cat litter is the best for odor control? | 0 | 0 | 0 | 41.5 |
-| 156 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-cat-tree-should-i-get | what cat tree should i get | 0 | 0 | 0 | 41.5 |
-| 157 | Backlog | comparison | pet-hair-cleanup | pet-cleanup-desk | dyson-vs-shark-for-pet-hair | dyson vs shark for pet hair | 500 | 10 | 500 | 42 |
-| 158 | Backlog | money-guide | cat-litter | multi-cat-home-desk | eco-friendly-cat-litter | best biodegradable cat litter | 2200 | 3 | 2100 | 61.3 |
-| 159 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-cat-trees-are-the-best | what cat trees are the best | 0 | 0 | 0 | 41.5 |
-| 160 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-is-a-good-cat-scratching-post | what is a good cat scratching post | 0 | 0 | 0 | 41.5 |
-| 161 | Backlog | money-guide | ordered-backlog | cat-care-essentials | best-cat-litter-deodorizer | best cat litter deodorizer | 300 | 1 | 300 | 60.9 |
-| 162 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-is-a-good-cat-tree | what is a good cat tree | 0 | 0 | 0 | 41.5 |
-| 163 | Backlog | money-guide | ordered-backlog | upgrade-and-automation | best-wireless-cat-water-fountain | best wireless cat water fountain | 200 | 10 | 11000 | 60.9 |
-| 164 | Backlog | money-guide | cat-litter | multi-cat-home-desk | best-litter-box-for-multiple-cats | best cat litter box for multiple cats | 300 | 7 | 700 | 60.8 |
-| 165 | Backlog | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-is-best-cordless-vacuum-for-pet-hair | what is best cordless vacuum for pet hair | 0 | 0 | 0 | 41.5 |
-| 166 | Backlog | support-guide | cat-litter | multi-cat-home-desk | what-is-the-absolute-best-cat-litter-for-odor-control | what is the absolute best cat litter for odor control | 0 | 0 | 0 | 41.5 |
-| 167 | Backlog | comparison | pet-hair-cleanup | pet-cleanup-desk | dyson-vs-shark-vacuum-for-pet-hair | dyson vs shark vacuum for pet hair | 300 | 10 | 300 | 42 |
-| 168 | Backlog | money-guide | cat-litter | multi-cat-home-desk | cat-litter-that-doesn-t-smell | best non smelling cat litter | 70 | 1 | 600 | 60.6 |
-| 169 | Backlog | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-is-the-most-powerful-vacuum-for-pet-hair | what is the most powerful vacuum for pet hair | 0 | 0 | 0 | 41.5 |
-| 170 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-makes-a-good-cat-scratching-post | what makes a good cat scratching post | 0 | 0 | 0 | 41.5 |
-| 171 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | carpet-for-cat-tree | best carpet for cat tree | 150 | 0 | 100 | 60.5 |
-| 172 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-material-to-use-for-cat-tree | what material to use for cat tree | 0 | 0 | 0 | 41.5 |
-| 173 | Backlog | money-guide | cat-litter | multi-cat-home-desk | pellet-cat-litter | pellet cat litter | 2700 | 0 | 2200 | 60.5 |
-| 174 | Backlog | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-near-me | best cat litter near me | 100 | 1 | 250 | 60 |
-| 175 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-scratching-post-for-cats | what scratching post for cats | 0 | 0 | 0 | 41.5 |
-| 176 | Backlog | support-guide | cat-gear | cat-care-essentials-desk | what-should-you-put-in-a-cat-carrier | what should you put in a cat carrier | 0 | 0 | 0 | 41.5 |
-| 177 | Backlog | comparison | dog-beds-and-comfort | dog-comfort-desk | elevated-dog-bed-vs-memory-foam | elevated dog bed vs memory foam | 300 | 10 | 300 | 42 |
-| 178 | Backlog | support-guide | dog-beds-and-comfort | dog-comfort-desk | what-size-dog-bed-for-dachshund | what size dog bed for dachshund | 0 | 0 | 0 | 41.5 |
-| 179 | Backlog | support-guide | pet-hair-cleanup | pet-cleanup-desk | what-the-best-canister-vacuum-for-pet-hair | what the best canister vacuum for pet hair | 0 | 0 | 0 | 41.5 |
-| 180 | Backlog | money-guide | ordered-backlog | cat-care-essentials | best-crystal-cat-litter | best crystal cat litter | 400 | 0 | 1100 | 60 |
+| 4 | Foundation | support-guide | cat-litter | multi-cat-home-desk | what-cat-litter-is-best | what cat litter is best | 150 | 15 | 10000 | 60.6 |
+| 5 | Foundation | support-guide | cat-gear | cat-care-essentials-desk | how-big-should-a-cat-carrier-be | how big should a cat carrier be | 100 | 1 | 100 | 57.6 |
+| 6 | Foundation | support-guide | cat-litter | multi-cat-home-desk | what-is-world-s-best-cat-litter-made-of | what is world's best cat litter made of | 100 | 2 | 500 | 56.8 |
+| 7 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-much-cat-litter-should-be-in-a-litter-box | how much cat litter should be in a litter box | 60 | 0 | 1000 | 56.1 |
+| 8 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-much-cat-litter-should-i-use | how much cat litter should i use | 30 | 0 | 400 | 55.5 |
+| 9 | Foundation | money-guide | ordered-backlog | cat-care-essentials | best-cat-litter-box | best cat litter box | 7400 | 11 | 19000 | 75 |
+| 10 | Foundation | support-guide | cat-litter | multi-cat-home-desk | how-to-stop-cat-litter-from-smelling | how to stop cat litter from smelling | 30 | 0 | 400 | 55.5 |
+| 11 | Foundation | money-guide | ordered-backlog | dog-comfort | cooling-dog-bed | best cooling dog bed for large dogs | 3400 | 1 | 6000 | 74.1 |
+| 12 | Foundation | money-guide | cat-litter | multi-cat-home-desk | cat-litter-furniture | best cat litter furniture | 1400 | 4 | 5100 | 72.3 |
+| 13 | Foundation | money-guide | ordered-backlog | cat-care-essentials | best-clumping-cat-litter | best clumping cat litter | 3900 | 1 | 3200 | 71.3 |
+| 14 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-much-does-cat-litter-cost | how much does cat litter cost | 200 | 3 | 7500 | 54.1 |
+| 15 | Foundation | money-guide | cat-gear | cat-care-essentials-desk | mau-cat-tree | best looking cat tree | 6100 | 3 | 12000 | 70.5 |
+| 16 | Foundation | money-guide | ordered-backlog | upgrade-and-automation | best-litter-for-litter-robot | best cat litter for litter robot | 3600 | 2 | 2900 | 70.3 |
+| 17 | Foundation | support-guide | ordered-backlog | cat-care-essentials-desk | how-to-get-rid-of-cat-pee-smell-on-couch | cat pee smell on couch | 200 | 0 | 1100 | 50.7 |
+| 18 | Foundation | support-guide | ordered-backlog | cat-care-essentials-desk | how-to-get-rid-of-cat-pee-smell-outside | cat pee smell outside | 150 | 0 | 1300 | 50.7 |
+| 19 | Foundation | money-guide | backlog-40-additional-opportunities | upgrade-automation-desk | best-automatic-cat-feeder | best automatic cat feeder | 3700 | 12 | 3500 | 70 |
+| 20 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-to-calm-cat-in-carrier | how to calm cat in carrier | 300 | 3 | 2000 | 49.2 |
+| 21 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-to-clean-cat-water-fountain | how to clean cat water fountain | 300 | 2 | 1500 | 49.2 |
+| 22 | Foundation | money-guide | dog-beds-and-comfort | dog-comfort-desk | best-dog-bed-for-large-dogs | best dog bed for large dogs? | 500 | 22 | 13000 | 70 |
+| 23 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-to-get-rid-of-cat-smell-in-house | how to get rid of cat smell in house | 800 | 3 | 1100 | 49.2 |
+| 24 | Foundation | money-guide | ordered-backlog | cat-care-essentials | best-cat-scratching-post | best cat scratching post | 1700 | 15 | 1800 | 69.7 |
+| 25 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-to-train-cat-to-walk-on-leash | how to leash train a cat | 500 | 3 | 3000 | 49.2 |
+| 26 | Foundation | support-guide | ordered-backlog | cat-care-essentials | how-to-put-harness-on-cat | how to put a harness on a cat | 500 | 2 | 2500 | 49.2 |
+| 27 | Foundation | money-guide | ordered-backlog | dog-comfort | best-dog-car-seat-cover | best dog car seat cover | 450 | 3 | 3200 | 69.5 |
+| 28 | Foundation | money-guide | cat-gear | cat-care-essentials-desk | floor-to-ceiling-cat-tree | best floor to ceiling cat tree | 2600 | 0 | 1500 | 69.1 |
+| 29 | Foundation | money-guide | cat-litter | multi-cat-home-desk | low-dust-cat-litter | best cat litter for dust control | 3800 | 0 | 3900 | 71.3 |
+| 30 | Foundation | support-guide | top-build-queue-first-40-pages | multi-cat-home-desk | how-to-keep-cat-litter-from-smelling | how to keep cat litter from smelling | 150 | 2 | 1000 | 59.6 |
+| 31 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | litter-robot | best self cleaning cat litter | 266000 | 9 | 280000 | 70.8 |
+| 32 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-odor | best cat litter to control odor | 4100 | 2 | 4600 | 70.5 |
+| 33 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | crystal-cat-litter | best silica cat litter | 5600 | 2 | 2600 | 69.8 |
+| 34 | Confidence Expansion | money-guide | ordered-backlog | cat-care-essentials | outdoor-cat-tree | best outdoor cat tree | 3600 | 0 | 3000 | 69 |
+| 35 | Confidence Expansion | money-guide | backlog-40-additional-opportunities | cat-care-essentials-desk | best-pet-odor-eliminator | best pet odor eliminator | 1000 | 5 | 1100 | 68.8 |
+| 36 | Confidence Expansion | money-guide | ordered-backlog | cat-care-essentials-desk | best-shark-vacuum-for-pet-hair | best shark vacuum for pet hair | 200 | 13 | 33000 | 68.7 |
+| 37 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | cat-litter-pellets | best cat litter pellets | 3700 | 3 | 2200 | 68 |
+| 38 | Confidence Expansion | money-guide | ordered-backlog | cat-care-essentials | cat-trees | best modern cat tree | 1600 | 9 | 8400 | 67.3 |
+| 39 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | dust-free-cat-litter | dust free cat litter | 2700 | 0 | 3900 | 67.3 |
+| 40 | Confidence Expansion | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-on-carpet | best vacuum for pet hair and carpet | 2100 | 1 | 1700 | 67.2 |
+| 41 | Confidence Expansion | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-robot-vacuum-for-pet-hair | best self vacuum for pet hair | 90 | 13 | 16000 | 67 |
+| 42 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | cat-litter-reviews | best cat litter in the world | 450 | 10 | 7400 | 66.8 |
+| 43 | Confidence Expansion | money-guide | dog-beds-and-comfort | dog-comfort-desk | indestructible-dog-bed | best dog bed chew proof | 8000 | 1 | 11000 | 66.6 |
+| 44 | Confidence Expansion | money-guide | ordered-backlog | multi-cat-home | best-cat-litter-box-for-odor-control | best cat litter box for odor control | 1200 | 5 | 1900 | 66.3 |
+| 45 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | self-cleaning-litter-box | best self-cleaning cat litter box | 49000 | 18 | 202000 | 66.2 |
+| 46 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | flushable-cat-litter | flushable cat litter | 2700 | 0 | 1200 | 66 |
+| 47 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | cat-litter-deodorizer | best deodorizer for cat litter room | 1700 | 1 | 700 | 65.8 |
+| 48 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | best-litter-box-for-cats | best odor control cat litter box | 200 | 15 | 13000 | 64.5 |
+| 49 | Confidence Expansion | money-guide | ordered-backlog | cat-care-essentials-desk | best-pet-camera | best pet camera | 1500 | 33 | 3000 | 64.2 |
+| 50 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-odor-control-and-dust-free | best cat litter for odor control and dust free | 900 | 3 | 3800 | 63.8 |
+| 51 | Confidence Expansion | money-guide | top-build-queue-first-40-pages | cat-care-essentials-desk | best-stainless-steel-cat-water-fountain | best stainless steel cat water fountain | 1200 | 1 | 1300 | 63.6 |
+| 52 | Confidence Expansion | money-guide | ordered-backlog | pet-cleanup | best-corded-vacuum-for-pet-hair | best corded vacuum for pet hair | 400 | 2 | 20000 | 63.3 |
+| 53 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | cat-litter-odor-control | best smell | 700 | 3 | 700 | 63.3 |
+| 54 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | health-monitor-cat-litter | best health monitoring cat litter | 100 | 3 | 72000 | 63.2 |
+| 55 | Confidence Expansion | money-guide | top-build-queue-first-40-pages | cat-care-essentials-desk | best-upright-vacuum-for-pet-hair | best upright vacuum for pet hair | 900 | 0 | 36000 | 63 |
+| 56 | Confidence Expansion | money-guide | general | cat-care-essentials | best-cat-sling-carrier | best cat sling carrier | 100 | 0 | 5300 | 62.7 |
+| 57 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | best-litter-for-self-cleaning-litter-box | best cat litter for automatic litter boxes | 100 | 3 | 1500 | 62.5 |
+| 58 | Confidence Expansion | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-dyson-for-pet-hair | best dyson for pet hair | 1900 | 4 | 11000 | 62.5 |
+| 59 | Confidence Expansion | money-guide | cat-litter | multi-cat-home-desk | where-to-buy-cat-litter | where to buy cat litter | 100 | 1 | 11000 | 62.5 |
+| 60 | Confidence Expansion | money-guide | ordered-backlog | upgrade-and-automation | best-litter-for-automatic-litter-box | best cat litter for automatic litter box | 600 | 1 | 800 | 61.4 |
+| 61 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | eco-friendly-cat-litter | best biodegradable cat litter | 2200 | 3 | 2100 | 61.3 |
+| 62 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-cat-litter-deodorizer | best cat litter deodorizer | 300 | 1 | 300 | 60.9 |
+| 63 | Cluster Depth | money-guide | ordered-backlog | upgrade-and-automation | best-wireless-cat-water-fountain | best wireless cat water fountain | 200 | 10 | 11000 | 60.9 |
+| 64 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-litter-box-for-multiple-cats | best cat litter box for multiple cats | 300 | 7 | 700 | 60.8 |
+| 65 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter-that-doesn-t-smell | best non smelling cat litter | 70 | 1 | 600 | 60.6 |
+| 66 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | carpet-for-cat-tree | best carpet for cat tree | 150 | 0 | 100 | 60.5 |
+| 67 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | pellet-cat-litter | pellet cat litter | 2700 | 0 | 2200 | 60.5 |
+| 68 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-near-me | best cat litter near me | 100 | 1 | 250 | 60 |
+| 69 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-crystal-cat-litter | best crystal cat litter | 400 | 0 | 1100 | 60 |
+| 70 | Cluster Depth | money-guide | dog-beds-and-comfort | dog-comfort-desk | large-dog-bed | best dog bed for 2 large dogs | 9900 | 17 | 11000 | 59.8 |
+| 71 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter-vacuum | best vacuum for cat litter | 600 | 0 | 800 | 59.5 |
+| 72 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | odor-control-cat-litter | best cat litter odor control | 200 | 0 | 1000 | 59 |
+| 73 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cat-litter | cat litter | 66000 | 16 | 9700 | 59 |
+| 74 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | tidy-cat-litter | tidy cat litter | 6300 | 4 | 4100 | 58.9 |
+| 75 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-stainless-steel-litter-box | best stainless steel cat litter box | 200 | 2 | 9300 | 58.8 |
+| 76 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | double-cat-carrier | best cat carrier for 2 cats | 80 | 0 | 600 | 58.6 |
+| 77 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials-desk | senior-cat-tree | best cat tree for senior cats | 50 | 1 | 150 | 58.6 |
+| 78 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-unscented | best unscented cat litter | 600 | 5 | 700 | 58.4 |
+| 79 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | cat-scratching-post | best cat scratching post amazon | 50 | 3 | 6500 | 58.3 |
+| 80 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-roomba-for-pet-hair | best rated robot vacuum for pet hair | 80 | 9 | 1700 | 58.3 |
+| 81 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | airline-approved-cat-carrier | best cat airline carrier | 0 | 5 | 1600 | 58 |
+| 82 | Cluster Depth | money-guide | cat-water-fountains | multi-cat-home-desk | best-cat-water-fountain-for-multiple-cats | best cat water fountain for multiple cats | 50 | 6 | 12000 | 57.9 |
+| 83 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-on-couch | best vacuum for pet hair on couch | 90 | 2 | 200 | 57.8 |
+| 84 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | pet-hair-remover-tool | pet hair remover tool | 2200 | 4 | 7700 | 57.8 |
+| 85 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-lightweight-cat-litter | best lightweight cat litter | 300 | 4 | 900 | 57.5 |
+| 86 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-non-clumping-cat-litter | best non clumping cat litter | 400 | 0 | 450 | 57.5 |
+| 87 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-cleaner-for-pet-hair | best vacuum cleaner for pet hair | 0 | 0 | 0 | 57.1 |
+| 88 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | cat-carrier-bag | best cat carrier on amazon | 0 | 0 | 800 | 57 |
+| 89 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-scoop | best cat litter scoops | 250 | 0 | 400 | 57 |
+| 90 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | natural-cat-litter | best natural cat litter | 100 | 3 | 4400 | 57 |
+| 91 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | non-clumping-cat-litter | non clumping cat litter | 3000 | 4 | 1300 | 57 |
+| 92 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | really-great-cat-litter | really great cat litter | 2700 | 2 | 4400 | 57 |
+| 93 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-price | best cat litter price | 60 | 0 | 60 | 56.8 |
+| 94 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | where-to-put-litter-box | best place to put cat litter box | 300 | 1 | 700 | 56.8 |
+| 95 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | alternative-cat-litter | best cat litter alternatives | 250 | 0 | 800 | 56.7 |
+| 96 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-review | best cat litter reviews | 80 | 2 | 9800 | 56.7 |
+| 97 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-cat-carrier-backpack | best cat carrier backpack | 80 | 1 | 6700 | 56.5 |
+| 98 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-scared-cat | best cat carrier for scared cat | 150 | 2 | 100 | 56.5 |
+| 99 | Cluster Depth | money-guide | ordered-backlog | cat-care-essentials | best-cat-litter-for-kittens | best cat litter for kittens | 700 | 4 | 2600 | 56.5 |
+| 100 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | non-toxic-cat-litter | best non toxic cat litter | 900 | 0 | 350 | 56.5 |
+| 101 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-on-hardwood | best vacuum for hard floors and pet hair | 350 | 4 | 1400 | 56.5 |
+| 102 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | small-cat-tree | best cat trees for small spaces | 2700 | 0 | 600 | 56.4 |
+| 103 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | cheapest-cat-litter | best cheap cat litter | 800 | 0 | 800 | 56.2 |
+| 104 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-allergies | best cat litter for allergies | 250 | 5 | 250 | 56.1 |
+| 105 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-box-for-odor-control-amazon | best cat litter box for odor control amazon | 0 | 0 | 0 | 56 |
+| 106 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-at-walmart | best cat litter at walmart | 70 | 2 | 50 | 55.5 |
+| 107 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-odor-control-reviews | best cat litter for odor control reviews | 60 | 0 | 60 | 55.5 |
+| 108 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | best-cat-tree-for-2-cats | best cat tree for 2 cats | 150 | 8 | 150 | 55.5 |
+| 109 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | hypoallergenic-cat-litter | best hypoallergenic cat litter | 1500 | 0 | 700 | 55.5 |
+| 110 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | where-to-buy-world-s-best-cat-litter | where to buy world's best cat litter | 80 | 3 | 150 | 55.5 |
+| 111 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | best-cat-litter-for-not-tracking-and-odor-control | best cat litter for not tracking and odor control | 0 | 0 | 0 | 55.3 |
+| 112 | Cluster Depth | money-guide | dog-beds-and-comfort | dog-comfort-desk | best-dog-beds | best large dog bed | 4200 | 23 | 3400 | 55.3 |
+| 113 | Cluster Depth | money-guide | cat-litter | multi-cat-home-desk | non-clay-cat-litter | best non clay cat litter | 500 | 0 | 400 | 55.3 |
+| 114 | Cluster Depth | money-guide | dog-beds-and-comfort | dog-comfort-desk | best-dog-bed-for-two-large-dogs | best dog bed for two large dogs | 0 | 0 | 0 | 55 |
+| 115 | Cluster Depth | money-guide | ordered-backlog | pet-cleanup | best-stick-vacuum-for-pet-hair | best stick vacuum for pet hair | 4200 | 9 | 8700 | 55 |
+| 116 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | best-rope-for-cat-scratching-post | best rope for cat scratching post | 100 | 1 | 50 | 54.5 |
+| 117 | Cluster Depth | money-guide | cat-water-fountains | upgrade-automation-desk | best-automatic-cat-water-fountain | best automatic cat water fountain | 60 | 0 | 60 | 54.4 |
+| 118 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-electronic-vacuum-for-pet-hair | best electronic vacuum for pet hair | 0 | 0 | 0 | 54.3 |
+| 119 | Cluster Depth | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-on-a-budget | best vacuum for pet hair on a budget | 0 | 0 | 0 | 54.3 |
+| 120 | Cluster Depth | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-airplane-travel | best cat carrier for airplane travel | 0 | 0 | 0 | 53.8 |
+| 121 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-cross-country-trip | best cat carrier for cross country trip | 0 | 0 | 0 | 53.8 |
+| 122 | Backlog | money-guide | cat-water-fountains | upgrade-automation-desk | best-pumpless-cat-water-fountain | best pumpless cat water fountain | 90 | 0 | 90 | 53.8 |
+| 123 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-tangle-free | best vacuum for pet hair tangle-free | 0 | 0 | 0 | 53.8 |
+| 124 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-scratching-post-material | best cat scratching post material | 0 | 0 | 0 | 53.4 |
+| 125 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | dyson-pet-hair-vacuum | dyson pet hair vacuum | 1300 | 28 | 13000 | 53.3 |
+| 126 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-and-hardwood-floors-and-carpet | best vacuum for pet hair and hardwood floors | 700 | 10 | 450 | 53 |
+| 127 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-long-distance-travel | best cat carrier for long distance travel | 0 | 0 | 0 | 52.8 |
+| 128 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-tree-condo | best cat tree condo | 0 | 0 | 0 | 52.8 |
+| 129 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-tree-made-in-usa | best cat tree made in usa | 0 | 0 | 0 | 52.8 |
+| 130 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-dyson-vacuum-for-pet-hair | best dyson vacuum for pet hair | 0 | 0 | 0 | 52.8 |
+| 131 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-vacuum-for-pet-hair-and-multi-surface | best vacuum for pet hair and multi surface | 0 | 0 | 0 | 52.8 |
+| 132 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-long-distance-car-travel | best cat carrier for long-distance car travel | 150 | 0 | 500 | 52.6 |
+| 133 | Backlog | money-guide | top-build-queue-first-40-pages | cat-care-essentials-desk | best-cat-harness-escape-proof | best cat harness escape proof | 300 | 2 | 6400 | 52.5 |
+| 134 | Backlog | money-guide | ordered-backlog | cat-care-essentials | best-ceramic-cat-water-fountain | best ceramic cat water fountain | 100 | 2 | 1300 | 52.5 |
+| 135 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-2-in-1-vacuum-for-pet-hair | best 2 in 1 vacuum for pet hair | 0 | 0 | 0 | 52 |
+| 136 | Backlog | money-guide | pet-hair-cleanup | pet-cleanup-desk | best-brand-of-vacuum-for-pet-hair | best brand of vacuum for pet hair | 0 | 0 | 0 | 52 |
+| 137 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-budget-cat-scratching-post | best budget cat scratching post | 0 | 0 | 0 | 52 |
+| 138 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-backpack-for-hiking | best cat carrier backpack for hiking | 0 | 0 | 0 | 52 |
+| 139 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-big-cats | best cat carrier for big cats | 0 | 0 | 0 | 52 |
+| 140 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-car-trips | best cat carrier for car trips | 0 | 0 | 0 | 52 |
+| 141 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-cats-with-anxiety | best cat carrier for cats with anxiety | 0 | 0 | 0 | 52 |
+| 142 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-heavy-cat | best cat carrier for heavy cat | 0 | 0 | 0 | 52 |
+| 143 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-international-travel | best cat carrier for international travel | 0 | 0 | 0 | 52 |
+| 144 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-kitten | best cat carrier for kitten | 0 | 0 | 0 | 52 |
+| 145 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-long-distance-car-travel-uk | best cat carrier for long distance car travel uk | 0 | 0 | 0 | 52 |
+| 146 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-multiple-cats | best cat carrier for multiple cats | 0 | 0 | 0 | 52 |
+| 147 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-nervous-cats-uk | best cat carrier for nervous cats uk | 0 | 0 | 0 | 52 |
+| 148 | Backlog | money-guide | cat-gear | cat-care-essentials-desk | best-cat-carrier-for-plane-travel | best cat carrier for plane travel | 0 | 0 | 0 | 52 |
 

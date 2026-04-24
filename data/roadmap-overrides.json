@@ -30,5 +30,673 @@
   "cat-water-fountain": {
     "forceSkip": true,
     "forceNotes": "Covered by LIVE /best-cat-water-fountain; the generic alias should not remain in the queue."
+  },
+  "are-automatic-self-cleaning-litter-boxes-worth-it": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "are-self-cleaning-litter-boxes-worth-it": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "automatic-vs-self-cleaning-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "bentonite-vs-silica-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-air-deodorizer-for-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "air-purifier-for-cat-litter-dust": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-air-purifier-for-litter-box-smell": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-arm-and-hammer-cat-litter-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-brand-of-cat-litter-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-differences": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "safest-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-for-litter-robot-5": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-for-poop-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-ingredients": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-vs-arm-and-hammer": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-vs-sustainably-yours": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-cat-litter-vs-swheat-scoop": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-electric-cat-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-jumbo-cat-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-automatic-litter-box-for-multiple-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "can-you-flush-world-s-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "can-you-mix-clumping-and-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "can-you-really-flush-world-s-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "can-you-use-cat-litter-deodorizer-on-carpet": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "can-you-use-regular-cat-litter-in-a-self-cleaning-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "cat-litter-clay-vs-natural": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "cat-litter-deodorizer-vs-baking-soda": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "ceramic-vs-stainless-steel-cat-water-fountain": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "clumping-vs-non-clumping-cat-litter-for-kittens": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "clumping-vs-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "corn-vs-wheat-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "types-of-cat-litter-explained": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "do-cats-need-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "do-cats-prefer-clumping-or-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "do-i-want-clumping-or-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "do-older-cats-like-cat-trees": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "dog-bed-size-chart-by-breed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "dr-elsey-s-vs-world-s-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "dyson-vs-shark-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "dyson-vs-shark-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "elevated-dog-bed-vs-memory-foam": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "elevated-vs-memory-foam-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "how-automatic-cat-litter-box-works": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-cat-litter-box-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-cat-litter-works": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-cat-trees-are-made": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "how-do-cat-water-fountains-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "how-do-i-stop-cat-litter-smelling": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-do-pumpless-cat-water-fountains-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "how-do-wireless-cat-water-fountains-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "how-does-a-pumpless-cat-water-fountain-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "how-does-cat-litter-work-on-ice": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-does-cat-litter-works": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-does-lightweight-cat-litter-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-is-corn-cat-litter-made": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-many-cat-litter-boxes-for-4-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-many-cat-litter-boxes-for-5-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-many-cat-litter-boxes-should-i-have": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-much-cat-litter-should-i-put-in-a-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-much-is-a-good-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "how-much-is-good-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-much-is-world-s-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-often-should-i-replace-my-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "how-often-to-change-worlds-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-best-dispose-of-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-choose-best-cat-carrier": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "how-to-choose-the-best-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-contain-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-make-a-chew-proof-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "how-to-make-cat-water-fountain-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "how-to-size-a-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "how-to-use-a-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-use-a-cat-litter-liner": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "how-to-use-self-cleaning-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-an-elevated-dog-bed-better": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "is-arm-and-hammer-cat-litter-safe": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-bentonite-cat-litter-good": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-bentonite-cat-litter-safe": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-cat-litter-clean": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-cat-litter-deodorizer-safe": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-ceramic-or-stainless-steel-better-for-cat-water-fountain": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-water-fountains cluster. LIVE best-cat-water-fountain covers category."
+  },
+  "is-clay-cat-litter-better": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-clumping-or-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-clumping-or-non-clumping-cat-litter-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-clumping-or-non-clumping-cat-litter-better": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-corn-cat-litter-compostable": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-corn-or-wheat-cat-litter-better": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-dr-elsey-s-cat-litter-safe": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-dyson-good-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-dyson-or-shark-vacuum-better-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-it-best-cat-litter-for-litter-robot": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-it-best-handheld-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-it-best-robot-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-it-best-to-cover-cat-carrier-for-car-travel": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "is-it-best-vacuum-for-cleaning-up-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-it-best-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-it-cheaper-to-build-a-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "is-it-what-s-the-best-cat-litter-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-multi-cat-litter-better": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-paper-cat-litter-good": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-shark-or-bissell-better-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "is-world-s-best-cat-litter-being-discontinued": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-world-s-best-cat-litter-flushable": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-world-s-best-cat-litter-good-for-litter-robot": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-world-s-best-cat-litter-safe": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-world-s-best-cat-litter-safe-for-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "is-world-s-best-cat-litter-safe-for-kittens": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "memory-foam-vs-orthopedic-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "clay-vs-natural-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "orthopedic-vs-memory-foam-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "pine-vs-paper-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "pine-vs-paper-pellet-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "shark-vs-bissell-cordless-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "shark-vs-bissell-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "shark-vs-bissell-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "should-you-cover-a-cat-carrier": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "bentonite-vs-crystal-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-are-good-cat-trees": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-are-the-best-cat-carriers-for-air-travel": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-are-the-best-scratching-posts-for-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-are-the-best-vacuum-cleaners-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-cat-carrier-is-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-cat-carrier-should-i-get": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-cat-litter-actually-works": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-litter-eliminates-odors-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-litter-is-the-best-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-litter-works-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-litter-works-best-for-odor": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-litter-works-best-for-smell": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-cat-tree-should-i-get": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-cat-trees-are-the-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-chemicals-are-in-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-does-cat-litter-contain": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-a-good-cat-scratching-post": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-is-a-good-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-is-bentonite-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-best-cordless-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-is-best-for-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-best-vacuum-cleaner-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-is-clumping-and-non-clumping-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-scoopable-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-the-absolute-best-cat-litter-for-odor-control": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-the-main-ingredient-in-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-is-the-most-powerful-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-kind-of-scratching-post-is-best": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-makes-a-good-cat-scratching-post": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-material-to-use-for-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-scratching-post-for-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-should-you-put-in-a-cat-carrier": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-size-dog-bed": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "what-size-dog-bed-for-dachshund": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "what-size-dog-bed-for-medium-dog": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: dog-beds-and-comfort cluster. LIVE best-chew-proof-dog-bed + cooling-dog-bed candidate cover primary intents."
+  },
+  "what-the-best-canister-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-to-look-for-in-a-cat-tree": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-to-use-for-cat-scratching-post": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-gear cluster. LIVE best-cat-tree + best-cat-carrier + best-cat-harness cover primary intents."
+  },
+  "what-type-of-wood-pellets-are-best-for-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "what-vacuum-cleaner-is-the-best-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "what-vacuum-has-the-best-suction-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: pet-hair-cleanup cluster. LIVE best-vacuum-for-pet-hair covers category."
+  },
+  "scoopable-vs-non-scoopable-cat-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "why-does-cat-litter-work": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "why-is-cat-litter-bad-for-the-environment": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "why-is-cat-litter-called-litter": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "why-should-you-have-more-litter-boxes-than-cats": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "world-best-cat-litter-vs-fresh-step": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: cat-litter cluster. LIVE best-cat-litter + odor/dust/tracking variants cover primary intents. Low-score sub-variant."
+  },
+  "best-litter-box": {
+    "forceSkip": true,
+    "forceNotes": "Cannibalization cleanup 2026-04-24: duplicates best-cat-litter-box (same 7400 vol, same SERP). Canonical = best-cat-litter-box (clearer cat-specific slug matches primary keyword \"best cat litter box\")."
+  },
+  "what-best-vacuum-for-pet-hair": {
+    "forceSkip": true,
+    "forceNotes": "Malformed keyword fragment (vol 0) — word-order artifact from keyword harvest, not a coherent user query. Covered by LIVE /best-vacuum-for-pet-hair."
+  },
+  "what-the-best-cat-scratching-post": {
+    "forceSkip": true,
+    "forceNotes": "Malformed keyword fragment (vol 0) — word-order artifact from keyword harvest. Canonical intent covered by best-cat-scratching-post queued row."
   }
 }
