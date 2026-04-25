@@ -5,6 +5,7 @@ import { type Author } from "@/data/authors";
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { RichText } from "@/components/content/rich-text";
 import { SourcesFooter, type SourcesFooterData } from "@/components/content/sources-footer";
+import { EvidenceSummary, type EvidenceSummaryData } from "@/components/content/evidence-summary";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 
@@ -68,6 +69,9 @@ interface SupportPageProps {
 
   // Sources footer — numbered citations matching [N] footnote markers in body prose
   sourcesFooter?: SourcesFooterData;
+
+  // Evidence summary — collapsed <details> disclosure rendered above sources.
+  evidenceSummary?: EvidenceSummaryData;
 }
 
 // ─── Section image component ────────────────────────────────────
@@ -183,6 +187,7 @@ export function SupportPage({
   howToSteps,
   estimatedTime,
   sourcesFooter,
+  evidenceSummary,
 }: SupportPageProps) {
   const pageUrl = `${siteConfig.url}/${slug}`;
   const resolvedModifiedDate = modifiedDate || publishedDate;
@@ -428,6 +433,9 @@ export function SupportPage({
           </div>
         </section>
       )}
+
+      {/* Evidence summary (optional, collapsed <details> disclosure rendered above sources) */}
+      {evidenceSummary && <EvidenceSummary data={evidenceSummary} />}
 
       {/* Sources + methodology footer (optional, renders when sourcesFooter prop provided) */}
       {sourcesFooter && <SourcesFooter data={sourcesFooter} />}

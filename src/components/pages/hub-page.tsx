@@ -12,6 +12,7 @@ import { AuthorBioCard } from "@/components/content/author-bio";
 import { DirectAnswer } from "@/components/content/direct-answer";
 import { RichText, RichInline } from "@/components/content/rich-text";
 import { SourcesFooter, type SourcesFooterData } from "@/components/content/sources-footer";
+import { EvidenceSummary, type EvidenceSummaryData, type ClaimLabel, CLAIM_LABEL_COPY } from "@/components/content/evidence-summary";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
@@ -25,6 +26,9 @@ interface HubReview {
   pros: string[];
   cons: string[];
   verdict: string;
+  // Optional per-product claim label — rendered as a muted pill near the
+  // review heading.
+  evidenceLabel?: ClaimLabel;
 }
 
 interface HubComparisonRow {
@@ -92,6 +96,9 @@ interface HubPageProps {
 
   // Sources footer — numbered citations matching [N] footnote markers in body prose
   sourcesFooter?: SourcesFooterData;
+
+  // Evidence summary — collapsed <details> disclosure rendered above sourcesFooter.
+  evidenceSummary?: EvidenceSummaryData;
 }
 
 export function HubPage({
@@ -117,6 +124,7 @@ export function HubPage({
   breadcrumbLabel,
   lastUpdatedNote,
   sourcesFooter,
+  evidenceSummary,
 }: HubPageProps) {
   const hasComparisonTable = comparisonTable.length > 0;
   const topProduct = orderedProducts[0];
@@ -488,6 +496,12 @@ export function HubPage({
                         {displayNames[product.id] || product.name}
                       </h3>
 
+                      {content.evidenceLabel && (
+                        <span className="mt-3 inline-flex items-center rounded-sm border border-[#e8e0d3] bg-[#faf7f2] px-2.5 py-1 text-[0.72rem] font-medium uppercase tracking-[0.14em] text-[#8b7355]">
+                          {CLAIM_LABEL_COPY[content.evidenceLabel]}
+                        </span>
+                      )}
+
                       <div className="mt-6">
                         <ProductImageGallery
                           images={product.images}
@@ -505,6 +519,25 @@ export function HubPage({
                               {priceDisplay(product)}
                             </p>
                           </div>
+                          {cta ? (
+                            <a
+                              href={cta.url}
+                              target="_blank"
+                              rel={getCommerceLinkRel(cta)}
+                              className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-sm bg-[#1c1210] px-3.5 py-2 text-[0.8rem] font-semibold text-white transition-colors hover:bg-[#3a2820]"
+                            >
+                              Shop {cta.retailer}
+                            </a>
+                          ) : (
+                            <a
+                              href={`https://www.amazon.com/s?k=${encodeURIComponent(product.name)}&tag=${siteConfig.affiliatePrograms.amazon.tag}`}
+                              target="_blank"
+                              rel="noopener noreferrer nofollow sponsored"
+                              className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-sm bg-[#1c1210] px-3.5 py-2 text-[0.8rem] font-semibold text-white transition-colors hover:bg-[#3a2820]"
+                            >
+                              Shop Amazon
+                            </a>
+                          )}
                         </div>
 
                         <dl className="mt-5 space-y-3">
@@ -515,28 +548,6 @@ export function HubPage({
                             </div>
                           ))}
                         </dl>
-
-                        <div className="mt-6">
-                          {cta ? (
-                            <a
-                              href={cta.url}
-                              target="_blank"
-                              rel={getCommerceLinkRel(cta)}
-                              className="button-primary w-full"
-                            >
-                              Shop {cta.retailer}
-                            </a>
-                          ) : (
-                            <a
-                              href={`https://www.amazon.com/s?k=${encodeURIComponent(product.name)}&tag=${siteConfig.affiliatePrograms.amazon.tag}`}
-                              target="_blank"
-                              rel="noopener noreferrer nofollow sponsored"
-                              className="button-primary w-full"
-                            >
-                              Shop Amazon
-                            </a>
-                          )}
-                        </div>
 
                         {secondaryLinks.length > 0 ? (
                           <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-[#6F4E37]">
@@ -567,54 +578,54 @@ export function HubPage({
                         <RichText text={content.body} />
                       </div>
 
-                      <div className="mt-8 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
-                        <blockquote className="sand-panel p-6">
-                          <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
-                            <div className="max-w-2xl">
-                              <p className="eyebrow">Editor verdict</p>
-                              <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">
-                                <RichInline text={content.verdict} />
-                              </p>
-                            </div>
-                            <div className="sm:min-w-[120px]">
-                              <div className="rounded-sm border border-[#e1d2c3] bg-[#fffcf8] px-4 py-3">
-                                <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">Our score</p>
-                                <p className="mt-2 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold text-[#1c1210]">
-                                  {content.reviewerScore.toFixed(1)}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <p className="mt-5 text-[0.94rem] leading-7 text-[#6b5649]">
-                            <RichInline text={content.scoreDiffReason} />
-                          </p>
-                        </blockquote>
-
-                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-1">
-                          <div className="rounded-md border border-[#c8dfcf] bg-[#f2faf1] p-6 shadow-[inset_4px_0_0_#4c7a5a]">
-                            <p className="eyebrow text-[#2f6842]">What we like</p>
-                            <ul className="mt-4 space-y-3">
-                              {content.pros.map((pro) => (
-                                <li key={pro} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#244131]">
-                                  <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#2f6842]" />
-                                  <span><RichInline text={pro} /></span>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                          <div className="rounded-md border border-[#ecc9c8] bg-[#fff6f5] p-6 shadow-[inset_4px_0_0_#b64542]">
-                            <p className="eyebrow text-[#9f3430]">What we don&apos;t</p>
-                            <ul className="mt-4 space-y-3">
-                              {content.cons.map((con) => (
-                                <li key={con} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#5b2e2b]">
-                                  <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#b64542]" />
-                                  <span><RichInline text={con} /></span>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
+                      <div className="mt-8 grid gap-4 md:grid-cols-2">
+                        <div className="rounded-md border border-[#c8dfcf] bg-[#f2faf1] p-6 shadow-[inset_4px_0_0_#4c7a5a]">
+                          <p className="eyebrow text-[#2f6842]">What we like</p>
+                          <ul className="mt-4 space-y-3">
+                            {content.pros.map((pro) => (
+                              <li key={pro} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#244131]">
+                                <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#2f6842]" />
+                                <span><RichInline text={pro} /></span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="rounded-md border border-[#ecc9c8] bg-[#fff6f5] p-6 shadow-[inset_4px_0_0_#b64542]">
+                          <p className="eyebrow text-[#9f3430]">What we don&apos;t</p>
+                          <ul className="mt-4 space-y-3">
+                            {content.cons.map((con) => (
+                              <li key={con} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#5b2e2b]">
+                                <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#b64542]" />
+                                <span><RichInline text={con} /></span>
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       </div>
+
+                      <blockquote className="mt-6 sand-panel p-6">
+                        <div className="flex flex-col gap-6 sm:flex-row sm:items-stretch sm:justify-between">
+                          <div className="flex-1">
+                            <p className="eyebrow">Editor verdict</p>
+                            <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">
+                              <RichInline text={content.verdict} />
+                            </p>
+                            {content.scoreDiffReason ? (
+                              <p className="mt-4 text-[0.94rem] leading-7 text-[#6b5649]">
+                                <RichInline text={content.scoreDiffReason} />
+                              </p>
+                            ) : null}
+                          </div>
+                          <div className="flex flex-col gap-3 sm:min-w-[200px] sm:items-end">
+                            <div className="rounded-sm border border-[#e1d2c3] bg-[#fffcf8] px-4 py-3 text-center sm:text-right">
+                              <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">Our score</p>
+                              <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-none text-[#1c1210]">
+                                {content.reviewerScore.toFixed(1)}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </blockquote>
                     </div>
                   </div>
                 </section>
@@ -693,6 +704,9 @@ export function HubPage({
           </div>
         </section>
       )}
+
+      {/* Evidence summary (optional, collapsed <details> disclosure rendered above sources) */}
+      {evidenceSummary && <EvidenceSummary data={evidenceSummary} />}
 
       {/* Sources + methodology footer (optional, renders when sourcesFooter prop provided) */}
       {sourcesFooter && <SourcesFooter data={sourcesFooter} />}
