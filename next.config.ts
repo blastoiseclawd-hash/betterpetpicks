@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.betterpetpicks.com" }],
+        destination: "https://betterpetpicks.com/:path*",
+        permanent: true,
+      },
       { source: "/best-dust-free-cat-litter", destination: "/best-cat-litter", permanent: true },
       { source: "/best-non-tracking-cat-litter", destination: "/best-cat-litter", permanent: true },
       { source: "/best-cat-litter-for-odor-control", destination: "/best-cat-litter", permanent: true },
