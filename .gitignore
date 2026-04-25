@@ -3,3 +3,6 @@ node_modules
 out
 dist
 .vercel
+
+# Retired Ahrefs export artifacts (Ahrefs subscription cancelled 2026-04-22)
+data/ahrefs-pulls/
