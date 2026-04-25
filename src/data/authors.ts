@@ -15,6 +15,9 @@ export interface EditorialDesk {
   // Enforced by `.claude/hooks/avatar-substance-check.js` (warn-level on existing
   // content until retrofit stable, then promote to block).
   avatarJobsToAnswer?: string[];
+  // Optional niche-expertise one-liner — trailing line in AuthorBioCard when
+  // populated. Must match a visible methodology-page artifact.
+  nicheExpertise?: string;
   voiceGuide: {
     personality: string[];
     sentenceStyle: string;
