@@ -1,7 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
 import { authors } from "@/data/authors";
 import { siteConfig } from "@/config/site";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = generatePageMetadata({
+  title: siteConfig.defaultTitle,
+  description:
+    "Practical pet-home buying guides for cat litter, fountains, carriers, vacuums, and dog beds that help real homes stay cleaner and calmer.",
+  slug: "",
+  type: "website",
+});
 
 const deskHighlights = authors.map((desk) => ({
   slug: desk.slug,

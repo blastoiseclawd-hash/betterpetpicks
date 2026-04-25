@@ -1,4 +1,4 @@
-import { products } from "@/data/products";
+import { getProductOfferLink, products } from "@/data/products";
 
 export type LitterMaterial = "clay" | "natural" | "crystal" | "pellet";
 export type LitterClumping = "strong" | "moderate" | "none";
@@ -221,7 +221,7 @@ export function getLitterTableRows(): LitterTableProduct[] {
     .filter((p) => p.category === "cat-litter" && litterAttributes[p.slug])
     .map((p) => {
       const attrs = litterAttributes[p.slug];
-      const primary = p.affiliateLinks.find((l) => l.priority === 1) ?? p.affiliateLinks[0];
+      const primary = getProductOfferLink(p);
       return {
         slug: p.slug,
         name: p.name,

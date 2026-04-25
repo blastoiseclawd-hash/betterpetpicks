@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-import { type Product, priceDisplay } from "@/data/products";
+import {
+  getAffiliateLinksByPriority,
+  getCommerceLinkRel,
+  getProductOfferLink,
+  priceDisplay,
+  type Product,
+} from "@/data/products";
 import { cn } from "@/lib/utils";
 
 export interface ProductCardProps {
@@ -38,11 +44,10 @@ export function ProductCard({
   curatedSpecs,
   variant = "default",
 }: ProductCardProps) {
-  const validAffiliateLinks = product.affiliateLinks.filter(
-    (link) => link.url && !link.url.includes("/dp/?tag="),
+  const primaryLink = getProductOfferLink(product);
+  const secondaryLinks = getAffiliateLinksByPriority(product).filter(
+    (link) => !primaryLink || link.url !== primaryLink.url,
   );
-  const primaryLink = validAffiliateLinks[0];
-  const secondaryLinks = validAffiliateLinks.slice(1);
   const price = priceDisplay(product);
   const name = displayName || product.name;
   const specs =
@@ -135,7 +140,7 @@ export function ProductCard({
               <a
                 href={primaryLink.url}
                 target="_blank"
-                rel="noopener noreferrer nofollow sponsored"
+                rel={getCommerceLinkRel(primaryLink)}
                 className="button-primary"
               >
                 See current price
@@ -154,7 +159,7 @@ export function ProductCard({
                     key={link.retailer}
                     href={link.url}
                     target="_blank"
-                    rel="noopener noreferrer nofollow sponsored"
+                    rel={getCommerceLinkRel(link)}
                     className="font-semibold hover:text-[#2C1810]"
                   >
                     {link.retailer}

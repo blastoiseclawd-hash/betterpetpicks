@@ -2,6 +2,7 @@
  * Content for /best-cat-carrier guide page
  * Desk: Cat Care Essentials
  * Primary keyword: best cat carrier (Vol 18,100, KD 10, TP 14,000)
+ * Research source: sites/betterpetpicks/data/research/best-cat-carrier.md.
  */
 
 export const bestCatCarrierGuide = {
