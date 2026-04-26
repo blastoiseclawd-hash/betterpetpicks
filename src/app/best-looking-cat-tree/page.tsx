@@ -22,6 +22,7 @@ export default function BestLookingCatTreePage() {
       publishedDate={content.publishedDate}
       modifiedDate={content.modifiedDate}
       intro={content.intro}
+      heroImage={content.heroImage}
       editorialLabel={content.editorialLabel}
       author={author}
       sections={content.sections}
