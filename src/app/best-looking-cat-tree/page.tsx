@@ -24,6 +24,7 @@ export default function BestLookingCatTreePage() {
       intro={content.intro}
       heroImage={content.heroImage}
       editorialLabel={content.editorialLabel}
+      quickPicks={content.quickPicks}
       author={author}
       sections={content.sections}
       faqs={content.faqs}

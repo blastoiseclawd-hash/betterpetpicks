@@ -36,6 +36,21 @@ interface SupportFaq {
   answer: string;
 }
 
+export interface SupportQuickPick {
+  label: string;        // archetype / category badge, e.g. "Premium furniture"
+  productName: string;  // flagship product name, e.g. "Refined Feline Lotus Cat Tower"
+  priceTier: string;    // e.g. "~$500" or "$300-$500" — not an exact scraped price
+  bestFor: string;      // one-line decision shortcut, e.g. "Best for: art-piece silhouette + multi-cat households"
+  thumbnail: SupportImage;
+  href?: string;        // optional internal link (deeper guide on the archetype)
+}
+
+export interface SupportQuickPicks {
+  title?: string;
+  intro?: string;
+  picks: SupportQuickPick[];
+}
+
 interface SupportPageProps {
   title: string;
   description: string;
@@ -47,6 +62,9 @@ interface SupportPageProps {
   intro: string;
   heroImage?: SupportImage;
   editorialLabel?: string;
+
+  // Reader-first Quick Picks block (renders directly under hero, above prose)
+  quickPicks?: SupportQuickPicks;
 
   // Author
   author: Author;
@@ -145,6 +163,72 @@ function FaqSection({ faqs }: { faqs: SupportFaq[] }) {
   );
 }
 
+// ─── Quick picks block (reader-first cards under the hero) ──────
+
+function QuickPicksCard({ pick }: { pick: SupportQuickPick }) {
+  const inner = (
+    <div className="group flex h-full flex-col overflow-hidden rounded-md border border-[#d8d2c8] bg-[#fffefb] shadow-[0_12px_30px_rgba(24,32,40,0.05)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_rgba(24,32,40,0.08)]">
+      <div className="relative aspect-[4/3] overflow-hidden bg-[#f5f3ee]">
+        <Image
+          src={pick.thumbnail.src}
+          alt={pick.thumbnail.alt}
+          fill
+          className="object-cover"
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+        />
+        <span className="absolute left-3 top-3 inline-flex items-center rounded-full bg-[#16212a]/85 px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[#dae4de] backdrop-blur-sm">
+          {pick.label}
+        </span>
+      </div>
+      <div className="flex flex-1 flex-col gap-2 px-5 py-5">
+        <p className="font-[family-name:var(--font-playfair)] text-[1.18rem] font-semibold leading-snug text-[#23150f] group-hover:text-[#2a5a3a]">
+          {pick.productName}
+        </p>
+        <p className="text-[0.84rem] font-semibold uppercase tracking-[0.14em] text-[#697560]">
+          {pick.priceTier}
+        </p>
+        <p className="mt-auto text-[0.97rem] leading-7 text-[#4b5760]">
+          {pick.bestFor}
+        </p>
+      </div>
+    </div>
+  );
+
+  if (pick.href) {
+    return (
+      <Link href={pick.href} className="block h-full">
+        {inner}
+      </Link>
+    );
+  }
+  return inner;
+}
+
+function QuickPicksBlock({ data }: { data: SupportQuickPicks }) {
+  return (
+    <section className="border-b border-[#d9d4cb] bg-[#faf7f2]">
+      <div className="site-shell py-12 sm:py-14">
+        <span className="editorial-rule">
+          {data.title ? "" : "At a glance"}
+        </span>
+        <h2 className="mt-3 font-[family-name:var(--font-playfair)] text-[2rem] font-semibold leading-[1.05] text-[#23150f] sm:text-[2.4rem]">
+          {data.title || "The picks at a glance"}
+        </h2>
+        {data.intro && (
+          <p className="mt-4 max-w-3xl text-[1.02rem] leading-8 text-[#4b5760]">
+            {data.intro}
+          </p>
+        )}
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {data.picks.map((pick, i) => (
+            <QuickPicksCard key={i} pick={pick} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ─── Related links grid ─────────────────────────────────────────
 
 function RelatedLinksGrid({ links }: { links: { href: string; title: string }[] }) {
@@ -179,6 +263,7 @@ export function SupportPage({
   intro,
   heroImage,
   editorialLabel = "Guide",
+  quickPicks,
   author,
   sections,
   faqs,
@@ -316,6 +401,11 @@ export function SupportPage({
           </div>
         </div>
       </section>
+
+      {/* ── Quick picks (reader-first cards under hero) ── */}
+      {quickPicks && quickPicks.picks.length > 0 && (
+        <QuickPicksBlock data={quickPicks} />
+      )}
 
       {/* ── Table of contents jump links ── */}
       <section className="border-b border-[#d9d4cb] bg-[#f3f2ec]">

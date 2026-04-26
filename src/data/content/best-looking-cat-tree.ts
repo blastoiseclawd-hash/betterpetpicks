@@ -35,6 +35,73 @@ export const bestLookingCatTreeContent = {
     alt: "An aesthetic cat tree with a wide circular oak base, a sisal-wrapped center post, and two cushioned cream faux-fur platforms at different heights, sitting in a sunlit warm-toned living room beside a mid-century walnut chair and a small potted plant. The cat tree reads as furniture, not pet equipment.",
   },
 
+  quickPicks: {
+    title: "The picks at a glance",
+    intro: "Six aesthetic archetypes the market actually breaks into. Pick the lane that matches your room first, then read the depth below to make sure the tree you want passes the wobble check.",
+    picks: [
+      {
+        label: "Premium furniture",
+        productName: "Refined Feline Lotus Cat Tower",
+        priceTier: "~$500",
+        bestFor: "Best for: art-piece silhouette in a neutral living room. Multi-cat households.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-01-premium-furniture.png",
+          alt: "Mid-century wooden cat tower with two curved cushioned cream platforms at different heights on a wide oak base.",
+        },
+      },
+      {
+        label: "Modern Scandinavian",
+        productName: "Mau Ivy Cat Tree",
+        priceTier: "~$400-$500",
+        bestFor: "Best for: clean-natural rooms. Sisal posts replace carpet, no hair-on-hardwood problem.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-02-modern-scandinavian.png",
+          alt: "Solid wood cat tree with sisal-wrapped branches and a wicker basket, Scandinavian aesthetic.",
+        },
+      },
+      {
+        label: "Designer-art",
+        productName: "MiaCara / Tuft + Paw / Meyou Paris",
+        priceTier: "$700+",
+        bestFor: "Best for: gallery-grade decor in single-cat homes. Premium European designer tier.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-03-designer-art.png",
+          alt: "Sculptural pole with a single suspended cocoon-shape bowl, gallery-grade designer cat furniture.",
+        },
+      },
+      {
+        label: "Geometric-modular",
+        productName: "Vesper V-High Base by Catit",
+        priceTier: "~$300",
+        bestFor: "Best for: starter aesthetic pick. Walnut or matte black, hammock plus cube plus scratching post.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-04-geometric-modular.png",
+          alt: "Stacked walnut cubes with a hammock, geometric-modular cat tree.",
+        },
+      },
+      {
+        label: "Plant / topiary",
+        productName: "On2 Pets Cherry Blossom",
+        priceTier: "~$300-$400",
+        bestFor: "Best for: plant-styled rooms. Disappears as decor in a biophilic-design space.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-05-plant-topiary.png",
+          alt: "Tall narrow trunk topped with cherry-blossom foliage, with platforms emerging from the branches.",
+        },
+      },
+      {
+        label: "Wall-mounted",
+        productName: "Hauspanther by Primetime Petz",
+        priceTier: "~$200-$400",
+        bestFor: "Best for: small apartments where the floor footprint cannot give up another piece of furniture.",
+        thumbnail: {
+          src: "/images/guides/best-looking-cat-tree/thumb-06-wall-mounted.png",
+          alt: "Three floating wall shelves at staggered heights, wall-mounted cat furniture.",
+        },
+      },
+    ],
+  },
+
   sections: [
     {
       id: "what-best-looking-actually-means",
