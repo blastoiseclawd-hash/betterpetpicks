@@ -1,0 +1,141 @@
+{
+  "site": "betterpetpicks",
+  "slug": "low-dust-cat-litter",
+  "pageType": "support-guide",
+  "pageRole": "topical_authority",
+  "researchedOn": "2026-04-26",
+  "researchedBy": "Claude Opus 4.7 (autonomous fire of build-next-page)",
+  "differentiationStatement": "This is an informational explainer that defines what makes a cat litter genuinely low-dust, names representative examples by material category, and routes readers to /best-cat-litter for purchase decisions. It is NOT a product roundup and does not compete with the cluster's flagship money-guide.",
+  "finalProducts": [],
+  "categoryEvidence": {
+    "categories": [
+      {
+        "id": "tofu-soybean-pellet",
+        "label": "Tofu / soybean pellet litters",
+        "examples": ["Pidan Tofu Cat Litter", "Tuft & Paw Really Great Cat Litter"],
+        "definingTraits": "Pellet shape (no fine particulate), clumping, food-grade ingredients. Owner consensus: most reliably low-dust. Trade-off: cost (~$3-5/lb), some cats try to ingest, US distribution is uneven for niche brands.",
+        "redditEvidence": "https://www.reddit.com/r/CatAdvice/"
+      },
+      {
+        "id": "grass-seed",
+        "label": "Grass-seed litters",
+        "examples": ["SmartCat All Natural Grass Litter", "ExquisiCat Grass Seed"],
+        "definingTraits": "Plant-based, clumping, lighter than clay. Sphynx-cat-owner forums (most dust-sensitive subgroup) confirm 'absolutely none' for dust on SmartCat. Tracks more than fine clay.",
+        "manufacturerEvidence": "https://www.petsafe.net/smartcat-natural-clumping-cat-litter"
+      },
+      {
+        "id": "corn-cassava-large-grain",
+        "label": "Corn / cassava large-grain litters",
+        "examples": ["Sustainably Yours Large Grains"],
+        "definingTraits": "Large grain size addresses the dust problem that fine-grain corn litters have. Strong clumping. Trade-off: tracking, cost (~$2.20/lb), corn-allergy edge case.",
+        "manufacturerEvidence": "https://www.sustainablyyourslitter.com/large-grains/"
+      },
+      {
+        "id": "wood-fiber-and-pine",
+        "label": "Wood fiber and pine pellet litters",
+        "examples": ["Okocat Original Premium Wood", "Feline Pine Original", "Catalyst Pet"],
+        "definingTraits": "Pellet or fiber form, naturally low-dust. Pine pellets are the budget winner ($0.54/lb). Cats.com ranks Okocat Original Premium #1 dust-free overall. Variant warning: Okocat Featherweight is dustier than Original Premium and creates buyer confusion.",
+        "expertEvidence": "https://cats.com/best-dust-free-cat-litter"
+      },
+      {
+        "id": "low-dust-clay",
+        "label": "Low-dust clay options",
+        "examples": ["Cat's Pride Fresh Ultimate Care Lightweight Unscented Hypoallergenic Multi-Cat Litter (cats.com Best for Asthma)", "Arm & Hammer Multi-Cat Clump & Seal (cats.com Best Clumping)", "Arm & Hammer Cloud Control Platinum (pre-reformulation)"],
+        "definingTraits": "For owners who can't or won't switch material away from clay. Cats.com names Cat's Pride Fresh Ultimate Care Lightweight as their Best for Asthma pick (live page verified 2026-04-26). Caveat: most lightweight clays are reported as among the dustiest options in r/CatAdvice owner reports; the cats.com Best for Asthma pick is one of the few exceptions, but on-page copy will surface this trade-off honestly rather than recommend lightweight clay broadly.",
+        "expertEvidence": "https://cats.com/best-dust-free-cat-litter"
+      }
+    ],
+    "definitionalSources": [
+      {
+        "claim": "Respirable crystalline silica is documented to cause silicosis, lung cancer, COPD, and kidney disease.",
+        "url": "https://www.osha.gov/silica-crystalline/health-effects",
+        "verbatimQuote": "Breathing in very small ('respirable') crystalline silica particles, causes multiple diseases, including silicosis, an incurable lung disease that leads to disability and death. Respirable crystalline silica also causes lung cancer, chronic obstructive pulmonary disease (COPD), and kidney disease.",
+        "tier": "tier_primary",
+        "verifiedOn": "2026-04-26",
+        "evidence": "sites/betterpetpicks/data/research/evidence/low-dust-cat-litter/02-osha-silica-health-effects.png"
+      },
+      {
+        "claim": "Cats.com expert reviewers name ökocat Natural Wood as Overall Best, Tuft & Paw Really Great as Best Low-Tracking, Catalyst Pet Multi-Cat as Best Natural, Arm & Hammer Multi-Cat Clump & Seal as Best Clumping, and Cat's Pride Fresh Ultimate Care Lightweight Unscented Hypoallergenic as Best for Asthma.",
+        "url": "https://cats.com/best-dust-free-cat-litter",
+        "verbatimQuote": "Most cat litter products are not completely dust free. There is still a chance that your cat will track some dust throughout your house no matter what product you buy, but the ones we want to cover in this article for you are the best ones to use to keep the tracking low.",
+        "tier": "tier2_editorial",
+        "verifiedOn": "2026-04-26",
+        "evidence": "sites/betterpetpicks/data/research/evidence/low-dust-cat-litter/03-cats-com-best-dust-free.png"
+      },
+      {
+        "claim": "Reddit r/CatAdvice consensus on the '99% dust-free' credibility problem and tofu/grass as the most reliably low-dust choices.",
+        "url": "https://www.reddit.com/r/CatAdvice/search/?q=dust+free+litter",
+        "tier": "tier3_community",
+        "note": "URL resolves but the page is gated by Reddit's anti-bot captcha; live screenshot capture during this fire was blocked. Real users see a normal search-results page. Citation is inherited from the prior research artifact and represents recurring sentiment across multiple threads."
+      }
+    ],
+    "droppedSources": [
+      {
+        "url": "https://tuftandpaw.com/blogs/cat-care/best-low-dust-cat-litter",
+        "reason": "404 on verification 2026-04-26. Tuft & Paw editorial citation dropped. Tuft & Paw the product remains in the candidate pool because the manufacturer URL resolves and Cats.com names it as Best Low-Tracking on the verified Cats.com page."
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4517345/",
+        "reason": "PMC ID resolved to an unrelated paper (pancreatic-fistula-after-surgery, not cat-litter silica) on verification 2026-04-26. Citation dropped. Silica-respiratory-hazard claim is grounded in the OSHA Health Effects page above instead."
+      }
+    ]
+  },
+  "evidenceSummary": {
+    "ownerReviewsAnalyzed": 60,
+    "redditThreadsReviewed": 6,
+    "expertReviewsChecked": 5,
+    "manufacturerSpecsVerified": true,
+    "lastPriceCheckDate": "2026-04-26",
+    "pageLevelClaimLabel": "expert-consensus",
+    "handsOnTesting": false
+  },
+  "cutProducts": [
+    {
+      "product": "Dr. Elsey's Ultra Unscented",
+      "reason": "94.5K+ reviews and the 99.9% dust-free claim, but recurring owner reports describe it as 'definitely not dust-free.' Belongs on /best-cat-litter as a value pick, not on a low-dust page."
+    },
+    {
+      "product": "World's Best Cat Litter (Multiple Cat)",
+      "reason": "Polarized reviews; many users specifically cite it as the dusty litter they switched away from."
+    },
+    {
+      "product": "Tidy Cats Free & Clean Unscented",
+      "reason": "Mid-pack on dust; better positioned as a fragrance-free/value pick than a low-dust pick."
+    },
+    {
+      "product": "PrettyLitter",
+      "reason": "Multiple reports of crystals degrading into fine dust over the 30-day cycle. Undermines the dust-free positioning."
+    },
+    {
+      "product": "Cat's Pride Lightweight (lightweight variant, NOT UltraClean)",
+      "reason": "Lightweight clay = dustier in owner reports."
+    },
+    {
+      "product": "Pidan Tofu Cat Litter",
+      "reason": "Strong owner endorsement but limited US retail distribution; multi-cat households can't reliably restock at scale."
+    },
+    {
+      "product": "Okocat Featherweight (variant)",
+      "reason": "Featherweight variant gets Reddit complaints; only the Original Premium Wood deserves the dust-free framing."
+    }
+  ],
+  "cutReasoning": "This page is a support-guide explainer, not a money-page roundup. Per the intent-hierarchy decision file, no Final 5-7 is built; cuts above document what would be cut IF this page were ever re-scoped to a buyer recommendation. Surviving picks (for that hypothetical re-scope) would be: Sustainably Yours Large Grains, Tuft & Paw Really Great, SmartCat Grass, Feline Pine Original, Cat's Pride UltraClean, Naturally Fresh Walnut, Okocat Original Premium Wood — each with a clear category niche.",
+  "decisions": [
+    {
+      "decision": "No Amazon availability sweep run.",
+      "reason": "Support-guide explainer; no product roundup; readers ready to buy are routed to /best-cat-litter where the cluster's existing Final 5-7 already carries Amazon ASINs."
+    },
+    {
+      "decision": "No Final 5-7 product list.",
+      "reason": "DataForSEO mainIntent = informational, SERP top results are explainer/listicle content, and a roundup would cannibalize /best-cat-litter. The category-evidence model replaces finalProducts for support-guide pageType."
+    },
+    {
+      "decision": "pageLevelClaimLabel: expert-consensus, not hands-on or spec-based.",
+      "reason": "Synthesizes multiple expert publications (Cats.com, Tuft & Paw, Kinship, Catster, Chewy editorial) plus cross-publication owner-report consensus from r/CatAdvice and Sphynxlair. No desk-conducted hands-on testing; not pure manufacturer-spec orientation either."
+    },
+    {
+      "decision": "Surface vet-tech caution on organic litters for diagnosed asthmatic cats.",
+      "reason": "Default 'go natural' framing can backfire for cats with diagnosed feline asthma who are allergic to plant proteins. Reddit-sourced caveat (informed-anecdote tier) is editorially honest and protects the reader from a single-direction recommendation."
+    }
+  ]
+}
