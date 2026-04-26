@@ -59,6 +59,16 @@ export interface PageTarget {
   notes: string;
   parentKeyword?: string;
   keyword?: string;
+  pageRole?: "primary_commercial" | "secondary_commercial" | "topical_authority" | "glue_content";
+  parentCanonicalSlug?: string;
+  lineupStatus?: "unknown" | "predicted" | "validated" | "not-applicable";
+  predictedTopThreeSkus?: string[];
+  predictedTopFiveSkus?: string[];
+  differentiationMode?: string;
+  differentiationModes?: string[];
+  differentiationStatement?: string;
+  productCountPolicy?: string;
+  productCountJustification?: string;
 }
 
 export const pageTargets: PageTarget[] = [
@@ -107,7 +117,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Biggest keyword on the site. KD 3, TP 39,000. Desk TBD until Pet Cleanup desk is built.",
     parentKeyword: "best vacuum for pet hair",
-    keyword: "best vacuum for pet hair"
+    keyword: "best vacuum for pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-water-fountain",
@@ -149,7 +161,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Launch hub for the hydration cluster. It should hold broad intent while sending narrow readers toward stainless, easy-clean, no-mold, and multi-cat pages.",
     parentKeyword: "best cat water fountain",
-    keyword: "best cat water fountain"
+    keyword: "best cat water fountain",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-indestructible-dog-bed",
@@ -181,7 +195,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "KD 5, TP 15,000. High TP. Distinct from chew-proof (more extreme).",
     parentKeyword: "best indestructible dog bed",
-    keyword: "best indestructible dog bed"
+    keyword: "best indestructible dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-vacuum-for-pet-hair",
@@ -223,7 +239,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Form-factor spoke. KD 5, TP 8,700. Distinct from corded and upright.",
     parentKeyword: "best cordless vacuum for pet hair",
-    keyword: "best cordless vacuum for pet hair"
+    keyword: "best cordless vacuum for pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cooling-dog-bed",
@@ -255,7 +273,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "KD 2, TP 6,000. Low-KD entry point into dog cluster. Desk TBD.",
     parentKeyword: "best cooling dog bed",
-    keyword: "best cooling dog bed"
+    keyword: "best cooling dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-cat-pee-from-carpet",
@@ -287,7 +307,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Surface-specific cleanup guide. KD 2, TP 5,400. Complements cat-pee-smell page.",
     parentKeyword: "how to clean cat pee from carpet",
-    keyword: "how to clean cat pee from carpet"
+    keyword: "how to clean cat pee from carpet",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-pet-hair-remover",
@@ -319,7 +340,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Non-vacuum tool spoke. KD 2, TP 6,000. Covers rollers, brushes, brooms.",
     parentKeyword: "best pet hair remover",
-    keyword: "best pet hair remover"
+    keyword: "best pet hair remover",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-remove-pet-hair-from-clothes",
@@ -351,7 +374,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Support page for clothing-specific cleanup. KD 0, TP 5,400.",
     parentKeyword: "how to remove pet hair from clothes",
-    keyword: "how to remove pet hair from clothes"
+    keyword: "how to remove pet hair from clothes",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-get-rid-of-cat-pee-smell",
@@ -384,7 +408,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "High-volume support page (8,100) for the litter/odor cluster. Strengthens commercial pages by teaching the cleanup method and pointing readers to the right litter.",
     parentKeyword: "how to get rid of cat pee smell",
-    keyword: "how to get rid of cat pee smell"
+    keyword: "how to get rid of cat pee smell",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cat-litter-for-multiple-cats",
@@ -423,7 +448,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Scale-up litter spoke. Keep the focus on refill rate, clump stability, odor under load, and value over time.",
     parentKeyword: "best cat litter for multiple cats",
-    keyword: "best cat litter for multiple cats"
+    keyword: "best cat litter for multiple cats",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter",
@@ -495,7 +522,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Launch hub for the whole litter cluster. It should route readers into odor, dust, tracking, and multi-cat spokes instead of trying to absorb every sub-intent.",
     parentKeyword: "best cat litter",
-    keyword: "best cat litter"
+    keyword: "best cat litter",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-harness",
@@ -528,7 +557,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Cat gear hub. KD 4, TP 6,800. Absorbs leash and walking variants as secondaries.",
     parentKeyword: "best cat harness",
-    keyword: "best cat harness"
+    keyword: "best cat harness",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter-mat",
@@ -562,7 +593,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Litter mat spoke. Different product category than litter itself. Addresses tracking reduction via mats.",
     parentKeyword: "best cat litter mat",
-    keyword: "best cat litter mat"
+    keyword: "best cat litter mat",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-remove-pet-hair-from-couch",
@@ -594,7 +627,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "High-volume support page. KD 0, TP 2,500. Feeds into remover and vacuum pages.",
     parentKeyword: "how to remove pet hair from couch",
-    keyword: "how to remove pet hair from couch"
+    keyword: "how to remove pet hair from couch",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-often-to-change-cat-litter",
@@ -626,7 +660,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Litter maintenance support page. KD 2, TP 3,100. Pairs with how-much-cat-litter.",
     parentKeyword: "how often to change cat litter",
-    keyword: "how often to change cat litter"
+    keyword: "how often to change cat litter",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-get-cat-to-use-scratching-post",
@@ -658,7 +693,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Cat gear support page. KD 0, TP 2,500. Strengthens cat tree cluster.",
     parentKeyword: "how to get cat to use scratching post",
-    keyword: "how to get cat to use scratching post"
+    keyword: "how to get cat to use scratching post",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-much-cat-litter-to-use",
@@ -690,7 +726,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Fast beginner-support page that strengthens the litter hub and gives the site a practical setup answer early in the launch.",
     parentKeyword: "how much cat litter to use",
-    keyword: "how much cat litter to use"
+    keyword: "how much cat litter to use",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cat-carrier",
@@ -731,7 +768,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Cat gear hub. KD 1, TP 2,200. Spokes: backpack, sling, anxious cats, soft/hard. \\",
     parentKeyword: "best cat carrier",
-    keyword: "best cat carrier"
+    keyword: "best cat carrier",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-chew-proof-dog-bed",
@@ -759,7 +798,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | on-disk-drift-fix 2026-04-20 Ahrefs-discovered candidate Duplicate intent of LIVE /best-chew-proof-dog-bed (chewproofdogbed); matched on \"best chew proof dog bed\".",
     parentKeyword: "best chew proof dog bed",
-    keyword: "best chew proof dog bed"
+    keyword: "best chew proof dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-tree-for-large-cats",
@@ -787,7 +828,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | on-disk-drift-fix 2026-04-20 Ahrefs-discovered candidate Duplicate intent of LIVE /best-cat-tree-for-large-cats (largecattree); matched on \"best cat tree for large cats\".",
     parentKeyword: "best cat tree for large cats",
-    keyword: "best cat tree for large cats"
+    keyword: "best cat tree for large cats",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-tree",
@@ -822,7 +865,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | on-disk-drift-fix 2026-04-20 Ahrefs-discovered candidate Duplicate intent of LIVE /best-cat-tree (best cat tree for kitten); matched on \"best cat tree for kittens\".",
     parentKeyword: "best cat tree for kittens",
-    keyword: "best cat tree for kittens"
+    keyword: "best cat tree for kittens",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-litter-decision-table",
@@ -850,7 +895,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "on-disk-discovery-registration 2026-04-20 | registered from src/app scan",
     parentKeyword: "cat litter decision table",
-    keyword: "cat litter decision table"
+    keyword: "cat litter decision table",
+    pageRole: "glue_content"
   },
   {
     slug: "low-tracking-cat-litter",
@@ -889,7 +935,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat litter for tracking",
-    keyword: "best cat litter for tracking"
+    keyword: "best cat litter for tracking",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-automatic-litter-box",
@@ -924,50 +972,21 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best automatic litter box",
-    keyword: "best automatic litter box"
+    keyword: "best automatic litter box",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
-    slug: "litter-robot",
-    title: "Best Self Cleaning Cat Litter",
-    type: "spoke",
-    pageType: "money-guide",
-    contentShape: "flagship-roundup",
-    intentBucket: "buy",
-    clusterId: "cat-litter",
-    buildOrder: 25,
-    buildPriorityScore: 64.5,
-    buildStatus: "NOT BUILT",
-    primaryKeyword: "best self cleaning cat litter",
-    modifiedDate: undefined,
-    primaryVolume: 266000,
-    primaryKd: 9,
-    trafficPotential: 280000,
-    secondaryKeywords: [
-      "the best self cleaning cat litter box",
-      "best cat self cleaning litter box"
-    ],
-    authorSlug: "multi-cat-home-desk",
-    deskId: "multi-cat-home-desk",
-    audienceProfile: "Multi-Cat Operator",
-    primaryAvatar: "Household Operator",
-    secondaryAvatar: "",
-    audienceEvidence: "Defaulted from existing BetterPetPicks desk mapping. Refresh to direct avatar-research citation before building backlog rows that were not explicitly mapped in keyword-map.ts.",
-    priority: 3,
-    notes: "Ahrefs-discovered candidate",
-    parentKeyword: "best self cleaning cat litter",
-    keyword: "best self cleaning cat litter"
-  },
-  {
-    slug: "mau-cat-tree",
+    slug: "best-looking-cat-tree",
     title: "Best Looking Cat Tree",
     type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-gear",
-    buildOrder: 26,
+    buildOrder: 25,
     buildPriorityScore: 69.2,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best looking cat tree",
     modifiedDate: undefined,
     primaryVolume: 6100,
@@ -981,9 +1000,10 @@ export const pageTargets: PageTarget[] = [
     secondaryAvatar: "",
     audienceEvidence: "Defaulted from existing BetterPetPicks desk mapping. Refresh to direct avatar-research citation before building backlog rows that were not explicitly mapped in keyword-map.ts.",
     priority: 2,
-    notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
+    notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial). | slug-rename-2026-04-26: mau-cat-tree → best-looking-cat-tree (slug now matches primary keyword for SEO; see intent-hierarchy/best-looking-cat-tree-decision.md).",
     parentKeyword: "best looking cat tree",
-    keyword: "best looking cat tree"
+    keyword: "best looking cat tree",
+    pageRole: "topical_authority"
   },
   {
     slug: "low-dust-cat-litter",
@@ -993,7 +1013,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 27,
+    buildOrder: 26,
     buildPriorityScore: 61,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter for dust control",
@@ -1011,7 +1031,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cat litter for dust control",
-    keyword: "best cat litter for dust control"
+    keyword: "best cat litter for dust control",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cat-litter-vs-dr-elsey",
@@ -1021,7 +1042,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "head-to-head",
     intentBucket: "decide",
     clusterId: "cat-litter",
-    buildOrder: 28,
+    buildOrder: 27,
     buildPriorityScore: 43.9,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter vs dr elsey",
@@ -1039,7 +1060,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat litter vs dr elsey",
-    keyword: "best cat litter vs dr elsey"
+    keyword: "best cat litter vs dr elsey",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-auto-cat-litter-box",
@@ -1049,7 +1072,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 29,
+    buildOrder: 28,
     buildPriorityScore: 63.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best auto cat litter box",
@@ -1067,7 +1090,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=22200 KD=4 intent=commercial",
     parentKeyword: "best auto cat litter box",
-    keyword: "best auto cat litter box"
+    keyword: "best auto cat litter box",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter-for-odor",
@@ -1077,7 +1102,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 30,
+    buildOrder: 29,
     buildPriorityScore: 58.9,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter to control odor",
@@ -1111,7 +1136,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cat litter to control odor",
-    keyword: "best cat litter to control odor"
+    keyword: "best cat litter to control odor",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-clean-litter-box",
@@ -1121,7 +1147,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 31,
+    buildOrder: 30,
     buildPriorityScore: 56,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best way to clean cat litter box",
@@ -1139,7 +1165,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best way to clean cat litter box",
-    keyword: "best way to clean cat litter box"
+    keyword: "best way to clean cat litter box",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-harness-for-dog",
@@ -1149,7 +1176,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 32,
+    buildOrder: 31,
     buildPriorityScore: 62.3,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best harness for dog",
@@ -1167,7 +1194,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=12100 KD=1 intent=commercial",
     parentKeyword: "best harness for dog",
-    keyword: "best harness for dog"
+    keyword: "best harness for dog",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "where-to-put-litter-box",
@@ -1177,7 +1206,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 33,
+    buildOrder: 32,
     buildPriorityScore: 55.1,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best place to put cat litter box",
@@ -1197,7 +1226,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best place to put cat litter box",
-    keyword: "best place to put cat litter box"
+    keyword: "best place to put cat litter box",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-dog-crate",
@@ -1207,7 +1237,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 34,
+    buildOrder: 33,
     buildPriorityScore: 58.4,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog crate",
@@ -1225,7 +1255,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=6600 KD=0 intent=commercial",
     parentKeyword: "best dog crate",
-    keyword: "best dog crate"
+    keyword: "best dog crate",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "health-monitor-cat-litter",
@@ -1235,7 +1267,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 35,
+    buildOrder: 34,
     buildPriorityScore: 57.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best health monitoring cat litter",
@@ -1253,7 +1285,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best health monitoring cat litter",
-    keyword: "best health monitoring cat litter"
+    keyword: "best health monitoring cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "small-cat-tree",
@@ -1263,7 +1297,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-gear",
-    buildOrder: 36,
+    buildOrder: 35,
     buildPriorityScore: 53.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat trees for small spaces",
@@ -1281,7 +1315,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cat trees for small spaces",
-    keyword: "best cat trees for small spaces"
+    keyword: "best cat trees for small spaces",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-much-does-cat-litter-cost",
@@ -1291,7 +1326,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "ordered-backlog",
-    buildOrder: 37,
+    buildOrder: 36,
     buildPriorityScore: 51.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how much does cat litter cost",
@@ -1309,7 +1344,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "how much does cat litter cost",
-    keyword: "how much does cat litter cost"
+    keyword: "how much does cat litter cost",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-dyson-for-pet-hair",
@@ -1319,7 +1355,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 38,
+    buildOrder: 37,
     buildPriorityScore: 55.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dyson for pet hair",
@@ -1337,7 +1373,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best dyson for pet hair",
-    keyword: "best dyson for pet hair"
+    keyword: "best dyson for pet hair",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "where-to-buy-cat-litter",
@@ -1347,7 +1385,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 39,
+    buildOrder: 38,
     buildPriorityScore: 56.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "where to buy cat litter",
@@ -1365,7 +1403,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "where to buy cat litter",
-    keyword: "where to buy cat litter"
+    keyword: "where to buy cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-big-should-a-cat-carrier-be",
@@ -1375,7 +1415,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-gear",
-    buildOrder: 40,
+    buildOrder: 39,
     buildPriorityScore: 51,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how big should a cat carrier be",
@@ -1393,7 +1433,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how big should a cat carrier be",
-    keyword: "how big should a cat carrier be"
+    keyword: "how big should a cat carrier be",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-much-cat-litter-should-be-in-a-litter-box",
@@ -1403,7 +1444,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 41,
+    buildOrder: 40,
     buildPriorityScore: 50.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how much cat litter should be in a litter box",
@@ -1421,7 +1462,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how much cat litter should be in a litter box",
-    keyword: "how much cat litter should be in a litter box"
+    keyword: "how much cat litter should be in a litter box",
+    pageRole: "topical_authority"
   },
   {
     slug: "floor-to-ceiling-cat-tree",
@@ -1431,7 +1473,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 42,
+    buildOrder: 41,
     buildPriorityScore: 56.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best floor to ceiling cat tree",
@@ -1449,7 +1491,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best floor to ceiling cat tree",
-    keyword: "best floor to ceiling cat tree"
+    keyword: "best floor to ceiling cat tree",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-stop-cat-litter-from-smelling",
@@ -1459,7 +1503,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "setup-how-to",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 43,
+    buildOrder: 42,
     buildPriorityScore: 50,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how to stop cat litter from smelling",
@@ -1477,7 +1521,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how to stop cat litter from smelling",
-    keyword: "how to stop cat litter from smelling"
+    keyword: "how to stop cat litter from smelling",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-dog-bed-for-large-dogs",
@@ -1487,7 +1532,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 44,
+    buildOrder: 43,
     buildPriorityScore: 55.1,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed for large dogs?",
@@ -1507,7 +1552,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate Ahrefs-discovered candidate Duplicate intent of queued /best-dog-bed-for-large-dogs (best dog bed for large dog); matched on \"best dog bed for large dogs?\".",
     parentKeyword: "best dog bed for large dogs?",
-    keyword: "best dog bed for large dogs?"
+    keyword: "best dog bed for large dogs?",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "outdoor-cat-tree",
@@ -1517,7 +1564,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "ordered-backlog",
-    buildOrder: 45,
+    buildOrder: 44,
     buildPriorityScore: 55.3,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best outdoor cat tree",
@@ -1535,7 +1582,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best outdoor cat tree",
-    keyword: "best outdoor cat tree"
+    keyword: "best outdoor cat tree",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-is-world-s-best-cat-litter-made-of",
@@ -1545,7 +1594,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "glossary-explainer",
     intentBucket: "learn",
     clusterId: "cat-litter",
-    buildOrder: 46,
+    buildOrder: 45,
     buildPriorityScore: 50,
     buildStatus: "NOT BUILT",
     primaryKeyword: "what is world's best cat litter made of",
@@ -1563,7 +1612,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what is world's best cat litter made of",
-    keyword: "what is world's best cat litter made of"
+    keyword: "what is world's best cat litter made of",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-get-rid-of-cat-pee-smell-on-couch",
@@ -1573,7 +1623,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "ordered-backlog",
-    buildOrder: 47,
+    buildOrder: 46,
     buildPriorityScore: 48.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "cat pee smell on couch",
@@ -1591,7 +1641,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "cat pee smell on couch",
-    keyword: "cat pee smell on couch"
+    keyword: "cat pee smell on couch",
+    pageRole: "topical_authority"
   },
   {
     slug: "dust-free-cat-litter",
@@ -1601,7 +1652,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 48,
+    buildOrder: 47,
     buildPriorityScore: 55,
     buildStatus: "NOT BUILT",
     primaryKeyword: "dust free cat litter",
@@ -1621,7 +1672,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "dust free cat litter",
-    keyword: "dust free cat litter"
+    keyword: "dust free cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-trees",
@@ -1631,7 +1684,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "ordered-backlog",
-    buildOrder: 49,
+    buildOrder: 48,
     buildPriorityScore: 54.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best modern cat tree",
@@ -1651,7 +1704,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best modern cat tree",
-    keyword: "best modern cat tree"
+    keyword: "best modern cat tree",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-get-rid-of-cat-pee-smell-outside",
@@ -1661,7 +1716,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "ordered-backlog",
-    buildOrder: 50,
+    buildOrder: 49,
     buildPriorityScore: 48.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "cat pee smell outside",
@@ -1679,7 +1734,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "cat pee smell outside",
-    keyword: "cat pee smell outside"
+    keyword: "cat pee smell outside",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-train-cat-to-walk-on-leash",
@@ -1689,7 +1745,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "setup-how-to",
     intentBucket: "learn",
     clusterId: "ordered-backlog",
-    buildOrder: 51,
+    buildOrder: 50,
     buildPriorityScore: 46.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how to leash train a cat",
@@ -1707,7 +1763,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "how to leash train a cat",
-    keyword: "how to leash train a cat"
+    keyword: "how to leash train a cat",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-bed-for-elderly-dog",
@@ -1717,7 +1774,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 52,
+    buildOrder: 51,
     buildPriorityScore: 53.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best bed for elderly dog",
@@ -1735,7 +1792,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=1600 KD=1 intent=commercial",
     parentKeyword: "best bed for elderly dog",
-    keyword: "best bed for elderly dog"
+    keyword: "best bed for elderly dog",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-scratching-post-material",
@@ -1745,7 +1804,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "cat-gear",
-    buildOrder: 53,
+    buildOrder: 52,
     buildPriorityScore: 43.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat scratching post material",
@@ -1763,7 +1822,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cat scratching post material",
-    keyword: "best cat scratching post material"
+    keyword: "best cat scratching post material",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-bed-for-senior-dog",
@@ -1773,7 +1833,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 54,
+    buildOrder: 53,
     buildPriorityScore: 53.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best bed for senior dog",
@@ -1791,7 +1851,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=1600 KD=0 intent=commercial",
     parentKeyword: "best bed for senior dog",
-    keyword: "best bed for senior dog"
+    keyword: "best bed for senior dog",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-stainless-steel-litter-box",
@@ -1801,7 +1863,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "feature-roundup",
     intentBucket: "buy",
     clusterId: "ordered-backlog",
-    buildOrder: 55,
+    buildOrder: 54,
     buildPriorityScore: 53.1,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best stainless steel cat litter box",
@@ -1819,7 +1881,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best stainless steel cat litter box",
-    keyword: "best stainless steel cat litter box"
+    keyword: "best stainless steel cat litter box",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "senior-cat-tree",
@@ -1829,7 +1893,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
     clusterId: "ordered-backlog",
-    buildOrder: 56,
+    buildOrder: 55,
     buildPriorityScore: 43.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat tree for senior cats",
@@ -1849,7 +1913,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cat tree for senior cats",
-    keyword: "best cat tree for senior cats"
+    keyword: "best cat tree for senior cats",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-automatic-cat-feeder",
@@ -1859,7 +1924,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "feature-roundup",
     intentBucket: "buy",
     clusterId: "backlog-40-additional-opportunities",
-    buildOrder: 57,
+    buildOrder: 56,
     buildPriorityScore: 52.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best automatic cat feeder",
@@ -1882,7 +1947,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "First feeder hub. It should establish the automation cluster without drifting into pet-food claims or overly smart-home framing.",
     parentKeyword: "best automatic cat feeder",
-    keyword: "best automatic cat feeder"
+    keyword: "best automatic cat feeder",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-older-dog",
@@ -1892,7 +1959,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 58,
+    buildOrder: 57,
     buildPriorityScore: 52.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed older dog",
@@ -1910,7 +1977,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=1600 KD=0 intent=transactional",
     parentKeyword: "best dog bed older dog",
-    keyword: "best dog bed older dog"
+    keyword: "best dog bed older dog",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-harness-for-a-dog-that-pulls",
@@ -1920,7 +1989,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 59,
+    buildOrder: 58,
     buildPriorityScore: 52.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best harness for a dog that pulls",
@@ -1938,7 +2007,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=3 intent=commercial",
     parentKeyword: "best harness for a dog that pulls",
-    keyword: "best harness for a dog that pulls"
+    keyword: "best harness for a dog that pulls",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-litter-deodorizer",
@@ -1948,7 +2019,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 60,
+    buildOrder: 59,
     buildPriorityScore: 52.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best deodorizer for cat litter room",
@@ -1968,7 +2039,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best deodorizer for cat litter room",
-    keyword: "best deodorizer for cat litter room"
+    keyword: "best deodorizer for cat litter room",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-car-seat-cover",
@@ -1978,7 +2051,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "ordered-backlog",
-    buildOrder: 61,
+    buildOrder: 60,
     buildPriorityScore: 52.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog car seat cover",
@@ -1996,7 +2069,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "best dog car seat cover",
-    keyword: "best dog car seat cover"
+    keyword: "best dog car seat cover",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-scratching-post",
@@ -2006,7 +2081,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 62,
+    buildOrder: 61,
     buildPriorityScore: 52.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat scratching post amazon",
@@ -2024,7 +2099,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat scratching post amazon",
-    keyword: "best cat scratching post amazon"
+    keyword: "best cat scratching post amazon",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-orthopedic",
@@ -2034,7 +2111,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 63,
+    buildOrder: 62,
     buildPriorityScore: 52.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed orthopedic",
@@ -2052,7 +2129,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=2400 KD=0 intent=transactional",
     parentKeyword: "best dog bed orthopedic",
-    keyword: "best dog bed orthopedic"
+    keyword: "best dog bed orthopedic",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-harness-escape-proof",
@@ -2062,7 +2141,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "feature-roundup",
     intentBucket: "buy",
     clusterId: "top-build-queue-first-40-pages",
-    buildOrder: 64,
+    buildOrder: 63,
     buildPriorityScore: 52.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat harness escape proof",
@@ -2084,7 +2163,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Safety-specific spoke. KD 2, TP 6,400. Distinct from general harness hub.",
     parentKeyword: "best cat harness escape proof",
-    keyword: "best cat harness escape proof"
+    keyword: "best cat harness escape proof",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-harness-french-bulldog",
@@ -2094,7 +2175,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 65,
+    buildOrder: 64,
     buildPriorityScore: 51.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog harness french bulldog",
@@ -2112,7 +2193,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=1300 KD=0 intent=commercial",
     parentKeyword: "best dog harness french bulldog",
-    keyword: "best dog harness french bulldog"
+    keyword: "best dog harness french bulldog",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-friends-by-sheri-dog-bed",
@@ -2122,7 +2205,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 66,
+    buildOrder: 65,
     buildPriorityScore: 51.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best friends by sheri dog bed",
@@ -2140,7 +2223,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=1300 KD=0 intent=transactional",
     parentKeyword: "best friends by sheri dog bed",
-    keyword: "best friends by sheri dog bed"
+    keyword: "best friends by sheri dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-non-pulling-dog-harness",
@@ -2150,7 +2235,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 67,
+    buildOrder: 66,
     buildPriorityScore: 51.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best non pulling dog harness",
@@ -2168,7 +2253,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=0 intent=commercial",
     parentKeyword: "best non pulling dog harness",
-    keyword: "best non pulling dog harness"
+    keyword: "best non pulling dog harness",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter-for-odor-control-and-dust-free",
@@ -2178,7 +2265,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 68,
+    buildOrder: 67,
     buildPriorityScore: 51.3,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter for odor control and dust free",
@@ -2196,7 +2283,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat litter for odor control and dust free",
-    keyword: "best cat litter for odor control and dust free"
+    keyword: "best cat litter for odor control and dust free",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-non-clumping-cat-litter",
@@ -2206,7 +2295,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 69,
+    buildOrder: 68,
     buildPriorityScore: 51.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best non clumping cat litter",
@@ -2226,7 +2315,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best non clumping cat litter",
-    keyword: "best non clumping cat litter"
+    keyword: "best non clumping cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-pet-odor-eliminator",
@@ -2236,7 +2327,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "backlog-40-additional-opportunities",
-    buildOrder: 70,
+    buildOrder: 69,
     buildPriorityScore: 51.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best pet odor eliminator",
@@ -2258,7 +2349,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Whole-home odor hub for the broader brand. Keep the framing on household cleanup, not pet health or training.",
     parentKeyword: "best pet odor eliminator",
-    keyword: "best pet odor eliminator"
+    keyword: "best pet odor eliminator",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-keep-cat-litter-from-smelling",
@@ -2268,7 +2361,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "setup-how-to",
     intentBucket: "learn",
     clusterId: "top-build-queue-first-40-pages",
-    buildOrder: 71,
+    buildOrder: 70,
     buildPriorityScore: 51.1,
     buildStatus: "NOT BUILT",
     primaryKeyword: "how to keep cat litter from smelling",
@@ -2290,7 +2383,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | Support page for odor-control readers. It should solve routine friction and point naturally into the commercial odor pages without reading like link bait.",
     parentKeyword: "how to keep cat litter from smelling",
-    keyword: "how to keep cat litter from smelling"
+    keyword: "how to keep cat litter from smelling",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-dog-harness-for-no-pulling",
@@ -2300,7 +2394,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 72,
+    buildOrder: 71,
     buildPriorityScore: 50.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog harness for no pulling",
@@ -2318,7 +2412,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=5 intent=commercial",
     parentKeyword: "best dog harness for no pulling",
-    keyword: "best dog harness for no pulling"
+    keyword: "best dog harness for no pulling",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-orthopaedic-dog-bed",
@@ -2328,7 +2424,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 73,
+    buildOrder: 72,
     buildPriorityScore: 50.4,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best orthopaedic dog bed",
@@ -2346,7 +2442,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=2400 KD=4 intent=transactional",
     parentKeyword: "best orthopaedic dog bed",
-    keyword: "best orthopaedic dog bed"
+    keyword: "best orthopaedic dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-litter-odor-control",
@@ -2356,7 +2454,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 74,
+    buildOrder: 73,
     buildPriorityScore: 50.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best smell",
@@ -2376,7 +2474,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best smell",
-    keyword: "best smell"
+    keyword: "best smell",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-for-arthritis",
@@ -2386,7 +2486,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 75,
+    buildOrder: 74,
     buildPriorityScore: 49.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed for arthritis",
@@ -2404,7 +2504,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=880 KD=0 intent=commercial",
     parentKeyword: "best dog bed for arthritis",
-    keyword: "best dog bed for arthritis"
+    keyword: "best dog bed for arthritis",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "non-toxic-cat-litter",
@@ -2414,7 +2516,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 76,
+    buildOrder: 75,
     buildPriorityScore: 49.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best non toxic cat litter",
@@ -2432,7 +2534,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best non toxic cat litter",
-    keyword: "best non toxic cat litter"
+    keyword: "best non toxic cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "non-clay-cat-litter",
@@ -2442,7 +2546,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 77,
+    buildOrder: 76,
     buildPriorityScore: 48.9,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best non clay cat litter",
@@ -2462,7 +2566,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best non clay cat litter",
-    keyword: "best non clay cat litter"
+    keyword: "best non clay cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-bed-for-dog-that-chews",
@@ -2472,7 +2578,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 78,
+    buildOrder: 77,
     buildPriorityScore: 48.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best bed for dog that chews",
@@ -2490,7 +2596,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=transactional",
     parentKeyword: "best bed for dog that chews",
-    keyword: "best bed for dog that chews"
+    keyword: "best bed for dog that chews",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-bed-for-small-dog",
@@ -2500,7 +2608,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 79,
+    buildOrder: 78,
     buildPriorityScore: 48.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best bed for small dog",
@@ -2518,7 +2626,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=commercial",
     parentKeyword: "best bed for small dog",
-    keyword: "best bed for small dog"
+    keyword: "best bed for small dog",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-for-chewers",
@@ -2528,7 +2638,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 80,
+    buildOrder: 79,
     buildPriorityScore: 48.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed for chewers",
@@ -2546,7 +2656,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=transactional",
     parentKeyword: "best dog bed for chewers",
-    keyword: "best dog bed for chewers"
+    keyword: "best dog bed for chewers",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-pet-hair-on-hardwood",
@@ -2556,7 +2668,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 81,
+    buildOrder: 80,
     buildPriorityScore: 48.3,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best vacuum for hard floors and pet hair",
@@ -2579,7 +2691,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best vacuum for hard floors and pet hair",
-    keyword: "best vacuum for hard floors and pet hair"
+    keyword: "best vacuum for hard floors and pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-pet-stroller-for-small-dogs",
@@ -2589,7 +2703,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 82,
+    buildOrder: 81,
     buildPriorityScore: 48,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best pet stroller for small dogs",
@@ -2607,7 +2721,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=commercial",
     parentKeyword: "best pet stroller for small dogs",
-    keyword: "best pet stroller for small dogs"
+    keyword: "best pet stroller for small dogs",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-washable",
@@ -2617,7 +2733,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 83,
+    buildOrder: 82,
     buildPriorityScore: 47.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed washable",
@@ -2635,7 +2751,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=commercial",
     parentKeyword: "best dog bed washable",
-    keyword: "best dog bed washable"
+    keyword: "best dog bed washable",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-elevated-dog-bed",
@@ -2645,7 +2763,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 84,
+    buildOrder: 83,
     buildPriorityScore: 47.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best elevated dog bed",
@@ -2663,7 +2781,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=590 KD=0 intent=transactional",
     parentKeyword: "best elevated dog bed",
-    keyword: "best elevated dog bed"
+    keyword: "best elevated dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-puppy-dog-bed",
@@ -2673,7 +2793,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 85,
+    buildOrder: 84,
     buildPriorityScore: 47.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best puppy dog bed",
@@ -2691,7 +2811,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=590 KD=0 intent=transactional",
     parentKeyword: "best puppy dog bed",
-    keyword: "best puppy dog bed"
+    keyword: "best puppy dog bed",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dog-bed-for-arthritic-dogs",
@@ -2701,7 +2823,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "dog-beds-and-comfort",
-    buildOrder: 86,
+    buildOrder: 85,
     buildPriorityScore: 47.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best dog bed for arthritic dogs",
@@ -2719,7 +2841,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=880 KD=5 intent=commercial",
     parentKeyword: "best dog bed for arthritic dogs",
-    keyword: "best dog bed for arthritic dogs"
+    keyword: "best dog bed for arthritic dogs",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "carpet-for-cat-tree",
@@ -2729,7 +2853,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 87,
+    buildOrder: 86,
     buildPriorityScore: 47.4,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best carpet for cat tree",
@@ -2747,7 +2871,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best carpet for cat tree",
-    keyword: "best carpet for cat tree"
+    keyword: "best carpet for cat tree",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-pet-stroller",
@@ -2757,7 +2883,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "general",
-    buildOrder: 88,
+    buildOrder: 87,
     buildPriorityScore: 47,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best pet stroller",
@@ -2775,7 +2901,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=720 KD=0 intent=transactional",
     parentKeyword: "best pet stroller",
-    keyword: "best pet stroller"
+    keyword: "best pet stroller",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "cat-litter-that-doesn-t-smell",
@@ -2785,7 +2913,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 89,
+    buildOrder: 88,
     buildPriorityScore: 46.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best non smelling cat litter",
@@ -2808,7 +2936,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best non smelling cat litter",
-    keyword: "best non smelling cat litter"
+    keyword: "best non smelling cat litter",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-pet-camera",
@@ -2818,7 +2948,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "ordered-backlog",
-    buildOrder: 90,
+    buildOrder: 89,
     buildPriorityScore: 46.1,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best pet camera",
@@ -2836,7 +2966,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "",
     parentKeyword: "best pet camera",
-    keyword: "best pet camera"
+    keyword: "best pet camera",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-pet-hair-and-hardwood-floors-and-carpet",
@@ -2846,7 +2978,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 91,
+    buildOrder: 90,
     buildPriorityScore: 45.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best vacuum for pet hair and hardwood floors",
@@ -2867,7 +2999,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best vacuum for pet hair and hardwood floors",
-    keyword: "best vacuum for pet hair and hardwood floors"
+    keyword: "best vacuum for pet hair and hardwood floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-long-distance-car-travel",
@@ -2877,7 +3011,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 92,
+    buildOrder: 91,
     buildPriorityScore: 45.6,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for long-distance car travel",
@@ -2897,7 +3031,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for long-distance car travel",
-    keyword: "best cat carrier for long-distance car travel"
+    keyword: "best cat carrier for long-distance car travel",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-rope-for-cat-scratching-post",
@@ -2907,7 +3043,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 93,
+    buildOrder: 92,
     buildPriorityScore: 42.7,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best rope for cat scratching post",
@@ -2925,7 +3061,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best rope for cat scratching post",
-    keyword: "best rope for cat scratching post"
+    keyword: "best rope for cat scratching post",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter-box-for-odor-control-amazon",
@@ -2935,7 +3073,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 94,
+    buildOrder: 93,
     buildPriorityScore: 42.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter box for odor control amazon",
@@ -2953,7 +3091,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat litter box for odor control amazon",
-    keyword: "best cat litter box for odor control amazon"
+    keyword: "best cat litter box for odor control amazon",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-litter-for-not-tracking-and-odor-control",
@@ -2963,7 +3103,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-litter",
-    buildOrder: 95,
+    buildOrder: 94,
     buildPriorityScore: 42.2,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat litter for not tracking and odor control",
@@ -2981,7 +3121,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat litter for not tracking and odor control",
-    keyword: "best cat litter for not tracking and odor control"
+    keyword: "best cat litter for not tracking and odor control",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-tree-for-2-cats",
@@ -2991,7 +3133,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 96,
+    buildOrder: 95,
     buildPriorityScore: 41.8,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat tree for 2 cats",
@@ -3009,7 +3151,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat tree for 2 cats",
-    keyword: "best cat tree for 2 cats"
+    keyword: "best cat tree for 2 cats",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-airplane-travel",
@@ -3019,7 +3163,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 97,
+    buildOrder: 96,
     buildPriorityScore: 40,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for airplane travel",
@@ -3037,7 +3181,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for airplane travel",
-    keyword: "best cat carrier for airplane travel"
+    keyword: "best cat carrier for airplane travel",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-cross-country-trip",
@@ -3047,7 +3193,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 98,
+    buildOrder: 97,
     buildPriorityScore: 40,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for cross country trip",
@@ -3065,7 +3211,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for cross country trip",
-    keyword: "best cat carrier for cross country trip"
+    keyword: "best cat carrier for cross country trip",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-pet-hair-tangle-free",
@@ -3075,7 +3223,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 99,
+    buildOrder: 98,
     buildPriorityScore: 39.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best vacuum for pet hair tangle-free",
@@ -3093,7 +3241,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best vacuum for pet hair tangle-free",
-    keyword: "best vacuum for pet hair tangle-free"
+    keyword: "best vacuum for pet hair tangle-free",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-budget-cat-scratching-post",
@@ -3103,7 +3253,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "budget-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 100,
+    buildOrder: 99,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best budget cat scratching post",
@@ -3121,7 +3271,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best budget cat scratching post",
-    keyword: "best budget cat scratching post"
+    keyword: "best budget cat scratching post",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-backpack-for-hiking",
@@ -3131,7 +3283,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 101,
+    buildOrder: 100,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier backpack for hiking",
@@ -3149,7 +3301,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier backpack for hiking",
-    keyword: "best cat carrier backpack for hiking"
+    keyword: "best cat carrier backpack for hiking",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-car-trips",
@@ -3159,7 +3313,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 102,
+    buildOrder: 101,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for car trips",
@@ -3177,7 +3331,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for car trips",
-    keyword: "best cat carrier for car trips"
+    keyword: "best cat carrier for car trips",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-international-travel",
@@ -3187,7 +3343,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 103,
+    buildOrder: 102,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for international travel",
@@ -3205,7 +3361,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for international travel",
-    keyword: "best cat carrier for international travel"
+    keyword: "best cat carrier for international travel",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-nervous-cats-uk",
@@ -3215,7 +3373,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 104,
+    buildOrder: 103,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for nervous cats uk",
@@ -3233,7 +3391,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for nervous cats uk",
-    keyword: "best cat carrier for nervous cats uk"
+    keyword: "best cat carrier for nervous cats uk",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-carrier-for-plane-travel",
@@ -3243,7 +3403,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 105,
+    buildOrder: 104,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat carrier for plane travel",
@@ -3261,7 +3421,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat carrier for plane travel",
-    keyword: "best cat carrier for plane travel"
+    keyword: "best cat carrier for plane travel",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-tree-condo",
@@ -3271,7 +3433,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 106,
+    buildOrder: 105,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat tree condo",
@@ -3289,7 +3451,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat tree condo",
-    keyword: "best cat tree condo"
+    keyword: "best cat tree condo",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cat-tree-made-in-usa",
@@ -3299,7 +3463,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "flagship-roundup",
     intentBucket: "buy",
     clusterId: "cat-gear",
-    buildOrder: 107,
+    buildOrder: 106,
     buildPriorityScore: 39,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best cat tree made in usa",
@@ -3317,7 +3481,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cat tree made in usa",
-    keyword: "best cat tree made in usa"
+    keyword: "best cat tree made in usa",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-2-in-1-vacuum-for-pet-hair",
@@ -3327,7 +3493,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 108,
+    buildOrder: 107,
     buildPriorityScore: 38.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best 2 in 1 vacuum for pet hair",
@@ -3345,7 +3511,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best 2 in 1 vacuum for pet hair",
-    keyword: "best 2 in 1 vacuum for pet hair"
+    keyword: "best 2 in 1 vacuum for pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-pet-hair-and-multi-surface",
@@ -3355,7 +3523,7 @@ export const pageTargets: PageTarget[] = [
     contentShape: "use-case-roundup",
     intentBucket: "buy",
     clusterId: "pet-hair-cleanup",
-    buildOrder: 109,
+    buildOrder: 108,
     buildPriorityScore: 38.5,
     buildStatus: "NOT BUILT",
     primaryKeyword: "best vacuum for pet hair and multi surface",
@@ -3373,7 +3541,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best vacuum for pet hair and multi surface",
-    keyword: "best vacuum for pet hair and multi surface"
+    keyword: "best vacuum for pet hair and multi surface",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   }
 ];
 

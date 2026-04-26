@@ -364,4 +364,11 @@ Check all bolts after the first week of use. Cats jumping on and off a new tree 
   breadcrumbLabel: "Best Cat Tree 2026",
   lastUpdatedNote:
     "Last updated April 17, 2026. Product lineup checked against current Amazon availability, prices verified at time of publish.",
+
+  relatedLinks: [
+    { href: "/best-looking-cat-tree", title: "Best Looking Cat Tree (the aesthetic-archetype guide)" },
+    { href: "/best-cat-tree-for-large-cats", title: "Best Cat Tree for Large Cats" },
+    { href: "/how-to-get-cat-to-use-scratching-post", title: "How to Get a Cat to Use a Scratching Post" },
+    { href: "/how-we-review", title: "How We Review" },
+  ],
 };

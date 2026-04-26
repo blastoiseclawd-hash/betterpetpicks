@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25",
+  "generatedAt": "2026-04-26",
   "siteSlug": "betterpetpicks",
   "siteName": "BetterPetPicks",
   "formulaVersion": 3,
@@ -1166,7 +1166,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1234,7 +1235,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1292,7 +1294,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1360,7 +1363,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1418,7 +1422,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1534,7 +1539,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1716,7 +1722,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1814,7 +1821,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1873,7 +1881,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -1933,7 +1942,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2232,7 +2242,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2286,7 +2297,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2340,7 +2352,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2401,7 +2414,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2521,7 +2535,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2582,80 +2597,24 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
       "sourcePriority": 4,
-      "slug": "litter-robot",
-      "title": "Best Self Cleaning Cat Litter",
-      "pageType": "money-guide",
-      "primaryKeyword": "best self cleaning cat litter",
-      "primaryVolume": 266000,
-      "primaryKd": 9,
-      "trafficPotential": 280000,
-      "buildPriorityScore": 64.5,
-      "legacyRoadmapScore": 70.8,
-      "authorSlug": "multi-cat-home-desk",
-      "buildStatus": "NOT BUILT",
-      "notes": "Ahrefs-discovered candidate",
-      "sourceSection": "Ordered Backlog",
-      "siteSlug": "betterpetpicks",
-      "clusterId": "cat-litter",
-      "type": "spoke",
-      "contentShape": "flagship-roundup",
-      "intentBucket": "buy",
-      "audienceProfile": "Multi-Cat Operator",
-      "primaryAvatar": "Household Operator",
-      "audienceEvidence": "Defaulted from existing BetterPetPicks desk mapping. Refresh to direct avatar-research citation before building backlog rows that were not explicitly mapped in keyword-map.ts.",
-      "secondaryKeywords": [
-        "the best self cleaning cat litter box",
-        "best cat self cleaning litter box"
-      ],
-      "priority": 3,
-      "cpc": 1.3,
-      "cps": 0.91,
-      "globalVolume": 298000,
-      "buildOrder": 25,
-      "parentKeyword": "best self cleaning cat litter",
-      "candidateSources": [
-        "roadmap-json",
-        "markdown",
-        "keyword-map"
-      ],
-      "reportFiles": [],
-      "sourceReports": [],
-      "evidenceAgeDays": null,
-      "evidenceStatus": "needs-serp-check",
-      "trendDirection": "unknown",
-      "rawScore": 64.5,
-      "scoreBreakdown": {
-        "trafficOpportunity": 27.3,
-        "rankingSpeed": 13.3,
-        "googleAlignment": 11.2,
-        "revenueValue": 13,
-        "authorityLeverage": 4.7
-      },
-      "overlapPenalty": 0,
-      "curationPenalty": 0,
-      "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
-    },
-    {
-      "source": "roadmap-json",
-      "sourcePriority": 4,
-      "slug": "mau-cat-tree",
+      "slug": "best-looking-cat-tree",
       "title": "Best Looking Cat Tree",
       "pageType": "support-guide",
       "primaryKeyword": "best looking cat tree",
       "primaryVolume": 6100,
       "primaryKd": 3,
-      "trafficPotential": 12000,
+      "trafficPotential": 6100,
       "buildPriorityScore": 69.2,
       "legacyRoadmapScore": 70.5,
       "authorSlug": "cat-care-essentials-desk",
-      "buildStatus": "NOT BUILT",
-      "notes": "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
+      "buildStatus": "LIVE",
+      "notes": "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial). | slug-rename-2026-04-26: mau-cat-tree → best-looking-cat-tree (slug now matches primary keyword for SEO; see intent-hierarchy/best-looking-cat-tree-decision.md).",
       "sourceSection": "Ordered Backlog",
       "siteSlug": "betterpetpicks",
       "clusterId": "cat-gear",
@@ -2670,7 +2629,7 @@
       "cpc": 0.4,
       "cps": 1.49,
       "globalVolume": 7400,
-      "buildOrder": 26,
+      "buildOrder": 25,
       "parentKeyword": "best looking cat tree",
       "candidateSources": [
         "roadmap-json",
@@ -2693,7 +2652,9 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "topical_authority"
+      "pageRole": "topical_authority",
+      "modifiedDate": "2026-04-26",
+      "publishedDate": "2026-04-26"
     },
     {
       "source": "roadmap-json",
@@ -2724,7 +2685,7 @@
       "cpc": 0.8,
       "cps": 1.32,
       "globalVolume": 4100,
-      "buildOrder": 27,
+      "buildOrder": 26,
       "parentKeyword": "best cat litter for dust control",
       "candidateSources": [
         "roadmap-json",
@@ -2778,7 +2739,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 400,
-      "buildOrder": 28,
+      "buildOrder": 27,
       "parentKeyword": "best cat litter vs dr elsey",
       "candidateSources": [
         "roadmap-json",
@@ -2801,7 +2762,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2832,7 +2794,7 @@
       "cpc": 3.77,
       "cps": 0,
       "globalVolume": 22200,
-      "buildOrder": 29,
+      "buildOrder": 28,
       "parentKeyword": "best auto cat litter box",
       "candidateSources": [
         "roadmap-json",
@@ -2855,7 +2817,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -2902,7 +2865,7 @@
       "cpc": 0.3,
       "cps": 1.16,
       "globalVolume": 5100,
-      "buildOrder": 30,
+      "buildOrder": 29,
       "parentKeyword": "best cat litter to control odor",
       "candidateSources": [
         "roadmap-json",
@@ -2956,7 +2919,7 @@
       "cpc": 0.25,
       "cps": 0.94,
       "globalVolume": 700,
-      "buildOrder": 31,
+      "buildOrder": 30,
       "parentKeyword": "best way to clean cat litter box",
       "candidateSources": [
         "roadmap-json",
@@ -3010,7 +2973,7 @@
       "cpc": 1.83,
       "cps": 0,
       "globalVolume": 12100,
-      "buildOrder": 32,
+      "buildOrder": 31,
       "parentKeyword": "best harness for dog",
       "candidateSources": [
         "roadmap-json",
@@ -3033,7 +2996,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3066,7 +3030,7 @@
       "cpc": 0.15,
       "cps": 1.24,
       "globalVolume": 500,
-      "buildOrder": 33,
+      "buildOrder": 32,
       "parentKeyword": "best place to put cat litter box",
       "candidateSources": [
         "roadmap-json",
@@ -3120,7 +3084,7 @@
       "cpc": 3.37,
       "cps": 0,
       "globalVolume": 6600,
-      "buildOrder": 34,
+      "buildOrder": 33,
       "parentKeyword": "best dog crate",
       "candidateSources": [
         "roadmap-json",
@@ -3143,7 +3107,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3174,7 +3139,7 @@
       "cpc": 0.7,
       "cps": 0,
       "globalVolume": 100,
-      "buildOrder": 35,
+      "buildOrder": 34,
       "parentKeyword": "best health monitoring cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -3197,7 +3162,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3228,7 +3194,7 @@
       "cpc": 0.4,
       "cps": 0.98,
       "globalVolume": 3800,
-      "buildOrder": 36,
+      "buildOrder": 35,
       "parentKeyword": "best cat trees for small spaces",
       "candidateSources": [
         "roadmap-json",
@@ -3282,7 +3248,7 @@
       "cpc": 0.35,
       "cps": 0,
       "globalVolume": 250,
-      "buildOrder": 37,
+      "buildOrder": 36,
       "parentKeyword": "how much does cat litter cost",
       "candidateSources": [
         "roadmap-json",
@@ -3336,7 +3302,7 @@
       "cpc": 0.9,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 38,
+      "buildOrder": 37,
       "parentKeyword": "best dyson for pet hair",
       "candidateSources": [
         "roadmap-json",
@@ -3359,7 +3325,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3390,7 +3357,7 @@
       "cpc": 2,
       "cps": 0,
       "globalVolume": 200,
-      "buildOrder": 39,
+      "buildOrder": 38,
       "parentKeyword": "where to buy cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -3413,7 +3380,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3444,7 +3412,7 @@
       "cpc": 0.2,
       "cps": 1.84,
       "globalVolume": 150,
-      "buildOrder": 40,
+      "buildOrder": 39,
       "parentKeyword": "how big should a cat carrier be",
       "candidateSources": [
         "roadmap-json",
@@ -3498,7 +3466,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 100,
-      "buildOrder": 41,
+      "buildOrder": 40,
       "parentKeyword": "how much cat litter should be in a litter box",
       "candidateSources": [
         "roadmap-json",
@@ -3552,7 +3520,7 @@
       "cpc": 0.6,
       "cps": 1.4,
       "globalVolume": 5200,
-      "buildOrder": 42,
+      "buildOrder": 41,
       "parentKeyword": "best floor to ceiling cat tree",
       "candidateSources": [
         "roadmap-json",
@@ -3575,7 +3543,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3606,7 +3575,7 @@
       "cpc": 1.1,
       "cps": 0,
       "globalVolume": 150,
-      "buildOrder": 43,
+      "buildOrder": 42,
       "parentKeyword": "how to stop cat litter from smelling",
       "candidateSources": [
         "roadmap-json",
@@ -3662,7 +3631,7 @@
       "cpc": 0.8,
       "cps": 1.51,
       "globalVolume": 600,
-      "buildOrder": 44,
+      "buildOrder": 43,
       "parentKeyword": "best dog bed for large dogs?",
       "candidateSources": [
         "roadmap-json",
@@ -3685,7 +3654,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3716,7 +3686,7 @@
       "cpc": 0.3,
       "cps": 1.42,
       "globalVolume": 5800,
-      "buildOrder": 45,
+      "buildOrder": 44,
       "parentKeyword": "best outdoor cat tree",
       "candidateSources": [
         "roadmap-json",
@@ -3739,7 +3709,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3770,7 +3741,7 @@
       "cpc": 1,
       "cps": 0,
       "globalVolume": 150,
-      "buildOrder": 46,
+      "buildOrder": 45,
       "parentKeyword": "what is world's best cat litter made of",
       "candidateSources": [
         "roadmap-json",
@@ -3824,7 +3795,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 47,
+      "buildOrder": 46,
       "parentKeyword": "cat pee smell on couch",
       "candidateSources": [
         "roadmap-json",
@@ -3880,7 +3851,7 @@
       "cpc": 0.7,
       "cps": 1.15,
       "globalVolume": 3800,
-      "buildOrder": 48,
+      "buildOrder": 47,
       "parentKeyword": "dust free cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -3903,7 +3874,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3936,7 +3908,7 @@
       "cpc": 0.7,
       "cps": 1.12,
       "globalVolume": 2000,
-      "buildOrder": 49,
+      "buildOrder": 48,
       "parentKeyword": "best modern cat tree",
       "candidateSources": [
         "roadmap-json",
@@ -3959,7 +3931,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -3990,7 +3963,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 50,
+      "buildOrder": 49,
       "parentKeyword": "cat pee smell outside",
       "candidateSources": [
         "roadmap-json",
@@ -4044,7 +4017,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 51,
+      "buildOrder": 50,
       "parentKeyword": "how to leash train a cat",
       "candidateSources": [
         "roadmap-json",
@@ -4098,7 +4071,7 @@
       "cpc": 3.55,
       "cps": 0,
       "globalVolume": 1600,
-      "buildOrder": 52,
+      "buildOrder": 51,
       "parentKeyword": "best bed for elderly dog",
       "candidateSources": [
         "roadmap-json",
@@ -4121,7 +4094,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4152,7 +4126,7 @@
       "cpc": 0.6,
       "cps": 0,
       "globalVolume": 10,
-      "buildOrder": 53,
+      "buildOrder": 52,
       "parentKeyword": "best cat scratching post material",
       "candidateSources": [
         "roadmap-json",
@@ -4206,7 +4180,7 @@
       "cpc": 3.46,
       "cps": 0,
       "globalVolume": 1600,
-      "buildOrder": 54,
+      "buildOrder": 53,
       "parentKeyword": "best bed for senior dog",
       "candidateSources": [
         "roadmap-json",
@@ -4229,7 +4203,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4260,7 +4235,7 @@
       "cpc": 0.7,
       "cps": 0,
       "globalVolume": 250,
-      "buildOrder": 55,
+      "buildOrder": 54,
       "parentKeyword": "best stainless steel cat litter box",
       "candidateSources": [
         "roadmap-json",
@@ -4283,7 +4258,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4316,7 +4292,7 @@
       "cpc": 0.4,
       "cps": 0,
       "globalVolume": 60,
-      "buildOrder": 56,
+      "buildOrder": 55,
       "parentKeyword": "best cat tree for senior cats",
       "candidateSources": [
         "roadmap-json",
@@ -4375,7 +4351,7 @@
       "cpc": 0.7,
       "cps": 1.53,
       "globalVolume": 4900,
-      "buildOrder": 57,
+      "buildOrder": 56,
       "parentKeyword": "best automatic cat feeder",
       "candidateSources": [
         "roadmap-json",
@@ -4398,7 +4374,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4429,7 +4406,7 @@
       "cpc": 3.46,
       "cps": 0,
       "globalVolume": 1600,
-      "buildOrder": 58,
+      "buildOrder": 57,
       "parentKeyword": "best dog bed older dog",
       "candidateSources": [
         "roadmap-json",
@@ -4452,7 +4429,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4483,7 +4461,7 @@
       "cpc": 1.89,
       "cps": 0,
       "globalVolume": 4400,
-      "buildOrder": 59,
+      "buildOrder": 58,
       "parentKeyword": "best harness for a dog that pulls",
       "candidateSources": [
         "roadmap-json",
@@ -4506,7 +4484,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4539,7 +4518,7 @@
       "cpc": 0.5,
       "cps": 0.61,
       "globalVolume": 3400,
-      "buildOrder": 60,
+      "buildOrder": 59,
       "parentKeyword": "best deodorizer for cat litter room",
       "candidateSources": [
         "roadmap-json",
@@ -4562,7 +4541,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4593,7 +4573,7 @@
       "cpc": 0.8,
       "cps": 1.42,
       "globalVolume": 700,
-      "buildOrder": 61,
+      "buildOrder": 60,
       "parentKeyword": "best dog car seat cover",
       "candidateSources": [
         "roadmap-json",
@@ -4616,7 +4596,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4647,7 +4628,7 @@
       "cpc": 0.7,
       "cps": 0,
       "globalVolume": 50,
-      "buildOrder": 62,
+      "buildOrder": 61,
       "parentKeyword": "best cat scratching post amazon",
       "candidateSources": [
         "roadmap-json",
@@ -4670,7 +4651,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4701,7 +4683,7 @@
       "cpc": 3.72,
       "cps": 0,
       "globalVolume": 2400,
-      "buildOrder": 63,
+      "buildOrder": 62,
       "parentKeyword": "best dog bed orthopedic",
       "candidateSources": [
         "roadmap-json",
@@ -4724,7 +4706,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4759,7 +4742,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 64,
+      "buildOrder": 63,
       "parentKeyword": "best cat harness escape proof",
       "candidateSources": [
         "roadmap-json",
@@ -4782,7 +4765,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4813,7 +4797,7 @@
       "cpc": 1.61,
       "cps": 0,
       "globalVolume": 1300,
-      "buildOrder": 65,
+      "buildOrder": 64,
       "parentKeyword": "best dog harness french bulldog",
       "candidateSources": [
         "roadmap-json",
@@ -4836,7 +4820,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4867,7 +4852,7 @@
       "cpc": 1.62,
       "cps": 0,
       "globalVolume": 1300,
-      "buildOrder": 66,
+      "buildOrder": 65,
       "parentKeyword": "best friends by sheri dog bed",
       "candidateSources": [
         "roadmap-json",
@@ -4890,7 +4875,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4921,7 +4907,7 @@
       "cpc": 1.65,
       "cps": 0,
       "globalVolume": 4400,
-      "buildOrder": 67,
+      "buildOrder": 66,
       "parentKeyword": "best non pulling dog harness",
       "candidateSources": [
         "roadmap-json",
@@ -4944,7 +4930,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -4975,7 +4962,7 @@
       "cpc": 1.8,
       "cps": 0,
       "globalVolume": 1100,
-      "buildOrder": 68,
+      "buildOrder": 67,
       "parentKeyword": "best cat litter for odor control and dust free",
       "candidateSources": [
         "roadmap-json",
@@ -4998,7 +4985,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5031,7 +5019,7 @@
       "cpc": 0.45,
       "cps": 1.65,
       "globalVolume": 500,
-      "buildOrder": 69,
+      "buildOrder": 68,
       "parentKeyword": "best non clumping cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -5054,7 +5042,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5089,7 +5078,7 @@
       "cpc": 0.45,
       "cps": 0.84,
       "globalVolume": 1200,
-      "buildOrder": 70,
+      "buildOrder": 69,
       "parentKeyword": "best pet odor eliminator",
       "candidateSources": [
         "roadmap-json",
@@ -5112,7 +5101,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5147,7 +5137,7 @@
       "cpc": 0.7,
       "cps": 0,
       "globalVolume": 150,
-      "buildOrder": 71,
+      "buildOrder": 70,
       "parentKeyword": "how to keep cat litter from smelling",
       "candidateSources": [
         "roadmap-json",
@@ -5201,7 +5191,7 @@
       "cpc": 1.65,
       "cps": 0,
       "globalVolume": 4400,
-      "buildOrder": 72,
+      "buildOrder": 71,
       "parentKeyword": "best dog harness for no pulling",
       "candidateSources": [
         "roadmap-json",
@@ -5224,7 +5214,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5255,7 +5246,7 @@
       "cpc": 3.72,
       "cps": 0,
       "globalVolume": 2400,
-      "buildOrder": 73,
+      "buildOrder": 72,
       "parentKeyword": "best orthopaedic dog bed",
       "candidateSources": [
         "roadmap-json",
@@ -5278,7 +5269,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5311,7 +5303,7 @@
       "cpc": 0.6,
       "cps": 1.17,
       "globalVolume": 1000,
-      "buildOrder": 74,
+      "buildOrder": 73,
       "parentKeyword": "best smell",
       "candidateSources": [
         "roadmap-json",
@@ -5334,7 +5326,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5365,7 +5358,7 @@
       "cpc": 4.12,
       "cps": 0,
       "globalVolume": 880,
-      "buildOrder": 75,
+      "buildOrder": 74,
       "parentKeyword": "best dog bed for arthritis",
       "candidateSources": [
         "roadmap-json",
@@ -5388,7 +5381,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5419,7 +5413,7 @@
       "cpc": 0.9,
       "cps": 0.9,
       "globalVolume": 1000,
-      "buildOrder": 76,
+      "buildOrder": 75,
       "parentKeyword": "best non toxic cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -5442,7 +5436,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5475,7 +5470,7 @@
       "cpc": 0.45,
       "cps": 1.12,
       "globalVolume": 500,
-      "buildOrder": 77,
+      "buildOrder": 76,
       "parentKeyword": "best non clay cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -5498,7 +5493,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5529,7 +5525,7 @@
       "cpc": 3.07,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 78,
+      "buildOrder": 77,
       "parentKeyword": "best bed for dog that chews",
       "candidateSources": [
         "roadmap-json",
@@ -5552,7 +5548,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5583,7 +5580,7 @@
       "cpc": 2.85,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 79,
+      "buildOrder": 78,
       "parentKeyword": "best bed for small dog",
       "candidateSources": [
         "roadmap-json",
@@ -5606,7 +5603,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5637,7 +5635,7 @@
       "cpc": 3.07,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 80,
+      "buildOrder": 79,
       "parentKeyword": "best dog bed for chewers",
       "candidateSources": [
         "roadmap-json",
@@ -5660,7 +5658,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5696,7 +5695,7 @@
       "cpc": 0.6,
       "cps": 0,
       "globalVolume": 400,
-      "buildOrder": 81,
+      "buildOrder": 80,
       "parentKeyword": "best vacuum for hard floors and pet hair",
       "candidateSources": [
         "roadmap-json",
@@ -5719,7 +5718,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5750,7 +5750,7 @@
       "cpc": 1,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 82,
+      "buildOrder": 81,
       "parentKeyword": "best pet stroller for small dogs",
       "candidateSources": [
         "roadmap-json",
@@ -5773,7 +5773,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5804,7 +5805,7 @@
       "cpc": 3.71,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 83,
+      "buildOrder": 82,
       "parentKeyword": "best dog bed washable",
       "candidateSources": [
         "roadmap-json",
@@ -5827,7 +5828,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5858,7 +5860,7 @@
       "cpc": 2.01,
       "cps": 0,
       "globalVolume": 590,
-      "buildOrder": 84,
+      "buildOrder": 83,
       "parentKeyword": "best elevated dog bed",
       "candidateSources": [
         "roadmap-json",
@@ -5881,7 +5883,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5912,7 +5915,7 @@
       "cpc": 2.23,
       "cps": 0,
       "globalVolume": 590,
-      "buildOrder": 85,
+      "buildOrder": 84,
       "parentKeyword": "best puppy dog bed",
       "candidateSources": [
         "roadmap-json",
@@ -5935,7 +5938,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -5966,7 +5970,7 @@
       "cpc": 4.12,
       "cps": 0,
       "globalVolume": 880,
-      "buildOrder": 86,
+      "buildOrder": 85,
       "parentKeyword": "best dog bed for arthritic dogs",
       "candidateSources": [
         "roadmap-json",
@@ -5989,7 +5993,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6020,7 +6025,7 @@
       "cpc": 0.5,
       "cps": 1.17,
       "globalVolume": 200,
-      "buildOrder": 87,
+      "buildOrder": 86,
       "parentKeyword": "best carpet for cat tree",
       "candidateSources": [
         "roadmap-json",
@@ -6043,7 +6048,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6074,7 +6080,7 @@
       "cpc": 1.13,
       "cps": 0,
       "globalVolume": 720,
-      "buildOrder": 88,
+      "buildOrder": 87,
       "parentKeyword": "best pet stroller",
       "candidateSources": [
         "roadmap-json",
@@ -6097,7 +6103,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6133,7 +6140,7 @@
       "cpc": 1.5,
       "cps": 0,
       "globalVolume": 100,
-      "buildOrder": 89,
+      "buildOrder": 88,
       "parentKeyword": "best non smelling cat litter",
       "candidateSources": [
         "roadmap-json",
@@ -6156,7 +6163,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6187,7 +6195,7 @@
       "cpc": 0.6,
       "cps": 1.32,
       "globalVolume": 2200,
-      "buildOrder": 90,
+      "buildOrder": 89,
       "parentKeyword": "best pet camera",
       "candidateSources": [
         "roadmap-json",
@@ -6210,7 +6218,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "primary_commercial"
+      "pageRole": "primary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6244,7 +6253,7 @@
       "cpc": 0.7,
       "cps": 1.15,
       "globalVolume": 900,
-      "buildOrder": 91,
+      "buildOrder": 90,
       "parentKeyword": "best vacuum for pet hair and hardwood floors",
       "candidateSources": [
         "roadmap-json",
@@ -6267,7 +6276,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6300,7 +6310,7 @@
       "cpc": 0.2,
       "cps": 0,
       "globalVolume": 200,
-      "buildOrder": 92,
+      "buildOrder": 91,
       "parentKeyword": "best cat carrier for long-distance car travel",
       "candidateSources": [
         "roadmap-json",
@@ -6323,7 +6333,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6354,7 +6365,7 @@
       "cpc": 0.4,
       "cps": 0,
       "globalVolume": 150,
-      "buildOrder": 93,
+      "buildOrder": 92,
       "parentKeyword": "best rope for cat scratching post",
       "candidateSources": [
         "roadmap-json",
@@ -6377,7 +6388,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6408,7 +6420,7 @@
       "cpc": 1.2,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 94,
+      "buildOrder": 93,
       "parentKeyword": "best cat litter box for odor control amazon",
       "candidateSources": [
         "roadmap-json",
@@ -6431,7 +6443,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6462,7 +6475,7 @@
       "cpc": 1,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 95,
+      "buildOrder": 94,
       "parentKeyword": "best cat litter for not tracking and odor control",
       "candidateSources": [
         "roadmap-json",
@@ -6485,7 +6498,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6516,7 +6530,7 @@
       "cpc": 0.6,
       "cps": 0,
       "globalVolume": 200,
-      "buildOrder": 96,
+      "buildOrder": 95,
       "parentKeyword": "best cat tree for 2 cats",
       "candidateSources": [
         "roadmap-json",
@@ -6539,7 +6553,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6570,7 +6585,7 @@
       "cpc": 0.45,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 97,
+      "buildOrder": 96,
       "parentKeyword": "best cat carrier for airplane travel",
       "candidateSources": [
         "roadmap-json",
@@ -6593,7 +6608,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6624,7 +6640,7 @@
       "cpc": 0.35,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 98,
+      "buildOrder": 97,
       "parentKeyword": "best cat carrier for cross country trip",
       "candidateSources": [
         "roadmap-json",
@@ -6647,7 +6663,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6678,7 +6695,7 @@
       "cpc": 0.4,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 99,
+      "buildOrder": 98,
       "parentKeyword": "best vacuum for pet hair tangle-free",
       "candidateSources": [
         "roadmap-json",
@@ -6701,7 +6718,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6732,7 +6750,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 100,
+      "buildOrder": 99,
       "parentKeyword": "best budget cat scratching post",
       "candidateSources": [
         "roadmap-json",
@@ -6755,7 +6773,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6786,7 +6805,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 101,
+      "buildOrder": 100,
       "parentKeyword": "best cat carrier backpack for hiking",
       "candidateSources": [
         "roadmap-json",
@@ -6809,7 +6828,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6840,7 +6860,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 102,
+      "buildOrder": 101,
       "parentKeyword": "best cat carrier for car trips",
       "candidateSources": [
         "roadmap-json",
@@ -6863,7 +6883,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6894,7 +6915,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 103,
+      "buildOrder": 102,
       "parentKeyword": "best cat carrier for international travel",
       "candidateSources": [
         "roadmap-json",
@@ -6917,7 +6938,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -6948,7 +6970,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 50,
-      "buildOrder": 104,
+      "buildOrder": 103,
       "parentKeyword": "best cat carrier for nervous cats uk",
       "candidateSources": [
         "roadmap-json",
@@ -6971,7 +6993,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7002,7 +7025,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 105,
+      "buildOrder": 104,
       "parentKeyword": "best cat carrier for plane travel",
       "candidateSources": [
         "roadmap-json",
@@ -7025,7 +7048,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7056,7 +7080,7 @@
       "cpc": 0.45,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 106,
+      "buildOrder": 105,
       "parentKeyword": "best cat tree condo",
       "candidateSources": [
         "roadmap-json",
@@ -7079,7 +7103,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7110,7 +7135,7 @@
       "cpc": 0.4,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 107,
+      "buildOrder": 106,
       "parentKeyword": "best cat tree made in usa",
       "candidateSources": [
         "roadmap-json",
@@ -7133,7 +7158,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7164,7 +7190,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 108,
+      "buildOrder": 107,
       "parentKeyword": "best 2 in 1 vacuum for pet hair",
       "candidateSources": [
         "roadmap-json",
@@ -7187,7 +7213,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7218,7 +7245,7 @@
       "cpc": 0,
       "cps": 0,
       "globalVolume": 0,
-      "buildOrder": 109,
+      "buildOrder": 108,
       "parentKeyword": "best vacuum for pet hair and multi surface",
       "candidateSources": [
         "roadmap-json",
@@ -7241,7 +7268,8 @@
       "overlapPenalty": 0,
       "curationPenalty": 0,
       "evidenceAdjustment": -5,
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     }
   ],
   "skipped": [
@@ -7392,7 +7420,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7434,7 +7463,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7476,7 +7506,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7518,7 +7549,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7560,7 +7592,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7602,7 +7635,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7646,7 +7680,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7688,7 +7723,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7732,7 +7768,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7774,7 +7811,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7816,7 +7854,66 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
+    },
+    {
+      "source": "roadmap-json",
+      "sourcePriority": 4,
+      "slug": "litter-robot",
+      "title": "Best Self Cleaning Cat Litter",
+      "pageType": "money-guide",
+      "primaryKeyword": "best self cleaning cat litter",
+      "primaryVolume": 266000,
+      "primaryKd": 9,
+      "trafficPotential": 280000,
+      "buildPriorityScore": 64.5,
+      "legacyRoadmapScore": 70.8,
+      "authorSlug": "multi-cat-home-desk",
+      "buildStatus": "SKIP",
+      "notes": "Ahrefs-discovered candidate | skip-2026-04-26: cannibalizes LIVE /best-automatic-litter-box (Litter-Robot 4 already #1 pick on hub). Pivot to brand-deep-review with a different primary keyword if the role is needed later.",
+      "sourceSection": "Ordered Backlog",
+      "siteSlug": "betterpetpicks",
+      "clusterId": "cat-litter",
+      "type": "spoke",
+      "contentShape": "flagship-roundup",
+      "intentBucket": "buy",
+      "audienceProfile": "Multi-Cat Operator",
+      "primaryAvatar": "Household Operator",
+      "audienceEvidence": "Defaulted from existing BetterPetPicks desk mapping. Refresh to direct avatar-research citation before building backlog rows that were not explicitly mapped in keyword-map.ts.",
+      "secondaryKeywords": [
+        "the best self cleaning cat litter box",
+        "best cat self cleaning litter box"
+      ],
+      "priority": 3,
+      "cpc": 1.3,
+      "cps": 0.91,
+      "globalVolume": 298000,
+      "buildOrder": 25,
+      "parentKeyword": "best self cleaning cat litter",
+      "candidateSources": [
+        "roadmap-json",
+        "markdown",
+        "keyword-map"
+      ],
+      "reportFiles": [],
+      "sourceReports": [],
+      "evidenceAgeDays": null,
+      "evidenceStatus": "needs-serp-check",
+      "trendDirection": "unknown",
+      "rawScore": 64.5,
+      "scoreBreakdown": {
+        "trafficOpportunity": 27.3,
+        "rankingSpeed": 13.3,
+        "googleAlignment": 11.2,
+        "revenueValue": 13,
+        "authorityLeverage": 4.7
+      },
+      "overlapPenalty": 0,
+      "curationPenalty": 0,
+      "evidenceAdjustment": -5,
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7858,7 +7955,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7904,7 +8002,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7949,7 +8048,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -7991,7 +8091,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8033,7 +8134,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8075,7 +8177,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8120,7 +8223,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8164,7 +8268,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8206,7 +8311,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8248,7 +8354,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8292,7 +8399,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8336,7 +8444,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8378,7 +8487,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8420,7 +8530,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8464,7 +8575,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8510,7 +8622,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8554,7 +8667,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8596,7 +8710,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8638,7 +8753,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8680,7 +8796,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8722,7 +8839,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8764,7 +8882,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8806,7 +8925,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8848,7 +8968,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8890,7 +9011,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8932,7 +9054,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -8974,7 +9097,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9016,7 +9140,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9058,7 +9183,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9100,7 +9226,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9142,7 +9269,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9184,7 +9312,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9226,7 +9355,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9277,7 +9407,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9319,7 +9450,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9361,7 +9493,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9403,7 +9536,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9445,7 +9579,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9494,7 +9629,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9540,7 +9676,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9589,7 +9726,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9634,7 +9772,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9678,7 +9817,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9720,7 +9860,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9765,7 +9906,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9807,7 +9949,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9849,7 +9992,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9891,7 +10035,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9937,7 +10082,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -9979,7 +10125,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10021,7 +10168,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10063,7 +10211,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10111,7 +10260,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10153,7 +10303,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10195,7 +10346,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10237,7 +10389,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10279,7 +10432,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10323,7 +10477,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10366,7 +10521,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10408,7 +10564,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10450,7 +10607,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10492,7 +10650,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10534,7 +10693,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10581,7 +10741,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10623,7 +10784,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10669,7 +10831,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10733,7 +10896,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10781,7 +10945,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10823,7 +10988,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10865,7 +11031,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10907,7 +11074,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10949,7 +11117,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -10991,7 +11160,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11033,7 +11203,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11084,7 +11255,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11131,7 +11303,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11173,7 +11346,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11215,7 +11389,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11257,7 +11432,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11299,7 +11475,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11346,7 +11523,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11388,7 +11566,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11437,7 +11616,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11479,7 +11659,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11521,7 +11702,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11563,7 +11745,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11605,7 +11788,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11649,7 +11833,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11691,7 +11876,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11733,7 +11919,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11775,7 +11962,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11817,7 +12005,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11859,7 +12048,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11907,7 +12097,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11949,7 +12140,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -11994,7 +12186,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12039,7 +12232,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12091,7 +12285,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12133,7 +12328,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12175,7 +12371,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12217,7 +12414,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12261,7 +12459,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12303,7 +12502,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12345,7 +12545,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12387,7 +12588,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12639,7 +12841,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12681,7 +12884,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12727,7 +12931,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12769,7 +12974,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12811,7 +13017,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12870,7 +13077,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -12914,7 +13122,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13224,7 +13433,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13266,7 +13476,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13310,7 +13521,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13352,7 +13564,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13394,7 +13607,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13439,7 +13653,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -13483,7 +13698,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -15382,7 +15598,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -15550,7 +15767,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -15634,7 +15852,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -15760,7 +15979,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16222,7 +16442,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16569,7 +16790,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16611,7 +16833,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16653,7 +16876,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16695,7 +16919,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16737,7 +16962,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16779,7 +17005,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16821,7 +17048,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16865,7 +17093,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16907,7 +17136,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16949,7 +17179,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -16991,7 +17222,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17033,7 +17265,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17075,7 +17308,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17161,7 +17395,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17203,7 +17438,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17245,7 +17481,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -17287,7 +17524,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -19187,7 +19425,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -19229,7 +19468,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     },
     {
       "source": "roadmap-json",
@@ -19439,7 +19679,8 @@
       "evidenceAgeDays": null,
       "evidenceStatus": "needs-serp-check",
       "trendDirection": "unknown",
-      "pageRole": "secondary_commercial"
+      "pageRole": "secondary_commercial",
+      "lineupStatus": "unknown"
     }
   ]
 }
